@@ -1,0 +1,35 @@
+{
+  "id": "rosemary",
+  "common_name": "Rosemary",
+  "scientific_name": "Salvia rosmarinus",
+  "tags": [
+    "herb",
+    "aromatic",
+    "woody",
+    "needle leaves",
+    "drought",
+    "outdoor",
+    "full sun",
+    "mediterranean"
+  ],
+  "care": {
+    "summary": "Sun-loving woody herb; prefers dryish soil and excellent drainage.",
+    "light": "Full sun (6+ hours)",
+    "water": "Allow soil to dry between waterings; avoid soggy roots",
+    "soil": "Sandy, well-draining; slightly alkaline OK",
+    "humidity": "Low to average",
+    "temperature_c": "10-30",
+    "fertilizer": "Light feed in spring; avoid heavy nitrogen",
+    "toxicity": "Culinary herb; generally safe when used as food",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Powdery mildew in humid shade",
+      "Leggy growth with insufficient light"
+    ],
+    "tips": [
+      "Prune after flowering to keep bushy",
+      "Great in pots with drainage holes",
+      "Harvest stems in the morning for best aroma"
+    ]
+  }
+}
