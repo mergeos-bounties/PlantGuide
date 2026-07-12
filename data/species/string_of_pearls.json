@@ -1,0 +1,33 @@
+{
+  "id": "string_of_pearls",
+  "common_name": "String of Pearls",
+  "scientific_name": "Curio rowleyanus",
+  "tags": [
+    "succulent",
+    "trailing",
+    "hanging",
+    "beads",
+    "drought",
+    "indoor"
+  ],
+  "care": {
+    "summary": "Trailing succulent with bead-like leaves; prefers bright light and dry-ish soil.",
+    "light": "Bright indirect to some direct sun",
+    "water": "Soak and dry; water sparingly in winter",
+    "soil": "Gritty cactus/succulent mix",
+    "humidity": "Low to average",
+    "temperature_c": "15-26",
+    "fertilizer": "Light feed monthly in growing season",
+    "toxicity": "Toxic if ingested",
+    "common_issues": [
+      "Shrivelled pearls from underwatering",
+      "Rot from soggy soil",
+      "Stretching in low light"
+    ],
+    "tips": [
+      "Hang in a bright window",
+      "Avoid misting beads",
+      "Propagate stem cuttings easily"
+    ]
+  }
+}
