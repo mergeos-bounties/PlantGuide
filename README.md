@@ -63,12 +63,25 @@ docs/BOUNTY.md
 ## MergeOS bounties
 
 1. Star this repo + [mergeos](https://github.com/mergeos-bounties/mergeos)
-2. Claim an issue labeled `bounty`
+2. Claim an issue labeled `bounty` / `species-pack`
 3. Also claim on MergeOS [issue #1](https://github.com/mergeos-bounties/mergeos/issues/1)
 4. Open a PR to **this public repo** with tests/evidence
 5. Maintainer merges and credits MRG (25/50/100/200)
 
-See [docs/BOUNTY.md](docs/BOUNTY.md).
+### Guides in all languages
+
+Step-by-step claim + photo pack instructions:
+
+**[docs/guides/README.md](docs/guides/README.md)** — EN · VI · 中文 · 日本語 · 한국어 · ES · FR · DE · PT · ID · TH · HI · AR · RU
+
+Policy: [docs/BOUNTY.md](docs/BOUNTY.md) · Species issues: [label:species-pack](https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack)
+
+### Maintainer PR loop
+
+```bash
+node scripts/pr_maintainer_loop.mjs
+node scripts/pr_maintainer_loop.mjs --dry-run
+```
 
 ## Privacy & safety
 

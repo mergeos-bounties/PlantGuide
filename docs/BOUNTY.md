@@ -10,6 +10,10 @@ PlantGuide pays contributors in **MRG** through the MergeOS bounty program.
 4. Comment on MergeOS [Claim Token #1](https://github.com/mergeos-bounties/mergeos/issues/1) with the issue link  
 5. Open a PR to **PlantGuide** `master` (`Fixes #N`)
 
+### Full guides (all languages)
+
+See **[docs/guides/README.md](guides/README.md)** for EN / VI / 中文 / 日本語 / 한국어 / ES / FR / DE / PT / ID / TH / HI / AR / RU.
+
 ## Payout scale
 
 | Scope | Typical MRG |
