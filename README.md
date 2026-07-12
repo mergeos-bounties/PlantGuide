@@ -10,6 +10,23 @@
 
 Built under [mergeos-bounties](https://github.com/mergeos-bounties) so delivery can be funded as MergeOS tasks with MRG payouts.
 
+
+## Screenshots
+
+Real captures from running the product demo (PlantGuide).
+
+![Species catalog](docs/screenshots/demo-species.png)
+
+*Species catalog*
+
+![Identify by tags](docs/screenshots/demo-identify.png)
+
+*Identify by tags*
+
+![Care card (Monstera)](docs/screenshots/demo-care.png)
+
+*Care card (Monstera)*
+
 ## Stack
 
 - Python 3.11+
