@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import typer
@@ -10,6 +11,7 @@ from plantguide import __version__
 from plantguide.care.cards import care_card_for_species, watering_hint
 from plantguide.data.loader import list_species_files, load_species
 from plantguide.identify.pipeline import identify_from_sample, identify_from_tags
+from plantguide.integrations.sdk import care_report_from_sample, care_report_from_tags
 from plantguide.train.toy_train import train_toy
 
 app = typer.Typer(
@@ -19,10 +21,12 @@ app = typer.Typer(
 species_app = typer.Typer(help="Species catalog")
 identify_app = typer.Typer(help="Identify plants from traits/tags")
 care_app = typer.Typer(help="Care guidance")
+app_app = typer.Typer(help="App embedding demos")
 train_app = typer.Typer(help="Training / calibration")
 app.add_typer(species_app, name="species")
 app.add_typer(identify_app, name="identify")
 app.add_typer(care_app, name="care")
+app.add_typer(app_app, name="app")
 app.add_typer(train_app, name="train")
 console = Console()
 
@@ -103,6 +107,43 @@ def care_svg(
     except KeyError as exc:
         console.print(f"[red]{exc}[/red]")
         raise typer.Exit(code=1) from exc
+
+
+@app_app.command("demo")
+def app_demo(
+    sample: Path | None = typer.Option(
+        None,
+        "--sample",
+        exists=True,
+        dir_okay=False,
+        help="Observation JSON fixture to turn into an app care report.",
+    ),
+    tags: str | None = typer.Option(
+        None,
+        "--tags",
+        "-t",
+        help="Comma-separated observation tags to turn into an app care report.",
+    ),
+    out: Path | None = typer.Option(None, "--out", "-o", help="Write report JSON here."),
+    top: int = typer.Option(3, "--top", "-k", min=1, max=20),
+) -> None:
+    """Generate the documented app care-report JSON from sample data or tags."""
+    if bool(sample) == bool(tags):
+        console.print("[red]Provide exactly one of --sample or --tags.[/red]")
+        raise typer.Exit(code=1)
+
+    report = (
+        care_report_from_sample(sample, top_k=top)
+        if sample is not None
+        else care_report_from_tags(tags or "", top_k=top)
+    )
+    if out is None:
+        console.print_json(data=report)
+        return
+
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+    console.print(f"[green]Care report[/green] {out}")
 
 
 @identify_app.command("disease")

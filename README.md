@@ -17,6 +17,7 @@
 - [Screenshots](#screenshots)
 - [Quick start](#quick-start)
 - [CLI reference](#cli-reference)
+- [App care report](#app-care-report)
 - [Species catalog](#species-catalog)
 - [Diagrams](#diagrams)
 - [Repository layout](#repository-layout)
@@ -60,6 +61,7 @@ plantguide species list
 plantguide identify tags -t "variegated,trailing,indoor" -k 3
 plantguide care show -s monstera_deliciosa
 plantguide care water -s monstera_deliciosa --season summer
+plantguide app demo --sample data/samples/obs_monstera.json --out data/out/e2e-monstera-care-report.json
 ```
 
 ---
@@ -74,7 +76,27 @@ plantguide care water -s monstera_deliciosa --season summer
 | `plantguide identify sample -f …` | Identify from observation file |
 | `plantguide care show -s <id>` | Care card JSON |
 | `plantguide care water -s <id>` | Watering hint |
+| `plantguide app demo --sample … --out …` | App-ready ID + care report |
 | `plantguide train toy` | Toy calibration |
+
+---
+
+## App care report
+
+Generate one JSON report that an app demo can embed directly:
+
+```powershell
+plantguide app demo --sample data/samples/obs_monstera.json --out data/out/e2e-monstera-care-report.json
+```
+
+The report is built from license-safe bundled sample tags only. It includes
+`report_type`, `integration_version`, `query_tags`, `top_species_id`, ranked
+`matches`, the top species `care_card`, and `license_safe_evidence` with no
+external assets. Inline tags are supported too:
+
+```powershell
+plantguide app demo -t "tropical,fenestrated leaves,climbing,indoor" -k 2
+```
 
 ---
 
