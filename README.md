@@ -7,7 +7,7 @@
 
 **PlantGuide** identifies plants from traits/tags and serves **species care cards** (water, light, soil, humidity) as JSON for gardening apps.
 
-Product: [mergeos-bounties/PlantGuide](https://github.com/mergeos-bounties/PlantGuide)
+**Product:** [mergeos-bounties/PlantGuide](https://github.com/mergeos-bounties/PlantGuide)
 
 ---
 
@@ -19,7 +19,7 @@ Product: [mergeos-bounties/PlantGuide](https://github.com/mergeos-bounties/Plant
 - [CLI reference](#cli-reference)
 - [Species catalog](#species-catalog)
 - [Diagrams](#diagrams)
-- [Architecture](#architecture)
+- [Repository layout](#repository-layout)
 - [Development](#development)
 - [MergeOS bounties](#mergeos-bounties)
 - [License](#license)
@@ -95,18 +95,16 @@ Observation fixtures: `data/samples/obs_*.json`.
 
 ---
 
-
 ## Diagrams
 
-System architecture and workflow — shown full-width below.  
-Open the HTML files for **dark/light theme toggle** and export (PNG/SVG).
+System architecture and workflow — full width. Open the HTML files for **dark/light theme** and export (PNG/SVG).
 
 ### Architecture
 
 [Open interactive diagram](docs/diagrams/architecture.html)
 
 <p align="center">
-  <img src="docs/diagrams/architecture.svg" alt="Architecture diagram" width="100%" />
+  <img src="docs/diagrams/architecture.svg" alt="PlantGuide architecture" width="100%" />
 </p>
 
 ### Workflow
@@ -114,12 +112,14 @@ Open the HTML files for **dark/light theme toggle** and export (PNG/SVG).
 [Open interactive diagram](docs/diagrams/workflow.html)
 
 <p align="center">
-  <img src="docs/diagrams/workflow.svg" alt="Workflow diagram" width="100%" />
+  <img src="docs/diagrams/workflow.svg" alt="PlantGuide workflow" width="100%" />
 </p>
 
 *Generated with [archify](https://github.com/tt-a1i).*
 
-## Architecture
+---
+
+## Repository layout
 
 ```text
 src/plantguide/
@@ -131,6 +131,7 @@ src/plantguide/
 data/species/
 data/samples/
 docs/screenshots/
+docs/diagrams/
 ```
 
 ---
@@ -154,8 +155,11 @@ Star → claim → PR **master** → MRG **25–200**.
 
 ## Tiếng Việt
 
-**PlantGuide** nhận diện cây theo tag và thẻ chăm sóc (tưới, sáng, đất).  
-`plantguide identify tags -t "indoor,trailing" -k 3`
+**PlantGuide** nhận diện cây theo tag và thẻ chăm sóc (tưới, sáng, đất).
+
+```powershell
+plantguide identify tags -t "indoor,trailing" -k 3
+```
 
 ---
 
