@@ -11,7 +11,7 @@ from rich.table import Table
 
 from plantguide import __version__
 from plantguide.care.cards import care_card_for_species, watering_hint
-from plantguide.collection import add_plant, due_soon, list_plants, water_plant
+from plantguide.collection import add_plant, due_soon, list_plants
 from plantguide.data.loader import list_species_files, load_species
 from plantguide.identify.pipeline import identify_from_sample, identify_from_tags
 from plantguide.integrations.sdk import care_report_from_sample, care_report_from_tags

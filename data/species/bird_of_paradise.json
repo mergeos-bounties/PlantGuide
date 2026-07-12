@@ -1,0 +1,33 @@
+{
+  "id": "bird_of_paradise",
+  "common_name": "Bird of Paradise",
+  "scientific_name": "Strelitzia reginae",
+  "tags": [
+    "tropical",
+    "large leaves",
+    "statement",
+    "bright light",
+    "indoor",
+    "upright"
+  ],
+  "care": {
+    "summary": "Bold tropical with paddle leaves that needs bright light and room to grow.",
+    "light": "Bright indirect to some direct morning sun",
+    "water": "Water when top 2\u20133 cm soil is dry; reduce in winter",
+    "soil": "Rich, well-draining potting mix",
+    "humidity": "Medium to high",
+    "temperature_c": "18-27",
+    "fertilizer": "Monthly in growing season",
+    "toxicity": "Mildly toxic if ingested",
+    "common_issues": [
+      "Split leaves from low humidity",
+      "Yellow lower leaves from overwatering",
+      "No blooms indoors (common)"
+    ],
+    "tips": [
+      "Wipe large leaves",
+      "Give a large pot",
+      "Rotate for even growth"
+    ]
+  }
+}
