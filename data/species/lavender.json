@@ -1,0 +1,34 @@
+{
+  "id": "lavender",
+  "common_name": "Lavender",
+  "scientific_name": "Lavandula angustifolia",
+  "tags": [
+    "herb",
+    "aromatic",
+    "purple flowers",
+    "drought",
+    "full sun",
+    "mediterranean",
+    "outdoor"
+  ],
+  "care": {
+    "summary": "Sun-loving aromatic shrub; hates wet feet and heavy shade.",
+    "light": "Full sun",
+    "water": "Infrequent deep watering; dry between sessions",
+    "soil": "Gritty, alkaline, excellent drainage",
+    "humidity": "Low",
+    "temperature_c": "5-30",
+    "fertilizer": "Light feed in spring only",
+    "toxicity": "Generally safe; essential oil concentrated",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Leggy growth with insufficient light",
+      "Fungal issues in humid shade"
+    ],
+    "tips": [
+      "Prune after flowering to keep compact",
+      "Avoid rich compost that holds water",
+      "Great for pots with drainage holes"
+    ]
+  }
+}
