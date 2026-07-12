@@ -1,0 +1,33 @@
+{
+  "id": "rubber_plant",
+  "common_name": "Rubber Plant",
+  "scientific_name": "Ficus elastica",
+  "tags": [
+    "ficus",
+    "broadleaf",
+    "upright",
+    "indoor",
+    "low_maintenance",
+    "glossy"
+  ],
+  "care": {
+    "summary": "Upright glossy-leaf tree that tolerates average indoor light when not overwatered.",
+    "light": "Bright indirect; tolerates medium light",
+    "water": "Water when top 2\u20133 cm soil is dry",
+    "soil": "Well-draining potting mix",
+    "humidity": "Average to medium",
+    "temperature_c": "16-27",
+    "fertilizer": "Monthly in spring/summer",
+    "toxicity": "Mildly toxic if ingested",
+    "common_issues": [
+      "Leaf drop from overwatering",
+      "Dusty leaves",
+      "Leggy growth in low light"
+    ],
+    "tips": [
+      "Wipe leaves monthly",
+      "Rotate pot for even growth",
+      "Use a sturdy pot for height"
+    ]
+  }
+}

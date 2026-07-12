@@ -1,0 +1,10 @@
+{
+  "id": "obs_rubber_plant",
+  "tags": [
+    "glossy leaves",
+    "broad oval",
+    "upright stem",
+    "dark green"
+  ],
+  "expected_species": "rubber_plant"
+}
