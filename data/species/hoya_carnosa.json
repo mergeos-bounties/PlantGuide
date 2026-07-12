@@ -1,0 +1,33 @@
+{
+  "id": "hoya_carnosa",
+  "common_name": "Hoya Carnosa",
+  "scientific_name": "Hoya carnosa",
+  "tags": [
+    "hoya",
+    "trailing",
+    "waxy",
+    "climbing",
+    "indoor",
+    "flowers"
+  ],
+  "care": {
+    "summary": "Waxy trailing vine that likes bright light and dry-ish spells between waterings.",
+    "light": "Bright indirect; some morning sun OK",
+    "water": "Water when leaves soften slightly; avoid constant wet soil",
+    "soil": "Chunky aroid mix with bark and perlite",
+    "humidity": "Medium",
+    "temperature_c": "16-27",
+    "fertilizer": "Light monthly feed in growing season",
+    "toxicity": "Mildly toxic if ingested",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Few blooms in low light",
+      "Mealybugs in leaf axils"
+    ],
+    "tips": [
+      "Do not remove peduncles",
+      "Provide a trellis or hang basket",
+      "Let pot dry between waterings"
+    ]
+  }
+}
