@@ -188,3 +188,15 @@ plantguide identify tags -t "indoor,trailing" -k 3
 ## License
 
 MIT · MergeOS / ThanhTrucSolutions
+
+## Collection manager
+
+Track a personal plant collection and get watering reminders:
+
+```bash
+plantguide collection add -s "Monstera deliciosa" --nickname "Monstera" --every 7
+plantguide collection list
+plantguide collection due --days 7
+```
+
+Store: `data/collection/plants.json` (override with `PLANTGUIDE_COLLECTION_DIR`).

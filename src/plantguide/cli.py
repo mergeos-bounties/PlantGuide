@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import json
+from datetime import date
 from pathlib import Path
+from typing import Any
 
 import typer
 from rich.console import Console
@@ -9,6 +11,7 @@ from rich.table import Table
 
 from plantguide import __version__
 from plantguide.care.cards import care_card_for_species, watering_hint
+from plantguide.collection import add_plant, due_soon, list_plants, water_plant
 from plantguide.data.loader import list_species_files, load_species
 from plantguide.identify.pipeline import identify_from_sample, identify_from_tags
 from plantguide.integrations.sdk import care_report_from_sample, care_report_from_tags
@@ -28,6 +31,8 @@ app.add_typer(identify_app, name="identify")
 app.add_typer(care_app, name="care")
 app.add_typer(app_app, name="app")
 app.add_typer(train_app, name="train")
+collection_app = typer.Typer(help="User plant collection")
+app.add_typer(collection_app, name="collection")
 console = Console()
 
 
@@ -172,6 +177,99 @@ def train_report() -> None:
         console.print("[yellow]No report yet. Run: plantguide train toy[/yellow]")
         raise typer.Exit(code=1)
     console.print(path.read_text(encoding="utf-8"))
+
+
+@collection_app.command("add")
+def collection_add(
+    species: str = typer.Option(..., "--species", "-s"),
+    water_every_days: int = typer.Option(14, "--every", "-e", min=1),
+    nickname: str | None = typer.Option(None, "--nickname", "-n"),
+    last_watered: str | None = None,
+    note: str | None = None,
+) -> None:
+    """Add a plant to your collection."""
+    try:
+        rec = add_plant(
+            species,
+            water_every_days,
+            nickname=nickname,
+            last_watered=last_watered,
+            note=note,
+        )
+        console.print(f"[green]Added[/green] {rec['id']} ({species})")
+        console.print(f"  Water every {rec['water_every_days']} days")
+        if rec.get("nickname"):
+            console.print(f"  Nickname: {rec['nickname']}")
+    except ValueError as e:
+        console.print(f"[red]{e}[/red]")
+        raise typer.Exit(code=1) from e
+
+
+@collection_app.command("list")
+def collection_list() -> None:
+    """List all plants in your collection."""
+    plants = list_plants()
+    if not plants:
+        console.print("[yellow]No plants in collection. Run: plantguide collection add[/yellow]")
+        raise typer.Exit()
+    table = Table(title="Your Plants")
+    table.add_column("ID")
+    table.add_column("Species")
+    table.add_column("Nickname")
+    table.add_column("Added")
+    table.add_column("Last Watered")
+    table.add_column("Due")
+    for p in plants:
+        table.add_row(
+            p.get("id", ""),
+            p.get("species", ""),
+            p.get("nickname", "") or "-",
+            p.get("added_at", ""),
+            p.get("last_watered", ""),
+            _due_str(p),
+        )
+    console.print(table)
+
+
+@collection_app.command("due")
+def collection_due(
+    within_days: int = typer.Option(7, "--days", "-d", min=0, max=30),
+) -> None:
+    """Show plants due for watering within N days."""
+    plants = due_soon(within_days=within_days)
+    if not plants:
+        console.print("[green]All caught up — no plants due![/green]")
+        raise typer.Exit()
+    table = Table(title=f"Due within {within_days} days")
+    table.add_column("ID")
+    table.add_column("Species")
+    table.add_column("Days Left")
+    table.add_column("Due Date")
+    table.add_column("Nickname")
+    for p in plants:
+        table.add_row(
+            p["id"],
+            p["species"],
+            str(p["days_left"]),
+            p["due_date"],
+            p.get("nickname", "") or "-",
+        )
+    console.print(table)
+
+
+def _due_str(plant: dict[str, Any]) -> str:
+    from plantguide.collection.store import next_watering
+
+    due = next_watering(plant)
+    today = date.today()
+    days_left = (due - today).days
+    if days_left < 0:
+        return f"[red]{-days_left}d late[/red]"
+    if days_left == 0:
+        return "[green]today[/green]"
+    if days_left == 1:
+        return "[yellow]tomorrow[/yellow]"
+    return f"{days_left}d"
 
 
 if __name__ == "__main__":
