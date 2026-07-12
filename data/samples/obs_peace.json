@@ -1,0 +1,10 @@
+{
+  "id": "obs_peace",
+  "tags": [
+    "indoor",
+    "white flowers",
+    "dark green leaves",
+    "humidity loving"
+  ],
+  "expected_species": "peace_lily"
+}

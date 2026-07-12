@@ -1,0 +1,11 @@
+{
+  "id": "obs_snake",
+  "tags": [
+    "succulent",
+    "upright",
+    "thick leaves",
+    "drought",
+    "low light"
+  ],
+  "expected_species": "snake_plant"
+}

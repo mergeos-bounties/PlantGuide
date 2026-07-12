@@ -1,0 +1,30 @@
+{
+  "id": "fiddle_leaf_fig",
+  "common_name": "Fiddle Leaf Fig",
+  "scientific_name": "Ficus lyrata",
+  "tags": [
+    "indoor",
+    "large leaves",
+    "tree form",
+    "bright light",
+    "fig"
+  ],
+  "care": {
+    "summary": "Statement tree with large violin-shaped leaves; sensitive to moves.",
+    "light": "Bright indirect near a window",
+    "water": "Water thoroughly then let top half dry",
+    "soil": "Well-draining indoor mix",
+    "humidity": "Average to high",
+    "temperature_c": "18-29",
+    "fertilizer": "Fiddle-leaf formula monthly in spring/summer",
+    "toxicity": "Sap can irritate skin; toxic if ingested",
+    "common_issues": [
+      "Leaf drop after relocation",
+      "Brown spots from inconsistent water"
+    ],
+    "tips": [
+      "Rotate weekly for even growth",
+      "Avoid cold drafts"
+    ]
+  }
+}

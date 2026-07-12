@@ -1,0 +1,31 @@
+{
+  "id": "monstera_deliciosa",
+  "common_name": "Monstera",
+  "scientific_name": "Monstera deliciosa",
+  "tags": [
+    "tropical",
+    "fenestrated leaves",
+    "climbing",
+    "indoor",
+    "large leaves",
+    "aroid"
+  ],
+  "care": {
+    "summary": "Iconic tropical aroid with split leaves; bright indirect light.",
+    "light": "Bright indirect; avoid harsh midday sun",
+    "water": "Water when top 2-3 cm of soil is dry",
+    "soil": "Chunky aroid mix (bark + perlite + peat/coco)",
+    "humidity": "50%+ preferred",
+    "temperature_c": "18-29",
+    "fertilizer": "Balanced liquid monthly in spring/summer",
+    "toxicity": "Toxic to pets if chewed",
+    "common_issues": [
+      "Yellow leaves from overwatering",
+      "No fenestrations if light is too low"
+    ],
+    "tips": [
+      "Provide a moss pole for climbing",
+      "Wipe dust off leaves"
+    ]
+  }
+}

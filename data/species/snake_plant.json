@@ -1,0 +1,31 @@
+{
+  "id": "snake_plant",
+  "common_name": "Snake Plant",
+  "scientific_name": "Dracaena trifasciata",
+  "tags": [
+    "succulent",
+    "upright",
+    "thick leaves",
+    "drought",
+    "indoor",
+    "low light"
+  ],
+  "care": {
+    "summary": "Very tolerant upright plant; hard to kill with neglect.",
+    "light": "Low to bright indirect",
+    "water": "Water sparingly; every 2-4 weeks depending on light",
+    "soil": "Cactus/succulent mix",
+    "humidity": "Low to average",
+    "temperature_c": "15-30",
+    "fertilizer": "Light feed 2-3 times in growing season",
+    "toxicity": "Mildly toxic to pets",
+    "common_issues": [
+      "Root rot from wet soil",
+      "Soft leaves from cold"
+    ],
+    "tips": [
+      "Err on the side of underwatering",
+      "Great for bedrooms"
+    ]
+  }
+}

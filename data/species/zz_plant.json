@@ -1,0 +1,31 @@
+{
+  "id": "zz_plant",
+  "common_name": "ZZ Plant",
+  "scientific_name": "Zamioculcas zamiifolia",
+  "tags": [
+    "indoor",
+    "glossy leaves",
+    "drought",
+    "low light",
+    "rhizome",
+    "easy"
+  ],
+  "care": {
+    "summary": "Glossy drought-tolerant indoor plant stored energy in rhizomes.",
+    "light": "Low to bright indirect",
+    "water": "Infrequent; allow soil to dry thoroughly",
+    "soil": "Well-draining mix",
+    "humidity": "Low to average",
+    "temperature_c": "16-30",
+    "fertilizer": "2-3 times per year max",
+    "toxicity": "Toxic if ingested",
+    "common_issues": [
+      "Yellow stems from overwater",
+      "Slow growth is normal"
+    ],
+    "tips": [
+      "Excellent office plant",
+      "Do not overpot"
+    ]
+  }
+}

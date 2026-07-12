@@ -1,0 +1,1 @@
+"""Training / calibration stubs."""

@@ -1,0 +1,11 @@
+{
+  "id": "obs_aloe",
+  "tags": [
+    "succulent",
+    "thick leaves",
+    "spiky",
+    "drought",
+    "medicinal gel"
+  ],
+  "expected_species": "aloe_vera"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "basil_sweet",
+  "common_name": "Sweet Basil",
+  "scientific_name": "Ocimum basilicum",
+  "tags": [
+    "herb",
+    "edible",
+    "aromatic",
+    "full sun",
+    "soft leaves",
+    "kitchen"
+  ],
+  "care": {
+    "summary": "Culinary herb that needs sun, warmth, and regular harvest.",
+    "light": "Full sun 6+ hours",
+    "water": "Keep evenly moist; do not waterlog",
+    "soil": "Rich, well-draining potting soil",
+    "humidity": "Average",
+    "temperature_c": "18-30",
+    "fertilizer": "Light nitrogen feed every 2-3 weeks",
+    "toxicity": "Edible for humans; not a pet food",
+    "common_issues": [
+      "Downy mildew in humid stagnant air",
+      "Bolting in heat"
+    ],
+    "tips": [
+      "Pinch flowers to keep leaves tender",
+      "Harvest from the top"
+    ]
+  }
+}

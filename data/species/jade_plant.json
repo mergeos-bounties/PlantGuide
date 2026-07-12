@@ -1,0 +1,29 @@
+{
+  "id": "jade_plant",
+  "common_name": "Jade Plant",
+  "scientific_name": "Crassula ovata",
+  "tags": [
+    "succulent",
+    "thick leaves",
+    "woody stem",
+    "drought",
+    "bonsai style"
+  ],
+  "care": {
+    "summary": "Woody succulent shrub; bright light and dry cycles.",
+    "light": "Bright light; some direct morning sun OK",
+    "water": "Water when soil is fully dry",
+    "soil": "Cactus mix",
+    "humidity": "Low",
+    "temperature_c": "15-24",
+    "fertilizer": "Sparse; spring only",
+    "toxicity": "Toxic to pets",
+    "common_issues": [
+      "Wrinkled leaves need water",
+      "Soft stems mean overwater"
+    ],
+    "tips": [
+      "Strong light keeps compact growth"
+    ]
+  }
+}

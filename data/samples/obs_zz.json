@@ -1,0 +1,11 @@
+{
+  "id": "obs_zz",
+  "tags": [
+    "glossy leaves",
+    "drought",
+    "low light",
+    "indoor",
+    "easy"
+  ],
+  "expected_species": "zz_plant"
+}

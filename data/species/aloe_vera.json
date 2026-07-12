@@ -1,0 +1,31 @@
+{
+  "id": "aloe_vera",
+  "common_name": "Aloe Vera",
+  "scientific_name": "Aloe vera",
+  "tags": [
+    "succulent",
+    "thick leaves",
+    "drought",
+    "spiky",
+    "medicinal gel",
+    "full sun tolerant"
+  ],
+  "care": {
+    "summary": "Succulent with gel-filled leaves; likes sun and dry soil.",
+    "light": "Bright light to partial sun",
+    "water": "Deep but infrequent; soak and dry fully",
+    "soil": "Gritty cactus mix",
+    "humidity": "Low",
+    "temperature_c": "13-27",
+    "fertilizer": "Rarely; half-strength in spring",
+    "toxicity": "Gel for external use; latex can irritate",
+    "common_issues": [
+      "Mushy leaves from overwater",
+      "Pale color from low light"
+    ],
+    "tips": [
+      "Use a terracotta pot",
+      "Pups can be divided"
+    ]
+  }
+}
