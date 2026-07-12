@@ -1,0 +1,18 @@
+{
+  "id": "boston_fern",
+  "common_name": "Boston Fern",
+  "scientific_name": "Nephrolepis exaltata",
+  "tags": ["fern", "trailing", "feathery", "humidity", "shade", "indoor", "hanging"],
+  "care": {
+    "summary": "Lush hanging fern that loves humidity and consistent moisture.",
+    "light": "Bright indirect to medium shade; avoid harsh sun",
+    "water": "Keep evenly moist; mist fronds in dry rooms",
+    "soil": "Peaty, well-draining potting mix",
+    "humidity": "High",
+    "temperature_c": "16-24",
+    "fertilizer": "Half-strength monthly in growing season",
+    "toxicity": "Non-toxic to pets (generally)",
+    "common_issues": ["Crispy tips from low humidity", "Yellow fronds from overwatering", "Scale insects"],
+    "tips": ["Hang in bathrooms for humidity", "Trim brown fronds at base", "Rotate pot for even growth"]
+  }
+}
