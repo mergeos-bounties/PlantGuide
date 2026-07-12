@@ -98,14 +98,26 @@ Observation fixtures: `data/samples/obs_*.json`.
 
 ## Diagrams
 
-Interactive Archify diagrams (dark/light theme, export PNG/SVG in the HTML viewer):
+System architecture and workflow — shown full-width below.  
+Open the HTML files for **dark/light theme toggle** and export (PNG/SVG).
 
-| Diagram | Interactive | README embed |
-| --- | --- | --- |
-| **Architecture** | [docs/diagrams/architecture.html](docs/diagrams/architecture.html) | ![Architecture](docs/diagrams/architecture.svg) |
-| **Workflow** | [docs/diagrams/workflow.html](docs/diagrams/workflow.html) | ![Workflow](docs/diagrams/workflow.svg) |
+### Architecture
 
-*Generated with [archify](https://github.com/tt-a1i) — open the `.html` files for theme toggle and export.*
+[Open interactive diagram](docs/diagrams/architecture.html)
+
+<p align="center">
+  <img src="docs/diagrams/architecture.svg" alt="Architecture diagram" width="100%" />
+</p>
+
+### Workflow
+
+[Open interactive diagram](docs/diagrams/workflow.html)
+
+<p align="center">
+  <img src="docs/diagrams/workflow.svg" alt="Workflow diagram" width="100%" />
+</p>
+
+*Generated with [archify](https://github.com/tt-a1i).*
 
 ## Architecture
 
