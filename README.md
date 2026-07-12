@@ -18,6 +18,7 @@ Product: [mergeos-bounties/PlantGuide](https://github.com/mergeos-bounties/Plant
 - [Quick start](#quick-start)
 - [CLI reference](#cli-reference)
 - [Species catalog](#species-catalog)
+- [Diagrams](#diagrams)
 - [Architecture](#architecture)
 - [Development](#development)
 - [MergeOS bounties](#mergeos-bounties)
@@ -93,6 +94,18 @@ Species JSON under `data/species/` (examples):
 Observation fixtures: `data/samples/obs_*.json`.
 
 ---
+
+
+## Diagrams
+
+Interactive Archify diagrams (dark/light theme, export PNG/SVG in the HTML viewer):
+
+| Diagram | Interactive | README embed |
+| --- | --- | --- |
+| **Architecture** | [docs/diagrams/architecture.html](docs/diagrams/architecture.html) | ![Architecture](docs/diagrams/architecture.svg) |
+| **Workflow** | [docs/diagrams/workflow.html](docs/diagrams/workflow.html) | ![Workflow](docs/diagrams/workflow.svg) |
+
+*Generated with [archify](https://github.com/tt-a1i) — open the `.html` files for theme toggle and export.*
 
 ## Architecture
 
