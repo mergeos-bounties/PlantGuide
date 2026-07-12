@@ -1,0 +1,33 @@
+{
+  "id": "calathea_orbifolia",
+  "common_name": "Calathea Orbifolia",
+  "scientific_name": "Goeppertia orbifolia",
+  "tags": [
+    "prayer plant",
+    "striped",
+    "tropical",
+    "humidity",
+    "indoor",
+    "large leaves"
+  ],
+  "care": {
+    "summary": "Showy striped foliage plant that likes humidity and steady moisture.",
+    "light": "Medium to bright indirect; avoid direct sun",
+    "water": "Keep evenly moist with filtered/distilled water when possible",
+    "soil": "Airy, peat-free mix with perlite",
+    "humidity": "High",
+    "temperature_c": "18-26",
+    "fertilizer": "Half-strength monthly in growing season",
+    "toxicity": "Non-toxic to pets (generally)",
+    "common_issues": [
+      "Crispy edges from dry air",
+      "Browning from hard water",
+      "Spider mites"
+    ],
+    "tips": [
+      "Group with other plants",
+      "Wipe leaves gently",
+      "Avoid cold drafts"
+    ]
+  }
+}
