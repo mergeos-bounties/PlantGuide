@@ -1,0 +1,34 @@
+{
+  "id": "english_ivy",
+  "common_name": "English Ivy",
+  "scientific_name": "Hedera helix",
+  "tags": [
+    "trailing",
+    "vine",
+    "climbing",
+    "shade",
+    "classic",
+    "indoor",
+    "hanging"
+  ],
+  "care": {
+    "summary": "Classic trailing vine that climbs or hangs; thrives in cooler bright shade.",
+    "light": "Bright indirect to medium shade",
+    "water": "Keep lightly moist; let top soil dry slightly",
+    "soil": "Well-draining potting mix with some bark",
+    "humidity": "Medium to high",
+    "temperature_c": "15-24",
+    "fertilizer": "Light monthly feed in spring/summer",
+    "toxicity": "Toxic if ingested (pets/humans)",
+    "common_issues": [
+      "Spider mites in dry air",
+      "Root rot from soggy soil",
+      "Leggy growth in low light"
+    ],
+    "tips": [
+      "Pinch tips to branch",
+      "Wipe leaves for dust",
+      "Provide a trellis for climbing"
+    ]
+  }
+}
