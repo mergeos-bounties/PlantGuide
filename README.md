@@ -1,111 +1,139 @@
 # PlantGuide
 
-**PlantGuide** is a training and inference toolkit for **plant identification** and **species care guidance**:
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
+[![Version](https://img.shields.io/badge/version-0.1.0-0E8A16.svg)](pyproject.toml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![MergeOS](https://img.shields.io/badge/MergeOS-bounties-5319E7.svg)](https://github.com/mergeos-bounties)
+
+**PlantGuide** identifies plants from traits/tags and serves **species care cards** (water, light, soil, humidity) as JSON for gardening apps.
+
+Product: [mergeos-bounties/PlantGuide](https://github.com/mergeos-bounties/PlantGuide)
+
+---
+
+## Table of contents
+
+- [Highlights](#highlights)
+- [Screenshots](#screenshots)
+- [Quick start](#quick-start)
+- [CLI reference](#cli-reference)
+- [Species catalog](#species-catalog)
+- [Architecture](#architecture)
+- [Development](#development)
+- [MergeOS bounties](#mergeos-bounties)
+- [License](#license)
+
+---
+
+## Highlights
 
 | Mode | Description |
 | --- | --- |
-| **Identify** | Traits / tags / (later) photo → ranked species |
-| **Care** | Per-species watering, light, soil, humidity, common issues |
-| **App SDK** | JSON reports for gardening / plant-care apps |
+| **Identify by tags** | Comma-separated traits → ranked species matches |
+| **Identify sample** | Observation JSON fixtures → ranked IDs |
+| **Care cards** | Per-species watering, light, soil, humidity, tips |
+| **Watering hints** | Seasonal watering guidance |
+| **Toy train** | Calibration report under `data/runs/` |
 
-Built under [mergeos-bounties](https://github.com/mergeos-bounties) so delivery can be funded as MergeOS tasks with MRG payouts.
-
+---
 
 ## Screenshots
 
-Real captures from running the product demo (PlantGuide).
+| Species | Identify | Care |
+| :---: | :---: | :---: |
+| ![Species](docs/screenshots/demo-species.png) | ![Identify](docs/screenshots/demo-identify.png) | ![Care](docs/screenshots/demo-care.png) |
+| *Catalog list* | *Tag matching* | *Monstera care card* |
 
-![Species catalog](docs/screenshots/demo-species.png)
-
-*Species catalog*
-
-![Identify by tags](docs/screenshots/demo-identify.png)
-
-*Identify by tags*
-
-![Care card (Monstera)](docs/screenshots/demo-care.png)
-
-*Care card (Monstera)*
-
-## Stack
-
-- Python 3.11+
-- CLI: `typer` + `rich`
-- Species catalog (JSON) + toy trait matcher
-- Optional vision / torch / FastAPI extras via bounties
+---
 
 ## Quick start
 
-```bash
+```powershell
 cd PlantGuide
 python -m venv .venv
-
-# Windows
-.venv\Scripts\activate
-
+.\.venv\Scripts\activate
 pip install -e ".[dev]"
-plantguide --help
-```
 
-## Commands
-
-```bash
 plantguide version
 plantguide species list
-plantguide identify tags --tags "succulent,thick leaves,drought"
-plantguide identify sample --file data/samples/monstera_traits.json
-plantguide care show --species monstera_deliciosa
-plantguide train toy --epochs 3
-plantguide train report
+plantguide identify tags -t "variegated,trailing,indoor" -k 3
+plantguide care show -s monstera_deliciosa
+plantguide care water -s monstera_deliciosa --season summer
 ```
 
-## Layout
+---
 
-```
+## CLI reference
+
+| Command | Purpose |
+| --- | --- |
+| `plantguide version` | Version + species count |
+| `plantguide species list` | Full catalog table |
+| `plantguide identify tags -t …` | Rank species by tags |
+| `plantguide identify sample -f …` | Identify from observation file |
+| `plantguide care show -s <id>` | Care card JSON |
+| `plantguide care water -s <id>` | Watering hint |
+| `plantguide train toy` | Toy calibration |
+
+---
+
+## Species catalog
+
+Species JSON under `data/species/` (examples):
+
+| ID | Common name (examples) |
+| --- | --- |
+| `monstera_deliciosa` | Monstera |
+| `pothos_golden` | Golden pothos |
+| `snake_plant` | Snake plant |
+| `zz_plant` | ZZ plant |
+| `aloe_vera` | Aloe |
+| … | See `plantguide species list` |
+
+Observation fixtures: `data/samples/obs_*.json`.
+
+---
+
+## Architecture
+
+```text
 src/plantguide/
   cli.py
-  config.py
-  data/           # loaders
-  models/         # toy identifier
-  identify/       # pipelines
-  care/           # care card builders
-  train/
-  integrations/   # app SDK
-  api/
-data/species/     # plant catalog + care profiles
-data/samples/     # trait observation fixtures
-docs/BOUNTY.md
+  identify/pipeline.py
+  care/cards.py
+  data/loader.py
+  train/toy_train.py
+data/species/
+data/samples/
+docs/screenshots/
 ```
+
+---
+
+## Development
+
+```powershell
+pytest -q
+ruff check src tests
+plantguide species list
+```
+
+---
 
 ## MergeOS bounties
 
-1. Star this repo + [mergeos](https://github.com/mergeos-bounties/mergeos)
-2. Claim an issue labeled `bounty` / `species-pack`
-3. Also claim on MergeOS [issue #1](https://github.com/mergeos-bounties/mergeos/issues/1)
-4. Open a PR to **this public repo** with tests/evidence
-5. Maintainer merges and credits MRG (25/50/100/200)
+High demand: **species photo packs** (≥2 original photos + evidence).  
+Star → claim → PR **master** → MRG **25–200**.
 
-### Guides in all languages
+---
 
-Step-by-step claim + photo pack instructions:
+## Tiếng Việt
 
-**[docs/guides/README.md](docs/guides/README.md)** — EN · VI · 中文 · 日本語 · 한국어 · ES · FR · DE · PT · ID · TH · HI · AR · RU
+**PlantGuide** nhận diện cây theo tag và thẻ chăm sóc (tưới, sáng, đất).  
+`plantguide identify tags -t "indoor,trailing" -k 3`
 
-Policy: [docs/BOUNTY.md](docs/BOUNTY.md) · Species issues: [label:species-pack](https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack)
-
-### Maintainer PR loop
-
-```bash
-node scripts/pr_maintainer_loop.mjs
-node scripts/pr_maintainer_loop.mjs --dry-run
-```
-
-## Privacy & safety
-
-- Prefer consented photos and public botanical datasets with clear licenses.
-- Care tips are educational, not medical advice for toxic plant exposure.
-- Document dataset licenses in every PR that adds data.
+---
 
 ## License
 
-MIT
+MIT · MergeOS / ThanhTrucSolutions
