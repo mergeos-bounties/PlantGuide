@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "plantguide"
-version = "0.1.8"
+version = "0.1.9"
 description = "PlantGuide: plant species identification and per-species care guidance"
 readme = "README.md"
 requires-python = ">=3.11"

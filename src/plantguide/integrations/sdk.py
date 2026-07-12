@@ -23,9 +23,11 @@ def care_for_app(species_id: str) -> dict:
 def care_report_from_sample(sample: Path, *, top_k: int = 3) -> dict:
     """Build the app demo care-report contract from a bundled observation sample."""
     result = identify_from_sample(sample, top_k=top_k)
+    # Portable path form for JSON contracts (Windows must not emit backslashes).
+    source = Path(sample).as_posix()
     return _care_report(
         result,
-        evidence_source=str(sample),
+        evidence_source=source,
         evidence_source_type="sample_fixture",
     )
 

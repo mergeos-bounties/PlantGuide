@@ -1,0 +1,33 @@
+{
+  "id": "chinese_evergreen",
+  "common_name": "Chinese Evergreen",
+  "scientific_name": "Aglaonema commutatum",
+  "tags": [
+    "aglaonema",
+    "variegated",
+    "shade",
+    "indoor",
+    "low_light",
+    "tropical"
+  ],
+  "care": {
+    "summary": "Colorful low-light foliage plant that forgives irregular watering better than many tropicals.",
+    "light": "Low to medium indirect; avoid harsh sun",
+    "water": "Water when top third of soil is dry",
+    "soil": "Well-draining indoor mix",
+    "humidity": "Average to medium",
+    "temperature_c": "18-27",
+    "fertilizer": "Light feed monthly in growing season",
+    "toxicity": "Toxic if ingested (pets/humans)",
+    "common_issues": [
+      "Yellow leaves from overwatering",
+      "Brown tips from dry air",
+      "Faded color in very low light"
+    ],
+    "tips": [
+      "Wipe dust from leaves",
+      "Rotate occasionally",
+      "Keep away from cold drafts"
+    ]
+  }
+}
