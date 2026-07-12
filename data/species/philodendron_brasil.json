@@ -1,0 +1,33 @@
+{
+  "id": "philodendron_brasil",
+  "common_name": "Philodendron Brasil",
+  "scientific_name": "Philodendron hederaceum 'Brasil'",
+  "tags": [
+    "philodendron",
+    "trailing",
+    "variegated",
+    "indoor",
+    "heart leaf",
+    "climbing"
+  ],
+  "care": {
+    "summary": "Easy trailing philodendron with lime-and-green heart leaves.",
+    "light": "Medium to bright indirect",
+    "water": "Water when top 2 cm soil is dry",
+    "soil": "Airy potting mix with perlite",
+    "humidity": "Average to medium",
+    "temperature_c": "18-27",
+    "fertilizer": "Monthly in growing season",
+    "toxicity": "Toxic if ingested",
+    "common_issues": [
+      "Yellow leaves from overwatering",
+      "Leggy vines in low light",
+      "Pale variegation without light"
+    ],
+    "tips": [
+      "Pinch tips to branch",
+      "Provide moss pole if climbing",
+      "Wipe leaves monthly"
+    ]
+  }
+}
