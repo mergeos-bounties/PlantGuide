@@ -1,0 +1,18 @@
+{
+  "id": "mint_spearmint",
+  "common_name": "Spearmint",
+  "scientific_name": "Mentha spicata",
+  "tags": ["herb", "aromatic", "trailing", "invasive", "partial sun", "moist", "outdoor", "kitchen"],
+  "care": {
+    "summary": "Fast-spreading kitchen herb; keep contained or it takes over beds.",
+    "light": "Partial sun to bright shade",
+    "water": "Keep soil evenly moist; dislikes drying out fully",
+    "soil": "Rich, moisture-retentive potting mix",
+    "humidity": "Average to high",
+    "temperature_c": "10-28",
+    "fertilizer": "Light monthly feed in growing season",
+    "toxicity": "Culinary herb; generally safe as food",
+    "common_issues": ["Powdery mildew", "Root bound pots", "Invasive runners"],
+    "tips": ["Grow in pots to control spread", "Pinch tips for bushier growth", "Harvest before flowering for best flavor"]
+  }
+}
