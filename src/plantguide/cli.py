@@ -87,6 +87,35 @@ def care_water(
         raise typer.Exit(code=1) from exc
 
 
+@care_app.command("svg")
+def care_svg(
+    species: str = typer.Option(..., "--species", "-s"),
+    out: Path | None = typer.Option(None, "--out", "-o"),
+) -> None:
+    """Export a simple SVG care card."""
+    from plantguide.care.export_svg import write_care_svg
+    from plantguide.config import OUT_DIR
+
+    try:
+        path = out or (OUT_DIR / f"{species}-care.svg")
+        write_care_svg(species, path)
+        console.print(f"[green]SVG[/green] {path}")
+    except KeyError as exc:
+        console.print(f"[red]{exc}[/red]")
+        raise typer.Exit(code=1) from exc
+
+
+@identify_app.command("disease")
+def identify_disease(
+    symptoms: str = typer.Option(..., "--symptoms", "-s", help="e.g. yellow,rot,droop"),
+    top: int = typer.Option(5, "--top", "-k", min=1, max=20),
+) -> None:
+    """Match symptom tags against species common issues."""
+    from plantguide.identify.disease import match_diseases
+
+    console.print_json(data=match_diseases(symptoms, top_k=top))
+
+
 @train_app.command("toy")
 def train_toy_cmd(epochs: int = typer.Option(3, "--epochs", "-e", min=1, max=50)) -> None:
     report = train_toy(epochs=epochs)
