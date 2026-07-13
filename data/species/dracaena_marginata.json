@@ -1,0 +1,32 @@
+{
+  "id": "dracaena_marginata",
+  "common_name": "Dragon Tree",
+  "scientific_name": "Dracaena marginata",
+  "tags": [
+    "tree",
+    "indoor",
+    "air-purifying",
+    "drought-tolerant",
+    "statement"
+  ],
+  "care": {
+    "summary": "Upright tropical with slender leaves; forgiving of dry indoor air.",
+    "light": "Bright indirect; tolerates medium light",
+    "water": "Allow top 2-3 cm soil to dry; avoid soggy roots",
+    "soil": "Well-draining indoor mix",
+    "humidity": "Low to medium",
+    "temperature_c": "18-27",
+    "fertilizer": "Dilute feed every 4-6 weeks in growing season",
+    "toxicity": "Mildly toxic if ingested (pets)",
+    "common_issues": [
+      "Brown tips from fluoride/overwater",
+      "Leaf drop after move",
+      "Scale insects"
+    ],
+    "tips": [
+      "Wipe dusty leaves",
+      "Rotate pot monthly",
+      "Propagate cane cuttings in water"
+    ]
+  }
+}
