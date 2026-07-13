@@ -3,28 +3,33 @@
   "common_name": "Peace Lily",
   "scientific_name": "Spathiphyllum wallisii",
   "tags": [
+    "peace lily",
+    "spathiphyllum",
+    "white blooms",
+    "low light",
     "indoor",
-    "white flowers",
-    "dark green leaves",
-    "shade tolerant",
-    "humidity loving"
+    "air-purifying",
+    "humidity",
+    "beginner"
   ],
   "care": {
-    "summary": "Classic indoor plant with white spathes; droops when thirsty.",
-    "light": "Low to medium indirect",
-    "water": "Keep evenly moist; water when leaves droop slightly",
-    "soil": "Peaty moisture-retentive mix with drainage",
-    "humidity": "Medium-high",
-    "temperature_c": "18-27",
-    "fertilizer": "Light feed monthly in growth season",
-    "toxicity": "Toxic to pets",
+    "summary": "Elegant low-light houseplant with white spathes; likes even moisture and medium humidity.",
+    "light": "Low to medium indirect; avoid harsh sun",
+    "water": "Keep soil lightly moist; droops when thirsty then recovers after watering",
+    "soil": "Peat-rich, well-draining potting mix",
+    "humidity": "Medium to high",
+    "temperature_c": "18-28",
+    "fertilizer": "Balanced feed monthly in spring/summer",
+    "toxicity": "Toxic if chewed (calcium oxalate)",
     "common_issues": [
-      "Brown tips from fluoride/dry air",
+      "Brown tips from dry air or fluoride",
+      "Yellow leaves from overwatering",
       "No blooms in very low light"
     ],
     "tips": [
-      "Distilled water can reduce tip burn",
-      "Wipe leaves for dust"
+      "Wipe leaves for better photosynthesis",
+      "Use filtered water if tips brown",
+      "Repot when root-bound"
     ]
   }
 }
