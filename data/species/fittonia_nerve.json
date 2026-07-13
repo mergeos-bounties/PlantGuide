@@ -1,0 +1,32 @@
+{
+  "id": "fittonia_nerve",
+  "common_name": "Nerve Plant",
+  "scientific_name": "Fittonia albivenis",
+  "tags": [
+    "indoor",
+    "tropical",
+    "low growing",
+    "humidity loving",
+    "colorful veins"
+  ],
+  "care": {
+    "summary": "Compact tropical with striking leaf veins; needs steady moisture and humidity.",
+    "light": "Bright indirect; avoid direct midday sun",
+    "water": "Keep evenly moist; do not let fully dry",
+    "soil": "Peaty, moisture-retentive mix with perlite",
+    "humidity": "High (terrarium-friendly)",
+    "temperature_c": "18-26",
+    "fertilizer": "Half-strength monthly in growth season",
+    "toxicity": "Non-toxic (generally pet-safe)",
+    "common_issues": [
+      "Wilting then crisp edges if dry",
+      "Root rot if waterlogged",
+      "Faded color in low light"
+    ],
+    "tips": [
+      "Great for terrariums",
+      "Pinch tips for bushier growth",
+      "Mist or use pebble tray"
+    ]
+  }
+}
