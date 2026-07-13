@@ -1,0 +1,11 @@
+{
+  "id": "obs_calathea",
+  "tags": [
+    "calathea",
+    "large leaves",
+    "striped",
+    "humidity",
+    "indoor"
+  ],
+  "expected_species": "calathea_orbifolia"
+}

@@ -70,6 +70,60 @@ def species_list() -> None:
     console.print(table)
 
 
+@species_app.command("search")
+def species_search(
+    query: str = typer.Argument(..., help="Substring over id/common/scientific/tags"),
+    limit: int = typer.Option(15, "--limit", "-n", min=1, max=50),
+) -> None:
+    """Search species catalog offline."""
+    q = query.strip().lower()
+    hits = []
+    for path in list_species_files():
+        sp = load_species(path)
+        blob = " ".join(
+            [
+                str(sp.get("id") or ""),
+                str(sp.get("common_name") or ""),
+                str(sp.get("scientific_name") or ""),
+                " ".join(sp.get("tags") or []),
+            ]
+        ).lower()
+        if q in blob:
+            hits.append(sp)
+        if len(hits) >= limit:
+            break
+    table = Table(title=f"Species search: {query} ({len(hits)})")
+    table.add_column("ID")
+    table.add_column("Common")
+    table.add_column("Scientific")
+    for sp in hits:
+        table.add_row(
+            str(sp.get("id")),
+            str(sp.get("common_name")),
+            str(sp.get("scientific_name") or ""),
+        )
+    console.print(table)
+
+
+@species_app.command("care")
+def species_care_cmd(
+    species_id: str = typer.Argument(..., help="Species id e.g. snake_plant"),
+    svg: bool = typer.Option(False, "--svg", help="Also write SVG care card under data/out"),
+) -> None:
+    """Show care card for one species; optional SVG export."""
+    from plantguide.care.export_svg import write_care_svg
+    from plantguide.config import OUT_DIR
+
+    card = care_card_for_species(species_id)
+    console.print_json(data=card)
+    console.print(f"[cyan]water hint[/cyan] {watering_hint(species_id)}")
+    if svg:
+        OUT_DIR.mkdir(parents=True, exist_ok=True)
+        path = OUT_DIR / f"care_{species_id}.svg"
+        write_care_svg(species_id, path)
+        console.print(f"[green]SVG[/green] {path}")
+
+
 @identify_app.command("tags")
 def identify_tags(
     tags: str = typer.Option(..., "--tags", "-t", help="Comma-separated traits"),
