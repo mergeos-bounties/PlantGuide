@@ -26,7 +26,6 @@
 - [Repository layout](#repository-layout)
 - [Development](#development)
 - [MergeOS bounties](#mergeos-bounties)
-- [Tiếng Việt](#tiếng-việt)
 - [License](#license)
 
 ---
@@ -252,17 +251,6 @@ plantguide demo photo
 Star → claim issue → PR to **master** → MRG **25–200**.  
 Photo/vision upgrades, more species packs, and real image models welcome.  
 See [mergeos](https://github.com/mergeos-bounties/mergeos) and [docs/BOUNTY.md](docs/BOUNTY.md).
-
----
-
-## Tiếng Việt
-
-**PlantGuide** nhận dạng cây từ **ảnh** (demo offline) hoặc tags, rồi trả **hướng dẫn chăm sóc** (ánh sáng, nước, đất, độ ẩm).
-
-```powershell
-plantguide demo photo -i data/samples/photos/monstera_demo.jpg
-plantguide care show -s monstera_deliciosa
-```
 
 ---
 
