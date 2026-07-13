@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "plantguide"
-version = "0.2.2"
+version = "0.2.3"
 description = "PlantGuide: photo/tag plant ID + per-species care cards (offline demo vision)"
 readme = "README.md"
 requires-python = ">=3.11"

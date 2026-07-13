@@ -1,0 +1,32 @@
+{
+  "id": "monstera_adansonii",
+  "common_name": "Swiss Cheese Vine",
+  "scientific_name": "Monstera adansonii",
+  "tags": [
+    "trailing",
+    "vine",
+    "indoor",
+    "tropical",
+    "fenestrated"
+  ],
+  "care": {
+    "summary": "Trailing tropical with fenestrated leaves; loves humidity and bright shade.",
+    "light": "Bright indirect; avoid harsh midday sun",
+    "water": "Water when top 2 cm dry; never soggy",
+    "soil": "Airy aroid mix with bark and perlite",
+    "humidity": "Medium to high",
+    "temperature_c": "18-28",
+    "fertilizer": "Balanced feed every 3-4 weeks in growth season",
+    "toxicity": "Toxic if ingested (pets)",
+    "common_issues": [
+      "Yellow leaves from overwater",
+      "No holes in low light",
+      "Spider mites"
+    ],
+    "tips": [
+      "Moss pole for climbing",
+      "Mist occasionally",
+      "Propagate node cuttings in water"
+    ]
+  }
+}
