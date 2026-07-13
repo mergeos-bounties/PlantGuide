@@ -3,28 +3,32 @@
   "common_name": "Golden Pothos",
   "scientific_name": "Epipremnum aureum",
   "tags": [
+    "pothos",
     "trailing",
     "variegated",
-    "indoor",
     "vining",
     "heart shaped leaves",
-    "easy"
+    "easy",
+    "low light",
+    "indoor",
+    "beginner",
+    "air-purifying"
   ],
   "care": {
-    "summary": "Easy trailing vine with yellow variegation.",
-    "light": "Medium to bright indirect; variegation fades in low light",
-    "water": "Water when top soil dries; do not leave soggy",
-    "soil": "Standard well-draining potting mix",
-    "humidity": "Average",
-    "temperature_c": "18-30",
-    "fertilizer": "Monthly dilute feed in growth season",
-    "toxicity": "Toxic to cats and dogs",
+    "summary": "Near-indestructible trailing vine; thrives in low light and infrequent water.",
+    "light": "Low to bright indirect",
+    "water": "When top soil dries; avoid soggy pots",
+    "soil": "Standard well-draining mix",
+    "humidity": "Low to medium",
+    "temperature_c": "15-30",
+    "fertilizer": "Monthly in warm months",
+    "toxicity": "Toxic if chewed",
     "common_issues": [
-      "Leggy growth in low light",
-      "Root rot"
+      "Yellow leaves from overwater",
+      "Leggy growth in dark corners"
     ],
     "tips": [
-      "Propagates easily in water",
+      "Propagate stem cuttings in water",
       "Trim to encourage bushiness"
     ]
   }

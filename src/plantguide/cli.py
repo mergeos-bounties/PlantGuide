@@ -53,6 +53,25 @@ def version_cmd() -> None:
     console.print(f"Demo plant photos: {ready}/{len(photos)}")
 
 
+@app.command("stats")
+def stats_cmd() -> None:
+    """Catalog inventory: species count, tag histogram (top tags)."""
+    from collections import Counter
+
+    tags: Counter[str] = Counter()
+    for path in list_species_files():
+        sp = load_species(path)
+        for t in sp.get("tags") or []:
+            tags[str(t).lower()] += 1
+    console.print_json(
+        data={
+            "version": __version__,
+            "species": len(list_species_files()),
+            "top_tags": tags.most_common(12),
+        }
+    )
+
+
 @species_app.command("list")
 def species_list() -> None:
     files = list_species_files()
