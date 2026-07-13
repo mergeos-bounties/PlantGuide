@@ -22,3 +22,6 @@ models/checkpoints/
 *.jpeg
 *.png
 !docs/**
+# Bundled offline photo-ID demo fixtures
+!data/samples/photos/
+!data/samples/photos/**
