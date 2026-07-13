@@ -8,14 +8,15 @@ Ganhe **MRG** com fotos originais e cartão de cuidados.
 
 ## Passos
 
-1. Star PlantGuide e mergeos.
-2. Issue species-pack: https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack
-3. Comente: `I claim this bounty`
-4. Também MergeOS #1.
-5. ≥2 fotos originais.
-6. PR species + sample.
-7. `Fixes #<issue>` + fotos.
-8. Testes locais.
+1. **Follow** the org [mergeos-bounties](https://github.com/mergeos-bounties).
+2. **Star** [mergeos](https://github.com/mergeos-bounties/mergeos) and [mergeos-contracts](https://github.com/mergeos-bounties/mergeos-contracts).
+3. Issue species-pack: https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack
+4. Comente: `I claim this bounty`
+5. Também MergeOS #1.
+6. ≥2 fotos originais.
+7. PR species + sample.
+8. `Fixes #<issue>` + fotos.
+9. Testes locais.
 
 ## Aceitação
 

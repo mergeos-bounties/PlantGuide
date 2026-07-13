@@ -8,12 +8,13 @@ Nhận **MRG** khi thêm **một loài** kèm ảnh gốc và thẻ chăm sóc.
 
 ## Các bước
 
-1. **Star** [PlantGuide](https://github.com/mergeos-bounties/PlantGuide) và [mergeos](https://github.com/mergeos-bounties/mergeos).
-2. Chọn issue **species-pack**: https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack
-3. Comment trên issue: `I claim this bounty`
-4. Comment thêm trên MergeOS [Claim Token #1](https://github.com/mergeos-bounties/mergeos/issues/1) kèm link issue.
-5. Chụp **≥2 ảnh gốc** (toàn cây + cận lá/hoa). Không lấy ảnh web không bản quyền.
-6. Mở PR vào **PlantGuide** `master`:
+1. **Follow** org [mergeos-bounties](https://github.com/mergeos-bounties).
+2. **Star** [mergeos](https://github.com/mergeos-bounties/mergeos) và [mergeos-contracts](https://github.com/mergeos-bounties/mergeos-contracts).
+3. Chọn issue **species-pack**: https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack
+4. Comment trên issue: `I claim this bounty`
+5. Comment thêm trên MergeOS [Claim Token #1](https://github.com/mergeos-bounties/mergeos/issues/1) kèm link issue.
+6. Chụp **≥2 ảnh gốc** (toàn cây + cận lá/hoa). Không lấy ảnh web không bản quyền.
+7. Mở PR vào **PlantGuide** `master`:
    - `data/species/<id>.json`
    - `data/samples/obs_<id>.json`
 7. PR ghi `Fixes #<issue>` + đính ảnh + ghi chú đồng ý chụp.

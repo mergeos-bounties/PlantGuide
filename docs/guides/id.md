@@ -8,14 +8,15 @@ Dapatkan **MRG** dengan foto asli dan kartu perawatan.
 
 ## Langkah
 
-1. Star PlantGuide dan mergeos.
-2. Issue species-pack: https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack
-3. Komentar: `I claim this bounty`
-4. Juga MergeOS #1.
-5. ≥2 foto asli.
-6. PR species + sample.
-7. `Fixes #<issue>` + foto.
-8. Tes lokal.
+1. **Follow** the org [mergeos-bounties](https://github.com/mergeos-bounties).
+2. **Star** [mergeos](https://github.com/mergeos-bounties/mergeos) and [mergeos-contracts](https://github.com/mergeos-bounties/mergeos-contracts).
+3. Issue species-pack: https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack
+4. Komentar: `I claim this bounty`
+5. Juga MergeOS #1.
+6. ≥2 foto asli.
+7. PR species + sample.
+8. `Fixes #<issue>` + foto.
+9. Tes lokal.
 
 ## Penerimaan
 

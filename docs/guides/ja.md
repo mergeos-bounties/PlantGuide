@@ -8,14 +8,15 @@
 
 ## 手順
 
-1. PlantGuide と mergeos を Star。
-2. species-pack issue を選ぶ: https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack
-3. コメント: `I claim this bounty`
-4. MergeOS #1 に issue リンク。
-5. オリジナル写真 2 枚以上。
-6. species と sample の JSON を PR。
-7. `Fixes #<issue>` と写真。
-8. ローカルでテスト。
+1. 組織 [mergeos-bounties](https://github.com/mergeos-bounties) を **Follow**。
+2. [mergeos](https://github.com/mergeos-bounties/mergeos) と [mergeos-contracts](https://github.com/mergeos-bounties/mergeos-contracts) を **Star**。
+3. species-pack issue を選ぶ: https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack
+4. コメント: `I claim this bounty`
+5. MergeOS #1 に issue リンク。
+6. オリジナル写真 2 枚以上。
+7. species と sample の JSON を PR。
+8. `Fixes #<issue>` と写真。
+9. ローカルでテスト。
 
 ## 合格条件
 

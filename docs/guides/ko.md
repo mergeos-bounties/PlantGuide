@@ -8,14 +8,15 @@
 
 ## 단계
 
-1. PlantGuide, mergeos Star.
-2. species-pack 이슈: https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack
-3. 댓글: `I claim this bounty`
-4. MergeOS #1에 링크.
-5. 원본 사진 2장 이상.
-6. species + sample JSON PR.
-7. `Fixes #<issue>` + 사진.
-8. 로컬 테스트.
+1. 조직 [mergeos-bounties](https://github.com/mergeos-bounties) **Follow**.
+2. [mergeos](https://github.com/mergeos-bounties/mergeos) 및 [mergeos-contracts](https://github.com/mergeos-bounties/mergeos-contracts) **Star**.
+3. species-pack 이슈: https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack
+4. 댓글: `I claim this bounty`
+5. MergeOS #1에 링크.
+6. 원본 사진 2장 이상.
+7. species + sample JSON PR.
+8. `Fixes #<issue>` + 사진.
+9. 로컬 테스트.
 
 ## 수락 기준
 

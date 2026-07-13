@@ -8,14 +8,15 @@ Gana **MRG** añadiendo una especie con fotos originales y ficha de cuidados.
 
 ## Pasos
 
-1. Star PlantGuide y mergeos.
-2. Issue species-pack: https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack
-3. Comenta: `I claim this bounty`
-4. También MergeOS #1 con el enlace.
-5. ≥2 fotos originales.
-6. PR con species + sample JSON.
-7. `Fixes #<issue>` + fotos.
-8. Tests locales.
+1. **Follow** the org [mergeos-bounties](https://github.com/mergeos-bounties).
+2. **Star** [mergeos](https://github.com/mergeos-bounties/mergeos) and [mergeos-contracts](https://github.com/mergeos-bounties/mergeos-contracts).
+3. Issue species-pack: https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack
+4. Comenta: `I claim this bounty`
+5. También MergeOS #1 con el enlace.
+6. ≥2 fotos originales.
+7. PR con species + sample JSON.
+8. `Fixes #<issue>` + fotos.
+9. Tests locales.
 
 ## Aceptación
 

@@ -4,11 +4,12 @@ PlantGuide pays contributors in **MRG** through the MergeOS bounty program.
 
 ## Before you start
 
-1. Star https://github.com/mergeos-bounties/PlantGuide  
-2. Star https://github.com/mergeos-bounties/mergeos  
-3. Comment on the PlantGuide issue: `I claim this bounty`  
-4. Comment on MergeOS [Claim Token #1](https://github.com/mergeos-bounties/mergeos/issues/1) with the issue link  
-5. Open a PR to **PlantGuide** `master` (`Fixes #N`)
+1. **Follow** the org https://github.com/mergeos-bounties  
+2. **Star** https://github.com/mergeos-bounties/mergeos  
+3. **Star** https://github.com/mergeos-bounties/mergeos-contracts
+4. Comment on the PlantGuide issue: `I claim this bounty`  
+5. Comment on MergeOS [Claim Token #1](https://github.com/mergeos-bounties/mergeos/issues/1) with the issue link  
+6. Open a PR to **PlantGuide** `master` (`Fixes #N`)
 
 ### Full guides (all languages)
 

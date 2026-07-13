@@ -8,14 +8,15 @@
 
 ## ขั้นตอน
 
-1. Star PlantGuide และ mergeos
-2. Issue species-pack: https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack
-3. คอมเมนต์: `I claim this bounty`
-4. MergeOS #1 ด้วย
-5. ≥2 รูปต้นฉบับ
-6. PR species + sample
-7. `Fixes #<issue>` + รูป
-8. รันเทสต์
+1. **Follow** the org [mergeos-bounties](https://github.com/mergeos-bounties).
+2. **Star** [mergeos](https://github.com/mergeos-bounties/mergeos) and [mergeos-contracts](https://github.com/mergeos-bounties/mergeos-contracts).
+3. Issue species-pack: https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack
+4. คอมเมนต์: `I claim this bounty`
+5. MergeOS #1 ด้วย
+6. ≥2 รูปต้นฉบับ
+7. PR species + sample
+8. `Fixes #<issue>` + รูป
+9. รันเทสต์
 
 ## เกณฑ์รับ
 

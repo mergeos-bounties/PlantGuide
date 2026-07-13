@@ -8,12 +8,13 @@ Earn **MRG** by adding one plant species with original photos and a care card.
 
 ## Steps
 
-1. **Star** [PlantGuide](https://github.com/mergeos-bounties/PlantGuide) and [mergeos](https://github.com/mergeos-bounties/mergeos).
-2. Open a **species-pack** issue: https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack
-3. Comment on that issue: `I claim this bounty`
-4. Also comment on MergeOS [Claim Token #1](https://github.com/mergeos-bounties/mergeos/issues/1) with the issue link.
-5. Take **≥2 original photos** (whole plant + leaf/flower close-up). No stolen web images.
-6. Add files in a PR to **PlantGuide** `master`:
+1. **Follow** the org [mergeos-bounties](https://github.com/mergeos-bounties).
+2. **Star** [mergeos](https://github.com/mergeos-bounties/mergeos) and [mergeos-contracts](https://github.com/mergeos-bounties/mergeos-contracts).
+3. Open a **species-pack** issue: https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack
+4. Comment on that issue: `I claim this bounty`
+5. Also comment on MergeOS [Claim Token #1](https://github.com/mergeos-bounties/mergeos/issues/1) with the issue link.
+6. Take **≥2 original photos** (whole plant + leaf/flower close-up). No stolen web images.
+7. Add files in a PR to **PlantGuide** `master`:
    - `data/species/<id>.json` (tags + full care object)
    - `data/samples/obs_<id>.json` (`expected_species`, tags)
 7. PR body: `Fixes #<issue>` + link photos + consent note.

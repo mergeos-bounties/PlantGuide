@@ -66,10 +66,12 @@ const footer = `
 
 ## Claim (MergeOS MRG)
 
-1. Star https://github.com/mergeos-bounties/PlantGuide and https://github.com/mergeos-bounties/mergeos  
-2. Comment on **this issue**: \`I claim this bounty\`  
-3. Comment on MergeOS [Claim Token #1](https://github.com/mergeos-bounties/mergeos/issues/1) with a link to this issue  
-4. Open a PR to **PlantGuide** (public product repo) with \`Fixes #<this-issue>\`
+1. Follow https://github.com/mergeos-bounties  
+2. Star https://github.com/mergeos-bounties/mergeos  
+3. Star https://github.com/mergeos-bounties/mergeos-contracts
+4. Comment on **this issue**: \`I claim this bounty\`  
+5. Comment on MergeOS [Claim Token #1](https://github.com/mergeos-bounties/mergeos/issues/1) with a link to this issue  
+6. Open a PR to **PlantGuide** (public product repo) with \`Fixes #<this-issue>\`
 
 Policy: [docs/BOUNTY.md](../blob/master/docs/BOUNTY.md)
 

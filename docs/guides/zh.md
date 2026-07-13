@@ -8,14 +8,15 @@
 
 ## 步骤
 
-1. **Star** PlantGuide 与 mergeos。
-2. 选择 **species-pack** issue：https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack
-3. 评论：`I claim this bounty`
-4. 在 MergeOS Claim Token #1 评论并附 issue 链接。
-5. 拍摄 **≥2 张原创照片**（整株 + 叶/花特写）。
-6. PR 添加 `data/species/<id>.json` 与 `data/samples/obs_<id>.json`。
-7. 写 `Fixes #<issue>` 并附照片。
-8. 本地运行测试与 ruff。
+1. **Follow** 组织 [mergeos-bounties](https://github.com/mergeos-bounties)。
+2. **Star** [mergeos](https://github.com/mergeos-bounties/mergeos) 和 [mergeos-contracts](https://github.com/mergeos-bounties/mergeos-contracts)。
+3. 选择 **species-pack** issue：https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Aspecies-pack
+4. 评论：`I claim this bounty`
+5. 在 MergeOS Claim Token #1 评论并附 issue 链接。
+6. 拍摄 **≥2 张原创照片**（整株 + 叶/花特写）。
+7. PR 添加 `data/species/<id>.json` 与 `data/samples/obs_<id>.json`。
+8. 写 `Fixes #<issue>` 并附照片。
+9. 本地运行测试与 ruff。
 
 ## 验收标准
 
