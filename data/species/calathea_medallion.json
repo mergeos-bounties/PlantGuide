@@ -1,0 +1,33 @@
+{
+  "id": "calathea_medallion",
+  "common_name": "Calathea Medallion",
+  "scientific_name": "Goeppertia veitchiana",
+  "tags": [
+    "prayer plant",
+    "striped",
+    "tropical",
+    "humidity",
+    "indoor",
+    "patterned leaves"
+  ],
+  "care": {
+    "summary": "Showy patterned foliage that folds at night; loves humidity and filtered light.",
+    "light": "Medium to bright indirect; no direct sun",
+    "water": "Keep evenly moist with soft water when possible",
+    "soil": "Airy peat-free mix with perlite",
+    "humidity": "High",
+    "temperature_c": "18-26",
+    "fertilizer": "Half-strength monthly in growing season",
+    "toxicity": "Non-toxic to pets (generally)",
+    "common_issues": [
+      "Crispy edges from dry air",
+      "Browning from hard water",
+      "Spider mites"
+    ],
+    "tips": [
+      "Group with other plants",
+      "Avoid cold drafts",
+      "Wipe leaves gently"
+    ]
+  }
+}
