@@ -4,18 +4,19 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "plantguide"
-version = "0.1.13"
-description = "PlantGuide: plant species identification and per-species care guidance"
+version = "0.2.0"
+description = "PlantGuide: photo/tag plant ID + per-species care cards (offline demo vision)"
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [{ name = "MergeOS / ThanhTrucSolutions" }]
-keywords = ["plants", "botany", "identification", "care", "gardening", "ml"]
+keywords = ["plants", "botany", "identification", "care", "gardening", "vision", "photo"]
 dependencies = [
   "typer>=0.12",
   "rich>=13.7",
   "pydantic>=2.6",
   "numpy>=1.26",
+  "Pillow>=10.0",
 ]
 
 [project.optional-dependencies]

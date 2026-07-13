@@ -19,5 +19,6 @@ def data_dir() -> Path:
 
 SPECIES_DIR = data_dir() / "species"
 SAMPLES_DIR = data_dir() / "samples"
+PHOTOS_DIR = SAMPLES_DIR / "photos"
 OUT_DIR = data_dir() / "out"
 RUNS_DIR = data_dir() / "runs"

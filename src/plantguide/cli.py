@@ -13,24 +13,30 @@ from plantguide import __version__
 from plantguide.care.cards import care_card_for_species, watering_hint
 from plantguide.collection import add_plant, due_soon, list_plants
 from plantguide.data.loader import list_species_files, load_species
-from plantguide.identify.pipeline import identify_from_sample, identify_from_tags
+from plantguide.identify.pipeline import (
+    identify_from_image,
+    identify_from_sample,
+    identify_from_tags,
+)
 from plantguide.integrations.sdk import care_report_from_sample, care_report_from_tags
 from plantguide.train.toy_train import train_toy
 
 app = typer.Typer(
-    help="PlantGuide — plant identification and species care guidance.",
+    help="PlantGuide — photo/tag plant ID + species care guidance.",
     no_args_is_help=True,
 )
 species_app = typer.Typer(help="Species catalog")
-identify_app = typer.Typer(help="Identify plants from traits/tags")
+identify_app = typer.Typer(help="Identify plants from photo, tags, or sample JSON")
 care_app = typer.Typer(help="Care guidance")
 app_app = typer.Typer(help="App embedding demos")
 train_app = typer.Typer(help="Training / calibration")
+demo_app = typer.Typer(help="End-to-end demos (photo ID + care)")
 app.add_typer(species_app, name="species")
 app.add_typer(identify_app, name="identify")
 app.add_typer(care_app, name="care")
 app.add_typer(app_app, name="app")
 app.add_typer(train_app, name="train")
+app.add_typer(demo_app, name="demo")
 collection_app = typer.Typer(help="User plant collection")
 app.add_typer(collection_app, name="collection")
 console = Console()
@@ -40,6 +46,11 @@ console = Console()
 def version_cmd() -> None:
     console.print(f"PlantGuide {__version__}")
     console.print(f"Species in catalog: {len(list_species_files())}")
+    from plantguide.identify.vision import list_demo_photos
+
+    photos = list_demo_photos()
+    ready = sum(1 for p in photos if p.get("exists"))
+    console.print(f"Demo plant photos: {ready}/{len(photos)}")
 
 
 @species_app.command("list")
@@ -73,6 +84,134 @@ def identify_sample(
     top: int = typer.Option(3, "--top", "-k", min=1, max=20),
 ) -> None:
     console.print_json(data=identify_from_sample(file, top_k=top))
+
+
+@identify_app.command("image")
+def identify_image_cmd(
+    image: Path = typer.Option(
+        ...,
+        "--image",
+        "-i",
+        exists=True,
+        dir_okay=False,
+        help="Plant photo (JPG/PNG). Demo photos under data/samples/photos/",
+    ),
+    top: int = typer.Option(3, "--top", "-k", min=1, max=20),
+    no_care: bool = typer.Option(False, "--no-care", help="Skip care card in result"),
+) -> None:
+    """Identify a plant from a photo (offline visual tags + catalog match)."""
+    try:
+        data = identify_from_image(image, top_k=top, with_care=not no_care)
+    except Exception as exc:  # noqa: BLE001
+        console.print(f"[red]{exc}[/red]")
+        raise typer.Exit(code=1) from exc
+    # Friendly human summary + full JSON
+    matches = data.get("matches") or []
+    if matches:
+        top_m = matches[0]
+        console.print(
+            f"[bold green]Top match:[/bold green] {top_m.get('common_name')} "
+            f"({top_m.get('species_id')})  score={top_m.get('score')}"
+        )
+        if data.get("top_care"):
+            care = data["top_care"]
+            console.print(f"[cyan]Care summary:[/cyan] {care.get('summary')}")
+            console.print(f"  light: {care.get('light')}")
+            console.print(f"  water: {care.get('water')}")
+    console.print_json(data=data)
+
+
+@demo_app.command("photo")
+def demo_photo_cmd(
+    image: Path | None = typer.Option(
+        None,
+        "--image",
+        "-i",
+        exists=True,
+        dir_okay=False,
+        help="Optional photo; default uses bundled data/samples/photos/",
+    ),
+    out: Path | None = typer.Option(None, "--out", "-o", help="Write full report JSON"),
+    svg: bool = typer.Option(True, "--svg/--no-svg", help="Also write SVG care card"),
+) -> None:
+    """End-to-end demo: plant photo → species ID → care + watering (+ SVG)."""
+    from plantguide.care.export_svg import write_care_svg
+    from plantguide.config import OUT_DIR
+    from plantguide.identify.vision import list_demo_photos, photo_care_demo
+
+    try:
+        report = photo_care_demo(image, top_k=3)
+    except FileNotFoundError as exc:
+        console.print(f"[red]{exc}[/red]")
+        console.print("[yellow]Generate fixtures:[/yellow] python scripts/generate_demo_photos.py")
+        raise typer.Exit(code=1) from exc
+    except Exception as exc:  # noqa: BLE001
+        console.print(f"[red]{exc}[/red]")
+        raise typer.Exit(code=1) from exc
+
+    species_id = report.get("species_id")
+    console.print("[bold]PlantGuide photo demo[/bold]")
+    console.print(f"  image:   {report.get('image')}")
+    console.print(f"  species: {report.get('common_name')} ({species_id})")
+    idn = report.get("identify") or {}
+    if idn.get("hit_top1") is not None:
+        console.print(f"  hit@1:   {idn.get('hit_top1')} (expected {idn.get('expected_species')})")
+    care = report.get("care") or {}
+    if care:
+        console.print(f"  light:   {care.get('light')}")
+        console.print(f"  water:   {care.get('water')}")
+        console.print(f"  soil:    {care.get('soil')}")
+        tips = care.get("tips") or []
+        if tips:
+            console.print(f"  tip:     {tips[0]}")
+    water = report.get("watering") or {}
+    if water:
+        console.print(f"  season:  {water.get('seasonal_note')}")
+
+    svg_path = None
+    if svg and species_id:
+        OUT_DIR.mkdir(parents=True, exist_ok=True)
+        svg_path = OUT_DIR / f"{species_id}-care.svg"
+        try:
+            write_care_svg(str(species_id), svg_path)
+            console.print(f"[green]SVG care card[/green] {svg_path}")
+            report["care_svg"] = str(svg_path)
+        except Exception as exc:  # noqa: BLE001
+            console.print(f"[yellow]SVG skipped:[/yellow] {exc}")
+
+    if out:
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+        console.print(f"[green]Report[/green] {out}")
+    else:
+        console.print_json(data=report)
+
+    # List other demo photos
+    others = [p for p in list_demo_photos() if p.get("exists")]
+    if others:
+        console.print("[dim]Other demo photos:[/dim] " + ", ".join(p["file"] for p in others))
+
+
+@demo_app.command("photos")
+def demo_photos_list() -> None:
+    """List bundled plant photos for the photo-ID demo."""
+    from plantguide.identify.vision import list_demo_photos
+
+    photos = list_demo_photos()
+    if not photos:
+        console.print("[yellow]No photos. Run: python scripts/generate_demo_photos.py[/yellow]")
+        raise typer.Exit(code=1)
+    table = Table(title="Demo plant photos")
+    table.add_column("File")
+    table.add_column("Expected species")
+    table.add_column("Ready")
+    for p in photos:
+        table.add_row(
+            str(p.get("file")),
+            str(p.get("expected_species")),
+            "yes" if p.get("exists") else "missing",
+        )
+    console.print(table)
 
 
 @care_app.command("show")

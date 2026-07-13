@@ -21,6 +21,7 @@ def identify_from_tags(tags: str | list[str], top_k: int = 3, with_care: bool = 
     if with_care and matches:
         top = matches[0]
         result["top_care"] = care_card_for_species(str(top["species_id"]))
+        result["top_species_id"] = top.get("species_id")
     return result
 
 
@@ -35,3 +36,10 @@ def identify_from_sample(path: Path, top_k: int = 3) -> dict:
         result["expected_species"] = expected
         result["hit_top1"] = top_id == str(expected).lower()
     return result
+
+
+def identify_from_image(path: Path, top_k: int = 3, with_care: bool = True) -> dict:
+    """Photo → tags → species ranking + care card (offline demo vision)."""
+    from plantguide.identify.vision import identify_from_image as _from_image
+
+    return _from_image(path, top_k=top_k, with_care=with_care)

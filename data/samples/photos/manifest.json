@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "photos": [
+    {
+      "file": "monstera_demo.jpg",
+      "expected_species": "monstera_deliciosa",
+      "tags": [
+        "tropical",
+        "fenestrated leaves",
+        "climbing",
+        "indoor",
+        "large leaves",
+        "aroid"
+      ],
+      "label": "Monstera Deliciosa",
+      "license": "synthetic-generated-offline"
+    },
+    {
+      "file": "snake_demo.jpg",
+      "expected_species": "snake_plant",
+      "tags": [
+        "succulent",
+        "upright",
+        "thick leaves",
+        "drought",
+        "indoor",
+        "low light"
+      ],
+      "label": "Snake Plant",
+      "license": "synthetic-generated-offline"
+    },
+    {
+      "file": "pothos_demo.jpg",
+      "expected_species": "pothos_golden",
+      "tags": [
+        "trailing",
+        "variegated",
+        "indoor",
+        "vining",
+        "heart shaped leaves",
+        "easy"
+      ],
+      "label": "Pothos Golden",
+      "license": "synthetic-generated-offline"
+    },
+    {
+      "file": "aloe_demo.jpg",
+      "expected_species": "aloe_vera",
+      "tags": [
+        "succulent",
+        "thick leaves",
+        "spiky",
+        "drought",
+        "medicinal gel"
+      ],
+      "label": "Aloe Vera",
+      "license": "synthetic-generated-offline"
+    },
+    {
+      "file": "peace_demo.jpg",
+      "expected_species": "peace_lily",
+      "tags": [
+        "indoor",
+        "white flowers",
+        "dark green leaves",
+        "shade tolerant",
+        "humidity loving"
+      ],
+      "label": "Peace Lily",
+      "license": "synthetic-generated-offline"
+    }
+  ]
+}
