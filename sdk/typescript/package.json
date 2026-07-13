@@ -1,0 +1,21 @@
+{
+  "name": "@plantguide/sdk-typescript",
+  "version": "0.1.0",
+  "description": "TypeScript type contracts + helpers for the PlantGuide SDK payload (mirrors Python plantguide.integrations.sdk).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/index.test.js"
+  },
+  "keywords": ["plantguide", "plants", "mcp", "sdk"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.10.0"
+  }
+}

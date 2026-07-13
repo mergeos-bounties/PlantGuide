@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mergeos-bounties.github.io/PlantGuide/schemas/observation.schema.json",
+  "title": "PlantGuide Observation (sample)",
+  "description": "Bundled observation sample used by identify_from_sample(). Matches data/samples/obs_*.json on disk.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "tags"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$",
+      "description": "Stable identifier for the observation (matches on-disk filename without .json)."
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true,
+      "description": "Free-form tags (lowercased, de-duped before matching)."
+    },
+    "expected_species": {
+      "type": "string",
+      "description": "Optional: the species id this sample is expected to resolve to (for tests/calibration).",
+      "pattern": "^[a-z0-9_]+$"
+    }
+  }
+}

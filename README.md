@@ -252,6 +252,58 @@ Star → claim issue → PR to **master** → MRG **25–200**.
 Photo/vision upgrades, more species packs, and real image models welcome.  
 See [mergeos](https://github.com/mergeos-bounties/mergeos) and [docs/BOUNTY.md](docs/BOUNTY.md).
 
+
+
+---
+
+## Schemas & SDK contracts
+
+This repo publishes machine-readable schemas and TypeScript contracts
+that mirror the Python SDK exactly so partner apps (Node, browsers,
+edge workers) can consume PlantGuide payloads without reverse-engineering.
+
+### `schemas/`
+
+JSON Schema (Draft 2020-12) for the four core payload shapes:
+
+| Schema                              | Mirrors Python                                              |
+|-------------------------------------|-------------------------------------------------------------|
+| `schemas/species.schema.json`       | `data/species/*.json`                                       |
+| `schemas/observation.schema.json`   | `data/samples/obs_*.json`                                   |
+| `schemas/care_card.schema.json`     | `plantguide.care.cards.care_card_for_species()`             |
+| `schemas/identify_response.schema.json` | `plantguide.integrations.sdk.assess_for_app()`         |
+
+Validate locally:
+
+```bash
+pip install jsonschema
+pytest tests/test_schemas.py
+```
+
+### `sdk/typescript/`
+
+A zero-dependency TypeScript port of the SDK contract. Compile and test:
+
+```bash
+cd sdk/typescript
+npm install
+npm run build
+npm test
+```
+
+The test suite re-validates against the bundled `data/species/*.json`
+and `data/samples/obs_*.json` fixtures, so the TS contracts stay in
+lockstep with the Python source.
+
+### Adding a new payload shape
+
+1. Add the schema under `schemas/<name>.schema.json`.
+2. Add a matching Python helper under `src/plantguide/` (or extend
+   `integrations/sdk.py`).
+3. Add the matching TS interface in `sdk/typescript/src/index.ts`.
+4. Extend `tests/test_schemas.py` to validate the new shape against
+   a real Python builder call.
+
 ---
 
 ## License

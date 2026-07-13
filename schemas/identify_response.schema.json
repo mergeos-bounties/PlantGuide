@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mergeos-bounties.github.io/PlantGuide/schemas/identify_response.schema.json",
+  "title": "PlantGuide Identify Response",
+  "description": "Returned by identify_from_tags() and identify_from_sample(). matches[0] is the top guess. top_care is filled when with_care=True.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["matches"],
+  "properties": {
+    "matches": {
+      "type": "array",
+      "description": "Ranked matches, descending score, capped at top_k.",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": ["species_id", "common_name", "score"],
+        "properties": {
+          "species_id":       { "type": "string" },
+          "common_name":      { "type": "string" },
+          "scientific_name":  { "type": "string" },
+          "score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Match score in [0, 1]."
+          },
+          "matched_tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "top_care": {
+      "description": "Convenience: care card for matches[0]. Present iff with_care=True and matches is non-empty.",
+      "type": "object", "additionalProperties": true, "required": ["species_id","common_name","scientific_name","summary","light","water","soil","humidity","temperature_c","fertilizer","toxicity","common_issues","tips"]
+    },
+    "integration_version": {
+      "type": "string",
+      "description": "Set by SDK assess_for_app() / care_for_app(). Identifies the SDK contract."
+    },
+    "ready_for_ui": {
+      "type": "boolean",
+      "description": "Set by SDK assess_for_app(). True means the payload can be consumed by a partner app without further transformation."
+    }
+  }
+}
