@@ -1,3 +1,3 @@
 """PlantGuide: plant identification and species care toolkit."""
 
-__version__ = "0.2.19"
+__version__ = "0.2.20"

@@ -1,0 +1,33 @@
+{
+  "id": "schefflera_arboricola",
+  "common_name": "Dwarf Umbrella Tree",
+  "scientific_name": "Schefflera arboricola",
+  "tags": [
+    "indoor",
+    "tree",
+    "foliage",
+    "easy",
+    "office",
+    "bright light"
+  ],
+  "care": {
+    "summary": "Bushy tropical with palmate leaflets; forgiving houseplant for bright rooms.",
+    "light": "Bright indirect; some morning sun ok",
+    "water": "Water when top inch is dry; avoid soggy soil",
+    "soil": "Standard well-draining potting mix",
+    "humidity": "Average to moderate",
+    "temperature_c": "16-27",
+    "fertilizer": "Monthly dilute feed in growing season",
+    "toxicity": "Mildly toxic if ingested",
+    "common_issues": [
+      "Leaf drop from sudden light/temp change",
+      "Scale insects on stems",
+      "Root rot from overwatering"
+    ],
+    "tips": [
+      "Rotate for even growth",
+      "Wipe leaves to remove dust",
+      "Prune to control height"
+    ]
+  }
+}
