@@ -1,0 +1,33 @@
+{
+  "id": "epipremnum_neon",
+  "common_name": "Neon Pothos",
+  "scientific_name": "Epipremnum aureum 'Neon'",
+  "tags": [
+    "trailing",
+    "indoor",
+    "easy",
+    "low light",
+    "vine",
+    "foliage"
+  ],
+  "care": {
+    "summary": "Bright chartreuse trailing vine that thrives in average indoor conditions with minimal fuss.",
+    "light": "Bright to medium indirect; avoid harsh midday sun",
+    "water": "Water when top inch is dry",
+    "soil": "Well-draining potting mix",
+    "humidity": "Average",
+    "temperature_c": "16-29",
+    "fertilizer": "Monthly dilute feed in growing season",
+    "toxicity": "Toxic if ingested",
+    "common_issues": [
+      "Yellow leaves from overwatering",
+      "Leggy vines in very low light",
+      "Brown tips from underwatering"
+    ],
+    "tips": [
+      "Propagates easily in water",
+      "Pinch tips for fuller growth",
+      "Great on shelves or hanging pots"
+    ]
+  }
+}
