@@ -1,0 +1,34 @@
+{
+  "id": "agave_americana",
+  "common_name": "Century Plant",
+  "scientific_name": "Agave americana",
+  "tags": [
+    "succulent",
+    "arid",
+    "drought tolerant",
+    "rosette",
+    "spiky",
+    "full sun",
+    "xeric"
+  ],
+  "care": {
+    "summary": "Large succulent rosette; extremely drought tolerant, needs full sun.",
+    "light": "Full sun to bright indirect",
+    "water": "Very infrequent; allow soil to dry completely between waterings",
+    "well_draining": true,
+    "soil": "Sandy, well-draining cactus mix",
+    "humidity": "Low",
+    "temperature_c": "10-35",
+    "fertilizer": "Rarely; balanced liquid once in spring",
+    "toxicity": "Sap can irritate skin; sharp spines",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Mealybugs in leaf axils"
+    ],
+    "tips": [
+      "Plant in ground in warm climates",
+      "Wear gloves when handling",
+      "Pups can be separated"
+    ]
+  }
+}
