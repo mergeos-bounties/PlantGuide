@@ -1,0 +1,37 @@
+{
+  "id": "snake_plant_laurentii",
+  "common_name": "Snake Plant Laurentii",
+  "scientific_name": "Dracaena trifasciata Laurentii",
+  "tags": [
+    "yellow margins",
+    "upright",
+    "drought",
+    "indoor",
+    "succulent",
+    "low light tolerant",
+    "easy care"
+  ],
+  "care": {
+    "summary": "A striking variegated snake plant with tall, sword-shaped leaves edged in yellow. Extremely low-maintenance and drought-tolerant.",
+    "light": "Bright indirect to low light. Variegation is best maintained in bright indirect light; too little light may cause the yellow margins to fade.",
+    "water": "Allow soil to dry completely between waterings. Water sparingly, every 2-6 weeks depending on season and light. Overwatering is the most common cause of failure.",
+    "soil": "Well-draining cactus or succulent mix. Add perlite or coarse sand to improve drainage.",
+    "humidity": "Average household humidity is fine; tolerates dry air.",
+    "temperature_c": {
+      "min": 15,
+      "max": 30,
+      "optimal": 21
+    },
+    "fertilizer": "Feed a balanced liquid fertilizer diluted to half strength once a month during spring and summer. Do not fertilize in winter.",
+    "toxicity": "Mildly toxic if ingested; keep away from pets and children. May cause nausea, vomiting, or diarrhea.",
+    "common_issues": [
+      "Root rot from overwatering (yellowing, mushy leaves)",
+      "Mealybugs (white cottony masses on leaves)",
+      "Spider mites (fine webbing and stippling)",
+      "Fading variegation due to insufficient light",
+      "Leaf curling or browning tips from underwatering or low humidity"
+    ],
+    "tips": [
+      "Use a pot with drainage holes and avoid letting the plant sit in water.",
+      "Wipe leaves occasionally to remove dust and keep pores open.",
+      "Rotate the plant every few months for even growth.",

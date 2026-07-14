@@ -1,0 +1,31 @@
+{
+  "id": "pothos_njoy",
+  "common_name": "N'Joy Pothos",
+  "scientific_name": "Epipremnum aureum 'N'Joy'",
+  "tags": [
+    "white green variegation",
+    "compact trailing",
+    "indoor",
+    "low light tolerant",
+    "easy care",
+    "trailing plant",
+    "variegated"
+  ],
+  "care": {
+    "summary": "A compact, variegated pothos cultivar with white and green leaves. Thrives in bright indirect light but tolerates low light; allow soil to dry between waterings.",
+    "light": "Bright indirect to low light; avoid direct sun",
+    "water": "Water when top inch of soil is dry; reduce in winter",
+    "soil": "Well-draining potting mix with perlite or orchid bark",
+    "humidity": "Average household humidity (40-60%)",
+    "temperature_c": {"min": 18, "max": 30},
+    "fertilizer": "Balanced liquid fertilizer monthly during spring and summer",
+    "toxicity": "Toxic to pets if ingested (contains calcium oxalate crystals)",
+    "common_issues": [
+      "Overwatering leads to root rot",
+      "Loss of variegation in very low light"
+    ],
+    "tips": [
+      "Prune trailing stems to encourage bushier growth",
+      "Provide bright indirect light to maintain white variegation"
+    ]
+  }
