@@ -1,0 +1,34 @@
+{
+  "id": "monstera_albo",
+  "common_name": "Monstera Albo",
+  "scientific_name": "Monstera deliciosa 'Albo Variegata'",
+  "tags": [
+    "tropical",
+    "variegated",
+    "climbing",
+    "indoor",
+    "air purifier",
+    "high light"
+  ],
+  "care": {
+    "summary": "Rare variegated Monstera with white and green leaves; needs bright indirect light.",
+    "light": "Bright indirect light (no direct sun)",
+    "water": "Weekly, allow top inch to dry",
+    "well_draining": true,
+    "soil": "Chunky aroid mix",
+    "humidity": "High (60%+)",
+    "temperature_c": "18-27",
+    "fertilizer": "Monthly during growing season",
+    "toxicity": "Toxic to cats and dogs",
+    "common_issues": [
+      "Brown variegated spots",
+      "Root rot from overwatering",
+      "Loss of variegation in low light"
+    ],
+    "tips": [
+      "Provide moss pole for climbing",
+      "Wipe leaves regularly",
+      "Propagation via stem cuttings"
+    ]
+  }
+}
