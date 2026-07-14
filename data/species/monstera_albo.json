@@ -1,0 +1,36 @@
+{
+  "id": "monstera_albo",
+  "common_name": "Monstera Albo (variegated)",
+  "scientific_name": "Monstera deliciosa var. albo-variegata",
+  "tags": [
+    "white variegation",
+    "fenestrated",
+    "climbing",
+    "collector",
+    "aroid",
+    "variegated",
+    "rare"
+  ],
+  "care": {
+    "summary": "A stunning variegated Monstera with white patches on dark green leaves. Highly sought-after collector aroid that requires bright indirect light and high humidity to maintain its variegation.",
+    "light": "Bright, indirect light. Direct sun can burn the white parts of the leaves. Lower light may cause loss of variegation.",
+    "water": "Water when the top 2-3 inches of soil feel dry. Reduce watering in winter. Ensure pot has drainage.",
+    "soil": "Well-draining aroid mix: peat or coco coir, perlite, and orchid bark. Avoid heavy, water-retentive soil.",
+    "humidity": "High humidity (60% or higher). Use a humidifier, pebble tray, or group with other plants. Brown leaf edges indicate low humidity.",
+    "temperature_c": "18-27",
+    "fertilizer": "Balanced liquid fertilizer (e.g., 20-20-20) diluted to half strength every 4 weeks during spring and summer. Do not fertilize in winter.",
+    "toxicity": "Toxic to pets and humans if ingested. Contains insoluble calcium oxalate crystals. Keep out of reach of children and animals.",
+    "common_issues": [
+      "Leaf browning or crispy edges due to low humidity or underwatering",
+      "Loss of variegation (reverting to all green) from insufficient light",
+      "Root rot from overwatering or poor drainage",
+      "Mealybugs and spider mites in dry indoor air"
+    ],
+    "tips": [
+      "Use a moss pole or trellis to support climbing growth; larger leaves develop as it climbs",
+      "Wipe leaves gently with a damp cloth to remove dust and prevent pest buildup",
+      "Rotate the plant every few weeks to ensure even light exposure",
+      "Prune any fully green leaves to encourage variegated growth"
+    ]
+  }
+}
