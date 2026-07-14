@@ -3,29 +3,31 @@
   "common_name": "Spider Plant",
   "scientific_name": "Chlorophytum comosum",
   "tags": [
-    "indoor",
-    "arching leaves",
-    "plantlets",
-    "variegated",
+    "spider",
+    "arching",
+    "striped",
+    "air purifying",
     "easy",
-    "hanging"
+    "indoor",
+    "pups",
+    "beginner"
   ],
   "care": {
-    "summary": "Arching leaves with baby plantlets; easy hanging plant.",
-    "light": "Bright indirect to medium",
-    "water": "Keep lightly moist; reduce in winter",
-    "soil": "Standard potting mix",
-    "humidity": "Average",
-    "temperature_c": "15-27",
-    "fertilizer": "Monthly dilute in growth season",
-    "toxicity": "Generally considered pet-safe",
+    "summary": "Easy arching houseplant with striped leaves and hanging pups.",
+    "light": "Bright indirect; tolerates medium light",
+    "water": "When top soil dries; avoid soggy crown",
+    "soil": "Well-draining potting mix",
+    "humidity": "Average to high",
+    "temperature_c": "15-28",
+    "fertilizer": "Monthly spring–summer",
+    "toxicity": "Non-toxic to cats/dogs (generally)",
     "common_issues": [
-      "Brown tips from fluoride",
-      "Pale leaves need more light"
+      "Brown tips from fluoride/salt",
+      "Root bound pots"
     ],
     "tips": [
-      "Propagate plantlets in water",
-      "Use filtered water if tips brown"
+      "Propagate pups in water",
+      "Flush soil occasionally"
     ]
   }
 }
