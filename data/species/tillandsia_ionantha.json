@@ -1,0 +1,34 @@
+{
+  "id": "tillandsia_ionantha",
+  "common_name": "Air Plant (Ionantha)",
+  "scientific_name": "Tillandsia ionantha",
+  "tags": [
+    "air plant",
+    "epiphyte",
+    "no soil",
+    "bromeliad",
+    "xerophyte",
+    "bright light",
+    "mount"
+  ],
+  "care": {
+    "summary": "Soil-free bromeliad; soak weekly and dry fully between waterings.",
+    "light": "Bright indirect to morning sun",
+    "water": "Soak 20–30 min weekly; shake dry",
+    "soil": "None — mount or display dry",
+    "humidity": "Average to high",
+    "temperature_c": "15-30",
+    "fertilizer": "Very dilute orchid feed monthly in warm season",
+    "toxicity": "Non-toxic",
+    "common_issues": [
+      "Rot if stays wet in crown",
+      "Bleach from harsh midday sun",
+      "Failure to dry after soak"
+    ],
+    "tips": [
+      "Good airflow is essential",
+      "Mist between soaks in dry climates",
+      "Bloom once then pup"
+    ]
+  }
+}
