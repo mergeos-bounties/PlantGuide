@@ -1,0 +1,33 @@
+{
+  "id": "tradescantia_zebrina",
+  "common_name": "Inch Plant / Wandering Jew",
+  "scientific_name": "Tradescantia zebrina",
+  "tags": [
+    "trailing",
+    "indoor",
+    "fast grower",
+    "foliage",
+    "purple",
+    "easy"
+  ],
+  "care": {
+    "summary": "Fast trailing vine with silver-purple striped leaves; excellent hanging basket plant.",
+    "light": "Bright indirect; color fades in deep shade",
+    "water": "Keep lightly moist; dry slightly between waterings",
+    "soil": "Peaty, well-draining mix",
+    "humidity": "Average to high",
+    "temperature_c": "15-27",
+    "fertilizer": "Half-strength monthly in growing season",
+    "toxicity": "Mildly toxic if ingested; sap may irritate skin",
+    "common_issues": [
+      "Leggy growth in low light",
+      "Root rot from soggy soil",
+      "Faded stripes without enough light"
+    ],
+    "tips": [
+      "Pinch tips to encourage bushiness",
+      "Propagates easily from stem cuttings in water",
+      "Rotate hanging pot for even growth"
+    ]
+  }
+}
