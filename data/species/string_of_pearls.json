@@ -5,29 +5,29 @@
   "tags": [
     "succulent",
     "trailing",
-    "hanging",
     "beads",
-    "drought",
-    "indoor"
+    "hanging",
+    "bright light",
+    "drought tolerant",
+    "indoor",
+    "unique"
   ],
   "care": {
-    "summary": "Trailing succulent with bead-like leaves; prefers bright light and dry-ish soil.",
-    "light": "Bright indirect to some direct sun",
-    "water": "Soak and dry; water sparingly in winter",
-    "soil": "Gritty cactus/succulent mix",
+    "summary": "Trailing succulent with bead-like leaves; bright light and careful watering.",
+    "light": "Bright indirect to some direct morning sun",
+    "water": "When pearls look slightly deflated; avoid soggy soil",
+    "soil": "Gritty cactus mix",
     "humidity": "Low to average",
-    "temperature_c": "15-26",
-    "fertilizer": "Light feed monthly in growing season",
+    "temperature_c": "18-28",
+    "fertilizer": "Dilute monthly in growing season",
     "toxicity": "Toxic if ingested",
     "common_issues": [
-      "Shrivelled pearls from underwatering",
-      "Rot from soggy soil",
-      "Stretching in low light"
+      "Root rot from overwatering",
+      "Etiolation in low light"
     ],
     "tips": [
-      "Hang in a bright window",
-      "Avoid misting beads",
-      "Propagate stem cuttings easily"
+      "Hang near a bright window",
+      "Propagate from pearl strands"
     ]
   }
 }
