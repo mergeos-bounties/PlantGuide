@@ -30,5 +30,8 @@
       "Wipe leaves for dust",
       "Provide a trellis for climbing"
     ]
-  }
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

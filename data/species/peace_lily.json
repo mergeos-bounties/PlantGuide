@@ -31,5 +31,8 @@
       "Use filtered water if tips brown",
       "Repot when root-bound"
     ]
-  }
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

@@ -27,5 +27,9 @@
       "Pinch flowers to keep leaves tender",
       "Harvest from the top"
     ]
-  }
+  },
+  "toxicity": [
+    "pet_safe",
+    "edible"
+  ]
 }

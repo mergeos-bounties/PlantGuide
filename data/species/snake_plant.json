@@ -16,11 +16,11 @@
   "care": {
     "summary": "Hardy upright succulent that thrives on neglect; ideal for low light and infrequent watering.",
     "light": "Low to bright indirect; tolerates fluorescent office light",
-    "water": "Every 2–4 weeks; let soil dry fully between waterings",
+    "water": "Every 2\u20134 weeks; let soil dry fully between waterings",
     "soil": "Fast-draining cactus/succulent mix",
     "humidity": "Low to medium",
     "temperature_c": "15-30",
-    "fertilizer": "Light feed 2–3× per year in warm months",
+    "fertilizer": "Light feed 2\u20133\u00d7 per year in warm months",
     "toxicity": "Mildly toxic if ingested (pets)",
     "common_issues": [
       "Root rot from overwatering",
@@ -32,5 +32,8 @@
       "Wipe leaves to keep stomata clear",
       "Propagate leaf cuttings in water or soil"
     ]
-  }
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

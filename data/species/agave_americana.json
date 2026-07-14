@@ -30,5 +30,8 @@
       "Wear gloves when handling",
       "Pups can be separated"
     ]
-  }
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }
