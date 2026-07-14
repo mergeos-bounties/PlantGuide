@@ -1,0 +1,34 @@
+{
+  "id": "yucca_elephantipes",
+  "common_name": "Spineless Yucca",
+  "scientific_name": "Yucca elephantipes",
+  "tags": [
+    "succulent",
+    "arid",
+    "drought tolerant",
+    "tree-like",
+    "sword-shaped leaves",
+    "full sun",
+    "xeric"
+  ],
+  "care": {
+    "summary": "Tree-like succulent with sword-shaped leaves; very low maintenance.",
+    "light": "Full sun to partial shade",
+    "water": "Infrequent; drought tolerant once established",
+    "well_draining": true,
+    "soil": "Well-draining, sandy soil",
+    "humidity": "Low to average",
+    "temperature_c": "10-30",
+    "fertilizer": "Light; balanced fertilizer in spring",
+    "toxicity": "Mildly toxic to pets if ingested",
+    "common_issues": [
+      "Brown leaf tips from low humidity",
+      "Pest issues indoors (spider mites)"
+    ],
+    "tips": [
+      "Can tolerate some shade outdoors",
+      "Wipe leaves to prevent dust buildup",
+      "Prune dead leaves at base"
+    ]
+  }
+}
