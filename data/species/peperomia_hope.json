@@ -1,0 +1,33 @@
+{
+  "id": "peperomia_hope",
+  "common_name": "Peperomia Hope",
+  "scientific_name": "Peperomia tetraphylla 'Hope'",
+  "tags": [
+    "houseplant",
+    "trailing",
+    "low light tolerant",
+    "succulent-like",
+    "pet-safe-ish",
+    "windowsill"
+  ],
+  "care": {
+    "summary": "Compact trailing peperomia with round stacked leaves; thrives on bright indirect light and restrained watering.",
+    "light": "Bright indirect; tolerates medium light",
+    "water": "Water when top 2–3 cm dry; avoid soggy soil",
+    "soil": "Airy peat-free mix with perlite",
+    "humidity": "Average home humidity",
+    "temperature_c": "16-28",
+    "fertilizer": "Half-strength monthly in growing season",
+    "toxicity": "Generally considered non-toxic to pets (confirm locally)",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Dropped leaves in cold drafts",
+      "Stretching in deep shade"
+    ],
+    "tips": [
+      "Great hanging pot or shelf trailer",
+      "Let pot dry more than a fern would",
+      "Wipe leaves to keep photosynthesizing"
+    ]
+  }
+}
