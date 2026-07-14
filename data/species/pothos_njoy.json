@@ -1,0 +1,35 @@
+{
+  "id": "pothos_njoy",
+  "common_name": "N Joy Pothos",
+  "scientific_name": "Epipremnum aureum N Joy",
+  "tags": [
+    "trailing",
+    "vine",
+    "variegated",
+    "low light tolerant",
+    "air purifier",
+    "beginner friendly",
+    "indoor"
+  ],
+  "care": {
+    "summary": "Trailing vine with white and green variegated leaves; very easy to care for.",
+    "light": "Low to bright indirect light",
+    "water": "Allow top inch to dry between waterings",
+    "well_draining": true,
+    "soil": "Well-draining potting mix",
+    "humidity": "Average to high",
+    "temperature_c": "15-30",
+    "fertilizer": "Monthly during growing season",
+    "toxicity": "Toxic to cats and dogs",
+    "common_issues": [
+      "Brown tips from dry air",
+      "Yellow leaves from overwatering",
+      "Loss of variegation in low light"
+    ],
+    "tips": [
+      "Trim to encourage bushier growth",
+      "Propagate easily in water",
+      "Wipe leaves to remove dust"
+    ]
+  }
+}
