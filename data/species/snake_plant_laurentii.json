@@ -1,0 +1,33 @@
+{
+  "id": "snake_plant_laurentii",
+  "common_name": "Snake Plant Laurentii",
+  "scientific_name": "Dracaena trifasciata 'Laurentii'",
+  "tags": [
+    "succulent",
+    "air purifier",
+    "low light tolerant",
+    "drought tolerant",
+    "indoor",
+    "beginner friendly"
+  ],
+  "care": {
+    "summary": "Hardy succulent with yellow-edged leaves; nearly indestructible.",
+    "light": "Low to bright indirect light",
+    "water": "Every 2-3 weeks, allow to dry completely",
+    "well_draining": true,
+    "soil": "Cactus/succulent mix",
+    "humidity": "Low to average",
+    "temperature_c": "10-30",
+    "fertilizer": "Rarely; once in spring",
+    "toxicity": "Mildly toxic to pets",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Mushy leaves"
+    ],
+    "tips": [
+      "Perfect for beginners",
+      "Great air purifier",
+      "Tolerates neglect"
+    ]
+  }
+}
