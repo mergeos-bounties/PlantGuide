@@ -1,0 +1,33 @@
+{
+  "id": "chlorophytum_comosum",
+  "common_name": "Spider Plant",
+  "scientific_name": "Chlorophytum comosum",
+  "tags": [
+    "trailing",
+    "indoor",
+    "air purifying",
+    "easy",
+    "pups",
+    "pet-safe"
+  ],
+  "care": {
+    "summary": "Arching variegated leaves that produce hanging plantlets; classic easy houseplant.",
+    "light": "Bright indirect; tolerates medium light",
+    "water": "Water when top inch is dry; avoid constant wetness",
+    "soil": "Well-draining potting mix",
+    "humidity": "Average",
+    "temperature_c": "15-27",
+    "fertilizer": "Monthly dilute feed in spring/summer",
+    "toxicity": "Non-toxic to pets",
+    "common_issues": [
+      "Brown tips from fluoride or dry air",
+      "Pale leaves in deep shade",
+      "Root bound pots slow growth"
+    ],
+    "tips": [
+      "Plantlets root easily in water or soil",
+      "Repot every 1–2 years",
+      "Great in hanging baskets"
+    ]
+  }
+}
