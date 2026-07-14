@@ -27,5 +27,8 @@
       "Use a terracotta pot",
       "Pups can be divided"
     ]
-  }
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

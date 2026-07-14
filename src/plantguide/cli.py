@@ -484,5 +484,54 @@ def _due_str(plant: dict[str, Any]) -> str:
     return f"{days_left}d"
 
 
+@species_app.command("toxicity")
+def species_toxicity(
+    safe: bool = typer.Option(False, "--safe", help="Show only pet-safe species"),
+    toxic: bool = typer.Option(False, "--toxic", help="Show only toxic species"),
+) -> None:
+    """Filter species catalog by toxicity (pet-safe / toxic)."""
+    from plantguide.data.loader import load_species_catalog
+    catalog = load_species_catalog()
+    if safe:
+        catalog = [s for s in catalog if "pet_safe" in (s.get("toxicity") or [])]
+        console.print(f"[green]Pet-safe species ({len(catalog)}):[/green]")
+    elif toxic:
+        catalog = [s for s in catalog if "toxic_to_pets" in (s.get("toxicity") or [])]
+        console.print(f"[red]Toxic species ({len(catalog)}):[/red]")
+    else:
+        console.print(f"Species catalog ({len(catalog)}):")
+    for s in catalog[:20]:
+        tox = s.get("toxicity") or []
+        label = "TOXIC" if "toxic_to_pets" in tox else ("SAFE" if "pet_safe" in tox else "-")
+        console.print(f"  {s.get('common_name', s.get('id')):30s} {label}")
+
+
+@collection_app.command("watering-ics")
+def collection_watering_ics(
+    out: Path = typer.Option(None, "--out", "-o", help="Output ICS file path"),
+) -> None:
+    """Export watering schedule as ICS calendar file (offline demo)."""
+    from datetime import datetime, timedelta
+    from plantguide.config import OUT_DIR
+    out_path = out or (OUT_DIR / "watering.ics")
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    now = datetime.now()
+    lines = [
+        "BEGIN:VCALENDAR",
+        "VERSION:2.0",
+        "PRODID:-//PlantGuide//Watering Calendar//EN",
+    ]
+    species_list = [{"id": s, "days": (i % 7) + 3} for i, s in enumerate(["basil_sweet", "aloe_vera", "spider_plant", "boston_fern", "snake_plant"])]
+    for entry in species_list:
+        due_date = now + timedelta(days=entry["days"])
+        lines.append("BEGIN:VEVENT")
+        lines.append(f"DTSTART:{due_date.strftime('%Y%m%dT090000')}")
+        lines.append(f"SUMMARY:Water {entry['id'].replace('_', ' ').title()}")
+        lines.append("END:VEVENT")
+    lines.append("END:VCALENDAR")
+    out_path.write_text("\r\n".join(lines) + "\r\n", encoding="utf-8")
+    console.print(f"[green]ICS written[/green] -> {out_path} ({len(species_list)} events)")
+
+
 if __name__ == "__main__":
     app()

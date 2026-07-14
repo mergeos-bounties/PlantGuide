@@ -19,7 +19,7 @@
     "soil": "Well-draining potting mix",
     "humidity": "Average to high",
     "temperature_c": "15-28",
-    "fertilizer": "Monthly spring–summer",
+    "fertilizer": "Monthly spring\u2013summer",
     "toxicity": "Non-toxic to cats/dogs (generally)",
     "common_issues": [
       "Brown tips from fluoride/salt",
@@ -29,5 +29,8 @@
       "Propagate pups in water",
       "Flush soil occasionally"
     ]
-  }
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
 }
