@@ -1,0 +1,32 @@
+{
+  "id": "stromanthe_tricolor",
+  "common_name": "Stromanthe Triostar",
+  "scientific_name": "Stromanthe thalia 'Triostar'",
+  "tags": [
+    "houseplant",
+    "colorful foliage",
+    "high humidity",
+    "indirect light",
+    "prayer plant family"
+  ],
+  "care": {
+    "summary": "Striking pink-cream-green leaves; wants humidity and steady moisture without sogginess.",
+    "light": "Bright indirect; avoid harsh midday sun",
+    "water": "Keep evenly moist; never bone dry for long",
+    "soil": "Airy, moisture-retentive mix with orchid bark",
+    "humidity": "High (50%+ ideal)",
+    "temperature_c": "18-28",
+    "fertilizer": "Half-strength monthly in growing season",
+    "toxicity": "Generally non-toxic; confirm locally",
+    "common_issues": [
+      "Crispy edges from dry air",
+      "Faded pink in low light",
+      "Root rot if left wet and cold"
+    ],
+    "tips": [
+      "Group with other plants or use a tray of pebbles",
+      "Wipe leaves for best color display",
+      "Rotate pot weekly for even growth"
+    ]
+  }
+}
