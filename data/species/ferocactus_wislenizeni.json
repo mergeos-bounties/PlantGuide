@@ -1,0 +1,34 @@
+{
+  "id": "ferocactus_wislenizeni",
+  "common_name": "Fishhook Barrel Cactus",
+  "scientific_name": "Ferocactus wislenizeni",
+  "tags": [
+    "cactus",
+    "arid",
+    "drought tolerant",
+    "barrel-shaped",
+    "spiny",
+    "full sun",
+    "xeric"
+  ],
+  "care": {
+    "summary": "Classic barrel cactus; thrives in hot, dry conditions with minimal care.",
+    "light": "Full sun (minimum 6 hours)",
+    "water": "Very infrequent; water only when completely dry",
+    "well_draining": true,
+    "soil": "Gritty cactus/succulent mix with perlite",
+    "humidity": "Low",
+    "temperature_c": "10-40",
+    "fertilizer": "None to minimal; cactus fertilizer once in spring",
+    "toxicity": "Sharp spines; handle with thick gloves",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Etiolation in low light"
+    ],
+    "tips": [
+      "Perfect for desert-themed gardens",
+      "Can survive freezing if dry",
+      "Flowers in summer with proper care"
+    ]
+  }
+}
