@@ -1,0 +1,33 @@
+{
+  "id": "sansevieria_cylindrica",
+  "common_name": "Cylindrical Snake Plant",
+  "scientific_name": "Dracaena angolensis (Sansevieria cylindrica)",
+  "tags": [
+    "houseplant",
+    "succulent-like",
+    "low light tolerant",
+    "drought",
+    "architectural",
+    "beginner"
+  ],
+  "care": {
+    "summary": "Upright round leaves; thrives on neglect and bright indirect light.",
+    "light": "Bright indirect to partial sun; tolerates low light",
+    "water": "Sparingly; fully dry between waterings",
+    "soil": "Very free-draining cactus/succulent mix",
+    "humidity": "Low to average",
+    "temperature_c": "15-30",
+    "fertilizer": "Dilute feed 2–3× per year in warm months",
+    "toxicity": "Mildly toxic if ingested (pets/children)",
+    "common_issues": [
+      "Root rot from wet soil",
+      "Soft leaves from cold + water",
+      "Pale growth in deep shade"
+    ],
+    "tips": [
+      "Excellent for dry apartments",
+      "Do not bury leaves deeper than crown",
+      "Wipe dust so leaves can photosynthesize"
+    ]
+  }
+}
