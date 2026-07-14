@@ -1,0 +1,33 @@
+{
+  "id": "haworthia_fasciata",
+  "common_name": "Zebra Haworthia",
+  "scientific_name": "Haworthiopsis fasciata",
+  "tags": [
+    "succulent",
+    "indoor",
+    "low light",
+    "zebra",
+    "easy",
+    "windowsill"
+  ],
+  "care": {
+    "summary": "Compact succulent with white zebra bands; thrives on neglect and bright indirect light.",
+    "light": "Bright indirect; tolerates lower light better than most succulents",
+    "water": "Soak and dry; every 2–3 weeks; less in winter",
+    "soil": "Gritty cactus mix with excellent drainage",
+    "humidity": "Low to average",
+    "temperature_c": "15-28",
+    "fertilizer": "Dilute cactus feed monthly in growing season",
+    "toxicity": "Non-toxic to pets",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Elongation in deep shade",
+      "Sun scorch in harsh midday glass heat"
+    ],
+    "tips": [
+      "Use a small pot; shallow roots",
+      "Water only when soil is fully dry",
+      "Offsets (pups) can be separated after roots form"
+    ]
+  }
+}
