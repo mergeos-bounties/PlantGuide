@@ -76,6 +76,7 @@ Bundled demo photos (license-safe synthetic leaves):
 | `data/samples/photos/pothos_demo.jpg` | `pothos_golden` |
 | `data/samples/photos/aloe_demo.jpg` | `aloe_vera` |
 | `data/samples/photos/peace_demo.jpg` | `peace_lily` |
+| `data/samples/photos/pilea_demo.jpg` | `pilea_peperomioides` |
 
 Regenerate photos:
 

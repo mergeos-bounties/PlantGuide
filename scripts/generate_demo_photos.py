@@ -52,6 +52,13 @@ SPECS = [
         [(20, 50, 30), (15, 35, 22), (240, 240, 245)],
         "peace",
     ),
+    (
+        "pilea_demo.jpg",
+        "pilea_peperomioides",
+        ["pilea", "round leaves", "coin leaves", "indoor", "bright indirect", "pet-safe"],
+        [(58, 138, 78), (32, 92, 52), (120, 190, 110)],
+        "pilea",
+    ),
 ]
 
 
@@ -128,6 +135,40 @@ def render(style: str, palette: list[tuple[int, int, int]], seed: int = 0) -> Im
         # white spathe
         draw.ellipse((w // 2 + 20, 90, w // 2 + 100, 200), fill=accent)
         draw.rectangle((w // 2 + 52, 150, w // 2 + 68, 280), fill=(240, 235, 200))
+    elif style == "pilea":
+        center = (w // 2, h // 2 + 45)
+        stems = [
+            (-95, -90, 46),
+            (-40, -135, 58),
+            (45, -120, 54),
+            (110, -70, 42),
+            (-115, 10, 34),
+            (80, 25, 36),
+            (-20, -35, 50),
+        ]
+        for dx, dy, radius in stems:
+            leaf_center = (center[0] + dx, center[1] + dy)
+            draw.line((center, leaf_center), fill=dark, width=5)
+            draw.ellipse(
+                (
+                    leaf_center[0] - radius,
+                    leaf_center[1] - radius,
+                    leaf_center[0] + radius,
+                    leaf_center[1] + radius,
+                ),
+                fill=base,
+                outline=accent,
+                width=3,
+            )
+            draw.line(
+                (leaf_center[0], leaf_center[1] + radius, leaf_center[0], leaf_center[1] - radius),
+                fill=dark,
+                width=2,
+            )
+        # small pups at soil line
+        for x, r in ((center[0] - 58, 20), (center[0] + 42, 18)):
+            draw.line((x, center[1] + 70, x, center[1] + 30), fill=dark, width=3)
+            draw.ellipse((x - r, center[1] + 10, x + r, center[1] + 10 + 2 * r), fill=accent)
     else:
         _leaf(draw, w // 2, h // 2, 100, base, 0)
 
