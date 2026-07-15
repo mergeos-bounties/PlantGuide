@@ -1,0 +1,33 @@
+{
+  "id": "alocasia_amazonica",
+  "common_name": "African Mask Plant",
+  "scientific_name": "Alocasia × amazonica",
+  "tags": [
+    "indoor",
+    "aroid",
+    "humidity",
+    "foliage",
+    "bright indirect",
+    "statement"
+  ],
+  "care": {
+    "summary": "Dramatic arrow-shaped leaves with pale veins; needs humidity and careful watering.",
+    "light": "Bright indirect; no harsh direct sun",
+    "water": "Keep lightly moist; avoid sitting water",
+    "soil": "Chunky aroid mix; excellent drainage",
+    "humidity": "High preferred",
+    "temperature_c": "18-27",
+    "fertilizer": "Dilute monthly in growing season",
+    "toxicity": "Toxic if ingested (calcium oxalate)",
+    "common_issues": [
+      "Crispy edges from dry air",
+      "Yellow leaves from overwatering",
+      "Dormancy leaf drop in cool winters"
+    ],
+    "tips": [
+      "Use a pebble tray or humidifier",
+      "Wipe leaves to show venation",
+      "Do not bury the corm too deep"
+    ]
+  }
+}
