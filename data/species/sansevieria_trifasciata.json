@@ -1,0 +1,33 @@
+{
+  "id": "sansevieria_trifasciata",
+  "common_name": "Snake Plant",
+  "scientific_name": "Dracaena trifasciata",
+  "tags": [
+    "indoor",
+    "succulent",
+    "low light",
+    "air purifying",
+    "easy",
+    "bedroom"
+  ],
+  "care": {
+    "summary": "Tough upright foliage plant; sparse watering.",
+    "light": "Low to bright indirect; avoid harsh midday sun",
+    "water": "Every 2–4 weeks; let soil dry fully",
+    "soil": "Cactus/succulent mix or well-draining potting soil",
+    "humidity": "Low to average",
+    "temperature_c": "15-30",
+    "fertilizer": "Light feed 2–3× per growing season",
+    "toxicity": "Mildly toxic if ingested (pets/kids)",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Soft leaves from cold drafts",
+      "Brown tips from fluoride-heavy water"
+    ],
+    "tips": [
+      "Use a terracotta pot for faster drying",
+      "Wipe dust off leaves monthly",
+      "Propagate from leaf cuttings"
+    ]
+  }
+}
