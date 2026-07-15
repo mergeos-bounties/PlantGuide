@@ -1,0 +1,33 @@
+{
+  "id": "begonia_maculata",
+  "common_name": "Polka Dot Begonia",
+  "scientific_name": "Begonia maculata",
+  "tags": [
+    "indoor",
+    "begonia",
+    "foliage",
+    "humidity",
+    "bright indirect",
+    "patterned"
+  ],
+  "care": {
+    "summary": "Angel-wing leaves with silver spots and red undersides; likes bright indirect light and steady moisture.",
+    "light": "Bright indirect; soft morning sun OK",
+    "water": "Water when top inch dries; avoid soggy crown",
+    "soil": "Light, airy mix with perlite",
+    "humidity": "Moderate to high",
+    "temperature_c": "18-26",
+    "fertilizer": "Dilute monthly in growing season",
+    "toxicity": "Mildly toxic if ingested; keep from pets",
+    "common_issues": [
+      "Powdery mildew in stagnant air",
+      "Leaf drop from cold drafts",
+      "Burned spots from harsh sun"
+    ],
+    "tips": [
+      "Rotate for even spotting display",
+      "Pinch tips for bushier growth",
+      "Wipe leaves gently; avoid cold water splash"
+    ]
+  }
+}
