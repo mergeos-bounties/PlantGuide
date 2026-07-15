@@ -1,0 +1,33 @@
+{
+  "id": "monstera_adansonii_swiss",
+  "common_name": "Swiss Cheese Vine",
+  "scientific_name": "Monstera adansonii",
+  "tags": [
+    "indoor",
+    "vine",
+    "trailing",
+    "aroid",
+    "humidity",
+    "fenestrated"
+  ],
+  "care": {
+    "summary": "Fenestrated trailing aroid; loves bright indirect light and consistent moisture without soggy roots.",
+    "light": "Bright indirect; avoid harsh midday sun",
+    "water": "When top 2 cm dry; keep evenly moist in growth",
+    "soil": "Aroid mix (chunky, well-draining)",
+    "humidity": "Moderate to high",
+    "temperature_c": "18-30",
+    "fertilizer": "Monthly dilute feed in growing season",
+    "toxicity": "Toxic if ingested (pets/kids)",
+    "common_issues": [
+      "Yellow leaves from overwatering",
+      "Small leaves in low light",
+      "Crispy edges from dry air"
+    ],
+    "tips": [
+      "Moss pole or hang for longer vines",
+      "Mist or pebble tray for humidity",
+      "Propagate node cuttings in water"
+    ]
+  }
+}
