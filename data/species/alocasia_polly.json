@@ -1,0 +1,33 @@
+{
+  "id": "alocasia_polly",
+  "common_name": "Alocasia Polly",
+  "scientific_name": "Alocasia × amazonica 'Polly'",
+  "tags": [
+    "indoor",
+    "aroid",
+    "humidity",
+    "statement",
+    "bright indirect",
+    "dramatic"
+  ],
+  "care": {
+    "summary": "Arrow-shaped dark leaves with pale veins; loves humidity and consistent moisture without waterlogging.",
+    "light": "Bright indirect; no harsh midday sun",
+    "water": "When top 2 cm dry; keep evenly moist in growth",
+    "soil": "Chunky aroid mix (bark/perlite)",
+    "humidity": "High preferred",
+    "temperature_c": "18-28",
+    "fertilizer": "Monthly dilute feed in growing season",
+    "toxicity": "Toxic if ingested (calcium oxalate)",
+    "common_issues": [
+      "Crispy edges from dry air",
+      "Yellow leaves from overwatering",
+      "Dormancy in cool winters"
+    ],
+    "tips": [
+      "Pebble tray or humidifier",
+      "Wipe leaves gently",
+      "Avoid cold drafts"
+    ]
+  }
+}
