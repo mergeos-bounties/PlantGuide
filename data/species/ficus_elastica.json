@@ -1,0 +1,33 @@
+{
+  "id": "ficus_elastica",
+  "common_name": "Rubber Plant",
+  "scientific_name": "Ficus elastica",
+  "tags": [
+    "indoor",
+    "tree",
+    "foliage",
+    "bright light",
+    "statement",
+    "easy"
+  ],
+  "care": {
+    "summary": "Glossy large-leaf indoor tree.",
+    "light": "Bright indirect; some morning sun ok",
+    "water": "Water when top 2–3 cm dry; avoid soggy soil",
+    "soil": "Well-draining potting mix",
+    "humidity": "Average to moderate",
+    "temperature_c": "16-28",
+    "fertilizer": "Monthly dilute feed in growing season",
+    "toxicity": "Mildly toxic if ingested; sap may irritate skin",
+    "common_issues": [
+      "Leaf drop from sudden moves",
+      "Brown edges from underwatering",
+      "Root rot from overwatering"
+    ],
+    "tips": [
+      "Wipe leaves monthly",
+      "Rotate for even growth",
+      "Stake tall specimens"
+    ]
+  }
+}
