@@ -54,6 +54,17 @@ def test_photo_care_demo_end_to_end() -> None:
     assert len(report["how_to"]) >= 4
 
 
+def test_pilea_demo_photo_identifies_chinese_money_plant() -> None:
+    photos = list_demo_photos()
+    pilea = next((p for p in photos if p.get("expected_species") == "pilea_peperomioides"), None)
+    assert pilea is not None
+    assert pilea["exists"] is True
+    result = identify_from_image(Path(pilea["path"]), top_k=3)
+    assert result["matches"][0]["species_id"] == "pilea_peperomioides"
+    assert result["hit_top1"] is True
+    assert "round leaves" in result["query_tags"]
+
+
 def test_identify_image_all_demo_hit_rate() -> None:
     photos = [p for p in list_demo_photos() if p.get("exists")]
     assert len(photos) >= 4
