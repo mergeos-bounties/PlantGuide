@@ -1,0 +1,33 @@
+{
+  "id": "crassula_ovata",
+  "common_name": "Jade Plant",
+  "scientific_name": "Crassula ovata",
+  "tags": [
+    "succulent",
+    "indoor",
+    "easy",
+    "drought tolerant",
+    "windowsill",
+    "tree-form"
+  ],
+  "care": {
+    "summary": "Woody succulent tree with thick oval leaves.",
+    "light": "Bright light; some direct sun ok",
+    "water": "Soak and dry thoroughly between waterings",
+    "soil": "Gritty cactus/succulent mix",
+    "humidity": "Low to average",
+    "temperature_c": "15-27",
+    "fertilizer": "Dilute cactus feed monthly in warm months",
+    "toxicity": "Mildly toxic if ingested",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Etiolation in low light",
+      "Leaf drop after sudden cold"
+    ],
+    "tips": [
+      "Use a heavy pot for top-heavy plants",
+      "Propagates from leaves or stem cuttings",
+      "Reduce water in winter"
+    ]
+  }
+}
