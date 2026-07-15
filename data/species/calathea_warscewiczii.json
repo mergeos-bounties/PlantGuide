@@ -1,0 +1,33 @@
+{
+  "id": "calathea_warscewiczii",
+  "common_name": "Jungle Velvet Calathea",
+  "scientific_name": "Goeppertia warscewiczii",
+  "tags": [
+    "indoor",
+    "prayer plant",
+    "humidity",
+    "foliage",
+    "bright indirect",
+    "patterned"
+  ],
+  "care": {
+    "summary": "Large round striped leaves or velvety jungle foliage; needs humidity and even moisture.",
+    "light": "Bright indirect; no direct sun",
+    "water": "Keep evenly moist; avoid soggy soil",
+    "soil": "Peaty, well-draining mix",
+    "humidity": "High preferred",
+    "temperature_c": "18-28",
+    "fertilizer": "Monthly dilute feed in growing season",
+    "toxicity": "Generally non-toxic; not food",
+    "common_issues": [
+      "Crispy edges from dry air",
+      "Curling from underwatering",
+      "Faded patterns in low light"
+    ],
+    "tips": [
+      "Use distilled or filtered water if tips brown",
+      "Group with other plants for humidity",
+      "Wipe leaves monthly"
+    ]
+  }
+}
