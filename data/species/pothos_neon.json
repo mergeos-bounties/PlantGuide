@@ -3,41 +3,31 @@
   "common_name": "Neon Pothos",
   "scientific_name": "Epipremnum aureum 'Neon'",
   "tags": [
-    "chartreuse leaves",
-    "trailing",
-    "vining",
-    "easy care",
     "indoor",
-    "low light tolerant",
-    "air purifying",
-    "hanging basket"
+    "vine",
+    "trailing",
+    "low light",
+    "easy",
+    "hanging"
   ],
   "care": {
-    "summary": "Hardy trailing vine with neon-yellow chartreuse leaves. Extremely forgiving; thrives in low to bright indirect light with minimal care.",
-    "light": "Low to bright indirect light; avoids direct sun which can scorch the neon leaves",
-    "water": "Allow top inch of soil to dry between waterings; every 7-10 days typically",
-    "well_draining": true,
-    "soil": "Standard potting mix with perlite for drainage",
-    "humidity": "Average household humidity (40-60%) is sufficient",
-    "temperature_c": "15-30",
-    "fertilizer": "Balanced liquid fertilizer monthly during spring and summer; skip in winter",
-    "toxicity": "Toxic to cats, dogs, and humans if ingested — contains calcium oxalate crystals",
+    "summary": "Bright chartreuse trailing vine; fast grower for shelves and hanging baskets.",
+    "light": "Low to bright indirect; avoid harsh midday sun",
+    "water": "When top 2–3 cm dry; prefer slight dry-down",
+    "soil": "Well-draining potting mix",
+    "humidity": "Average to moderate",
+    "temperature_c": "16-30",
+    "fertilizer": "Monthly dilute feed in growing season",
+    "toxicity": "Toxic if ingested (pets/kids)",
     "common_issues": [
-      "Loss of variegation/neon color in very low light",
-      "Root rot from overwatering or poorly draining soil",
-      "Brown leaf tips from dry air or fluoride in tap water",
-      "Mealybugs or spider mites in dry conditions"
+      "Yellow leaves from overwatering",
+      "Leggy growth in very low light",
+      "Brown tips from dry air"
     ],
     "tips": [
-      "Trim leggy vines to encourage bushier growth",
-      "Propagate easily by placing cuttings in water",
-      "Wipe leaves monthly to keep them shiny and dust-free",
-      "Use a hanging basket or let it trail from a shelf",
-      "Avoid fluoride-heavy tap water; use filtered or rain water if tips brown"
+      "Pinch tips for bushier growth",
+      "Propagate stem cuttings in water",
+      "Rotate pot weekly"
     ]
-  },
-  "toxicity": [
-    "toxic_to_pets",
-    "toxic_to_humans"
-  ]
+  }
 }
