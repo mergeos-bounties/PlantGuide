@@ -1,0 +1,33 @@
+{
+  "id": "chlorophytum_variegatum",
+  "common_name": "Variegated Spider Plant",
+  "scientific_name": "Chlorophytum comosum 'Vittatum'",
+  "tags": [
+    "indoor",
+    "hanging",
+    "easy",
+    "air purifying",
+    "pup",
+    "bright indirect"
+  ],
+  "care": {
+    "summary": "Arching striped leaves and easy plantlets; great hanging basket houseplant.",
+    "light": "Bright indirect; tolerate light shade",
+    "water": "When top 2 cm dry; avoid soggy crown",
+    "soil": "Well-draining potting mix",
+    "humidity": "Average",
+    "temperature_c": "15-30",
+    "fertilizer": "Monthly dilute feed in growing season",
+    "toxicity": "Non-toxic to cats/dogs (still not food)",
+    "common_issues": [
+      "Brown tips from fluoride/dry air",
+      "Pale leaves from low light",
+      "Root bound pots slow growth"
+    ],
+    "tips": [
+      "Propagate pups in water or soil",
+      "Flush soil monthly if tips brown",
+      "Rotate hanging basket weekly"
+    ]
+  }
+}
