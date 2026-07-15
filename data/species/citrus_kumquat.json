@@ -1,0 +1,41 @@
+{
+  "id": "citrus_kumquat",
+  "common_name": "Kumquat / Tắc Ngọt",
+  "scientific_name": "Fortunella margarita",
+  "tags": [
+    "citrus",
+    "fruit",
+    "edible",
+    "small tree",
+    "orange fruit",
+    "indoor outdoor",
+    "aromatic",
+    "container plant"
+  ],
+  "care": {
+    "summary": "Compact citrus tree with small, oval orange fruits. Sweet edible skin with tart flesh. Excellent container plant that can fruit indoors with good light.",
+    "light": "Full sun — at least 6 hours daily for best fruiting; tolerates bright indirect indoors",
+    "water": "Regular watering; keep soil moist but not soggy. Allow top inch to dry between waterings",
+    "well_draining": true,
+    "soil": "Well-draining citrus or cactus mix; slightly acidic (pH 5.5-6.5)",
+    "humidity": "Moderate to high; mist leaves in dry indoor environments",
+    "temperature_c": "10-35",
+    "fertilizer": "Citrus-specific fertilizer every 4-6 weeks during growing season; reduce in winter",
+    "toxicity": "Fruit is edible; leaves and rind safe. Avoid consuming ornamental varieties treated with pesticides",
+    "common_issues": [
+      "Aphids and scale insects on new growth",
+      "Yellowing leaves from overwatering or nutrient deficiency",
+      "Poor fruit set in low-light indoor conditions",
+      "Root rot from cold, wet soil",
+      "Spider mites in dry indoor air"
+    ],
+    "tips": [
+      "Cold-hardy for citrus — tolerates brief dips to -5°C",
+      "Eat whole: the sweet skin is the best part, flesh is tart",
+      "Great for container growing on sunny patios or indoors",
+      "Hand-pollinate indoors with a small brush for fruit set",
+      "Thin excess fruit to encourage larger kumquats"
+    ]
+  },
+  "toxicity": []
+}
