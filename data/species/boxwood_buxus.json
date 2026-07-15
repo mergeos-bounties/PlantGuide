@@ -1,0 +1,44 @@
+{
+  "id": "boxwood_buxus",
+  "common_name": "Boxwood",
+  "scientific_name": "Buxus sempervirens",
+  "tags": [
+    "evergreen",
+    "shrub",
+    "formal",
+    "topiary",
+    "dense foliage",
+    "outdoor",
+    "hardy",
+    "hedging"
+  ],
+  "care": {
+    "summary": "Classic evergreen shrub for formal gardens and topiary. Tolerant of heavy pruning and shade. Slow-growing with small, glossy dark green leaves.",
+    "light": "Full sun to partial shade; tolerates full shade but grows slower",
+    "water": "Regular watering; allow slight drying between waterings. Established plants are moderately drought tolerant",
+    "well_draining": true,
+    "soil": "Well-drained loamy soil; tolerates clay if not waterlogged",
+    "humidity": "Average to high; appreciates some humidity",
+    "temperature_c": "5-30",
+    "fertilizer": "Balanced slow-release fertilizer in early spring; avoid late-season feeding",
+    "toxicity": "Toxic to cats, dogs, and horses if ingested — contains buxine alkaloids",
+    "common_issues": [
+      "Boxwood blight (Cylindrocladium buxicola) — dark leaf spots, defoliation",
+      "Leaf miners — visible trails inside leaves",
+      "Winter bronzing — foliage turns bronze in cold winds",
+      "Root rot in waterlogged or heavy clay soils",
+      "Volutella fungus — pinkish spore masses on dead stems"
+    ],
+    "tips": [
+      "Prune after spring flowering for formal shapes and hedges",
+      "Use as hedging, topiary, or low border plants",
+      "Protect from harsh winter wind with burlap screens",
+      "Avoid overhead watering to prevent fungal diseases",
+      "Space 15-20cm apart for hedging, 30-40cm for specimens"
+    ]
+  },
+  "toxicity": [
+    "toxic_to_pets",
+    "toxic_to_horses"
+  ]
+}
