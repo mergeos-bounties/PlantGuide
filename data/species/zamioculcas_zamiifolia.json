@@ -1,0 +1,33 @@
+{
+  "id": "zamioculcas_zamiifolia",
+  "common_name": "ZZ Plant",
+  "scientific_name": "Zamioculcas zamiifolia",
+  "tags": [
+    "indoor",
+    "low light",
+    "drought tolerant",
+    "glossy",
+    "easy",
+    "office"
+  ],
+  "care": {
+    "summary": "Tough glossy foliage; sparse watering.",
+    "light": "Low to bright indirect",
+    "water": "Every 2–4 weeks; let soil dry fully",
+    "soil": "Well-draining potting mix",
+    "humidity": "Low to average",
+    "temperature_c": "16-30",
+    "fertilizer": "Light feed 2–3× growing season",
+    "toxicity": "Toxic if ingested",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Yellow leaflets from soggy soil",
+      "Stretching in very low light"
+    ],
+    "tips": [
+      "Use terracotta for faster drying",
+      "Wipe leaves monthly",
+      "Divide rhizomes to propagate"
+    ]
+  }
+}
