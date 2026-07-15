@@ -1,0 +1,33 @@
+{
+  "id": "anthurium_andraeanum",
+  "common_name": "Flamingo Flower",
+  "scientific_name": "Anthurium andraeanum",
+  "tags": [
+    "indoor",
+    "flowering",
+    "humidity",
+    "bright indirect",
+    "tropical",
+    "air-purifying"
+  ],
+  "care": {
+    "summary": "Glossy heart-shaped spathes and dark green leaves; likes warmth, humidity, and even moisture.",
+    "light": "Bright indirect; avoid harsh midday sun",
+    "water": "Water when top inch dries; never waterlog",
+    "soil": "Chunky aroid mix with orchid bark",
+    "humidity": "High preferred",
+    "temperature_c": "18-28",
+    "fertilizer": "Balanced dilute feed every 4–6 weeks in growth",
+    "toxicity": "Toxic if ingested (calcium oxalate)",
+    "common_issues": [
+      "Brown tips from dry air",
+      "Yellow leaves from overwatering",
+      "No blooms in low light"
+    ],
+    "tips": [
+      "Wipe leaves to keep spathes showy",
+      "Use filtered water if tips brown",
+      "Repot when roots circle pot"
+    ]
+  }
+}
