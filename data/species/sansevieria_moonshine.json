@@ -1,0 +1,33 @@
+{
+  "id": "sansevieria_moonshine",
+  "common_name": "Snake Plant Moonshine",
+  "scientific_name": "Dracaena trifasciata 'Moonshine'",
+  "tags": [
+    "succulent",
+    "indoor",
+    "low light",
+    "easy",
+    "air purifying",
+    "upright"
+  ],
+  "care": {
+    "summary": "Silvery-green upright leaves; extremely drought-tolerant and low-maintenance.",
+    "light": "Low to bright indirect; avoid prolonged harsh sun",
+    "water": "Every 2–4 weeks; soil fully dry between waterings",
+    "soil": "Well-draining cactus/succulent mix",
+    "humidity": "Low to average",
+    "temperature_c": "15-30",
+    "fertilizer": "Rarely; dilute feed 2–3× per year",
+    "toxicity": "Mildly toxic if ingested",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Wrinkled leaves from underwatering",
+      "Sun scorch in intense glass heat"
+    ],
+    "tips": [
+      "Use a pot with drainage holes",
+      "Propagate from leaf cuttings",
+      "Great for bedrooms and offices"
+    ]
+  }
+}
