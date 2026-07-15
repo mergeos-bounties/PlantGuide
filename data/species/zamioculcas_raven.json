@@ -1,0 +1,33 @@
+{
+  "id": "zamioculcas_raven",
+  "common_name": "ZZ Raven",
+  "scientific_name": "Zamioculcas zamiifolia 'Raven'",
+  "tags": [
+    "indoor",
+    "low light",
+    "easy",
+    "drought tolerant",
+    "foliage",
+    "office"
+  ],
+  "care": {
+    "summary": "Near-black glossy leaflets on upright stems; thrives on infrequent water and low light.",
+    "light": "Low to bright indirect",
+    "water": "Every 2–3 weeks; dry thoroughly between",
+    "soil": "Well-draining potting mix",
+    "humidity": "Average",
+    "temperature_c": "16-29",
+    "fertilizer": "Dilute monthly in growing season",
+    "toxicity": "Toxic if ingested",
+    "common_issues": [
+      "Yellow leaves from overwatering",
+      "Mushy rhizomes in soggy soil",
+      "Slow growth in deep shade"
+    ],
+    "tips": [
+      "Let soil dry between waterings",
+      "Wipe dust from leaflets",
+      "Propagates from leaflets (slow)"
+    ]
+  }
+}
