@@ -1,0 +1,32 @@
+{
+  "id": "vietnamese_coriander",
+  "common_name": "Vietnamese Coriander",
+  "scientific_name": "Persicaria odorata",
+  "tags": [
+    "edible",
+    "herb",
+    "tropical",
+    "aquatic",
+    "aromatic"
+  ],
+  "care": {
+    "summary": "Aromatic herb essential in Vietnamese cuisine; grows vigorously in moist conditions.",
+    "light": "Partial shade to filtered sun",
+    "water": "Keep consistently moist; thrives in wet feet",
+    "soil": "Rich, moist soil; can grow in water",
+    "humidity": "High",
+    "temperature_c": "20-35",
+    "fertilizer": "Light liquid feed monthly",
+    "toxicity": "Safe for culinary use",
+    "common_issues": [
+      "Bolting in hot dry conditions",
+      "Spider mites in low humidity",
+      "Leggy growth in too much shade"
+    ],
+    "tips": [
+      "Grows well in a jar of water on a windowsill",
+      "Use fresh in salads and soups",
+      "Can be propagated from cuttings easily"
+    ]
+  }
+}
