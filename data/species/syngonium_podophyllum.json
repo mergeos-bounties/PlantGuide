@@ -1,0 +1,32 @@
+{
+  "id": "syngonium_podophyllum",
+  "common_name": "Arrowhead Plant",
+  "scientific_name": "Syngonium podophyllum",
+  "tags": [
+    "trailing",
+    "tropical",
+    "indoor",
+    "beginner-friendly",
+    "air-purifying"
+  ],
+  "care": {
+    "summary": "Versatile vining or bushy plant with arrow-shaped leaves in green, pink, or white tones.",
+    "light": "Medium indirect; avoid direct sun",
+    "water": "Keep slightly moist; water when top inch is dry",
+    "soil": "Peat-based mix with perlite for drainage",
+    "humidity": "Medium to high",
+    "temperature_c": "18-27",
+    "fertilizer": "Balanced feed every 4 weeks in spring/summer",
+    "toxicity": "Toxic if ingested (pets and humans)",
+    "common_issues": [
+      "Brown leaf edges from dry air",
+      "Leggy growth without pruning",
+      "Spider mites in winter"
+    ],
+    "tips": [
+      "Trim regularly to keep bushy",
+      "Can grow in water indefinitely",
+      "Color varieties need more light for vivid tones"
+    ]
+  }
+}
