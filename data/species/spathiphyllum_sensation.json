@@ -1,0 +1,32 @@
+{
+  "id": "spathiphyllum_sensation",
+  "common_name": "Peace Lily Sensation",
+  "scientific_name": "Spathiphyllum 'Sensation'",
+  "tags": [
+    "flowering",
+    "indoor",
+    "low-light",
+    "tropical",
+    "air-purifying"
+  ],
+  "care": {
+    "summary": "Giant cultivar of peace lily with oversized glossy leaves and elegant white spathes.",
+    "light": "Low to medium indirect light",
+    "water": "Keep evenly moist; droops when thirsty",
+    "soil": "Peat-based, well-drained potting mix",
+    "humidity": "Medium to high",
+    "temperature_c": "18-27",
+    "fertilizer": "Balanced liquid feed every 6-8 weeks",
+    "toxicity": "Toxic to cats and dogs if ingested",
+    "common_issues": [
+      "Brown leaf tips from fluoride in water",
+      "Mealybugs and spider mites",
+      "Failure to flower in low light"
+    ],
+    "tips": [
+      "Use distilled or rainwater to prevent brown tips",
+      "Wipe leaves monthly to keep glossy",
+      "One of the best low-light plants"
+    ]
+  }
+}
