@@ -1,0 +1,32 @@
+{
+  "id": "tomato_cherry",
+  "common_name": "Cherry Tomato",
+  "scientific_name": "Solanum lycopersicum var. cerasiforme",
+  "tags": [
+    "edible",
+    "fruiting",
+    "outdoor",
+    "annual",
+    "vegetable"
+  ],
+  "care": {
+    "summary": "Compact fruiting tomato producing clusters of sweet small tomatoes; needs sun and support.",
+    "light": "Full sun (6-8 hours minimum)",
+    "water": "Consistent moisture; water deeply 2-3 times per week",
+    "soil": "Rich, well-drained loamy soil with compost",
+    "humidity": "Average; good air circulation to prevent disease",
+    "temperature_c": "18-30",
+    "fertilizer": "Tomato feed every 2 weeks once fruiting begins",
+    "toxicity": "Leaves and stems are toxic (solanine); fruit is safe",
+    "common_issues": [
+      "Blossom end rot from calcium deficiency",
+      "Aphids on new growth",
+      "Late blight in humid weather"
+    ],
+    "tips": [
+      "Use a cage or stake for support",
+      "Pinch suckers for larger fruit",
+      "Harvest when fully red and slightly soft"
+    ]
+  }
+}
