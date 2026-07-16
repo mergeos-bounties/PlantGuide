@@ -1,0 +1,33 @@
+{
+  "id": "caladium_bicolor",
+  "common_name": "Angel Wings",
+  "scientific_name": "Caladium bicolor",
+  "tags": [
+    "indoor",
+    "foliage",
+    "colorful",
+    "humidity",
+    "bright indirect",
+    "tuber"
+  ],
+  "care": {
+    "summary": "Heart-shaped leaves with pink, red, or white patterns; dormant in cool seasons.",
+    "light": "Bright indirect; some morning sun OK",
+    "water": "Even moisture while growing; reduce when dormant",
+    "soil": "Rich, well-draining potting mix",
+    "humidity": "Moderate to high",
+    "temperature_c": "18-29",
+    "fertilizer": "Half-strength every 2–4 weeks in growth",
+    "toxicity": "Toxic if ingested (calcium oxalate)",
+    "common_issues": [
+      "Leaf scorch in harsh sun",
+      "Tuber rot from cold wet soil",
+      "Yellowing as dormancy begins"
+    ],
+    "tips": [
+      "Store dry tubers cool if leaves die back",
+      "Group for humidity",
+      "Do not overwater in winter rest"
+    ]
+  }
+}
