@@ -1,0 +1,32 @@
+{
+  "id": "ficus_microcarpa_ginseng",
+  "common_name": "Ginseng Ficus Bonsai",
+  "scientific_name": "Ficus microcarpa 'Ginseng'",
+  "tags": [
+    "bonsai",
+    "indoor",
+    "tropical",
+    "ornamental",
+    "beginner-bonsai"
+  ],
+  "care": {
+    "summary": "Popular beginner bonsai with thick exposed roots and glossy oval leaves.",
+    "light": "Bright indirect to partial sun",
+    "water": "Keep soil moist; never let dry out completely",
+    "soil": "Bonsai soil mix with good drainage",
+    "humidity": "Medium to high",
+    "temperature_c": "16-30",
+    "fertilizer": "Bonsai feed every 2 weeks during growing season",
+    "toxicity": "Mildly toxic to pets if ingested",
+    "common_issues": [
+      "Leaf drop from drafts or sudden changes",
+      "Root rot in waterlogged soil",
+      "Aphids and scale on new growth"
+    ],
+    "tips": [
+      "Mist daily or place on a humidity tray",
+      "Prune new shoots to maintain shape",
+      "One of the hardiest indoor bonsai species"
+    ]
+  }
+}
