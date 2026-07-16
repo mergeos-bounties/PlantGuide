@@ -308,6 +308,60 @@ def care_water(
         raise typer.Exit(code=1) from exc
 
 
+@care_app.command("calendar")
+def care_calendar(
+    out: Path | None = typer.Option(None, "--out", "-o", help="Output file path"),
+    fmt: str = typer.Option("json", "--format", "-f", help="Export format: json or ics"),
+    year: int = typer.Option(2026, "--year", "-y", help="Calendar year"),
+    collection: bool = typer.Option(
+        False, "--collection", "-c", help="Only species in user collection"
+    ),
+) -> None:
+    """Generate a multi-month care calendar (fertilize + repot) for export."""
+    from plantguide.care.planner import (
+        generate_calendar,
+        generate_catalog_calendar,
+        export_json,
+        export_ics,
+    )
+    from plantguide.collection import list_plants
+    from plantguide.config import OUT_DIR
+    from plantguide.data.loader import load_species_catalog, get_species_by_id
+
+    if collection:
+        plants = list_plants()
+        if not plants:
+            console.print("[yellow]No plants in collection. Use --collection or add plants first.[/yellow]")
+            raise typer.Exit()
+        species_list = []
+        for p in plants:
+            sp = get_species_by_id(p["species"])
+            if sp:
+                species_list.append(sp)
+            else:
+                console.print(f"[yellow]Warning: species {p['species']} not found[/yellow]")
+        events = generate_calendar(species_list, year=year)
+    else:
+        events = generate_catalog_calendar(year=year)
+
+    if not events:
+        console.print("[yellow]No care events generated.[/yellow]")
+        raise typer.Exit()
+
+    if out is None:
+        out = OUT_DIR / f"care_calendar_{year}.{fmt}"
+
+    out.parent.mkdir(parents=True, exist_ok=True)
+
+    if fmt == "ics":
+        export_ics(events, out)
+    else:
+        export_json(events, out)
+
+    console.print(f"[green]{'ICS' if fmt == 'ics' else 'JSON'} calendar[/green] {out}")
+    console.print(f"  Events: {len(events)}, Species: {len(set(e['species_id'] for e in events))}")
+
+
 @care_app.command("svg")
 def care_svg(
     species: str = typer.Option(..., "--species", "-s"),
