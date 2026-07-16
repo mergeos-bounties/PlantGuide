@@ -1,0 +1,32 @@
+{
+  "id": "saintpaulia_ionantha",
+  "common_name": "African Violet",
+  "scientific_name": "Saintpaulia ionantha",
+  "tags": [
+    "flowering",
+    "indoor",
+    "compact",
+    "colorful",
+    "windowsill"
+  ],
+  "care": {
+    "summary": "Compact flowering houseplant with fuzzy leaves and blooms in pink, purple, blue, or white.",
+    "light": "Bright indirect; east or north window",
+    "water": "Bottom-water only; keep leaves dry",
+    "soil": "Light, porous African violet mix",
+    "humidity": "Medium to high",
+    "temperature_c": "16-24",
+    "fertilizer": "African violet food every 2 weeks at quarter strength",
+    "toxicity": "Non-toxic to pets and humans",
+    "common_issues": [
+      "Crown rot from water on leaves",
+      "Powdery mildew",
+      "Failure to re-bloom"
+    ],
+    "tips": [
+      "Never get water on the leaves",
+      "Rotate pot weekly for even growth",
+      "12-14 hours of light promotes blooming"
+    ]
+  }
+}
