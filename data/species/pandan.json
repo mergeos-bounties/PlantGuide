@@ -1,0 +1,32 @@
+{
+  "id": "pandan",
+  "common_name": "Pandan",
+  "scientific_name": "Pandanus amaryllifolius",
+  "tags": [
+    "edible",
+    "aromatic",
+    "tropical",
+    "perennial",
+    "leaf"
+  ],
+  "care": {
+    "summary": "Fragrant tropical plant whose leaves are widely used in Southeast Asian cooking.",
+    "light": "Partial shade to indirect light",
+    "water": "Keep soil moist; tolerates standing water",
+    "soil": "Rich, loamy, moisture-retentive soil",
+    "humidity": "High; mist regularly indoors",
+    "temperature_c": "22-35",
+    "fertilizer": "Balanced liquid fertilizer every 4-6 weeks",
+    "toxicity": "Safe for culinary use",
+    "common_issues": [
+      "Brown leaf tips from low humidity",
+      "Slow growth in cool temperatures",
+      "Mealybugs indoors"
+    ],
+    "tips": [
+      "Leaves release aroma when crushed or knotted",
+      "Use in rice, desserts, and drinks",
+      "Propagate by suckers or aerial roots"
+    ]
+  }
+}
