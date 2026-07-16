@@ -251,7 +251,7 @@ plantguide demo photo
 
 Star → claim issue → PR to **master** → MRG **25–200**.  
 Photo/vision upgrades, more species packs, and real image models welcome.  
-See [mergeos](https://github.com/mergeos-bounties/mergeos) and [docs/BOUNTY.md](docs/BOUNTY.md).
+See [mergeos](https://github.com/mergeos-bounties/mergeos), [docs/BOUNTY.md](docs/BOUNTY.md), and [Species Photo Evidence Requirements](docs/species-photo-evidence.md).
 
 ---
 
