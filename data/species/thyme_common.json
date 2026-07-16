@@ -1,0 +1,32 @@
+{
+  "id": "thyme_common",
+  "common_name": "Common Thyme",
+  "scientific_name": "Thymus vulgaris",
+  "tags": [
+    "edible",
+    "herb",
+    "aromatic",
+    "mediterranean",
+    "groundcover"
+  ],
+  "care": {
+    "summary": "Compact woody herb with tiny aromatic leaves; excellent for cooking and ground cover.",
+    "light": "Full sun",
+    "water": "Low; prefers dry conditions",
+    "soil": "Well-drained, sandy to loamy soil",
+    "humidity": "Low",
+    "temperature_c": "10-28",
+    "fertilizer": "Very light feed; avoid over-fertilizing",
+    "toxicity": "Safe for culinary use",
+    "common_issues": [
+      "Root rot in wet soil",
+      "Woodiness from lack of pruning",
+      "Whitefly in enclosed environments"
+    ],
+    "tips": [
+      "Prune after flowering to maintain shape",
+      "Excellent companion for roses",
+      "Propagate from stem cuttings"
+    ]
+  }
+}
