@@ -1,0 +1,32 @@
+{
+  "id": "cactus_echinopsis",
+  "common_name": "Sea Urchin Cactus",
+  "scientific_name": "Echinopsis tubiflora",
+  "tags": [
+    "succulent",
+    "cactus",
+    "flowering",
+    "indoor",
+    "drought-tolerant"
+  ],
+  "care": {
+    "summary": "Round globular cactus producing spectacular large white funnel flowers.",
+    "light": "Full sun to bright indirect",
+    "water": "Very sparse; water monthly in growing season, none in winter",
+    "soil": "Cactus mix with excellent drainage",
+    "humidity": "Low",
+    "temperature_c": "10-35",
+    "fertilizer": "Cactus feed once in spring at quarter strength",
+    "toxicity": "Spines can injure; otherwise non-toxic",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Mealybug infestation",
+      "Etiolation in insufficient light"
+    ],
+    "tips": [
+      "Flowers bloom at night for one day",
+      "Repot every 2-3 years",
+      "Handle with thick gloves or folded newspaper"
+    ]
+  }
+}
