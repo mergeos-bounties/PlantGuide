@@ -1,0 +1,32 @@
+{
+  "id": "cordyline_fruticosa",
+  "common_name": "Ti Plant",
+  "scientific_name": "Cordyline fruticosa",
+  "tags": [
+    "tropical",
+    "colorful",
+    "indoor",
+    "outdoor",
+    "ornamental"
+  ],
+  "care": {
+    "summary": "Colorful tropical plant with long sword-shaped leaves in red, purple, and green.",
+    "light": "Bright indirect to partial sun",
+    "water": "Moderate; keep moist but well-drained",
+    "soil": "Rich, well-draining potting mix",
+    "humidity": "Medium to high",
+    "temperature_c": "18-30",
+    "fertilizer": "Balanced feed every 4-6 weeks in growing season",
+    "toxicity": "Mildly toxic to pets if ingested",
+    "common_issues": [
+      "Brown leaf tips from low humidity or chemicals",
+      "Mealybugs and scale insects",
+      "Fading color in too much shade"
+    ],
+    "tips": [
+      "Mist leaves regularly for humidity",
+      "Prune leggy stems to encourage bushiness",
+      "Popular in Hawaiian and Polynesian culture"
+    ]
+  }
+}
