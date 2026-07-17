@@ -1,0 +1,33 @@
+{
+  "id": "sansevieria_cylindrica_braided",
+  "common_name": "Cylindrical Snake Plant",
+  "scientific_name": "Sansevieria cylindrica",
+  "tags": [
+    "indoor",
+    "low light",
+    "succulent",
+    "easy",
+    "air-purifying",
+    "drought-tolerant"
+  ],
+  "care": {
+    "summary": "Round upright spears; extremely drought-tolerant and happy in low light corners.",
+    "light": "Low to bright indirect; avoid scorching midday sun",
+    "water": "When soil is fully dry; rare waterings in winter",
+    "soil": "Cactus/succulent mix with grit",
+    "humidity": "Low to average",
+    "temperature_c": "15-30",
+    "fertilizer": "Sparse dilute feed in summer only",
+    "toxicity": "Mildly toxic if ingested",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Soft spears from cold drafts",
+      "Dust buildup on cylinders"
+    ],
+    "tips": [
+      "Use a heavy pot — tall spears tip easily",
+      "Wipe spears monthly",
+      "Propagate by cutting sections"
+    ]
+  }
+}
