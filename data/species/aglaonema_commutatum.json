@@ -1,0 +1,33 @@
+{
+  "id": "aglaonema_commutatum",
+  "common_name": "Chinese Evergreen",
+  "scientific_name": "Aglaonema commutatum",
+  "tags": [
+    "indoor",
+    "low light",
+    "foliage",
+    "easy",
+    "air-purifying",
+    "tropical"
+  ],
+  "care": {
+    "summary": "Colorful patterned leaves; tolerates lower light and irregular watering better than most.",
+    "light": "Low to bright indirect; avoid harsh sun",
+    "water": "When top inch dries; less in winter",
+    "soil": "Well-draining indoor potting mix",
+    "humidity": "Average home humidity OK",
+    "temperature_c": "18-27",
+    "fertilizer": "Monthly dilute feed in growing season",
+    "toxicity": "Toxic if ingested (calcium oxalate)",
+    "common_issues": [
+      "Yellow leaves from overwatering",
+      "Brown tips from dry air or fluoride",
+      "Faded color in deep shade"
+    ],
+    "tips": [
+      "Wipe leaves monthly",
+      "Rotate for even growth",
+      "Keep above 15°C"
+    ]
+  }
+}
