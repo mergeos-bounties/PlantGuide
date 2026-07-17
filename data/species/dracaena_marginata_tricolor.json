@@ -1,0 +1,33 @@
+{
+  "id": "dracaena_marginata_tricolor",
+  "common_name": "Dragon Tree",
+  "scientific_name": "Dracaena marginata",
+  "tags": [
+    "indoor",
+    "low light",
+    "foliage",
+    "easy",
+    "air-purifying",
+    "tree-form"
+  ],
+  "care": {
+    "summary": "Slender upright canes with spiky leaves; forgiving indoor tree for offices and homes.",
+    "light": "Bright indirect to moderate; tolerates lower light",
+    "water": "When top 2 inches dry; avoid soggy soil",
+    "soil": "Well-draining potting mix",
+    "humidity": "Average home humidity",
+    "temperature_c": "18-27",
+    "fertilizer": "Light monthly feed spring–summer",
+    "toxicity": "Mildly toxic if ingested (pets)",
+    "common_issues": [
+      "Brown tips from fluoride or low humidity",
+      "Yellow lower leaves natural aging",
+      "Root rot from overwatering"
+    ],
+    "tips": [
+      "Wipe dusty leaves",
+      "Rotate for even growth",
+      "Repot when root-bound"
+    ]
+  }
+}
