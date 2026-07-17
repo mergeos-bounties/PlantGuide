@@ -1,30 +1,49 @@
 {
   "id": "vietnamese_coriander",
-  "common_name": "Rau R\u0103m / Vietnamese Coriander",
+  "common_name": "Rau Răm / Vietnamese Coriander",
   "scientific_name": "Persicaria odorata",
   "tags": [
-    "edible",
     "herb",
-    "aromatic",
+    "pointed leaves",
+    "spicy aroma",
+    "moist",
+    "vietnamese",
+    "edible",
+    "lance-shaped",
     "tropical",
-    "aquatic"
+    "culinary herb",
+    "fragrant"
   ],
   "care": {
-    "summary": "Aromatic herb essential in Vietnamese cuisine; thrives in moist conditions.",
-    "light": "Partial shade to filtered sun",
-    "water": "Keep consistently moist",
-    "soil": "Moisture-retentive loam",
-    "humidity": "High",
-    "temperature_c": "22-35",
-    "fertilizer": "Balanced feed monthly during growing season",
-    "toxicity": "Non-toxic",
+    "summary": "Rau Răm (Vietnamese Coriander) is a fast-growing tropical herb prized for its distinctive spicy, lemony flavor. Thrives in warm, humid conditions with consistently moist soil and partial shade.",
+    "light": "Partial shade to bright indirect light. Tolerates some morning sun but protect from intense afternoon heat. Can grow in full shade but may be less vigorous.",
+    "water": "Keep soil consistently moist but not waterlogged. Water when top inch of soil feels dry. Requires more frequent watering in warm weather. Can tolerate standing in shallow water like a semi-aquatic plant.",
+    "soil": "Rich, well-draining potting mix with high organic matter. Prefers slightly acidic to neutral pH (6.0-7.0). Mix in compost or aged manure for best growth.",
+    "humidity": "High humidity (60-80%) preferred. Mist regularly or use humidity tray. Thrives in naturally humid environments like kitchens or bathrooms.",
+    "temperature_c": {
+      "min": 15,
+      "ideal_min": 20,
+      "ideal_max": 30,
+      "max": 35
+    },
+    "fertilizer": "Feed every 2-3 weeks during growing season with balanced liquid fertilizer (10-10-10) or fish emulsion. Reduce to monthly in cooler months. Benefits from nitrogen-rich fertilizer for leafy growth.",
+    "toxicity": "Non-toxic to humans and pets. Safe for culinary use. All parts of the plant are edible.",
     "common_issues": [
-      "Leggy growth in low light",
-      "Root rot in stagnant water"
+      "Leaves turning brown or crispy - usually from low humidity or underwatering",
+      "Leggy growth - insufficient light, move to brighter location",
+      "Yellowing leaves - overwatering or poor drainage",
+      "Wilting despite moist soil - root rot from waterlogged conditions",
+      "Aphids or spider mites - treat with insecticidal soap or neem oil",
+      "Slow growth in winter - normal dormancy in cooler temperatures"
     ],
     "tips": [
-      "Grows well in water",
-      "Cut back to encourage bushiness"
+      "Harvest frequently by pinching stem tips to encourage bushier growth",
+      "Propagates easily from stem cuttings placed in water or moist soil",
+      "Flavor is strongest when leaves are used fresh; diminishes when cooked",
+      "Can be grown as a marginal water plant in ponds or water gardens",
+      "Protect from frost - bring indoors or treat as annual in cold climates",
+      "Companion plant with other moisture-loving herbs like mint or watercress",
+      "Regular harvesting prevents flowering and maintains tender leaf production"
     ]
   }
 }
