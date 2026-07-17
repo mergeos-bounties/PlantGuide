@@ -1,0 +1,32 @@
+{
+  "id": "holy_basil",
+  "common_name": "Holy Basil / Tulsi",
+  "scientific_name": "Ocimum tenuiflorum",
+  "tags": [
+    "edible",
+    "herb",
+    "medicinal",
+    "aromatic",
+    "outdoor"
+  ],
+  "care": {
+    "summary": "Sacred basil variety used in Ayurvedic medicine; aromatic leaves with peppery clove flavor.",
+    "light": "Full sun (6+ hours)",
+    "water": "Moderate; water when top inch of soil is dry",
+    "soil": "Rich, moist, well-drained soil",
+    "humidity": "Average",
+    "temperature_c": "18-30",
+    "fertilizer": "Light feed every 3-4 weeks",
+    "toxicity": "Safe for consumption; used in teas and cooking",
+    "common_issues": [
+      "Wilting from underwatering",
+      "Aphids and whiteflies",
+      "Root rot in waterlogged soil"
+    ],
+    "tips": [
+      "Pinch flowers to encourage leaf growth",
+      "Harvest regularly to promote bushiness",
+      "Can be dried for tea storage"
+    ]
+  }
+}
