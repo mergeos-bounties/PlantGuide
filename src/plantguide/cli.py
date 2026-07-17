@@ -11,6 +11,7 @@ from rich.table import Table
 
 from plantguide import __version__
 from plantguide.care.cards import care_card_for_species, watering_hint
+from plantguide.care.filtering import filter_species_by_care
 from plantguide.collection import add_plant, due_soon, list_plants
 from plantguide.data.loader import list_species_files, load_species
 from plantguide.identify.pipeline import (
@@ -120,6 +121,36 @@ def species_search(
             str(sp.get("id")),
             str(sp.get("common_name")),
             str(sp.get("scientific_name") or ""),
+        )
+    console.print(table)
+
+
+@species_app.command("filter")
+def species_filter(
+    light: str | None = typer.Option(None, "--light", help="Substring in light-care guidance"),
+    water: str | None = typer.Option(None, "--water", help="Substring in water-care guidance"),
+) -> None:
+    """Filter the offline species catalog by light and water care guidance."""
+    try:
+        matches = filter_species_by_care(
+            (load_species(path) for path in list_species_files()), light=light, water=water
+        )
+    except ValueError as exc:
+        console.print(f"[red]{exc}[/red]")
+        raise typer.Exit(code=2) from exc
+
+    table = Table(title=f"Care filter ({len(matches)})")
+    table.add_column("ID")
+    table.add_column("Common name")
+    table.add_column("Light")
+    table.add_column("Water")
+    for item in matches:
+        care = item.get("care") or {}
+        table.add_row(
+            str(item.get("id")),
+            str(item.get("common_name")),
+            str(care.get("light") or ""),
+            str(care.get("water") or ""),
         )
     console.print(table)
 

@@ -51,6 +51,7 @@ plantguide identify image -i data/samples/photos/monstera_demo.jpg -k 3
 plantguide care show -s monstera_deliciosa
 plantguide care water -s monstera_deliciosa --season summer
 plantguide care svg -s monstera_deliciosa
+plantguide species filter --light bright --water dry
 ```
 
 Example output (abridged):
