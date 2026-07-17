@@ -8,63 +8,56 @@ Thank you for your interest in contributing to PlantGuide — a plant identifica
 2. **Clone** your fork:
    ```bash
    git clone https://github.com/YOUR_USERNAME/PlantGuide.git
+   ```
+3. **Install** the package in development mode:
+   ```bash
    cd PlantGuide
-   ```
-3. **Set up a development environment:**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate
-   pip install -e ".[dev]"
+   uv pip install -e ".[dev]"
    ```
 
-## Good First Issues
+## Running Tests
 
-If you're new to the project, check out issues tagged with `good-first-issue` in the [issue tracker](https://github.com/mergeos-bounties/PlantGuide/issues). These are beginner-friendly tasks that help you learn the codebase.
+To run the test suite:
 
-Suggested starting points:
-- Adding a new plant species to `data/species/`
-- Improving the CLI user experience
-- Writing additional tests
+```bash
+uv run pytest
+```
 
-## How to Contribute
+To run tests with coverage:
+```bash
+uv run pytest --cov=plantguide
+```
 
-- **Report bugs** by opening a GitHub Issue.
-- **Suggest features** by opening a GitHub Issue with the `enhancement` label.
-- **Add plant species** by contributing a new JSON file to `data/species/`.
-- **Submit code** via a Pull Request.
+To run a specific test:
+```bash
+uv run pytest tests/test_specific_feature.py -v
+```
 
-## Development Workflow
+## Claim Flow for MergeOS Bounties
 
-1. Create a feature branch from `master`:
-   ```bash
-   git checkout -b feat/my-feature
-   ```
-2. Make your changes.
-3. Run linting and tests:
-   ```bash
-   ruff check src tests
-   pytest
-   ```
-4. Commit with a clear message:
-   ```
-   feat: add Monstera Adansonii species data
-   ```
-5. Push to your fork and open a Pull Request against `master`.
-6. Link any related issues in the PR description using `Closes #N`.
+1. **Comment** on the MergeOS bounty issue: "I claim this bounty"
+2. **Fork** this repository if you haven't already
+3. **Create** a feature branch: `git checkout -b fix/issue-NN-description`
+4. **Implement** the feature or fix according to the issue requirements
+5. **Add tests** for any new functionality
+6. **Run tests** to ensure everything passes: `uv run pytest`
+7. **Commit** your changes: `git commit -m "feat: description (#NN)"`
+8. **Push** to your fork: `git push origin fix/issue-NN-description`
+9. **Open** a Pull Request against the main repository
+10. **Comment** on the MergeOS bounty issue with your PR URL
+11. **Wait** for review and merging
 
-## Code Style
+## Development Guidelines
 
-- Follow PEP 8 conventions.
-- Run `ruff check` before committing.
-- Write tests for new functionality.
+- Follow PEP 8 code style
+- Run `ruff check` before committing
+- Write tests for new functionality
+- Update documentation as needed
+- Keep commits focused and atomic
 
-## Pull Request Checklist
+## Reporting Issues
 
-- [ ] Code follows project style (ruff passes)
-- [ ] Tests added / updated for new functionality
-- [ ] All existing tests pass
-- [ ] Documentation updated if needed
-- [ ] PR description references related issues
+Please use the GitHub issue tracker to report bugs or request features.
 
 ## Need Help?
 
