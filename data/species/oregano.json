@@ -1,0 +1,32 @@
+{
+  "id": "oregano",
+  "common_name": "Oregano",
+  "scientific_name": "Origanum vulgare",
+  "tags": [
+    "edible",
+    "herb",
+    "aromatic",
+    "mediterranean",
+    "perennial"
+  ],
+  "care": {
+    "summary": "Hardy Mediterranean herb with pungent leaves; essential in Italian and Greek cuisine.",
+    "light": "Full sun (6+ hours)",
+    "water": "Low; drought-tolerant once established",
+    "soil": "Well-drained, slightly alkaline soil",
+    "humidity": "Low to average",
+    "temperature_c": "10-30",
+    "fertilizer": "Minimal; light feed in spring",
+    "toxicity": "Safe for culinary use",
+    "common_issues": [
+      "Powdery mildew in humid conditions",
+      "Root rot from overwatering",
+      "Leggy growth without enough sun"
+    ],
+    "tips": [
+      "Harvest before flowering for strongest flavor",
+      "Dries well for long-term storage",
+      "Companion plant for tomatoes and peppers"
+    ]
+  }
+}
