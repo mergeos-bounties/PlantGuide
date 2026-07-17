@@ -1,0 +1,32 @@
+{
+  "id": "chili_bird_eye",
+  "common_name": "Bird's Eye Chili",
+  "scientific_name": "Capsicum annuum 'Bird's Eye'",
+  "tags": [
+    "edible",
+    "fruiting",
+    "outdoor",
+    "spicy",
+    "perennial"
+  ],
+  "care": {
+    "summary": "Small but extremely hot chili pepper; thrives in warm tropical conditions.",
+    "light": "Full sun to partial shade",
+    "water": "Moderate; allow topsoil to dry slightly between waterings",
+    "soil": "Well-drained, slightly acidic soil with organic matter",
+    "humidity": "Average to medium",
+    "temperature_c": "20-32",
+    "fertilizer": "Balanced fertilizer monthly during growing season",
+    "toxicity": "Fruit is edible but very hot; avoid contact with eyes",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Whitefly infestation",
+      "Fruit drop from temperature stress"
+    ],
+    "tips": [
+      "Harvest when fruits turn red for maximum heat",
+      "Can be grown in containers",
+      "Drought-tolerant once established"
+    ]
+  }
+}
