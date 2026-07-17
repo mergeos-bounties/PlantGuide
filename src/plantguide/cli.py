@@ -10,7 +10,7 @@ from rich.console import Console
 from rich.table import Table
 
 from plantguide import __version__
-from plantguide.care.cards import care_card_for_species, watering_hint
+from plantguide.care.cards import care_card_for_species, watering_hint, watering_schedule
 from plantguide.care.filtering import filter_species_by_care
 from plantguide.collection import add_plant, due_soon, list_plants
 from plantguide.data.loader import list_species_files, load_species
@@ -335,6 +335,30 @@ def care_water(
     try:
         console.print_json(data=watering_hint(species, season=season))
     except KeyError as exc:
+        console.print(f"[red]{exc}[/red]")
+        raise typer.Exit(code=1) from exc
+
+
+@care_app.command("schedule")
+def care_schedule(
+    species: str = typer.Option(..., "--species", "-s"),
+    pot_size_cm: float = typer.Option(..., "--pot-cm", min=5, max=100),
+    season: str = typer.Option("summer", "--season"),
+    climate: str = typer.Option("temperate", "--climate"),
+    as_of: str | None = typer.Option(None, "--as-of", help="Optional YYYY-MM-DD reference date"),
+) -> None:
+    """Estimate upcoming soil-check dates from pot size, season, and climate."""
+    try:
+        console.print_json(
+            data=watering_schedule(
+                species,
+                pot_size_cm,
+                season=season,
+                climate=climate,
+                as_of=date.fromisoformat(as_of) if as_of else None,
+            )
+        )
+    except (KeyError, ValueError) as exc:
         console.print(f"[red]{exc}[/red]")
         raise typer.Exit(code=1) from exc
 
