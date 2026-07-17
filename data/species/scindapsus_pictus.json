@@ -1,0 +1,32 @@
+{
+  "id": "scindapsus_pictus",
+  "common_name": "Satin Pothos",
+  "scientific_name": "Scindapsus pictus",
+  "tags": [
+    "trailing",
+    "vining",
+    "indoor",
+    "tropical",
+    "variegated"
+  ],
+  "care": {
+    "summary": "Stunning trailing vine with velvety dark green leaves splashed with silver.",
+    "light": "Medium indirect; tolerates lower light",
+    "water": "Water when top 2-3 cm dry; slightly drought-tolerant",
+    "soil": "Well-draining aroid mix with perlite",
+    "humidity": "Medium to high",
+    "temperature_c": "18-27",
+    "fertilizer": "Liquid feed every 4-6 weeks in growing season",
+    "toxicity": "Toxic if ingested (pets and humans)",
+    "common_issues": [
+      "Loss of silver variegation in low light",
+      "Curling leaves from underwatering",
+      "Pest issues with thrips"
+    ],
+    "tips": [
+      "More light = more silver splashing",
+      "Train on a wall or trellis for display",
+      "Propagate in water from node cuttings"
+    ]
+  }
+}
