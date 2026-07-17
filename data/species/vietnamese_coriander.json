@@ -1,0 +1,30 @@
+{
+  "id": "vietnamese_coriander",
+  "common_name": "Rau R\u0103m / Vietnamese Coriander",
+  "scientific_name": "Persicaria odorata",
+  "tags": [
+    "edible",
+    "herb",
+    "aromatic",
+    "tropical",
+    "aquatic"
+  ],
+  "care": {
+    "summary": "Aromatic herb essential in Vietnamese cuisine; thrives in moist conditions.",
+    "light": "Partial shade to filtered sun",
+    "water": "Keep consistently moist",
+    "soil": "Moisture-retentive loam",
+    "humidity": "High",
+    "temperature_c": "22-35",
+    "fertilizer": "Balanced feed monthly during growing season",
+    "toxicity": "Non-toxic",
+    "common_issues": [
+      "Leggy growth in low light",
+      "Root rot in stagnant water"
+    ],
+    "tips": [
+      "Grows well in water",
+      "Cut back to encourage bushiness"
+    ]
+  }
+}
