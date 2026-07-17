@@ -1,0 +1,32 @@
+{
+  "id": "rhaphidophora_tetrasperma",
+  "common_name": "Mini Monstera",
+  "scientific_name": "Rhaphidophora tetrasperma",
+  "tags": [
+    "trailing",
+    "vining",
+    "indoor",
+    "tropical",
+    "fenestrated"
+  ],
+  "care": {
+    "summary": "Fast-growing vining plant with fenestrated leaves resembling a small Monstera.",
+    "light": "Bright indirect light",
+    "water": "Water when top 2-3 cm of soil is dry",
+    "soil": "Chunky aroid mix with perlite and bark",
+    "humidity": "Medium to high",
+    "temperature_c": "18-29",
+    "fertilizer": "Balanced liquid feed monthly in growing season",
+    "toxicity": "Toxic if ingested (pets)",
+    "common_issues": [
+      "Yellowing from overwatering",
+      "Small leaves without support",
+      "Root rot in dense soil"
+    ],
+    "tips": [
+      "Provide a moss pole or trellis for larger leaves",
+      "Mist occasionally for humidity",
+      "Propagate easily from stem cuttings"
+    ]
+  }
+}
