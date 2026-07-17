@@ -1,0 +1,32 @@
+{
+  "id": "colocasia_esculenta",
+  "common_name": "Taro / Elephant Ear",
+  "scientific_name": "Colocasia esculenta",
+  "tags": [
+    "edible",
+    "tropical",
+    "outdoor",
+    "aquatic",
+    "dramatic"
+  ],
+  "care": {
+    "summary": "Bold tropical with large heart-shaped leaves; edible corms used in many cuisines.",
+    "light": "Partial shade to filtered sun",
+    "water": "High; thrives in boggy or aquatic conditions",
+    "soil": "Rich, moisture-retentive soil; can grow in water",
+    "humidity": "High",
+    "temperature_c": "20-35",
+    "fertilizer": "Balanced fertilizer every 3-4 weeks",
+    "toxicity": "Corms must be cooked before eating (raw is toxic)",
+    "common_issues": [
+      "Aphids on new leaves",
+      "Leaf scorch in direct sun",
+      "Fungal spots in still, humid air"
+    ],
+    "tips": [
+      "Great for pond edges or rain gardens",
+      "Die back in winter; store corms in cool dry place",
+      "Use as a dramatic focal point in shade gardens"
+    ]
+  }
+}
