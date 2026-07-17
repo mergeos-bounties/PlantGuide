@@ -1,0 +1,32 @@
+{
+  "id": "alocasia_zebrina",
+  "common_name": "Alocasia Zebrina",
+  "scientific_name": "Alocasia zebrina",
+  "tags": [
+    "tropical",
+    "indoor",
+    "exotic",
+    "patterned",
+    "statement"
+  ],
+  "care": {
+    "summary": "Striking aroid with arrow-shaped leaves and distinctive zebra-striped stems.",
+    "light": "Bright indirect; avoid direct sun",
+    "water": "Keep moist but not soggy; reduce in winter",
+    "soil": "Chunky, well-draining aroid mix",
+    "humidity": "High; above 60% preferred",
+    "temperature_c": "18-27",
+    "fertilizer": "Diluted liquid feed monthly in growing season",
+    "toxicity": "Toxic if ingested (pets and humans)",
+    "common_issues": [
+      "Dropping leaves from temperature drops",
+      "Spider mites in dry air",
+      "Going dormant in winter"
+    ],
+    "tips": [
+      "Provide excellent humidity via humidifier or pebble tray",
+      "Yellowing lower leaves are normal in dormancy",
+      "Wipe stems to keep zebra pattern visible"
+    ]
+  }
+}
