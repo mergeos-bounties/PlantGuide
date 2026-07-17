@@ -4,32 +4,47 @@
   "scientific_name": "Salvia rosmarinus",
   "tags": [
     "herb",
-    "aromatic",
-    "woody",
     "needle leaves",
-    "drought",
-    "outdoor",
+    "woody",
     "full sun",
-    "mediterranean"
+    "drought tolerant",
+    "fragrant",
+    "culinary",
+    "evergreen",
+    "mediterranean",
+    "blue flowers"
   ],
   "care": {
-    "summary": "Sun-loving woody herb; prefers dryish soil and excellent drainage.",
-    "light": "Full sun (6+ hours)",
-    "water": "Allow soil to dry between waterings; avoid soggy roots",
-    "soil": "Sandy, well-draining; slightly alkaline OK",
-    "humidity": "Low to average",
-    "temperature_c": "10-30",
-    "fertilizer": "Light feed in spring; avoid heavy nitrogen",
-    "toxicity": "Culinary herb; generally safe when used as food",
+    "summary": "Rosemary (Salvia rosmarinus) is a woody, evergreen Mediterranean herb prized for its fragrant needle-like leaves and culinary uses. Thrives in full sun and well-drained soil, tolerates drought once established, and requires minimal maintenance. Excellent for both garden beds and containers.",
+    "light": "Full sun (6-8 hours direct sunlight daily). Tolerates light shade but becomes leggy and less fragrant without enough sun. Ideal for south-facing gardens or sunny windowsills.",
+    "water": "Drought tolerant once established. Water deeply but infrequently — allow top 2-3 inches of soil to dry between waterings. Overwatering is the most common cause of death. Reduce watering significantly in winter.",
+    "soil": "Well-draining, sandy or gravelly soil with neutral to slightly alkaline pH (6.0-7.5). Prefers poor-to-moderate fertility; overly rich soil produces leggy growth with less flavor. Add perlite or coarse sand to improve drainage if needed.",
+    "humidity": "Low to moderate humidity preferred (40-60%). High humidity promotes fungal diseases. Excellent air circulation is essential. Mediterranean native — tolerates dry indoor air well.",
+    "temperature_c": {
+      "min": -10,
+      "ideal_min": 15,
+      "ideal_max": 27,
+      "max": 35
+    },
+    "fertilizer": "Light feeder. Apply balanced slow-release fertilizer once in early spring, or compost tea monthly during growing season. Avoid high-nitrogen feeds which reduce essential oil production and flavor.",
+    "toxicity": "Non-toxic to humans in culinary quantities. May cause digestive upset in large amounts. Mildly toxic to pets (dogs/cats) if ingested in quantity — can cause vomiting or diarrhea. Safe to grow around pets.",
     "common_issues": [
-      "Root rot from overwatering",
-      "Powdery mildew in humid shade",
-      "Leggy growth with insufficient light"
+      "Brown, crispy leaf tips - underwatering or low humidity; water deeply and mulch",
+      "Yellowing lower leaves - overwatering or poor drainage; improve soil drainage immediately",
+      "Powdery mildew or mold - poor air circulation or high humidity; space plants and prune",
+      "Leggy, sparse growth - insufficient light; relocate to full sun position",
+      "Root rot - waterlogged soil; ensure pot has drainage holes and use gritty mix",
+      "Spider mites or aphids - treat with insecticidal soap or strong water spray",
+      "Woody, woody center with sparse foliage - natural aging; prune regularly to rejuvenate"
     ],
     "tips": [
-      "Prune after flowering to keep bushy",
-      "Great in pots with drainage holes",
-      "Harvest stems in the morning for best aroma"
+      "Prune regularly after flowering to maintain bushy shape and encourage new growth",
+      "Harvest sprigs anytime by cutting 4-6 inch stems from the top; never remove more than 1/3 of plant",
+      "Propagate easily from 4-6 inch stem cuttings placed in water or moist seed-starting mix",
+      "Excellent companion plant for cabbage, beans, and carrots — deters cabbage moths and carrot flies",
+      "Grow in terracotta pots for optimal root aeration and moisture evaporation",
+      "Bring container plants indoors before first frost; rosemary is hardy to zone 8 outdoors",
+      "Dry harvested stems by hanging upside down in a dark, well-ventilated area for 1-2 weeks"
     ]
   }
 }
