@@ -1,0 +1,32 @@
+{
+  "id": "cactus_gymnocalycium",
+  "common_name": "Chin Cactus",
+  "scientific_name": "Gymnocalycium mihanovichii",
+  "tags": [
+    "succulent",
+    "cactus",
+    "flowering",
+    "indoor",
+    "compact"
+  ],
+  "care": {
+    "summary": "Compact dome-shaped cactus popular as houseplant; produces pink or white flowers.",
+    "light": "Bright indirect to partial sun",
+    "water": "Very light; water only when completely dry",
+    "soil": "Well-drained cactus or succulent mix",
+    "humidity": "Low",
+    "temperature_c": "12-30",
+    "fertilizer": "Cactus fertilizer once in spring",
+    "toxicity": "Non-toxic but has small spines",
+    "common_issues": [
+      "Overwatering leading to mushy base",
+      "Etiolation without adequate light",
+      "Scale insects"
+    ],
+    "tips": [
+      "Often grafted onto hylocereus rootstock",
+      "Needs cool winter rest to flower",
+      "Great windowsill plant"
+    ]
+  }
+}

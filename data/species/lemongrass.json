@@ -1,0 +1,30 @@
+{
+  "id": "lemongrass",
+  "common_name": "Lemongrass",
+  "scientific_name": "Cymbopogon citratus",
+  "tags": [
+    "edible",
+    "herb",
+    "aromatic",
+    "tropical",
+    "ornamental"
+  ],
+  "care": {
+    "summary": "Citrus-scented grass; essential in Southeast Asian cooking and herbal teas.",
+    "light": "Full sun",
+    "water": "Moderate; drought-tolerant once established",
+    "soil": "Well-draining, loamy soil",
+    "humidity": "Medium",
+    "temperature_c": "20-38",
+    "fertilizer": "Balanced feed monthly during growing season",
+    "toxicity": "Non-toxic",
+    "common_issues": [
+      "Brown leaf tips in dry climate",
+      "Slow growth in cool temps"
+    ],
+    "tips": [
+      "Divide clumps annually",
+      "Harvest outer stalks first"
+    ]
+  }
+}

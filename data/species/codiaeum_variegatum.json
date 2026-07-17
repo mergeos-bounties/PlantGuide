@@ -1,0 +1,32 @@
+{
+  "id": "codiaeum_variegatum",
+  "common_name": "Croton",
+  "scientific_name": "Codiaeum variegatum",
+  "tags": [
+    "colorful",
+    "tropical",
+    "indoor",
+    "outdoor",
+    "ornamental"
+  ],
+  "care": {
+    "summary": "Bold tropical with leathery leaves in vivid red, orange, yellow, and green patterns.",
+    "light": "Bright direct to indirect; more light = more color",
+    "water": "Keep evenly moist; do not let dry out completely",
+    "soil": "Well-draining potting mix",
+    "humidity": "Medium to high",
+    "temperature_c": "18-30",
+    "fertilizer": "Balanced feed every 4 weeks in growing season",
+    "toxicity": "Mildly toxic; sap can irritate skin",
+    "common_issues": [
+      "Leaf drop from sudden temperature change",
+      "Spider mites in dry conditions",
+      "Loss of color in insufficient light"
+    ],
+    "tips": [
+      "Wipe leaves to maintain glossy appearance",
+      "Not a fan of being moved; pick a spot and keep it",
+      "Great statement plant for bright rooms"
+    ]
+  }
+}

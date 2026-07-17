@@ -47,19 +47,3 @@
     ]
   }
 }
----FILE_SEPARATOR---
-{
-  "tags": [
-    "herb",
-    "pointed leaves",
-    "lance-shaped",
-    "spicy aroma",
-    "fragrant",
-    "edible",
-    "tropical",
-    "green leaves",
-    "moist"
-  ],
-  "expected_species": "vietnamese_coriander",
-  "notes": "Sample observation for Vietnamese Coriander (Rau Răm) with characteristic pointed, lance-shaped leaves and distinctive spicy, citrusy aroma. Commonly found in Southeast Asian cuisine."
-}
