@@ -1,0 +1,33 @@
+{
+  "id": "asparagus_setaceus",
+  "common_name": "Asparagus Fern",
+  "scientific_name": "Asparagus setaceus",
+  "tags": [
+    "feathery foliage",
+    "airy",
+    "indoor",
+    "humidity",
+    "trailing",
+    "easy"
+  ],
+  "care": {
+    "summary": "Delicate, feathery vine with needle-like leaves; often grown as a hanging or tabletop plant.",
+    "light": "Bright indirect; tolerates some direct morning sun",
+    "water": "Keep evenly moist; do not let dry out completely",
+    "soil": "Well-draining, rich potting mix",
+    "humidity": "High; benefits from regular misting",
+    "temperature_c": "15-25",
+    "fertilizer": "Monthly with balanced liquid fertilizer during growing season",
+    "toxicity": "Mildly toxic if ingested; may cause skin irritation",
+    "common_issues": [
+      "Yellowing needles from too much direct sun",
+      "Brown tips in dry air",
+      "Dropping needles when underwatered"
+    ],
+    "tips": [
+      "Mist regularly to maintain humidity and keep foliage fresh",
+      "Prune back leggy stems to encourage bushier growth",
+      "Best in a hanging basket where feathery fronds can cascade"
+    ]
+  }
+}
