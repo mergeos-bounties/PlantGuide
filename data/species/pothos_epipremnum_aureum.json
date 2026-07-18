@@ -1,0 +1,33 @@
+{
+  "id": "pothos_epipremnum_aureum",
+  "common_name": "Golden Pothos",
+  "scientific_name": "Epipremnum aureum",
+  "tags": [
+    "indoor",
+    "hanging",
+    "easy",
+    "low light",
+    "foliage",
+    "trailing"
+  ],
+  "care": {
+    "summary": "Trailing heart-shaped leaves; extremely forgiving and fast growing in home light.",
+    "light": "Low to bright indirect; variegation fades in deep shade",
+    "water": "When top inch dries; avoid standing water",
+    "soil": "Standard well-draining potting mix",
+    "humidity": "Average home humidity OK",
+    "temperature_c": "15-29",
+    "fertilizer": "Monthly dilute feed spring–summer",
+    "toxicity": "Toxic if ingested (pets)",
+    "common_issues": [
+      "Yellow leaves from overwatering",
+      "Leggy growth in low light",
+      "Brown tips from dry air"
+    ],
+    "tips": [
+      "Pinch tips for bushier growth",
+      "Propagate cuttings in water easily",
+      "Wipe leaves monthly"
+    ]
+  }
+}
