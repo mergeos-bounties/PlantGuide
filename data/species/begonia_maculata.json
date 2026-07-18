@@ -3,31 +3,48 @@
   "common_name": "Polka Dot Begonia",
   "scientific_name": "Begonia maculata",
   "tags": [
+    "angel wing",
+    "white spots",
+    "red underside",
     "indoor",
-    "begonia",
-    "foliage",
-    "humidity",
-    "bright indirect",
-    "patterned"
+    "houseplant",
+    "cane stem",
+    "asymmetric leaves",
+    "tropical",
+    "decorative",
+    "pink flowers"
   ],
   "care": {
-    "summary": "Angel-wing leaves with silver spots and red undersides; likes bright indirect light and steady moisture.",
-    "light": "Bright indirect; soft morning sun OK",
-    "water": "Water when top inch dries; avoid soggy crown",
-    "soil": "Light, airy mix with perlite",
-    "humidity": "Moderate to high",
-    "temperature_c": "18-26",
-    "fertilizer": "Dilute monthly in growing season",
-    "toxicity": "Mildly toxic if ingested; keep from pets",
+    "summary": "Polka Dot Begonia (Begonia maculata, also known as Angel Wing Begonia) is a striking tropical cane begonia prized for its olive-green leaves with silvery-white polka dots and deep crimson undersides. A statement houseplant that produces cascades of pink-white flowers in ideal conditions. Requires bright indirect light and consistent moisture without waterlogging.",
+    "light": "Bright indirect light (6+ hours). Avoid direct sun which scorches the distinctive leaf markings. East or west-facing window ideal. Insufficient light causes leggy growth and loss of leaf coloration; too much direct sun bleaches spots and crisps edges.",
+    "water": "Keep soil consistently moist but not soggy. Water when top 1-2 inches feels dry — typically every 5-7 days in growing season, every 10-14 days in winter. Use room-temperature water to avoid shocking roots. Begonias are sensitive to overwatering — root rot develops quickly in saturated soil.",
+    "soil": "Light, airy, well-draining mix. Use African violet soil or blend peat moss + perlite + compost (2:1:1). Slightly acidic pH (5.5-6.5). Heavy garden soil causes root rot. Repot annually in spring with fresh mix.",
+    "humidity": "High humidity preferred (60-80%). Native to Brazilian rainforests. Use humidity tray, room humidifier, or group with other plants. Mist sparingly — direct water on leaves promotes powdery mildew. Avoid drafty vents and dry radiator heat.",
+    "temperature_c": {
+      "min": 13,
+      "ideal_min": 18,
+      "ideal_max": 26,
+      "max": 30
+    },
+    "fertilizer": "Moderate feeder. Apply balanced liquid fertilizer (10-10-10) diluted to half-strength every 2 weeks during growing season (spring-fall). Switch to bloom-boosting fertilizer (higher phosphorus) to encourage flowers. Pause feeding in winter.",
+    "toxicity": "Mildly toxic to humans and pets (cats/dogs). All parts contain soluble calcium oxalates which cause mouth/throat irritation, drooling, and vomiting if ingested. Keep away from curious pets and children. Wear gloves when pruning — sap can irritate sensitive skin.",
     "common_issues": [
-      "Powdery mildew in stagnant air",
-      "Leaf drop from cold drafts",
-      "Burned spots from harsh sun"
+      "Powdery white patches on leaves (powdery mildew) - high humidity + poor airflow; remove affected leaves, increase ventilation, apply sulfur fungicide",
+      "Brown crispy leaf edges - low humidity or direct sun exposure; move to brighter indirect light, increase humidity",
+      "Yellowing lower leaves - overwatering; allow soil to dry slightly between waterings, ensure pot has drainage holes",
+      "White cottony fluff under leaves (mealybugs) - treat with isopropyl alcohol on cotton swab, repeat weekly",
+      "Spider mites (fine webbing) - dry air; rinse leaves, increase humidity, apply insecticidal soap",
+      "Stem base mushy or black (root/stem rot) - overwatering; remove affected stems, repot in fresh dry soil, reduce watering",
+      "Leaf drop - sudden temperature change or cold draft; keep away from doors, AC vents, and cold windows"
     ],
     "tips": [
-      "Rotate for even spotting display",
-      "Pinch tips for bushier growth",
-      "Wipe leaves gently; avoid cold water splash"
+      "Pinch growing tips regularly to encourage bushier, fuller growth rather than leggy single stems",
+      "Prune cane stems in spring to 2-3 nodes from base — encourages branching and propagation cuttings",
+      "Propagate easily from 4-6 inch stem cuttings in water or moist soil; roots in 3-4 weeks",
+      "Bloom best when slightly root-bound — don't oversize pot when repotting",
+      "Clean glossy leaves monthly with damp cloth to keep polka dots visible and dust-free",
+      "Rotate plant weekly to prevent asymmetric leaning toward light source",
+      "Flowers appear in cascading white-pink clusters on mature plants — stake tall canes for support"
     ]
   }
 }
