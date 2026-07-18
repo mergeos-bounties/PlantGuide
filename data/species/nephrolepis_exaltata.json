@@ -2,12 +2,38 @@
   "id": "nephrolepis_exaltata",
   "common_name": "Boston Fern",
   "scientific_name": "Nephrolepis exaltata",
-  "family": "Lomariopsidaceae",
-  "genus": "Nephrolepis",
-  "water_needs": "high",
-  "light_needs": "indirect",
-  "difficulty": "medium",
-  "description": "Classic fern with arching fronds",
-  "origin": "Cultivated worldwide",
-  "toxicity": "Non-toxic to pets"
+  "tags": [
+    "fern",
+    "fronds",
+    "humidity",
+    "hanging",
+    "bathroom",
+    "trailing",
+    "shade"
+  ],
+  "care": {
+    "summary": "Lush hanging fern with arching fronds; thrives in humidity and consistent moisture.",
+    "light": "Bright indirect to medium shade; no direct sun",
+    "water": "Keep soil evenly moist; water when top inch feels dry",
+    "soil": "Peaty, well-draining potting mix with organic matter",
+    "humidity": "High (60%+ preferred)",
+    "temperature_c": "16-24",
+    "fertilizer": "Half-strength liquid fertilizer monthly in spring/summer",
+    "toxicity": "Non-toxic to pets",
+    "common_issues": [
+      "Brown crispy frond tips from low humidity",
+      "Yellowing fronds from overwatering",
+      "Frond drop from cold drafts or under-watering",
+      "Scale insects on fronds"
+    ],
+    "tips": [
+      "Mist fronds daily in dry rooms or use a pebble tray",
+      "Place in bathrooms for natural humidity",
+      "Trim yellow/brown fronds at the base",
+      "Rotate pot weekly for even growth"
+    ]
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
 }
