@@ -1,0 +1,38 @@
+{
+  "id": "zinnia_elegans",
+  "common_name": "Common Zinnia",
+  "scientific_name": "Zinnia elegans",
+  "tags": [
+    "annual",
+    "flowering",
+    "full sun",
+    "drought tolerant",
+    "outdoor",
+    "pollinator",
+    "cut flower",
+    "garden"
+  ],
+  "care": {
+    "summary": "Vibrant, easy-to-grow annual beloved for bold blooms; thrives in heat and full sun with minimal fuss.",
+    "light": "Full sun (6+ hours daily)",
+    "water": "Moderate; water at base, allow soil to dry slightly between sessions",
+    "soil": "Well-draining, moderately fertile; slightly acidic to neutral (pH 5.5-7.0)",
+    "humidity": "Low to moderate; good air circulation prevents fungal issues",
+    "temperature_c": "18-35",
+    "fertilizer": "Balanced fertilizer every 4 weeks; avoid excess nitrogen to encourage blooms over foliage",
+    "toxicity": "Non-toxic to humans and pets",
+    "common_issues": [
+      "Powdery mildew in humid or crowded conditions",
+      "Aphids and spider mites in dry weather",
+      "Leggy growth in insufficient light",
+      "Root rot from overwatering or poor drainage"
+    ],
+    "tips": [
+      "Deadhead spent blooms regularly to extend flowering season",
+      "Direct sow seeds after last frost for best results",
+      "Space plants 30-45 cm apart for airflow and mildew prevention",
+      "Excellent for attracting butterflies and bees",
+      "Harvest cut flowers early morning when blooms are half-open for longest vase life"
+    ]
+  }
+}
