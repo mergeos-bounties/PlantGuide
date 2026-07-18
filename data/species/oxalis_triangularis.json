@@ -1,0 +1,38 @@
+{
+  "id": "oxalis_triangularis",
+  "common_name": "Purple Shamrock",
+  "scientific_name": "Oxalis triangularis",
+  "tags": [
+    "bulb",
+    "indoor",
+    "outdoor",
+    "flowering",
+    "purple foliage",
+    "shade tolerant",
+    "low maintenance",
+    "air purifying"
+  ],
+  "care": {
+    "summary": "Stunning purple-leafed bulb plant that folds its leaves at night; rewarding and low-fuss with bright indirect light.",
+    "light": "Bright indirect light; tolerates partial shade — avoid harsh direct midday sun which fades purple colour",
+    "water": "Moderate; water when top 2-3 cm of soil is dry; reduce significantly during dormancy",
+    "soil": "Light, well-draining potting mix; slightly acidic (pH 6.0-7.0)",
+    "humidity": "Average household humidity; 40-60% preferred",
+    "temperature_c": "15-26",
+    "fertilizer": "Diluted balanced liquid fertilizer every 2-4 weeks during active growth; none during dormancy",
+    "toxicity": "Mildly toxic to cats, dogs, and horses if ingested in large quantities due to oxalic acid",
+    "common_issues": [
+      "Leggy growth and faded leaf colour in low light",
+      "Root rot from overwatering, especially during dormancy",
+      "Spider mites in dry indoor conditions",
+      "Leaves yellowing and dropping — may signal natural dormancy, not death"
+    ],
+    "tips": [
+      "Leaves fold up at night and in response to darkness — this is normal nyctinasty behaviour",
+      "Plant goes dormant 1-2 times per year; stop watering, let foliage die back, resume after 4-6 weeks",
+      "Easy to propagate by dividing the small corm clusters at repotting time",
+      "Thrives in terracotta pots that allow bulbs to breathe",
+      "Can be grown outdoors in partial shade in warm climates (USDA zones 8-11)"
+    ]
+  }
+}
