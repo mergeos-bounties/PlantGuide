@@ -1,0 +1,33 @@
+{
+  "id": "snake_plant_laurentii_moonshine",
+  "common_name": "Snake Plant Laurentii",
+  "scientific_name": "Dracaena trifasciata 'Laurentii'",
+  "tags": [
+    "indoor",
+    "low light",
+    "succulent",
+    "easy",
+    "air-purifying",
+    "drought-tolerant"
+  ],
+  "care": {
+    "summary": "Upright sword leaves with yellow margins; nearly indestructible office plant.",
+    "light": "Low to bright indirect; tolerates some direct morning sun",
+    "water": "When soil is fully dry; sparse in winter",
+    "soil": "Cactus/succulent mix with grit",
+    "humidity": "Low to average",
+    "temperature_c": "15-29",
+    "fertilizer": "Sparse feed in growing season only",
+    "toxicity": "Mildly toxic if ingested",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Mushy leaves from cold drafts",
+      "Dusty leaf surfaces"
+    ],
+    "tips": [
+      "Use a heavy pot — tall leaves tip easily",
+      "Wipe leaves monthly",
+      "Propagate by leaf cuttings"
+    ]
+  }
+}
