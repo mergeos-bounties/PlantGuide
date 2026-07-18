@@ -1,33 +1,37 @@
 {
   "id": "caladium_bicolor",
-  "common_name": "Angel Wings",
+  "common_name": "Caladium / Heart of Jesus",
   "scientific_name": "Caladium bicolor",
   "tags": [
-    "indoor",
+    "colorful heart leaves",
+    "shade",
+    "seasonal bulb",
+    "tropical",
     "foliage",
-    "colorful",
-    "humidity",
-    "bright indirect",
-    "tuber"
+    "indoor",
+    "humid",
+    "ornamental"
   ],
   "care": {
-    "summary": "Heart-shaped leaves with pink, red, or white patterns; dormant in cool seasons.",
-    "light": "Bright indirect; some morning sun OK",
-    "water": "Even moisture while growing; reduce when dormant",
-    "soil": "Rich, well-draining potting mix",
-    "humidity": "Moderate to high",
+    "summary": "Stunning heart-shaped leaves in vibrant pink, red, white, and green combinations; a seasonal tropical bulb prized for its colorful foliage.",
+    "light": "Bright indirect to partial shade; avoid direct midday sun which scorches leaves",
+    "water": "Keep soil consistently moist but not waterlogged; reduce watering when leaves die back in dormancy",
+    "soil": "Rich, well-draining organic potting mix with peat moss or coco coir",
+    "humidity": "High humidity preferred (60%+); mist leaves or use a pebble tray",
     "temperature_c": "18-29",
-    "fertilizer": "Half-strength every 2–4 weeks in growth",
-    "toxicity": "Toxic if ingested (calcium oxalate)",
+    "fertilizer": "Balanced liquid fertilizer every 2 weeks during active growth; stop when leaves yellow in fall",
+    "toxicity": "Toxic if ingested (calcium oxalate crystals); keep away from pets and children",
     "common_issues": [
-      "Leaf scorch in harsh sun",
-      "Tuber rot from cold wet soil",
-      "Yellowing as dormancy begins"
+      "Leaf scorch from direct sun or low humidity",
+      "Leggy growth from insufficient light",
+      "Root rot from overwatering or poorly draining soil",
+      "Dormant dieback in winter if temperature drops below 15°C"
     ],
     "tips": [
-      "Store dry tubers cool if leaves die back",
-      "Group for humidity",
-      "Do not overwater in winter rest"
+      "Plant tubers 5cm deep with eyes facing up when soil temperature reaches 21°C",
+      "Lift and store tubers indoors over winter in cold climates",
+      "Remove spent leaves to encourage new growth",
+      "Pinch off flower buds to direct energy into foliage display"
     ]
   }
 }
