@@ -1,0 +1,33 @@
+{
+  "id": "peace_lily_spathiphyllum",
+  "common_name": "Peace Lily",
+  "scientific_name": "Spathiphyllum wallisii",
+  "tags": [
+    "indoor",
+    "low light",
+    "flowering",
+    "easy",
+    "air-purifying",
+    "humidity"
+  ],
+  "care": {
+    "summary": "Dark glossy leaves and white spathes; signals thirst with dramatic droop then recovers.",
+    "light": "Low to medium indirect; avoid harsh sun",
+    "water": "When top inch dries; keep evenly moist not soggy",
+    "soil": "Peaty well-draining mix",
+    "humidity": "Medium to high preferred",
+    "temperature_c": "18-27",
+    "fertilizer": "Monthly dilute feed in growing season",
+    "toxicity": "Toxic if ingested (pets)",
+    "common_issues": [
+      "Brown tips from dry air or fluoride",
+      "No blooms in too little light",
+      "Root rot from overwatering"
+    ],
+    "tips": [
+      "Wipe leaves monthly",
+      "Cut spent blooms at base",
+      "Group with other plants for humidity"
+    ]
+  }
+}
