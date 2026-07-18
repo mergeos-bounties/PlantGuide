@@ -1,0 +1,33 @@
+{
+  "id": "chlorophytum_comosum_vittatum",
+  "common_name": "Spider Plant Vittatum",
+  "scientific_name": "Chlorophytum comosum 'Vittatum'",
+  "tags": [
+    "indoor",
+    "easy",
+    "variegated",
+    "air-purifying",
+    "pet-friendly",
+    "plantlets"
+  ],
+  "care": {
+    "summary": "Arching grass-like leaves with creamy white center stripes; produces baby plantlets on long runners.",
+    "light": "Bright indirect light; tolerates medium light",
+    "water": "Water when top 1-2 inches of soil dry; sensitive to fluoride",
+    "soil": "Standard well-drained potting mix",
+    "humidity": "Tolerates average home humidity",
+    "temperature_c": "13-27",
+    "fertilizer": "Balanced liquid feed every 2-4 weeks in growing season",
+    "toxicity": "Non-toxic to cats and dogs; safe for households with pets",
+    "common_issues": [
+      "Brown leaf tips from fluoride in tap water or over-fertilizing",
+      "Pale leaves when light is too low",
+      "Root rot if soil stays soggy"
+    ],
+    "tips": [
+      "Use rainwater or filtered water to prevent leaf-tip browning",
+      "Propagate plantlets by rooting in water then potting",
+      "Pot-bound plants produce more plantlets"
+    ]
+  }
+}
