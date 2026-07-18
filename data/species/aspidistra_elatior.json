@@ -1,0 +1,35 @@
+{
+  "id": "aspidistra_elatior",
+  "common_name": "Cast Iron Plant",
+  "scientific_name": "Aspidistra elatior",
+  "tags": [
+    "dark green",
+    "low light",
+    "tough",
+    "indoor",
+    "broad leaves",
+    "shade tolerant",
+    "hardy"
+  ],
+  "care": {
+    "summary": "Extremely tough, low-light houseplant that tolerates neglect; lives up to its 'cast iron' name.",
+    "light": "Low to moderate indirect light; tolerates deep shade",
+    "water": "Water sparingly; let soil dry out between waterings",
+    "soil": "Well-draining potting mix",
+    "humidity": "Low to average; forgiving of dry air",
+    "temperature_c": "7-29",
+    "fertilizer": "Feed monthly in spring/summer with balanced liquid fertilizer",
+    "toxicity": "Non-toxic to pets",
+    "common_issues": [
+      "Yellow leaves from overwatering",
+      "Brown leaf tips from dry air or underwatering",
+      "Spider mites in dry conditions"
+    ],
+    "tips": [
+      "Wipe leaves occasionally to remove dust",
+      "Divide clumps in spring for propagation",
+      "Avoid direct sun — leaves will scorch",
+      "Can bloom with small purple flowers at soil level"
+    ]
+  }
+}
