@@ -3,30 +3,48 @@
   "common_name": "Swiss Cheese Vine",
   "scientific_name": "Monstera adansonii",
   "tags": [
-    "trailing",
-    "vine",
-    "indoor",
+    "holes in leaves",
+    "trailing climbing",
     "tropical",
-    "fenestrated"
+    "aroid",
+    "fenestrated leaves",
+    "vining",
+    "heart-shaped",
+    "houseplant",
+    "fast growing",
+    "lush green"
   ],
   "care": {
-    "summary": "Trailing tropical with fenestrated leaves; loves humidity and bright shade.",
-    "light": "Bright indirect; avoid harsh midday sun",
-    "water": "Water when top 2 cm dry; never soggy",
-    "soil": "Airy aroid mix with bark and perlite",
-    "humidity": "Medium to high",
-    "temperature_c": "18-28",
-    "fertilizer": "Balanced feed every 3-4 weeks in growth season",
-    "toxicity": "Toxic if ingested (pets)",
+    "summary": "Swiss Cheese Vine (Monstera adansonii) is a fast-growing tropical aroid prized for its heart-shaped leaves with distinctive fenestrations (natural holes). Native to Central and South American rainforests where it climbs trees. Versatile as a trailing hanging plant or trained to climb a moss pole. Easy to propagate and low-maintenance.",
+    "light": "Bright indirect light. Tolerates medium light but develops smaller leaves with fewer holes. Direct sun scorches leaves; deep shade stunts growth. East or north-facing window ideal. Rotate weekly for even growth when trailing.",
+    "water": "Water when top 2-3 inches of soil feels dry — typically every 5-7 days in growing season, every 10-14 days in winter. Allow excess to drain completely. Overwatering causes yellow leaves and root rot. Aroids prefer slight drying between waterings.",
+    "soil": "Well-draining, airy aroid mix. Blend orchid bark + perlite + peat moss (1:1:1) or use pre-made aroid soil. Slightly acidic pH (5.5-7.0). Standard potting soil holds too much water — must be amended with bark/perlite. Pot MUST have drainage holes.",
+    "humidity": "High humidity preferred (60-80%). Native to rainforest understory. Use humidifier, pebble tray, or group with other plants. Tolerates average household humidity (40-50%) but grows faster with higher humidity. Brown crispy leaf edges indicate humidity too low.",
+    "temperature_c": {
+      "min": 15,
+      "ideal_min": 18,
+      "ideal_max": 27,
+      "max": 32
+    },
+    "fertilizer": "Moderate feeder. Apply balanced liquid fertilizer (20-20-20) diluted to half-strength every 2-3 weeks during growing season (April-September). Pause feeding in winter. Over-fertilizing causes salt buildup — flush soil with water quarterly.",
+    "toxicity": "Mildly toxic to humans and pets (cats/dogs). All parts contain calcium oxalate crystals which cause mouth/throat irritation, drooling, difficulty swallowing, and vomiting if ingested. Keep away from curious pets and children. Wear gloves when pruning — sap can irritate skin.",
     "common_issues": [
-      "Yellow leaves from overwater",
-      "No holes in low light",
-      "Spider mites"
+      "Yellowing leaves (often with mushy stems) - overwatering; allow soil to dry more between waterings, check roots for rot",
+      "Brown crispy leaf edges - low humidity or underwatering; increase humidity, water when top 2-3 inches is dry",
+      "Leaves not developing holes (fenestrations) - insufficient light or immature plant; move to brighter indirect light",
+      "Small new leaves - insufficient light or nutrients; fertilize regularly and brighten location",
+      "Spider mites (fine webbing under leaves) - dry air; rinse leaves, increase humidity, apply insecticidal soap",
+      "Thrips (silver streaks on leaves) - treat with spinosad or predatory mites; isolate affected plant",
+      "Root rot (black mushy roots, foul smell) - overwatering or soil too dense; repot in fresh aroid mix, trim rot"
     ],
     "tips": [
-      "Moss pole for climbing",
-      "Mist occasionally",
-      "Propagate node cuttings in water"
+      "Train on a moss pole or trellis for larger leaves with more fenestrations — climbing triggers mature leaf form",
+      "Pinch growing tips regularly to encourage branching and fuller trailing growth",
+      "Propagate easily from stem cuttings with at least 1 node and 1 leaf — root in water (changes weekly) or moist sphagnum moss",
+      "Clean leaves monthly with damp cloth to maximize photosynthesis and inspect for pests",
+      "Repot every 1-2 years in spring, going up 1 pot size — roots circling the pot signal it's time",
+      "Cuttings root in water in 2-3 weeks; transfer to soil when roots are 2-3 inches long",
+      "Companion plant with other aroids (Philodendron, Pothos) — they share similar light, water, humidity needs"
     ]
   }
 }
