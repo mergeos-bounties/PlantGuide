@@ -1,33 +1,53 @@
 {
-  "id": "sansevieria_trifasciata",
-  "common_name": "Snake Plant",
-  "scientific_name": "Dracaena trifasciata",
-  "tags": [
-    "indoor",
-    "succulent",
-    "low light",
-    "air purifying",
-    "easy",
-    "bedroom"
-  ],
-  "care": {
-    "summary": "Tough upright foliage plant; sparse watering.",
-    "light": "Low to bright indirect; avoid harsh midday sun",
-    "water": "Every 2–4 weeks; let soil dry fully",
-    "soil": "Cactus/succulent mix or well-draining potting soil",
-    "humidity": "Low to average",
-    "temperature_c": "15-30",
-    "fertilizer": "Light feed 2–3× per growing season",
-    "toxicity": "Mildly toxic if ingested (pets/kids)",
-    "common_issues": [
-      "Root rot from overwatering",
-      "Soft leaves from cold drafts",
-      "Brown tips from fluoride-heavy water"
-    ],
-    "tips": [
-      "Use a terracotta pot for faster drying",
-      "Wipe dust off leaves monthly",
-      "Propagate from leaf cuttings"
-    ]
-  }
+"id": "sansevieria_trifasciata",
+"common_name": "Snake Plant",
+"scientific_name": "Dracaena trifasciata (syn. Sansevieria trifasciata)",
+"tags": [
+"succulent",
+"upright",
+"thick leaves",
+"drought tolerant",
+"low light",
+"indoor",
+"air-purifying",
+"beginner",
+"sword leaves",
+"yellow edge"
+],
+"care": {
+"summary": "Snake Plant (Dracaena trifasciata, formerly Sansevieria trifasciata) is one of the hardiest houseplants — thrives on neglect with tall, upright sword-like leaves featuring yellow edges and green cross-banding. Excellent for low-light corners and office desks.",
+"light": "Low to bright indirect light. Tolerates low-light conditions better than most plants. Avoid direct hot sun which can scorch leaf tips. Fluorescent office light is sufficient.",
+"water": "Water sparingly every 2-6 weeks depending on light and season. Let soil dry completely between waterings. In winter, water only once a month or less. Overwatering is the #1 cause of death.",
+"soil": "Fast-draining cactus or succulent potting mix. Add perlite or coarse sand for extra drainage. Avoid heavy potting soil that retains moisture.",
+"humidity": "Very low to medium humidity (20-50%). Thrives in dry indoor air and bathrooms with minimal humidity. No misting required.",
+"temperature_c": {
+"min": 10,
+"ideal_min": 18,
+"ideal_max": 30,
+"max": 35
+},
+"fertilizer": "Feed with diluted succulent or balanced fertilizer once in spring and once in summer. Do not fertilize in winter. Over-fertilizing causes leaf droop.",
+"toxicity": "Mildly toxic if ingested — contains saponins that cause nausea, vomiting, and drooling in pets and humans. Keep out of reach of cats and dogs.",
+"common_issues": [
+"Root rot from overwatering — mushy, yellowing leaves at base; reduce watering and repot in dry soil",
+"Brown leaf tips — fluoride in tap water or dry air; use filtered water and wipe leaves",
+"Mealybugs — white cotton-like clusters at leaf base; wipe with rubbing alcohol",
+"Leaf splitting or curling — underwatering or physical damage; increase watering slightly",
+"Fungal leaf spot — dark spots with yellow halos; improve air circulation and avoid wetting leaves",
+"Etiolation (leggy, pale growth) — insufficient light; move to brighter spot gradually"
+],
+"tips": [
+"Use a terracotta pot with drainage holes — helps wick excess moisture away from roots",
+"Wipe leaves with a damp cloth monthly to remove dust and keep stomata clear",
+"Propagate easily by division (separate pups/rhizomes) or leaf cuttings in water or soil",
+"Rotate pot quarterly for even growth — leaves grow toward light source",
+"Snake plants are CAM plants — they release oxygen at night, making them ideal bedroom plants",
+"Leaves can be trimmed with clean scissors if tips get damaged; cut at an angle to mimic natural shape",
+"Let cuttings callous over for 2-3 days before placing in water to prevent rot"
+]
+},
+"toxicity": [
+"toxic_to_pets",
+"toxic_to_humans_mild"
+]
 }
