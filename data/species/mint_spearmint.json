@@ -2,17 +2,49 @@
   "id": "mint_spearmint",
   "common_name": "Spearmint",
   "scientific_name": "Mentha spicata",
-  "tags": ["herb", "aromatic", "trailing", "invasive", "partial sun", "moist", "outdoor", "kitchen"],
+  "tags": [
+    "herb",
+    "aromatic",
+    "invasive runners",
+    "moist soil",
+    "kitchen",
+    "serrated leaves",
+    "square stem",
+    "culinary",
+    "perennial",
+    "refreshing"
+  ],
   "care": {
-    "summary": "Fast-spreading kitchen herb; keep contained or it takes over beds.",
-    "light": "Partial sun to bright shade",
-    "water": "Keep soil evenly moist; dislikes drying out fully",
-    "soil": "Rich, moisture-retentive potting mix",
-    "humidity": "Average to high",
-    "temperature_c": "10-28",
-    "fertilizer": "Light monthly feed in growing season",
-    "toxicity": "Culinary herb; generally safe as food",
-    "common_issues": ["Powdery mildew", "Root bound pots", "Invasive runners"],
-    "tips": ["Grow in pots to control spread", "Pinch tips for bushier growth", "Harvest before flowering for best flavor"]
+    "summary": "Spearmint (Mentha spicata) is a perennial aromatic herb prized for its refreshing, sweet-minty flavor. Easy to grow but aggressively spreading via underground runners — best grown in containers to prevent garden takeover. Thrives in moist soil with partial to full sun. Excellent for teas, culinary use, and cocktails.",
+    "light": "Partial sun to full sun (4-6 hours daily). Tolerates partial shade well, especially in hot climates where afternoon shade prevents scorching. Indoors, place near a bright east or south-facing window.",
+    "water": "Keep soil consistently moist but not waterlogged. Water when top inch of soil feels dry — typically every 1-2 days in warm weather, every 3-4 days in cooler months. Mulch around plants to retain moisture and cool roots. Never let soil dry completely.",
+    "soil": "Rich, moist, well-draining soil with pH 6.0-7.5. Tolerates a wide range of soil types but thrives in loamy soil amended with compost. In containers, use a high-quality potting mix with added perlite for drainage.",
+    "humidity": "Moderate humidity (50-70%) preferred. Tolerates lower humidity but may develop crispy leaf edges. Mist occasionally indoors or place on a pebble tray. Avoid high humidity which promotes fungal diseases.",
+    "temperature_c": {
+      "min": -15,
+      "ideal_min": 13,
+      "ideal_max": 24,
+      "max": 30
+    },
+    "fertilizer": "Light feeder. Apply balanced liquid fertilizer (10-10-10) diluted to half-strength every 4-6 weeks during growing season. Avoid over-fertilizing — reduces essential oil concentration and flavor. Compost top-dressing in spring is sufficient for garden plants.",
+    "toxicity": "Non-toxic to humans and pets. Safe for culinary use in all quantities. Mint essential oil is concentrated and should be used cautiously around pets (esp. cats) if applied topically.",
+    "common_issues": [
+      "Rusty orange spots on leaves (mint rust) - fungal disease; remove affected leaves, improve air circulation, apply copper fungicide if severe",
+      "Powdery white coating (powdery mildew) - high humidity + poor airflow; space plants, water at soil level not on leaves",
+      "Yellowing leaves - overwatering or poor drainage; ensure pot has drainage holes, reduce watering frequency",
+      "Leggy, sparse growth - insufficient light; move to sunnier location and pinch back stems to encourage bushiness",
+      "Aphids or spider mites - spray with strong water jet or insecticidal soap; introduce ladybugs as biological control",
+      "Mint root borers or flea beetles - rotate plantings, use row covers, destroy heavily infested plants",
+      "Aggressive spreading via runners - plant in containers or use root barriers 12+ inches deep in garden beds"
+    ],
+    "tips": [
+      "ALWAYS grow in containers or raised beds with root barriers — spearmint runners will invade and choke neighboring plants",
+      "Pinch off flower buds as they form to extend leaf harvest and prevent self-seeding",
+      "Harvest sprigs anytime by cutting stems just above a leaf node — regular harvesting encourages bushier growth",
+      "Propagate easily from stem cuttings in water (roots in 5-7 days) or by dividing established root clumps in spring",
+      "Dry leaves by hanging stems upside down in a dark, well-ventilated area; freeze fresh leaves in ice cubes for drinks",
+      "Companion plant with tomatoes and cabbage (deters pests) but keep away from other herbs to prevent cross-pollination",
+      "Bring container plants indoors before first frost; spearmint is hardy but indoor plants provide year-round harvest"
+    ]
   }
 }
