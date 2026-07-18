@@ -1,0 +1,11 @@
+{
+  "id": "obs_ficus_elastica",
+  "tags": [
+    "glossy leaves",
+    "broad oval",
+    "upright stem",
+    "dark green",
+    "large leaves"
+  ],
+  "expected_species": "ficus_elastica"
+}

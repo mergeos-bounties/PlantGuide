@@ -3,31 +3,37 @@
   "common_name": "Rubber Plant",
   "scientific_name": "Ficus elastica",
   "tags": [
+    "large glossy leaves",
+    "tree form",
     "indoor",
-    "tree",
-    "foliage",
     "bright light",
-    "statement",
-    "easy"
+    "upright",
+    "beginner friendly",
+    "tropical",
+    "ficus"
   ],
   "care": {
-    "summary": "Glossy large-leaf indoor tree.",
-    "light": "Bright indirect; some morning sun ok",
-    "water": "Water when top 2–3 cm dry; avoid soggy soil",
-    "soil": "Well-draining potting mix",
-    "humidity": "Average to moderate",
-    "temperature_c": "16-28",
-    "fertilizer": "Monthly dilute feed in growing season",
-    "toxicity": "Mildly toxic if ingested; sap may irritate skin",
+    "summary": "Sturdy tree-form ficus with large glossy oval leaves; thrives in bright indirect light.",
+    "light": "Bright indirect light; tolerates moderate light, but avoid direct harsh sun",
+    "water": "Water when top 2-3 cm of soil is dry; reduce in winter",
+    "soil": "Well-draining potting mix with perlite",
+    "humidity": "40-60%; appreciates occasional misting",
+    "temperature_c": "15-29",
+    "fertilizer": "Balanced liquid fertilizer monthly in spring/summer",
+    "toxicity": "Toxic to pets if ingested (sap can also irritate skin)",
     "common_issues": [
-      "Leaf drop from sudden moves",
-      "Brown edges from underwatering",
-      "Root rot from overwatering"
+      "Dropping lower leaves from overwatering or drafts",
+      "Brown leaf edges from dry air",
+      "Loss of variegation in low light"
     ],
     "tips": [
-      "Wipe leaves monthly",
-      "Rotate for even growth",
-      "Stake tall specimens"
+      "Wipe leaves regularly to keep them glossy and dust-free",
+      "Rotate periodically for even growth",
+      "Propagate via stem cuttings or air layering",
+      "Use a slightly snug pot for best growth"
     ]
-  }
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }
