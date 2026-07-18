@@ -1,33 +1,50 @@
 {
   "id": "zamioculcas_raven",
-  "common_name": "ZZ Raven",
-  "scientific_name": "Zamioculcas zamiifolia 'Raven'",
+  "common_name": "Raven ZZ",
+  "scientific_name": "Zamioculcas zamiifolia Raven",
   "tags": [
-    "indoor",
+    "black leaves",
+    "drought",
     "low light",
-    "easy",
-    "drought tolerant",
-    "foliage",
-    "office"
+    "glossy",
+    "houseplant",
+    "succulent rhizome",
+    "waxy",
+    "slow growing",
+    "architectural",
+    "tropical"
   ],
   "care": {
-    "summary": "Near-black glossy leaflets on upright stems; thrives on infrequent water and low light.",
-    "light": "Low to bright indirect",
-    "water": "Every 2–3 weeks; dry thoroughly between",
-    "soil": "Well-draining potting mix",
-    "humidity": "Average",
-    "temperature_c": "16-29",
-    "fertilizer": "Dilute monthly in growing season",
-    "toxicity": "Toxic if ingested",
+    "summary": "Raven ZZ is a striking tropical houseplant cultivar of Zamioculcas zamiifolia, prized for its glossy, dark purple-black foliage that emerges bright green and darkens with age. Extremely drought tolerant and low-light tolerant thanks to its water-storing rhizomes. A near-indestructible statement plant perfect for low-maintenance indoor spaces.",
+    "light": "Low to bright indirect light. Tolerates fluorescent office lighting and north-facing windows. Avoid direct sun which scorches the dark leaves. New growth emerges brighter green in higher light; leaves stay darker in lower light. Ideal for low-light corners where other plants struggle.",
+    "water": "Highly drought tolerant — water only when soil is COMPLETELY dry (every 2-3 weeks in summer, every 4-6 weeks in winter). The thick rhizomes store water for months. Overwatering is the #1 killer — causes rhizome rot. When in doubt, wait another week. Signs of thirst: slight drooping of stems.",
+    "soil": "Very well-draining mix. Use cactus/succulent soil or mix regular potting soil 50/50 with perlite, pumice, or coarse sand. MUST have drainage holes. Rhizomes rot quickly in heavy or water-retentive soil. Slightly acidic to neutral pH (6.0-7.0).",
+    "humidity": "Low to average household humidity (30-50%). Adapts to dry indoor air. No misting needed. Avoid placing near humidifiers or in bathrooms with frequent steam — excessive humidity promotes fungal leaf spots.",
+    "temperature_c": {
+      "min": 15,
+      "ideal_min": 18,
+      "ideal_max": 26,
+      "max": 30
+    },
+    "fertilizer": "Very light feeder. Feed once every 3-4 months with balanced houseplant fertilizer diluted to quarter-strength during growing season (spring-fall). Do not fertilize in winter. Over-fertilizing causes leaf burn and leggy growth. Slow-release pellets applied once in spring are ideal.",
+    "toxicity": "Mildly toxic to humans and pets (cats/dogs). All parts contain calcium oxalate crystals which cause mouth/throat irritation, drooling, and vomiting if ingested. Keep away from curious pets and children. Wear gloves when pruning — sap can cause skin irritation in sensitive individuals.",
     "common_issues": [
-      "Yellow leaves from overwatering",
-      "Mushy rhizomes in soggy soil",
-      "Slow growth in deep shade"
+      "Yellowing leaves - overwatering; allow soil to dry COMPLETELY between waterings, check rhizomes for rot (mushy/black)",
+      "Mushy stems at base - rhizome rot from overwatering; remove affected stems, repot in fresh dry soil, reduce watering dramatically",
+      "Brown crispy leaf tips - too much direct sun or underwatering; move to indirect light, water when soil is fully dry",
+      "New growth stays green instead of darkening - insufficient light; move to brighter indirect light to encourage dark pigmentation",
+      "Drooping stems - extreme thirst; give a deep watering, plant should recover within 24-48 hours",
+      "Scale insects or mealybugs - wipe leaves with neem oil solution or rubbing alcohol on cotton swab; repeat weekly until gone",
+      "Spider mites (webbing under leaves) - dry air attracts mites; wipe leaves, increase airflow, apply insecticidal soap"
     ],
     "tips": [
-      "Let soil dry between waterings",
-      "Wipe dust from leaflets",
-      "Propagates from leaflets (slow)"
+      "When in doubt, DO NOT WATER — Raven ZZ survives neglect far better than overwatering. Wait until pot feels light and soil is bone dry.",
+      "Repot only every 2-3 years in spring, going up just 1 pot size. Raven ZZ prefers being slightly root-bound.",
+      "Propagate by division of rhizomes during repotting, or by leaf cuttings: stick a leaflet in moist soil and wait 2-3 months for a new rhizome.",
+      "Clean glossy leaves monthly with a damp cloth to remove dust and enhance the dramatic dark color display.",
+      "Rotate plant quarterly for even growth — Raven ZZ tends to lean toward light sources.",
+      "New leaves emerge bright lime-green and gradually darken to purple-black over 2-3 months. This is normal, not a sign of stress.",
+      "Ideal for offices, low-light apartments, and frequent travelers — can survive 4+ weeks without water with no damage."
     ]
   }
 }
