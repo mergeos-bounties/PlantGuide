@@ -1,0 +1,36 @@
+{
+"id": "ficus_benjamina",
+"common_name": "Weeping Fig",
+"scientific_name": "Ficus benjamina",
+"tags": [
+"tree",
+"small leaves",
+"drooping branches",
+"indoor",
+"houseplant",
+"foliage",
+"tropical"
+],
+"care": {
+"summary": "Graceful drooping branches with small glossy leaves; sensitive to environmental changes and drops leaves easily when stressed.",
+"light": "Bright indirect light; tolerates some morning sun",
+"water": "Keep evenly moist; let top inch dry between waterings",
+"soil": "Well-draining potting mix with perlite",
+"humidity": "Moderate to high; appreciates misting",
+"temperature_c": "18-24",
+"fertilizer": "Monthly balanced liquid feed in spring/summer",
+"toxicity": "Toxic if ingested (sap contains irritants)",
+"common_issues": [
+"Leaf drop from overwatering, drafts, or location change",
+"Yellow leaves from overwatering",
+"Spider mites in dry air",
+"Scale insects on stems and leaves"
+],
+"tips": [
+"Keep in one spot once settled — hates being moved",
+"Prune to shape in spring",
+"Wipe leaves monthly to prevent dust buildup",
+"Avoid cold drafts and sudden temperature changes"
+]
+}
+}
