@@ -1,0 +1,34 @@
+{
+  "id": "chlorophytum_comosum_vittatum",
+  "common_name": "Spider Plant Vittatum",
+  "scientific_name": "Chlorophytum comosum Vittatum",
+  "tags": [
+    "arching",
+    "white center stripe",
+    "plantlets",
+    "hanging",
+    "variegated",
+    "indoor",
+    "easy"
+  ],
+  "care": {
+    "summary": "Classic variegated spider plant with a broad creamy-white center stripe and arching leaves that produce hanging plantlets.",
+    "light": "Bright indirect; tolerates medium light. Variegation holds best in good light.",
+    "water": "Water when top inch of soil is dry; avoid overwatering and soggy crown",
+    "soil": "Well-draining all-purpose potting mix",
+    "humidity": "Average to moderate; tolerates dry air but benefits from occasional misting",
+    "temperature_c": "15-28",
+    "fertilizer": "Monthly dilute balanced feed in spring and summer",
+    "toxicity": "Non-toxic to cats and dogs (generally considered pet-safe)",
+    "common_issues": [
+      "Brown leaf tips from fluoride, salts, or dry air",
+      "Loss of variegation in low light",
+      "Root bound pots reduce plantlet production"
+    ],
+    "tips": [
+      "Use distilled or rainwater to prevent brown tips",
+      "Propagate plantlets in water or moist soil",
+      "Ideal in hanging baskets to show off cascading pups"
+    ]
+  }
+}
