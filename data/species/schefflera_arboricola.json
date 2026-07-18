@@ -3,31 +3,34 @@
   "common_name": "Dwarf Umbrella Tree",
   "scientific_name": "Schefflera arboricola",
   "tags": [
+    "umbrella leaves",
     "indoor",
-    "tree",
-    "foliage",
     "easy",
-    "office",
-    "bright light"
+    "bright indirect",
+    "houseplant",
+    "tropical",
+    "air purifying"
   ],
   "care": {
-    "summary": "Bushy tropical with palmate leaflets; forgiving houseplant for bright rooms.",
-    "light": "Bright indirect; some morning sun ok",
-    "water": "Water when top inch is dry; avoid soggy soil",
-    "soil": "Standard well-draining potting mix",
-    "humidity": "Average to moderate",
-    "temperature_c": "16-27",
-    "fertilizer": "Monthly dilute feed in growing season",
-    "toxicity": "Mildly toxic if ingested",
+    "summary": "Popular easy-care houseplant with distinctive umbrella-shaped leaves; tolerates some neglect.",
+    "light": "Bright indirect light to partial shade",
+    "water": "Moderate; let top inch of soil dry between waterings",
+    "well_draining": true,
+    "soil": "Well-draining potting mix with perlite",
+    "humidity": "Moderate to high",
+    "temperature_c": "15-27",
+    "fertilizer": "Balanced liquid fertilizer monthly in spring and summer",
+    "toxicity": "Mildly toxic to pets and humans if ingested (contains calcium oxalate crystals)",
     "common_issues": [
-      "Leaf drop from sudden light/temp change",
-      "Scale insects on stems",
-      "Root rot from overwatering"
+      "Dropping leaves from overwatering or cold drafts",
+      "Spider mites in dry indoor air",
+      "Leggy growth from insufficient light"
     ],
     "tips": [
-      "Rotate for even growth",
-      "Wipe leaves to remove dust",
-      "Prune to control height"
+      "Rotate pot weekly for even growth",
+      "Mist regularly to boost humidity",
+      "Prune to shape and encourage bushier growth",
+      "Can be grown outdoors in zones 10-12"
     ]
   }
 }
