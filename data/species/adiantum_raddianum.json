@@ -1,0 +1,41 @@
+{
+  "id": "adiantum_raddianum",
+  "common_name": "Maidenhair Fern",
+  "scientific_name": "Adiantum raddianum",
+  "tags": [
+    "fern",
+    "delicate fronds",
+    "black stems",
+    "humidity",
+    "shade",
+    "indoor",
+    "bathroom"
+  ],
+  "care": {
+    "summary": "Delicate fern with distinctive fan-shaped fronds on thin black wiry stems; elegant but fussy about humidity and watering consistency.",
+    "light": "Bright indirect to medium shade; no direct sun — leaves scorch easily",
+    "water": "Keep consistently moist with distilled or rainwater; never let dry out; avoid tap water chemicals",
+    "soil": "Rich, well-draining potting mix with peat moss or coco coir and perlite",
+    "humidity": "High (60-80% preferred); thrives in steamy bathrooms",
+    "temperature_c": "18-24",
+    "fertilizer": "Half-strength balanced liquid fertilizer every 2-4 weeks in spring/summer",
+    "toxicity": "Non-toxic to pets",
+    "common_issues": [
+      "Brown crispy leaf edges and frond drop from low humidity",
+      "Wilting fronds from letting soil dry out completely",
+      "Yellowing leaves from overwatering or poor drainage",
+      "Pale, washed-out fronds from too much direct light",
+      "Spider mites in dry conditions"
+    ],
+    "tips": [
+      "Use distilled or rainwater — sensitive to tap water minerals",
+      "Place in a bathroom or kitchen for natural humidity",
+      "Group with other humidity-loving plants on a pebble tray",
+      "Trim dead fronds at the base to encourage new growth",
+      "Never let the root ball fully dry out — recovery is difficult"
+    ]
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
+}
