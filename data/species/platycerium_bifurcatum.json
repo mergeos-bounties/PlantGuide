@@ -1,0 +1,42 @@
+{
+  "id": "platycerium_bifurcatum",
+  "common_name": "Staghorn Fern",
+  "scientific_name": "Platycerium bifurcatum",
+  "family": "Polypodiaceae",
+  "tags": [
+    "epiphyte",
+    "fern",
+    "antler fronds",
+    "mount",
+    "humidity",
+    "indoor",
+    "tropical",
+    "shield fronds"
+  ],
+  "care": {
+    "summary": "Unique epiphytic fern with antler-like fronds; best mounted on wood or in wire baskets.",
+    "light": "Bright indirect light; tolerates some morning sun, avoid harsh afternoon rays",
+    "water": "Soak mount or pot weekly; let dry slightly between waterings; water shield fronds directly",
+    "soil": "Does not grow in soil — mount on wood board with sphagnum moss or grow in bark/sphagnum mix in wire basket",
+    "humidity": "High (50-70%); thrives in bathrooms or mist regularly",
+    "temperature_c": "15-27",
+    "fertilizer": "Dilute balanced liquid fertilizer monthly in growing season; apply to fronds or moss",
+    "toxicity": "Non-toxic to pets and humans (generally considered safe)",
+    "common_issues": [
+      "Brown frond tips from low humidity or underwatering",
+      "Black spots on shield fronds from overwatering or poor air circulation",
+      "Scale insects and mealybugs on undersides of fronds",
+      "Limp or drooping fronds from insufficient light"
+    ],
+    "tips": [
+      "Mount on untreated cedar or oak board with sphagnum moss for best growth",
+      "Mist fronds daily in dry climates or winter",
+      "Do not remove brown shield fronds — they protect the root ball and new growth",
+      "Rotate mount periodically for even light distribution",
+      "Fertilize by placing banana peel inside shield fronds for natural potassium"
+    ]
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
+}
