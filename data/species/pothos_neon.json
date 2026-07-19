@@ -4,30 +4,29 @@
   "scientific_name": "Epipremnum aureum 'Neon'",
   "tags": [
     "indoor",
-    "vine",
     "trailing",
-    "low light",
     "easy",
-    "hanging"
+    "low light",
+    "air-purifying"
   ],
   "care": {
-    "summary": "Bright chartreuse trailing vine; fast grower for shelves and hanging baskets.",
-    "light": "Low to bright indirect; avoid harsh midday sun",
-    "water": "When top 2–3 cm dry; prefer slight dry-down",
-    "soil": "Well-draining potting mix",
-    "humidity": "Average to moderate",
-    "temperature_c": "16-30",
-    "fertilizer": "Monthly dilute feed in growing season",
-    "toxicity": "Toxic if ingested (pets/kids)",
+    "summary": "Trailing vine with heart-shaped leaves; forgiving beginner houseplant.",
+    "light": "Low to bright indirect; color fades in deep shade",
+    "water": "When top few cm of soil dry; avoid soggy roots",
+    "soil": "Well-draining potting mix with perlite",
+    "humidity": "Average household humidity OK",
+    "temperature_c": "18-29",
+    "fertilizer": "Dilute liquid monthly in growing season",
+    "toxicity": "Toxic if ingested (calcium oxalate)",
     "common_issues": [
       "Yellow leaves from overwatering",
-      "Leggy growth in very low light",
-      "Brown tips from dry air"
+      "Leggy stems in low light",
+      "Brown tips from dry air or fluoride"
     ],
     "tips": [
-      "Pinch tips for bushier growth",
-      "Propagate stem cuttings in water",
-      "Rotate pot weekly"
+      "Pinch tips to encourage bushiness",
+      "Propagate cuttings in water easily",
+      "Rotate pot for even growth"
     ]
   }
 }
