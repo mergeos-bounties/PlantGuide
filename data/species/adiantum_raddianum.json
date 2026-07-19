@@ -1,0 +1,31 @@
+{
+  "id": "adiantum_raddianum",
+  "common_name": "Maidenhair Fern",
+  "scientific_name": "Adiantum raddianum",
+  "tags": [
+    "delicate fronds",
+    "black stems",
+    "humidity",
+    "shade",
+    "fern",
+    "houseplant"
+  ],
+  "care": {
+    "summary": "A delicate, beautiful fern with very thin black stems and fan-shaped light green fronds. It requires high humidity to thrive.",
+    "light": "Bright, indirect light or partial shade. Do not expose to direct sunlight.",
+    "water": "Keep the soil consistently moist but not soggy. Do not allow the soil to dry out.",
+    "soil": "Rich, moisture-retaining potting mix.",
+    "humidity": "Requires high humidity. Best grown in a terrarium or bathroom.",
+    "temperature_c": "15-24",
+    "fertilizer": "Feed with a weak liquid fertilizer once a month during spring and summer.",
+    "toxicity": "Non-toxic to cats, dogs, and humans.",
+    "common_issues": [
+      "Fronds turning brown and crispy from low humidity or dry soil",
+      "Root rot from overwatering"
+    ],
+    "tips": [
+      "Keep away from heating vents and drafts.",
+      "If the plant dries out and dies back, cut it to the soil line and keep moist; it may regrow."
+    ]
+  }
+}
