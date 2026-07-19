@@ -1,0 +1,36 @@
+{
+  "id": "sedum_morganianum",
+  "common_name": "Burro's Tail",
+  "scientific_name": "Sedum morganianum",
+  "tags": [
+    "succulent",
+    "trailing",
+    "hanging basket",
+    "fleshy leaves",
+    "blue-green",
+    "indoor",
+    "drought tolerant",
+    "easy care"
+  ],
+  "care": {
+    "summary": "A trailing succulent with densely packed, plump blue-green leaves, perfect for hanging baskets.",
+    "light": "Bright indirect to direct light; south or west window ideal",
+    "water": "Water thoroughly when soil is completely dry; very drought tolerant",
+    "soil": "Very well-draining cactus/succulent mix with extra perlite or coarse sand",
+    "humidity": "Low; thrives in dry air",
+    "temperature_c": "18-26",
+    "fertilizer": "Dilute succulent fertilizer once in spring and once in summer",
+    "toxicity": "Non-toxic",
+    "common_issues": [
+      "Leaves fall off easily from handling or bumping",
+      "Rot from overwatering or poor drainage",
+      "Etiolation with widely spaced leaves in low light"
+    ],
+    "tips": [
+      "Handle as little as possible — leaves are extremely fragile",
+      "Use a hanging basket to show off its trailing habit",
+      "Reduce watering to near-dry in winter",
+      "Propagate by laying fallen leaves on dry succulent mix"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "mammillaria_elongata",
+  "common_name": "Ladyfinger Cactus",
+  "scientific_name": "Mammillaria elongata",
+  "tags": [
+    "cactus",
+    "cylindrical stems",
+    "clustering",
+    "golden spines",
+    "small flowers",
+    "succulent",
+    "indoor",
+    "drought tolerant"
+  ],
+  "care": {
+    "summary": "A clustering cactus with elongated, finger-like stems covered in golden or pale spines.",
+    "light": "Bright direct to indirect light; south or west window ideal",
+    "water": "Water sparingly; allow soil to fully dry between waterings. Reduce in winter",
+    "soil": "Very well-draining cactus or succulent mix with extra perlite or pumice",
+    "humidity": "Low; does well in dry indoor air",
+    "temperature_c": "18-29",
+    "fertilizer": "Dilute cactus fertilizer every 4-6 weeks during spring and summer only",
+    "toxicity": "Non-toxic but spines are sharp — handle with care",
+    "common_issues": [
+      "Rot from overwatering or poor drainage",
+      "Etiolation in insufficient light",
+      "Mealybugs in crevices between stems"
+    ],
+    "tips": [
+      "Use a porous terracotta pot to help soil dry faster",
+      "Reduce watering to near-dry in winter dormancy",
+      "Repot every 2-3 years as clumps outgrow the pot"
+    ]
+  }
+}
