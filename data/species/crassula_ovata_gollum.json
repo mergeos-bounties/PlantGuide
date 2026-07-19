@@ -1,0 +1,36 @@
+{
+  "id": "crassula_ovata_gollum",
+  "common_name": "Gollum Jade",
+  "scientific_name": "Crassula ovata 'Gollum'",
+  "tags": [
+    "succulent",
+    "tubular leaves",
+    "red tips",
+    "indoor",
+    "drought tolerant",
+    "windowsill",
+    "easy care",
+    "tree-form"
+  ],
+  "care": {
+    "summary": "A whimsical jade variety with tubular, finger-like leaves tipped in red in bright light.",
+    "light": "Bright light with some direct sun; red tips intensify with sun exposure",
+    "water": "Soak and dry thoroughly; let soil dry completely between waterings",
+    "soil": "Gritty cactus/succulent mix with sharp drainage",
+    "humidity": "Low to average; thrives in dry indoor conditions",
+    "temperature_c": "15-27",
+    "fertilizer": "Dilute succulent fertilizer monthly in spring and summer",
+    "toxicity": "Mildly toxic if ingested; keep away from pets",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Leaf drop from sudden temperature changes or cold drafts",
+      "Etiolation with elongated stems in insufficient light",
+      "Mealybugs on stems and leaf joints"
+    ],
+    "tips": [
+      "The red tips are a sign of adequate light — greener leaves mean more light needed",
+      "Propagates easily from single leaves or stem cuttings",
+      "Use a heavy pot to prevent tipping as the plant grows top-heavy"
+    ]
+  }
+}

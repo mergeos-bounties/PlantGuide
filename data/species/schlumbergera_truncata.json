@@ -1,0 +1,36 @@
+{
+  "id": "schlumbergera_truncata",
+  "common_name": "Christmas Cactus",
+  "scientific_name": "Schlumbergera truncata",
+  "tags": [
+    "cactus",
+    "segmented stems",
+    "hanging",
+    "blooms winter",
+    "indoor",
+    "epiphytic",
+    "pink flowers",
+    "low maintenance"
+  ],
+  "care": {
+    "summary": "A popular holiday cactus with segmented, flattened stems and vibrant winter blooms.",
+    "light": "Bright indirect light; avoid direct midday sun",
+    "water": "Keep moist while blooming; allow top inch to dry between waterings after bloom",
+    "soil": "Well-draining, slightly acidic potting mix with peat or orchid bark",
+    "humidity": "Moderate to high; enjoys occasional misting",
+    "temperature_c": "15-24",
+    "fertilizer": "Feed monthly with balanced liquid fertilizer spring through summer; use bloom booster in autumn",
+    "toxicity": "Non-toxic to pets and humans",
+    "common_issues": [
+      "Bud drop from overwatering or temperature swings",
+      "Root rot in poorly draining soil",
+      "Leggy growth if light is too low",
+      "Sunburn from direct afternoon sun"
+    ],
+    "tips": [
+      "Cool night temperatures (12-15°C) in autumn encourage bud formation",
+      "Reduce water in late autumn to trigger blooming",
+      "Prune after flowering to encourage branching"
+    ]
+  }
+}
