@@ -1,0 +1,33 @@
+{
+  "id": "peperomia_obtusifolia",
+  "common_name": "Baby Rubber Plant",
+  "scientific_name": "Peperomia obtusifolia",
+  "tags": [
+    "thick leaves",
+    "compact",
+    "indoor",
+    "easy",
+    "upright",
+    "succulent-like"
+  ],
+  "care": {
+    "summary": "A compact, easy-care houseplant with thick, spoon-shaped, dark green leaves. Great for beginners and small spaces.",
+    "light": "Bright, indirect light to medium light. Tolerates lower light but growth will slow.",
+    "water": "Allow the top half of the soil to dry out between waterings. Its thick leaves store water.",
+    "soil": "Well-draining potting mix. Adding perlite or orchid bark helps prevent soggy roots.",
+    "humidity": "Average household humidity is fine, but it appreciates a boost to 40-50%.",
+    "temperature_c": "18-26",
+    "fertilizer": "Diluted balanced liquid fertilizer once a month during spring and summer.",
+    "toxicity": "Non-toxic to cats and dogs.",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Drooping leaves from severe underwatering or root rot",
+      "Spider mites in dry conditions"
+    ],
+    "tips": [
+      "Clean leaves occasionally with a damp cloth to remove dust.",
+      "Can easily be propagated from stem or leaf cuttings.",
+      "It has a shallow root system, so avoid planting in overly large or deep pots."
+    ]
+  }
+}
