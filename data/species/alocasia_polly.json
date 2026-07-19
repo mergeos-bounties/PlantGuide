@@ -1,33 +1,50 @@
 {
   "id": "alocasia_polly",
   "common_name": "Alocasia Polly",
-  "scientific_name": "Alocasia × amazonica 'Polly'",
+  "scientific_name": "Alocasia × amazonica Polly",
   "tags": [
-    "indoor",
+    "elephant ear",
+    "dark veins",
     "aroid",
     "humidity",
-    "statement",
-    "bright indirect",
-    "dramatic"
+    "indoor",
+    "arrow-shaped leaves",
+    "dramatic foliage",
+    "tropical",
+    "rhizome",
+    "decorative"
   ],
   "care": {
-    "summary": "Arrow-shaped dark leaves with pale veins; loves humidity and consistent moisture without waterlogging.",
-    "light": "Bright indirect; no harsh midday sun",
-    "water": "When top 2 cm dry; keep evenly moist in growth",
-    "soil": "Chunky aroid mix (bark/perlite)",
-    "humidity": "High preferred",
-    "temperature_c": "18-28",
-    "fertilizer": "Monthly dilute feed in growing season",
-    "toxicity": "Toxic if ingested (calcium oxalate)",
+    "summary": "Alocasia Polly (Alocasia × amazonica 'Polly') is a striking hybrid aroid prized for its compact arrow-shaped dark green leaves with prominent silvery-white veins and wavy leaf margins. Often called African Mask Plant or Amazon Shield. Native to tropical Asian rainforest understories — requires high humidity and warm, stable temperatures. Dormant in winter (leaves may die back).",
+    "light": "Bright indirect light. Avoid direct sun which scorches the dramatic leaf veins. East or north-facing window ideal. Insufficient light causes small, dull leaves and leggy petioles; too much direct sun bleaches veins and crisps edges.",
+    "water": "Keep soil consistently moist but not soggy during active growth (spring-fall). Water when top 1-2 inches feels dry — typically every 5-7 days. Reduce watering dramatically in winter when plant enters dormancy. Alocasias are sensitive to chlorinated tap water — use filtered or dechlorinated water at room temperature.",
+    "soil": "Well-draining, airy aroid mix. Blend orchid bark + perlite + peat moss (1:1:1) or use pre-made aroid soil. Slightly acidic pH (5.5-7.0). Standard potting soil holds too much water — must be amended. Pot MUST have drainage holes. Repot annually in spring.",
+    "humidity": "High humidity essential (60-80%+ preferred). Native to tropical rainforest understory. Use room humidifier, pebble tray, or group with other plants. Below 50% humidity, leaf edges brown and curl, and spider mites proliferate. Terrarium or greenhouse cabinet environments ideal.",
+    "temperature_c": {
+      "min": 15,
+      "ideal_min": 18,
+      "ideal_max": 26,
+      "max": 30
+    },
+    "fertilizer": "Moderate feeder during active growth. Apply balanced liquid fertilizer (20-20-20) diluted to half-strength every 2-3 weeks in spring-fall. Pause feeding in winter dormancy. Over-fertilizing causes leaf tip burn and salt buildup — flush soil with water quarterly.",
+    "toxicity": "Toxic to humans and pets (cats/dogs). All parts contain insoluble calcium oxalate crystals which cause intense mouth/throat burning, drooling, difficulty swallowing, and vomiting if ingested. Keep away from children and pets. Wear gloves when pruning — sap can irritate skin.",
     "common_issues": [
-      "Crispy edges from dry air",
-      "Yellow leaves from overwatering",
-      "Dormancy in cool winters"
+      "Yellowing lower leaves - overwatering or natural aging of oldest leaves; check roots for rot if multiple leaves yellow at once",
+      "Brown crispy leaf edges/tips - low humidity or underwatering; increase humidity above 60%, water when top 1-2 inches is dry",
+      "All leaves dying back in fall/winter - natural dormancy; reduce watering, store in cool dry spot, resume care in spring",
+      "Spider mites (fine webbing under leaves) - dry air; rinse leaves, increase humidity, apply insecticidal soap or neem oil",
+      "Mealybugs (white cottony fluff) - treat with isopropyl alcohol on cotton swab, repeat weekly",
+      "Soft mushy stem/base - crown or root rot from overwatering; remove affected tissue, repot in fresh dry aroid mix",
+      "Drooping leaves despite moist soil - root rot or cold shock; check roots, ensure temperature above 15°C"
     ],
     "tips": [
-      "Pebble tray or humidifier",
-      "Wipe leaves gently",
-      "Avoid cold drafts"
+      "Dormancy is normal — if all leaves die back in winter, do NOT throw away the plant. Keep rhizome barely moist and warm; new growth emerges in spring.",
+      "Increase humidity with a pebble tray filled with water kept below the pot's drainage holes — evaporating water creates a microclimate.",
+      "Propagate by division of rhizomes during repotting in spring — each division needs at least 1 growing eye (bud).",
+      "Clean glossy leaves monthly with damp cloth to maximize photosynthesis and inspect for spider mites (frequent pest).",
+      "Rotate plant weekly to prevent asymmetric leaning toward light source — Alocasias are phototropic.",
+      "Use terracotta pots for better root aeration if you tend to overwater; plastic pots if you tend to underwater.",
+      "Companion plant with other humidity-loving aroids (Philodendron, Monstera, Anthurium) — shared microclimate benefits all."
     ]
   }
 }
