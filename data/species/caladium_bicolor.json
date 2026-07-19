@@ -1,33 +1,50 @@
 {
   "id": "caladium_bicolor",
-  "common_name": "Angel Wings",
+  "common_name": "Caladium / Heart of Jesus",
   "scientific_name": "Caladium bicolor",
   "tags": [
-    "indoor",
-    "foliage",
-    "colorful",
-    "humidity",
-    "bright indirect",
-    "tuber"
+    "colorful heart leaves",
+    "shade",
+    "seasonal bulb",
+    "tropical",
+    "vibrant foliage",
+    "pink red white",
+    "veined",
+    "tuber",
+    "ornamental",
+    "humidity loving"
   ],
   "care": {
-    "summary": "Heart-shaped leaves with pink, red, or white patterns; dormant in cool seasons.",
-    "light": "Bright indirect; some morning sun OK",
-    "water": "Even moisture while growing; reduce when dormant",
-    "soil": "Rich, well-draining potting mix",
-    "humidity": "Moderate to high",
-    "temperature_c": "18-29",
-    "fertilizer": "Half-strength every 2–4 weeks in growth",
-    "toxicity": "Toxic if ingested (calcium oxalate)",
+    "summary": "Caladium (Caladium bicolor), also called Heart of Jesus, is a tropical ornamental foliage plant grown for its spectacular heart-shaped leaves in shades of pink, red, white, and green. Native to South American rainforests. Grows from a tuber that goes dormant in winter —- vibrant foliage from spring through fall, then dies back. Excellent for shaded gardens, containers, and indoor bright indirect spots.",
+    "light": "Bright shade to partial shade. NO direct sun — leaves scorch and fade quickly. Indoors: bright indirect light 6+ hours. Outdoors: dappled shade under trees or north-facing exposure. Insufficient light causes stretchy, pale leaves; too much light bleaches color patterns.",
+    "water": "Keep soil consistently moist but not soggy during active growth (spring-fall). Water when top 1 inch feels dry — typically every 3-5 days in warm weather. Reduce watering as leaves yellow in fall — tuber entering dormancy. During dormancy (winter), withhold water completely or dig up tuber and store dry.",
+    "soil": "Rich, well-draining, moisture-retentive mix. Blend peat moss + compost + perlite (2:1:1). Slightly acidic pH (5.5-6.5). Heavy clay soil rots tubers. Container mix should hold moisture but drain excess. Add organic matter to garden beds before planting tubers.",
+    "humidity": "High humidity essential (70-90%+ preferred). Native to Amazon basin rainforest. Indoors, use room humidifier, pebble tray, or group plants. Below 50% humidity, leaf edges brown and curl. Avoid placing near AC vents, radiators, or drafty doors. Greenhouse or terrarium environments ideal.",
+    "temperature_c": {
+      "min": 15,
+      "ideal_min": 21,
+      "ideal_max": 29,
+      "max": 32
+    },
+    "fertilizer": "Heavy feeder during active growth. Apply balanced liquid fertilizer (20-20-20) or slow-release pellets every 2-3 weeks. Switch to high-phosphorus fertilizer mid-season to enhance leaf color. Stop fertilizing when leaves start yellowing in fall — signals dormancy approaching.",
+    "toxicity": "Toxic to humans and pets (cats/dogs). All parts, especially tubers, contain insoluble calcium oxalate crystals which cause intense mouth/throat burning, drooling, difficulty swallowing, and vomiting. Keep away from children and pets. Wear gloves when handling tubers — can cause skin irritation. Tubers are NOT edible like other aroids (e.g., taro).",
     "common_issues": [
-      "Leaf scorch in harsh sun",
-      "Tuber rot from cold wet soil",
-      "Yellowing as dormancy begins"
+      "Leaves yellowing en masse in fall - natural dormancy; reduce water, allow foliage to die back, store tuber dry",
+      "Brown crispy leaf edges/tips - low humidity or direct sun; increase humidity, move to shade",
+      "Soft mushy stems or tuber - tuber rot from overwatering or cold soil; discard affected tubers, plant in fresh dry soil",
+      "Faded or bleached leaf color - too much direct sun; relocate to bright shade",
+      "Small leaves or sparse growth - insufficient light or nutrients; brighten location and fertilize regularly",
+      "Fungal leaf spots (brown lesions with yellow halo) - high humidity + poor airflow; remove affected leaves, apply copper fungicide",
+      "Tuber not sprouting in spring - soil too cold or tuber stored improperly; soil must be 21°C+ for sprouting, store tubers at 15-18°C dry"
     ],
     "tips": [
-      "Store dry tubers cool if leaves die back",
-      "Group for humidity",
-      "Do not overwater in winter rest"
+      "Plant tubers 'eyes up' 2-3 inches deep in spring after soil reaches 21°C — cold soil rots tubers before sprouting",
+      "For bushier plants, debud the small inconspicuous flowers as they form — directs energy to foliage production",
+      "Lift tubers in fall after foliage dies back — store in dry peat moss at 15-18°C until spring replanting",
+      "Propagate by dividing tuber sections with at least 1-2 visible eyes (buds) using a sterile knife",
+      "Indoor caladiums benefit from a humidity tray with pebbles and water kept below the pot's drainage holes",
+      "Choose sun-tolerant cultivars (e.g., 'Florida Sunrise', 'Red Flash') for partially sunny locations",
+      "Companion plant with ferns, hostas, and impatiens in shaded garden beds for layered tropical effect"
     ]
   }
 }
