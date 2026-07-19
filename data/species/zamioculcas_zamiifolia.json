@@ -3,31 +3,50 @@
   "common_name": "ZZ Plant",
   "scientific_name": "Zamioculcas zamiifolia",
   "tags": [
-    "indoor",
     "low light",
     "drought tolerant",
-    "glossy",
-    "easy",
-    "office"
+    "tropical",
+    "succulent-like",
+    "glossy leaves",
+    "air purifier",
+    "slow growing",
+    "houseplant",
+    "low maintenance",
+    "beginner friendly"
   ],
   "care": {
-    "summary": "Tough glossy foliage; sparse watering.",
-    "light": "Low to bright indirect",
-    "water": "Every 2–4 weeks; let soil dry fully",
-    "soil": "Well-draining potting mix",
-    "humidity": "Low to average",
-    "temperature_c": "16-30",
-    "fertilizer": "Light feed 2–3× growing season",
-    "toxicity": "Toxic if ingested",
+    "summary": "ZZ Plant (Zamioculcas zamiifolia) is an extremely tough, low-maintenance tropical plant native to eastern Africa. It stores water in thick rhizomes and waxy, glossy leaflets, making it one of the most drought-tolerant houseplants available. Virtually indestructible — thrives on neglect, tolerates low light, and resists most pests. Ideal for offices, dim rooms, and forgetful plant owners.",
+    "light": "Tolerates low to bright indirect light. Grows best in medium to bright indirect light (ideally 1-2 metres from a bright window). Can survive in dim rooms with only fluorescent office lighting. Avoid harsh direct sun — it scorches the glossy leaves and causes yellowing. Will grow slowly in low light but won't die.",
+    "water": "Water very sparingly — only when the soil is completely dry, typically every 2-4 weeks in summer and every 4-6 weeks in winter. ZZ stores water in underground rhizomes; overwatering is the primary cause of death. Always let soil dry out fully between waterings. Ensure the pot has drainage holes to prevent waterlogging.",
+    "soil": "Well-draining, gritty mix. Use a 50/50 blend of standard potting mix and perlite or cactus/succulent soil. Slightly acidic to neutral pH (6.0-7.0). Heavy, moisture-retentive soils will cause rhizome rot. A terracotta pot helps wick excess moisture. Pot MUST have drainage holes.",
+    "humidity": "Tolerates a wide range of humidity — from 25% to 70%. Average household humidity (40-50%) is perfectly fine. Does not require misting or a humidifier unlike most tropical plants. This drought-adapted plant is one of the least humidity-demanding houseplants.",
+    "temperature_c": {
+      "min": 8,
+      "ideal_min": 15,
+      "ideal_max": 26,
+      "max": 35
+    },
+    "fertilizer": "Light feeder. Apply a balanced, diluted liquid fertilizer (10-10-10 or 20-20-20) at quarter strength once a month during the growing season (April-September). Do not fertilize in autumn or winter. Over-fertilizing causes salt buildup and leaf tip burn — less is always more with this species.",
+    "toxicity": "Toxic to humans and pets (cats, dogs). All parts of the plant contain calcium oxalate crystals, which cause skin and eye irritation on contact and oral irritation, nausea, and vomiting if ingested. Wear gloves when handling or repotting. Keep out of reach of pets and children. The sap can cause contact dermatitis in sensitive individuals.",
     "common_issues": [
-      "Root rot from overwatering",
-      "Yellow leaflets from soggy soil",
-      "Stretching in very low light"
+      "Yellow leaves — most commonly overwatering or root/rhizome rot; let soil dry completely, check rhizomes for mushiness, repot if necessary",
+      "Drooping or wrinkled stems — underwatering or very low humidity; water thoroughly and wait for recovery",
+      "Brown leaf tips — over-fertilizing or fluoride in tap water; flush soil, switch to filtered/rainwater, reduce fertilizer",
+      "Leaf drop — sudden cold draught, temperature shock, or relocation stress; move to a stable warm spot away from vents",
+      "Pale or faded leaves — too much direct sun; move to bright indirect light",
+      "Slow/no growth — normal in low light or winter dormancy; move to brighter location in spring",
+      "Fungus gnats — overwatered, soggy soil; allow soil to fully dry between waterings, use sticky traps",
+      "Root/rhizome rot (mushy, black rhizomes with foul smell) — overwatering; remove plant, trim all rotten roots, allow to air-dry for 24 hours, repot in fresh dry gritty mix"
     ],
     "tips": [
-      "Use terracotta for faster drying",
-      "Wipe leaves monthly",
-      "Divide rhizomes to propagate"
+      "The ZZ plant thrives on neglect — if in doubt, don't water; it has water reserves in its thick rhizomes to survive drought",
+      "Wipe leaves with a damp cloth monthly to remove dust and maintain the natural glossy sheen",
+      "Propagate by leaf cuttings inserted in perlite or moist soil — new rhizomes will form at the base in 3-6 months (very slow but rewarding)",
+      "Propagate faster by dividing the rhizome clumps at repotting time — each section with at least one stem will grow into a new plant",
+      "Repot only when roots visibly escape drainage holes or push out of the pot — every 2-3 years is typical; ZZ prefers being slightly root-bound",
+      "Always wear gloves when handling — wash hands after contact with sap to avoid skin irritation",
+      "A great air-purifying plant — studies show it removes xylene, toluene, and benzene from indoor air",
+      "The Raven ZZ (Z. zamiifolia 'Dowon') has striking near-black leaves and identical care requirements"
     ]
   }
 }
