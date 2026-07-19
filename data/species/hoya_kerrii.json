@@ -1,0 +1,33 @@
+{
+  "id": "hoya_kerrii",
+  "common_name": "Sweetheart Hoya",
+  "scientific_name": "Hoya kerrii",
+  "tags": [
+    "heart shaped leaf",
+    "succulent-like",
+    "gift plant",
+    "climbing",
+    "epiphyte",
+    "houseplant"
+  ],
+  "care": {
+    "summary": "Famous for its thick, heart-shaped leaves. Often sold as a single rooted leaf, though it is naturally a vining plant.",
+    "light": "Bright, indirect light. Some direct morning sun is beneficial for growth.",
+    "water": "Allow soil to dry almost completely between waterings. Highly susceptible to overwatering due to succulent leaves.",
+    "soil": "Very well-draining, airy cactus or orchid mix.",
+    "humidity": "Average room humidity is fine, but thrives in 40-60%.",
+    "temperature_c": "15-28",
+    "fertilizer": "Diluted balanced liquid fertilizer every month during the growing season.",
+    "toxicity": "Non-toxic to cats and dogs.",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Stunted growth (if it is a single leaf cutting without a node)",
+      "Mealybugs"
+    ],
+    "tips": [
+      "Single-leaf cuttings sold around Valentine's Day often lack a stem node and may never grow into a vine.",
+      "If it does vine, provide a trellis for support.",
+      "Requires patience, as it is a slow grower."
+    ]
+  }
+}
