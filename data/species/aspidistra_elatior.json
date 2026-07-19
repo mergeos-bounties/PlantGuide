@@ -1,0 +1,33 @@
+{
+  "id": "aspidistra_elatior",
+  "common_name": "Cast Iron Plant",
+  "scientific_name": "Aspidistra elatior",
+  "tags": [
+    "indoor",
+    "low-light",
+    "drought-tolerant",
+    "easy",
+    "foliage",
+    "shade-tolerant"
+  ],
+  "care": {
+    "summary": "Nearly indestructible foliage plant with broad, lance-shaped leaves; tolerates neglect, low light, and dry air.",
+    "light": "Low to medium indirect light; avoid direct sun",
+    "water": "Water when top inch of soil is dry; reduce in winter",
+    "soil": "Standard well-drained potting mix",
+    "humidity": "Tolerates average home humidity",
+    "temperature_c": "10-24",
+    "fertilizer": "Light feeding 2-3 times per year is sufficient",
+    "toxicity": "Non-toxic to humans and pets",
+    "common_issues": [
+      "Brown leaf tips from fluoride or chlorine in tap water",
+      "Leaf yellowing from overwatering",
+      "Slow growth is normal; do not over-fertilize"
+    ],
+    "tips": [
+      "One of the best plants for very low light corners",
+      "Use filtered or aged water to prevent leaf-tip burn",
+      "Wipe leaves occasionally to remove dust and keep them glossy"
+    ]
+  }
+}
