@@ -3,33 +3,31 @@
   "common_name": "Chinese Money Plant",
   "scientific_name": "Pilea peperomioides",
   "tags": [
-    "pilea",
     "round leaves",
-    "coin leaves",
+    "coin shaped",
+    "upright",
     "indoor",
-    "bright indirect",
-    "pet-safe",
-    "beginner",
+    "easy",
     "houseplant"
   ],
   "care": {
-    "summary": "Cheerful round-leaf houseplant that likes bright indirect light and even moisture; easy to share via pups.",
-    "light": "Bright indirect; avoid harsh midday sun that scorches leaves",
-    "water": "When top 2–3 cm of soil dries; keep evenly moist, not soggy",
-    "soil": "Well-draining potting mix with perlite",
-    "humidity": "Medium; likes occasional misting in dry rooms",
-    "temperature_c": "15-26",
-    "fertilizer": "Balanced liquid feed monthly in spring/summer",
-    "toxicity": "Generally considered non-toxic to pets",
+    "summary": "A highly sought-after houseplant known for its distinctive round, coin-shaped leaves. Very easy to propagate and share.",
+    "light": "Bright, indirect light. Rotate the plant weekly to prevent it from leaning towards the light.",
+    "water": "Water when the top 1-2 inches of soil are dry. The leaves will start to look slightly droopy when it needs water.",
+    "soil": "Well-draining, rich potting mix. A mixture of indoor potting soil, perlite, and a little peat moss is great.",
+    "humidity": "Average household humidity is fine. Not overly demanding regarding humidity.",
+    "temperature_c": "15-30",
+    "fertilizer": "Diluted balanced liquid fertilizer once a month during spring and summer.",
+    "toxicity": "Non-toxic to cats and dogs.",
     "common_issues": [
-      "Drooping from underwatering",
-      "Yellow leaves from overwatering",
-      "Leggy growth in low light"
+      "Curling leaves due to inconsistent watering or temperature stress",
+      "Yellowing lower leaves from overwatering or old age",
+      "Leaning heavily to one side (needs rotation)"
     ],
     "tips": [
-      "Rotate pot weekly for even growth",
-      "Separate pups when they have roots",
-      "Use a pot with drainage holes"
+      "Produces \"pups\" (offsets) at the base of the plant, which can be easily separated and repotted to share with friends.",
+      "Keep away from cold drafts and heating vents.",
+      "Clean leaves gently with a damp cloth to help it photosynthesize better."
     ]
   }
 }
