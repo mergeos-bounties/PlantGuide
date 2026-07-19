@@ -1,0 +1,33 @@
+{
+  "id": "platycerium_bifurcatum",
+  "common_name": "Staghorn Fern",
+  "scientific_name": "Platycerium bifurcatum",
+  "tags": [
+    "fern",
+    "epiphyte",
+    "tropical",
+    "indoor",
+    "mounted",
+    "antler-shaped"
+  ],
+  "care": {
+    "summary": "Epiphytic fern with broad, forked, antler-shaped fronds that grow mounted on wood or in slatted baskets.",
+    "light": "Bright indirect light; tolerates some shade",
+    "water": "Soak root ball weekly; mist fronds in dry air",
+    "soil": "Sphagnum moss, bark, and orchid mix; not potted in normal soil",
+    "humidity": "High humidity preferred (60%+)",
+    "temperature_c": "15-27",
+    "fertilizer": "Dilute balanced fertilizer monthly during active growth",
+    "toxicity": "Non-toxic to humans and pets",
+    "common_issues": [
+      "Brown shield fronds are normal; do not remove them",
+      "Underwatering causes brown leaf edges",
+      "Low humidity leads to stunted growth"
+    ],
+    "tips": [
+      "Mount on wood or cork bark for natural growth habit",
+      "Soak the entire mount in water weekly rather than top watering",
+      "New fronds emerge from the center and emerge fuzzy white"
+    ]
+  }
+}
