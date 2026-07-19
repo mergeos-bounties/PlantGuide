@@ -1,0 +1,33 @@
+{
+  "id": "peperomia_watermelon",
+  "common_name": "Watermelon Peperomia",
+  "scientific_name": "Peperomia argyreia",
+  "tags": [
+    "indoor",
+    "foliage",
+    "compact",
+    "tropical",
+    "striped",
+    "easy"
+  ],
+  "care": {
+    "summary": "Compact tropical plant with round, striped leaves resembling watermelon rinds; pet-safe and easy to grow.",
+    "light": "Bright indirect light; tolerates medium light",
+    "water": "Water when top half of soil is dry; succulents-like roots store water",
+    "soil": "Well-drained mix with perlite; orchid bark works well",
+    "humidity": "Average to high; tolerates average home humidity",
+    "temperature_c": "18-24",
+    "fertilizer": "Dilute balanced fertilizer monthly during growing season",
+    "toxicity": "Non-toxic to cats, dogs, and humans",
+    "common_issues": [
+      "Drooping leaves from overwatering",
+      "Leaf drop in cold drafts",
+      "Loss of variegation in too-low light"
+    ],
+    "tips": [
+      "Use a terracotta pot to wick excess moisture",
+      "Avoid soggy soil at all costs; roots rot easily",
+      "Rotate weekly for even growth on all sides"
+    ]
+  }
+}
