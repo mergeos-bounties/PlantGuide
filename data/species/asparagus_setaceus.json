@@ -1,0 +1,33 @@
+{
+  "id": "asparagus_setaceus",
+  "common_name": "Asparagus Fern",
+  "scientific_name": "Asparagus setaceus",
+  "tags": [
+    "fern-like",
+    "indoor",
+    "tropical",
+    "foliage",
+    "climber",
+    "delicate"
+  ],
+  "care": {
+    "summary": "Climbing perennial with feathery, fern-like foliage; not a true fern but often grown as one indoors.",
+    "light": "Bright indirect light; tolerates medium light",
+    "water": "Keep evenly moist; do not let dry out completely",
+    "soil": "Well-drained peat-based potting mix",
+    "humidity": "Medium to high; mist regularly in dry rooms",
+    "temperature_c": "15-24",
+    "fertilizer": "Balanced liquid feed every 4 weeks during growing season",
+    "toxicity": "Toxic to cats and dogs if ingested; sap may irritate skin",
+    "common_issues": [
+      "Yellowing fronds from overwatering or low humidity",
+      "Dropping foliage when underwatered",
+      "Spider mites in dry indoor air"
+    ],
+    "tips": [
+      "Provide a small trellis for climbing habit",
+      "Mist fronds frequently to deter spider mites",
+      "Avoid placing near heating vents"
+    ]
+  }
+}
