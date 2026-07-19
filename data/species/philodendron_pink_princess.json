@@ -1,0 +1,37 @@
+{
+  "id": "philodendron_pink_princess",
+  "common_name": "Pink Princess Philodendron",
+  "scientific_name": "Philodendron erubescens 'Pink Princess'",
+  "tags": [
+    "indoor",
+    "variegated",
+    "pink",
+    "dark green",
+    "climbing",
+    "aroid",
+    "ornamental leaves",
+    "tropical"
+  ],
+  "care": {
+    "summary": "A rare and sought-after philodendron with dark green leaves splashed with vivid pink variegation.",
+    "light": "Bright indirect light is essential for pink variegation",
+    "water": "Water when top inch of soil dries; avoid overwatering",
+    "soil": "Well-draining aroid mix with orchid bark, perlite, and peat",
+    "humidity": "Moderate to high; 50-70% ideal for large leaf growth",
+    "temperature_c": "18-28",
+    "fertilizer": "Balanced liquid fertilizer monthly spring through summer",
+    "toxicity": "Toxic if ingested; keep away from pets and children",
+    "common_issues": [
+      "Reverting to all-green leaves in low light",
+      "Small leaves from insufficient humidity or nutrients",
+      "Root rot in compacted, water-retentive soil",
+      "Brown leaf tips from low humidity"
+    ],
+    "tips": [
+      "Provide a moss pole for climbing — leaves grow 2-3x larger",
+      "Prune green-only stems to encourage pink growth",
+      "High humidity is key for pink variegation emergence",
+      "Propagate from stem cuttings with at least one node"
+    ]
+  }
+}

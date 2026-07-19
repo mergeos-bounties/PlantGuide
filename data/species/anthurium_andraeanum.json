@@ -4,30 +4,34 @@
   "scientific_name": "Anthurium andraeanum",
   "tags": [
     "indoor",
-    "flowering",
-    "humidity",
-    "bright indirect",
+    "red flowers",
+    "heart-shaped",
     "tropical",
-    "air-purifying"
+    "ornamental",
+    "glossy leaves",
+    "flowering",
+    "epiphytic"
   ],
   "care": {
-    "summary": "Glossy heart-shaped spathes and dark green leaves; likes warmth, humidity, and even moisture.",
-    "light": "Bright indirect; avoid harsh midday sun",
-    "water": "Water when top inch dries; never waterlog",
-    "soil": "Chunky aroid mix with orchid bark",
-    "humidity": "High preferred",
-    "temperature_c": "18-28",
-    "fertilizer": "Balanced dilute feed every 4–6 weeks in growth",
-    "toxicity": "Toxic if ingested (calcium oxalate)",
+    "summary": "A stunning tropical plant with glossy heart-shaped leaves and long-lasting red, pink, or white spathe flowers.",
+    "light": "Bright indirect light; too little light reduces flowering",
+    "water": "Keep soil lightly moist; water when top inch feels dry. Use distilled water",
+    "soil": "Well-draining aroid or orchid mix with peat and perlite",
+    "humidity": "High (60%+); mist regularly or use a humidifier",
+    "temperature_c": "18-27",
+    "fertilizer": "Dilute high-phosphorus fertilizer every 4 weeks spring through fall",
+    "toxicity": "Toxic if ingested; keep away from pets and children",
     "common_issues": [
-      "Brown tips from dry air",
-      "Yellow leaves from overwatering",
-      "No blooms in low light"
+      "No flowers — insufficient light or nutrients",
+      "Brown leaf tips from dry air or tap water",
+      "Yellow leaves from overwatering or cold drafts",
+      "Root rot in heavy, poorly draining soil"
     ],
     "tips": [
-      "Wipe leaves to keep spathes showy",
-      "Use filtered water if tips brown",
-      "Repot when roots circle pot"
+      "Wipe leaves monthly to keep pores dust-free for better blooming",
+      "Use distilled or rainwater — anthuriums are sensitive to chemicals",
+      "Remove spent flowers at the base to encourage new blooms",
+      "Repot every 2 years with fresh aroid mix"
     ]
   }
 }

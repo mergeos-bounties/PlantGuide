@@ -1,0 +1,37 @@
+{
+  "id": "mammillaria_elongata",
+  "common_name": "Ladyfinger Cactus",
+  "scientific_name": "Mammillaria elongata",
+  "tags": [
+    "cactus",
+    "succulent",
+    "cylindrical",
+    "yellow spines",
+    "desert",
+    "clustering",
+    "easy care",
+    "drought tolerant"
+  ],
+  "care": {
+    "summary": "A charming clustering cactus with many finger-like cylindrical stems covered in golden-yellow spines.",
+    "light": "Bright direct sunlight; needs at least 6 hours of sun daily",
+    "water": "Water sparingly when soil is completely dry; every 2-4 weeks in summer, nearly dry in winter",
+    "soil": "Very well-draining cactus mix with pumice and coarse sand",
+    "humidity": "Low; thrives in dry air",
+    "temperature_c": "15-32",
+    "fertilizer": "Dilute cactus fertilizer once in spring and once in mid-summer",
+    "toxicity": "Non-toxic to pets and humans",
+    "common_issues": [
+      "Root rot from overwatering — let soil dry completely",
+      "Etiolation (thin, weak growth) from insufficient sunlight",
+      "Mealybugs hiding between stems",
+      "Sunburn if moved abruptly from low to high light"
+    ],
+    "tips": [
+      "Use a very gritty, mineral-based soil mix",
+      "Water only when the soil has been bone-dry for several days",
+      "Place in the sunniest window available (south or west facing)",
+      "Handle with thick gloves — spines are sharp and hard to see"
+    ]
+  }
+}
