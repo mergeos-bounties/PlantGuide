@@ -13,20 +13,21 @@
 ---
 
 ## Table of contents
-
-- [Photo demo (identify + care)](#photo-demo-identify--care)
-- [Highlights](#highlights)
-- [Screenshots](#screenshots)
-- [Quick start](#quick-start)
-- [CLI reference](#cli-reference)
-- [How photo ID works](#how-photo-id-works)
-- [App care report](#app-care-report)
-- [Species catalog](#species-catalog)
-- [Diagrams](#diagrams)
-- [Repository layout](#repository-layout)
-- [Development](#development)
-- [MergeOS bounties](#mergeos-bounties)
-- [License](#license)
+||
+|- [Photo demo (identify + care)](#photo-demo-identify--care)
+|- [Highlights](#highlights)
+|- [Screenshots](#screenshots)
+|- [Quick start](#quick-start)
+|- [CLI reference](#cli-reference)
+|- [How photo ID works](#how-photo-id-works)
+|- [App care report](#app-care-report)
+|- [Species catalog](#species-catalog)
+|- [Diagrams](#diagrams)
+|- [Repository layout](#repository-layout)
+|- [Development](#development)
+|- [Contributing](./CONTRIBUTING.md)
+|- [MergeOS bounties](#mergeos-bounties)
+|- [License](#license)
 
 ---
 
