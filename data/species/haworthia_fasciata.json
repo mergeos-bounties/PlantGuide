@@ -4,30 +4,34 @@
   "scientific_name": "Haworthiopsis fasciata",
   "tags": [
     "succulent",
+    "white stripes",
+    "pointy leaves",
     "indoor",
+    "dwarf",
     "low light",
-    "zebra",
-    "easy",
-    "windowsill"
+    "easy care",
+    "rosette"
   ],
   "care": {
-    "summary": "Compact succulent with white zebra bands; thrives on neglect and bright indirect light.",
-    "light": "Bright indirect; tolerates lower light better than most succulents",
-    "water": "Soak and dry; every 2–3 weeks; less in winter",
-    "soil": "Gritty cactus mix with excellent drainage",
-    "humidity": "Low to average",
-    "temperature_c": "15-28",
-    "fertilizer": "Dilute cactus feed monthly in growing season",
-    "toxicity": "Non-toxic to pets",
+    "summary": "A small, striking succulent with dark green pointed leaves covered in white raised stripe patterns.",
+    "light": "Bright indirect to medium light; morning direct sun is tolerated",
+    "water": "Water sparingly when soil is fully dry; every 2-3 weeks in summer, monthly in winter",
+    "soil": "Well-draining cactus/succulent mix with coarse sand or pumice",
+    "humidity": "Low; thrives in dry air, avoid misting",
+    "temperature_c": "15-26",
+    "fertilizer": "Dilute cactus fertilizer once in spring and once in summer",
+    "toxicity": "Non-toxic to pets and humans",
     "common_issues": [
-      "Root rot from overwatering",
-      "Elongation in deep shade",
-      "Sun scorch in harsh midday glass heat"
+      "Root rot from overwatering — the most common killer",
+      "Etiolation (stretching) from insufficient light",
+      "Shriveling leaves from severe underwatering",
+      "Mealybugs in leaf axils"
     ],
     "tips": [
-      "Use a small pot; shallow roots",
-      "Water only when soil is fully dry",
-      "Offsets (pups) can be separated after roots form"
+      "Water from the bottom by soaking the pot in a tray",
+      "Use a very gritty, fast-draining soil mix",
+      "Small terracotta pots are ideal to prevent moisture buildup",
+      "Does well on windowsills, desks, and in small terrariums"
     ]
   }
 }
