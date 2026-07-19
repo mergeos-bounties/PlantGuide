@@ -1,0 +1,52 @@
+{
+  "id": "echeveria_elegans",
+  "common_name": "Mexican Snowball",
+  "scientific_name": "Echeveria elegans",
+  "tags": [
+    "succulent",
+    "rosette",
+    "drought tolerant",
+    "full sun",
+    "low maintenance",
+    "beginner friendly",
+    "compact",
+    "silver-blue leaves",
+    "pink flowers",
+    "houseplant"
+  ],
+  "care": {
+    "summary": "Echeveria elegans (Mexican Snowball) is a classic rosette-forming succulent native to the semi-arid highlands of Mexico. It produces tightly packed, spoon-shaped silver-blue leaves arranged in a perfect geometric rosette up to 15 cm across. One of the most popular and widely grown echeverias — extremely forgiving, drought-tolerant, and ideal for beginners. Produces delicate pink-tipped coral bell-shaped flowers on arching stems in late winter to spring.",
+    "light": "Bright direct sunlight for at least 4-6 hours daily. A south or east-facing windowsill is ideal indoors. Outdoors it thrives in full sun. Insufficient light causes etiolation — the rosette stretches upward and loses its compact shape. If moving from indoors to outdoor sun, acclimatise gradually over 1-2 weeks to prevent sun scorch.",
+    "water": "Use the soak-and-dry method: water deeply until it drains from the bottom, then allow soil to dry completely before watering again — typically every 10-14 days in summer, every 3-4 weeks in winter. Overwatering causes mushy leaves and root rot, which is the primary cause of death. Never let water sit in the rosette as it causes crown rot. Always use a pot with drainage holes.",
+    "soil": "Fast-draining cactus or succulent mix is essential. Blend standard potting soil with 50% coarse perlite or grit. Slightly acidic to neutral pH (6.0-7.0). Heavy or moisture-retentive soil will cause rot. Terracotta pots are ideal as they wick moisture away from the roots. Repot in spring using fresh mix when roots emerge from drainage holes.",
+    "humidity": "Prefers low humidity — 30-40% ideal. Average household humidity (40-50%) is fine. High humidity (above 60%) combined with poor air circulation leads to powdery mildew and fungal rot. Do not mist the leaves. Ensure good air circulation, especially in humid climates or rainy seasons.",
+    "temperature_c": {
+      "min": 2,
+      "ideal_min": 10,
+      "ideal_max": 27,
+      "max": 38
+    },
+    "fertilizer": "Light feeder. Apply a diluted succulent or cactus fertilizer (low nitrogen, e.g. 2-7-7) at half strength once at the start of the growing season (spring) and once mid-summer. Do not fertilize in autumn or winter. Over-fertilizing causes lush, weak growth prone to rot and loss of compact form.",
+    "toxicity": "Non-toxic to humans, cats, and dogs. Echeveria elegans is considered safe for pets and children, making it one of the few succulents appropriate for households with animals. The leaves may cause mild stomach upset if consumed in large quantities, but are not classified as toxic by ASPCA.",
+    "common_issues": [
+      "Mushy, translucent leaves (usually at base) — overwatering or root rot; stop watering immediately, remove plant, trim rotten roots, allow to dry 24-48 hours, repot in dry fresh mix",
+      "Stretched or leggy rosette (etiolation) — insufficient light; move to brighter location with direct sun for at least 4-6 hours daily",
+      "Wrinkled or shrivelled leaves — underwatering; water thoroughly using soak-and-dry method",
+      "Brown crispy leaf tips or sunburn patches — sudden exposure to intense sun; acclimatise gradually when moving outdoors",
+      "White powdery coating on leaves — powdery mildew from high humidity/poor airflow; improve ventilation, apply diluted neem oil",
+      "Mealy bugs (white cottony clusters in leaf axils) — treat with 70% isopropyl alcohol on a cotton swab directly on pests, or neem oil spray",
+      "Leaves falling off easily when touched — normal lower leaf senescence; remove and propagate fallen leaves as leaf cuttings",
+      "No flowers — needs a cool dry winter rest period (10-15°C) with reduced watering to trigger spring blooming"
+    ],
+    "tips": [
+      "The soak-and-dry watering method is critical — when in doubt, wait an extra week; echeverias recover from underwatering far better than overwatering",
+      "Propagate easily from individual leaves: gently twist a healthy lower leaf off cleanly, let it callous for 2-3 days, then lay on dry succulent mix — tiny rosettes emerge in 3-6 weeks",
+      "Propagate from offsets (pups): the plant naturally produces small rosette offsets around the base; separate when they have their own roots and pot individually",
+      "Remove dead lower leaves regularly by gently pulling downward — they harbour pests and moisture that can cause rot at the base",
+      "Avoid getting water in the rosette centre — water at soil level or use bottom watering (place pot in a tray of water for 15 minutes)",
+      "A winter rest at 10-15\u00b0C with minimal watering encourages the beautiful pink flower spikes to emerge in late winter to spring",
+      "The silver-blue leaf colour is most vivid and compact in bright direct sun — shade causes greening and stretching",
+      "Repot every 2 years in spring, refreshing the soil completely; echeverias prefer slightly snug pots (1-2 cm clearance around roots)"
+    ]
+  }
+}
