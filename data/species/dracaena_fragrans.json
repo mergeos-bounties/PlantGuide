@@ -1,0 +1,37 @@
+{
+  "id": "dracaena_fragrans",
+  "common_name": "Corn Plant",
+  "scientific_name": "Dracaena fragrans",
+  "tags": [
+    "indoor",
+    "tropical",
+    "woody stem",
+    "arching leaves",
+    "easy care",
+    "air purifying",
+    "tall",
+    "low light"
+  ],
+  "care": {
+    "summary": "A popular dracaena with a thick woody cane and clusters of arching, strap-like leaves with a central yellow stripe.",
+    "light": "Low to medium indirect light; tolerates fluorescent office lighting well",
+    "water": "Water when top half of soil is dry; sensitive to overwatering and fluoride",
+    "soil": "Well-draining potting mix with perlite or sand",
+    "humidity": "Low to average; adapts well to normal indoor humidity",
+    "temperature_c": "18-27",
+    "fertilizer": "Dilute balanced fertilizer every 6 weeks spring through summer",
+    "toxicity": "Toxic to cats and dogs if ingested",
+    "common_issues": [
+      "Brown leaf tips from fluoride in tap water",
+      "Root rot from overwatering or poor drainage",
+      "Yellow lower leaves — natural aging or overwatering sign",
+      "Leggy growth from insufficient light"
+    ],
+    "tips": [
+      "Use filtered or distilled water to prevent leaf tip burn",
+      "Prune the cane at desired height — new growth will emerge below cut",
+      "Remove lower yellow leaves to keep stem clean and tidy",
+      "Rotate monthly to maintain even upright growth"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "echeveria_elegans",
+  "common_name": "Mexican Snowball",
+  "scientific_name": "Echeveria elegans",
+  "tags": [
+    "succulent",
+    "rosette",
+    "plump leaves",
+    "blue-green",
+    "pink edges",
+    "indoor",
+    "outdoor",
+    "easy care",
+    "drought tolerant"
+  ],
+  "care": {
+    "summary": "A classic echeveria forming tight rosettes of plump, spoon-shaped blue-green leaves with pinkish tips.",
+    "light": "Bright direct to indirect light; needs 4-6 hours of sun to maintain compact rosette form",
+    "water": "Water thoroughly when soil dries out; every 1-2 weeks in summer, reduce in winter",
+    "soil": "Very well-draining cactus/succulent mix with perlite and coarse sand",
+    "humidity": "Low; prefers dry air, avoid humidity",
+    "temperature_c": "15-28",
+    "fertilizer": "Dilute succulent fertilizer once in early spring and again mid-summer",
+    "toxicity": "Non-toxic to pets and humans",
+    "common_issues": [
+      "Leggy, open rosette from insufficient light",
+      "Root rot from overwatering or poor drainage",
+      "Powdery mildew in high humidity",
+      "Mealybugs in leaf axils"
+    ],
+    "tips": [
+      "Give as much light as possible for tight, colorful rosettes",
+      "Water at the soil level, not on leaves, to prevent rot",
+      "Remove dead lower leaves to prevent pests",
+      "Propagate easily from leaf cuttings placed on dry soil"
+    ]
+  }
+}
