@@ -1,0 +1,32 @@
+{
+  "id": "monstera_deliciosa_variegata",
+  "common_name": "Monstera Deliciosa Variegata",
+  "scientific_name": "Monstera deliciosa 'Variegata'",
+  "tags": [
+    "indoor",
+    "tropical",
+    "climbing",
+    "bright-indirect",
+    "statement"
+  ],
+  "care": {
+    "summary": "Large fenestrated leaves; climbs with a moss pole; iconic tropical houseplant.",
+    "light": "Bright indirect; avoid harsh midday sun on variegated forms",
+    "water": "When top 3–5 cm of soil is dry; never soggy",
+    "soil": "Chunky aroid mix with bark and perlite",
+    "humidity": "Medium to high preferred",
+    "temperature_c": "18-29",
+    "fertilizer": "Balanced liquid monthly in growing season",
+    "toxicity": "Toxic if ingested (calcium oxalate)",
+    "common_issues": [
+      "Yellow leaves from overwatering",
+      "Brown tips from low humidity",
+      "Leggy growth in low light"
+    ],
+    "tips": [
+      "Provide a moss pole early",
+      "Wipe dust from large leaves",
+      "Rotate pot for even growth"
+    ]
+  }
+}
