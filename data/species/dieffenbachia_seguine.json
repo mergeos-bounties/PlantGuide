@@ -1,0 +1,38 @@
+{
+  "id": "dieffenbachia_seguine",
+  "common_name": "Dumb Cane",
+  "scientific_name": "Dieffenbachia seguine",
+  "tags": [
+    "tropical",
+    "indoor",
+    "foliage",
+    "low light tolerant",
+    "air purifying",
+    "toxic",
+    "beginner friendly"
+  ],
+  "care": {
+    "summary": "Bold, easy-care tropical foliage plant with large variegated leaves; among the most forgiving houseplants but carries an important toxicity warning.",
+    "light": "Bright to medium indirect light; tolerates low light but grows slowly; avoid harsh direct sun which scorches leaves",
+    "water": "Moderate; water when the top 3-4 cm of soil is dry; reduce in winter; never let it sit in standing water",
+    "soil": "Rich, well-draining potting mix with perlite for aeration; slightly acidic (pH 6.0-7.0)",
+    "humidity": "Prefers high humidity 50-70%; mist leaves or use a pebble tray; tolerates average household levels",
+    "temperature_c": "18-30",
+    "fertilizer": "Balanced liquid fertilizer (20-20-20) every 2-4 weeks during spring and summer; none in autumn/winter",
+    "toxicity": "HIGHLY TOXIC to humans, cats, and dogs — all plant parts contain calcium oxalate crystals that cause intense burning and swelling of the mouth and throat, temporarily impeding speech (hence 'Dumb Cane'); seek medical attention if ingested",
+    "common_issues": [
+      "Yellow leaves from overwatering or poor drainage",
+      "Brown leaf tips from low humidity or fluoride in tap water — use filtered or rainwater",
+      "Leggy stems in low light; rotate plant regularly for even growth",
+      "Spider mites and mealybugs in dry indoor conditions",
+      "Leaf drop after temperature shock or cold drafts below 15°C"
+    ],
+    "tips": [
+      "Always wear gloves when pruning — sap causes skin and eye irritation",
+      "Wipe large leaves with a damp cloth monthly to remove dust and improve photosynthesis",
+      "Propagate easily from stem cuttings placed in water or moist soil",
+      "Repot every 1-2 years in spring when roots start escaping the drainage holes",
+      "Keep well out of reach of children and pets at all times due to severe oral toxicity"
+    ]
+  }
+}
