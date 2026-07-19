@@ -1,0 +1,37 @@
+{
+  "id": "dieffenbachia_seguine",
+  "common_name": "Dumb Cane",
+  "scientific_name": "Dieffenbachia seguine",
+  "tags": [
+    "indoor",
+    "large leaves",
+    "variegated",
+    "cream and green",
+    "tropical",
+    "easy care",
+    "bushy",
+    "ornamental leaves"
+  ],
+  "care": {
+    "summary": "A bold tropical plant with broad, oval leaves patterned in cream, white, and green variegation.",
+    "light": "Bright to medium indirect light; too much direct sun scorches leaves",
+    "water": "Keep soil evenly moist; water when top inch dries. Reduce in winter",
+    "soil": "Well-draining potting mix with peat and perlite",
+    "humidity": "Moderate to high; benefits from regular misting",
+    "temperature_c": "18-27",
+    "fertilizer": "Dilute balanced fertilizer every 4-6 weeks spring through summer",
+    "toxicity": "Highly toxic if ingested; causes mouth and throat swelling. Keep away from pets and children",
+    "common_issues": [
+      "Brown leaf edges from tap water chemicals or low humidity",
+      "Leggy, bare stem from insufficient light",
+      "Yellow lower leaves — natural aging or overwatering",
+      "Drooping from underwatering or cold exposure"
+    ],
+    "tips": [
+      "Always use gloves when pruning — sap can irritate skin",
+      "Rotate the plant weekly for even growth",
+      "Remove yellow lower leaves to encourage new top growth",
+      "Keep away from drafts and air conditioning vents"
+    ]
+  }
+}
