@@ -3,31 +3,29 @@
   "common_name": "Dwarf Umbrella Tree",
   "scientific_name": "Schefflera arboricola",
   "tags": [
+    "umbrella leaves",
     "indoor",
-    "tree",
-    "foliage",
     "easy",
-    "office",
-    "bright light"
+    "bright indirect",
+    "tree",
+    "houseplant"
   ],
   "care": {
-    "summary": "Bushy tropical with palmate leaflets; forgiving houseplant for bright rooms.",
-    "light": "Bright indirect; some morning sun ok",
-    "water": "Water when top inch is dry; avoid soggy soil",
-    "soil": "Standard well-draining potting mix",
-    "humidity": "Average to moderate",
-    "temperature_c": "16-27",
-    "fertilizer": "Monthly dilute feed in growing season",
-    "toxicity": "Mildly toxic if ingested",
+    "summary": "A popular, easy-to-grow houseplant known for its umbrella-like leaf clusters.",
+    "light": "Bright, indirect light. Can tolerate some lower light but will become leggy.",
+    "water": "Water thoroughly when the top 2 inches of soil are dry. Do not overwater.",
+    "soil": "Well-draining, rich potting mix.",
+    "humidity": "Average to high household humidity.",
+    "temperature_c": "15-30",
+    "fertilizer": "Diluted liquid fertilizer once a month during spring and summer.",
+    "toxicity": "Mildly toxic to cats and dogs if ingested.",
     "common_issues": [
-      "Leaf drop from sudden light/temp change",
-      "Scale insects on stems",
-      "Root rot from overwatering"
+      "Leaf drop from overwatering or cold drafts",
+      "Spider mites in dry conditions"
     ],
     "tips": [
-      "Rotate for even growth",
-      "Wipe leaves to remove dust",
-      "Prune to control height"
+      "Prune regularly to keep it bushy and prevent legginess.",
+      "Rotate the pot frequently for even growth."
     ]
   }
 }
