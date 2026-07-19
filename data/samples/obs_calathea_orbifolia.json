@@ -1,10 +1,5 @@
 {
   "id": "obs_calathea_orbifolia",
-  "tags": [
-    "striped leaves",
-    "round foliage",
-    "prayer plant",
-    "tropical green"
-  ],
+  "tags": ["calathea", "round leaves", "striped", "silvery green", "indoor", "shade loving"],
   "expected_species": "calathea_orbifolia"
 }
