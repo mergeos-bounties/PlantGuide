@@ -1,0 +1,32 @@
+{
+  "id": "schefflera_arboricola",
+  "common_name": "Dwarf Umbrella Tree",
+  "scientific_name": "Schefflera arboricola",
+  "tags": [
+    "umbrella leaves",
+    "indoor",
+    "easy",
+    "bright indirect"
+  ],
+  "care": {
+    "summary": "Compact shrub with umbrella-like leaflets; tolerates low light and infrequent watering.",
+    "light": "Bright indirect light to low light",
+    "water": "Water when top inch of soil is dry; avoid overwatering",
+    "soil": "Well-draining potting mix",
+    "humidity": "Average room humidity (40-60%)",
+    "temperature_c": "15-24",
+    "fertilizer": "Monthly during growing season with balanced liquid fertilizer",
+    "toxicity": "Toxic if ingested",
+    "common_issues": [
+      "Yellow leaves from overwatering",
+      "Leggy growth from low light",
+      "Leaf drop from sudden temperature changes",
+      "Spider mites in dry conditions"
+    ],
+    "tips": [
+      "Wipe leaves occasionally to remove dust",
+      "Prune to maintain shape and encourage bushiness",
+      "Rotate plant periodically for even growth"
+    ]
+  }
+}

@@ -39,7 +39,7 @@ app.add_typer(train_app, name="train")
 app.add_typer(demo_app, name="demo")
 collection_app = typer.Typer(help="User plant collection")
 app.add_typer(collection_app, name="collection")
-console = Console()
+console = Console(markup=False)
 
 
 @app.command("version")
@@ -73,7 +73,7 @@ def stats_cmd() -> None:
 
 
 @species_app.command("list")
-def species_list() -> None:
+def species_list(pet_safe: bool | None = typer.Option(None, "--pet-safe/--no-pet-safe", help="Filter by pet safety")) -> None:
     files = list_species_files()
     if not files:
         console.print("[yellow]No species in data/species[/yellow]")
@@ -82,10 +82,15 @@ def species_list() -> None:
     table.add_column("ID")
     table.add_column("Common name")
     table.add_column("Tags")
+    table.add_column("Pet safe")
     for path in files:
         sp = load_species(path)
+        safe = sp.get("care", {}).get("is_pet_safe")
+        if pet_safe is not None and safe != pet_safe:
+            continue
         tags = ", ".join((sp.get("tags") or [])[:5])
-        table.add_row(str(sp.get("id")), str(sp.get("common_name")), tags)
+        safe_str = "[dim]unknown[/dim]" if safe is None else ("[green]yes[/green]" if safe else "[red]no[/red]")
+        table.add_row(str(sp.get("id")), str(sp.get("common_name")), tags, safe_str)
     console.print(table)
 
 
