@@ -3,32 +3,35 @@
   "common_name": "Spineless Yucca",
   "scientific_name": "Yucca elephantipes",
   "tags": [
-    "succulent",
-    "arid",
+    "indoor",
+    "tropical",
+    "spiky leaves",
+    "tall",
+    "woody stem",
     "drought tolerant",
-    "tree-like",
-    "sword-shaped leaves",
-    "full sun",
-    "xeric"
+    "easy care",
+    "architectural"
   ],
   "care": {
-    "summary": "Tree-like succulent with sword-shaped leaves; very low maintenance.",
-    "light": "Full sun to partial shade",
-    "water": "Infrequent; drought tolerant once established",
-    "well_draining": true,
-    "soil": "Well-draining, sandy soil",
-    "humidity": "Low to average",
-    "temperature_c": "10-30",
-    "fertilizer": "Light; balanced fertilizer in spring",
+    "summary": "A bold, architectural houseplant with sword-like leaves atop a thick, woody cane.",
+    "light": "Bright direct to indirect light; south or west window preferred",
+    "water": "Water thoroughly when soil is completely dry; very drought tolerant",
+    "soil": "Very well-draining cactus/succulent mix or sandy potting soil",
+    "humidity": "Low; thrives in average dry indoor air",
+    "temperature_c": "16-29",
+    "fertilizer": "Dilute balanced fertilizer once in spring and once in summer only",
     "toxicity": "Mildly toxic to pets if ingested",
     "common_issues": [
-      "Brown leaf tips from low humidity",
-      "Pest issues indoors (spider mites)"
+      "Root rot from overwatering — the #1 killer of yuccas",
+      "Brown leaf tips from inconsistent watering or dry air",
+      "Yellow lower leaves — natural shedding as it grows",
+      "Mealybugs in leaf axils and on stems"
     ],
     "tips": [
-      "Can tolerate some shade outdoors",
-      "Wipe leaves to prevent dust buildup",
-      "Prune dead leaves at base"
+      "Err on the side of underwatering — yuccas prefer neglect",
+      "Wipe leaves with a damp cloth to keep them dust-free",
+      "Rotate the plant quarterly for even growth",
+      "Cut back bare canes to encourage new growth from the cut point"
     ]
   }
 }

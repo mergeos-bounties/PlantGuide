@@ -1,33 +1,37 @@
 {
   "id": "sansevieria_cylindrica",
   "common_name": "Cylindrical Snake Plant",
-  "scientific_name": "Dracaena angolensis (Sansevieria cylindrica)",
+  "scientific_name": "Dracaena angolensis (syn. Sansevieria cylindrica)",
   "tags": [
-    "houseplant",
-    "succulent-like",
-    "low light tolerant",
-    "drought",
-    "architectural",
-    "beginner"
+    "succulent",
+    "cylindrical leaves",
+    "upright",
+    "indoor",
+    "drought tolerant",
+    "low light",
+    "easy care",
+    "air purifying"
   ],
   "care": {
-    "summary": "Upright round leaves; thrives on neglect and bright indirect light.",
-    "light": "Bright indirect to partial sun; tolerates low light",
-    "water": "Sparingly; fully dry between waterings",
-    "soil": "Very free-draining cactus/succulent mix",
-    "humidity": "Low to average",
-    "temperature_c": "15-30",
-    "fertilizer": "Dilute feed 2–3× per year in warm months",
-    "toxicity": "Mildly toxic if ingested (pets/children)",
+    "summary": "A sculptural succulent with round, pointed leaves that grow in a fan shape.",
+    "light": "Bright indirect to direct light; tolerates low light but grows slower",
+    "water": "Water sparingly; allow soil to dry completely between waterings. Every 2-4 weeks in summer, monthly in winter",
+    "soil": "Very well-draining cactus/succulent mix with coarse sand or perlite",
+    "humidity": "Low; thrives in dry indoor conditions",
+    "temperature_c": "15-29",
+    "fertilizer": "Dilute succulent or cactus fertilizer once in spring and once in summer",
+    "toxicity": "Mildly toxic if ingested; keep away from pets",
     "common_issues": [
-      "Root rot from wet soil",
-      "Soft leaves from cold + water",
-      "Pale growth in deep shade"
+      "Root rot from overwatering — the most common problem",
+      "Leaning leaves from insufficient light",
+      "Mushy leaf bases from excess moisture",
+      "Brown leaf tips from inconsistent watering"
     ],
     "tips": [
-      "Excellent for dry apartments",
-      "Do not bury leaves deeper than crown",
-      "Wipe dust so leaves can photosynthesize"
+      "Water only when the soil is bone dry — a moisture meter helps",
+      "Use a tall, heavy pot to prevent tipping as leaves grow tall",
+      "Propagate by leaf cuttings or division of offsets",
+      "Braided or curled leaves are achieved by training young leaves with ties"
     ]
   }
 }
