@@ -1,10 +1,12 @@
 {
   "id": "obs_calathea_medallion",
   "tags": [
-    "striped leaves",
-    "prayer plant",
-    "patterned foliage",
-    "tropical indoor"
+    "calathea",
+    "round leaves",
+    "dark green",
+    "purple underside",
+    "indoor",
+    "high humidity"
   ],
   "expected_species": "calathea_medallion"
 }

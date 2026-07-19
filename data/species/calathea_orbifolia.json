@@ -1,33 +1,37 @@
 {
   "id": "calathea_orbifolia",
   "common_name": "Calathea Orbifolia",
-  "scientific_name": "Goeppertia orbifolia",
+  "scientific_name": "Goeppertia orbifolia (syn. Calathea orbifolia)",
   "tags": [
-    "calathea",
-    "large leaves",
-    "striped",
-    "humidity",
     "indoor",
-    "prayer plant",
-    "indirect light"
+    "round leaves",
+    "striped",
+    "tropical",
+    "ornamental leaves",
+    "high humidity",
+    "shade loving",
+    "prayer plant family"
   ],
   "care": {
-    "summary": "Statement foliage plant that loves humidity and consistent moisture; sensitive to dry air.",
-    "light": "Bright indirect; no direct sun",
-    "water": "Keep evenly moist; use filtered water",
-    "soil": "Airy potting mix with peat and perlite",
-    "humidity": "High (50%+)",
-    "temperature_c": "18-27",
-    "fertilizer": "Half-strength monthly in growing season",
-    "toxicity": "Non-toxic to pets",
+    "summary": "A stunning calathea with large, round, silvery-green leaves marked with fine dark green stripes.",
+    "light": "Low to medium indirect light; avoid direct sunlight which fades patterns",
+    "water": "Keep soil consistently moist but not soggy; use distilled or rainwater",
+    "soil": "Well-draining peat-based mix with perlite for moisture retention",
+    "humidity": "High (60%+); thrives with a humidifier, pebble tray, or terrarium environment",
+    "temperature_c": "18-25",
+    "fertilizer": "Dilute balanced fertilizer every 4 weeks spring through summer",
+    "toxicity": "Non-toxic to pets and humans",
     "common_issues": [
-      "Crispy edges from low humidity",
-      "Leaf curl from underwatering"
+      "Brown leaf edges from low humidity or tap water chemicals",
+      "Curling leaves from underwatering or dry air",
+      "Faded leaf patterns from too much direct light",
+      "Spider mites in dry conditions"
     ],
     "tips": [
-      "Group with other plants",
-      "Avoid cold drafts",
-      "Wipe leaves gently"
+      "Use filtered, distilled, or rainwater — calatheas are sensitive to fluoride",
+      "Mist regularly or use a humidifier to prevent crispy leaf edges",
+      "Wipe leaves with a damp cloth to keep pores clean",
+      "Does best in warm, draft-free spots away from windows in winter"
     ]
   }
 }

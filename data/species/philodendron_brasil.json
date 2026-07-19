@@ -3,31 +3,35 @@
   "common_name": "Philodendron Brasil",
   "scientific_name": "Philodendron hederaceum 'Brasil'",
   "tags": [
-    "philodendron",
-    "trailing",
-    "variegated",
     "indoor",
-    "heart leaf",
-    "climbing"
+    "heart-shaped leaves",
+    "variegated",
+    "green and yellow",
+    "trailing",
+    "easy care",
+    "climbing",
+    "tropical"
   ],
   "care": {
-    "summary": "Easy trailing philodendron with lime-and-green heart leaves.",
-    "light": "Medium to bright indirect",
-    "water": "Water when top 2 cm soil is dry",
-    "soil": "Airy potting mix with perlite",
-    "humidity": "Average to medium",
-    "temperature_c": "18-27",
-    "fertilizer": "Monthly in growing season",
-    "toxicity": "Toxic if ingested",
+    "summary": "A vibrant, easy-care philodendron with heart-shaped leaves splashed in lime-green and dark green variegation.",
+    "light": "Bright indirect light for best variegation; tolerates medium light but patterns fade",
+    "water": "Water when top inch of soil is dry; avoid keeping soil soggy",
+    "soil": "Well-draining standard potting mix with perlite or orchid bark",
+    "humidity": "Average to high; tolerates normal indoor humidity well",
+    "temperature_c": "18-28",
+    "fertilizer": "Balanced liquid fertilizer monthly spring through fall",
+    "toxicity": "Toxic if ingested; keep away from pets and children",
     "common_issues": [
+      "Reverting to all-green leaves in low light conditions",
+      "Leggy growth with sparse leaves from insufficient light",
       "Yellow leaves from overwatering",
-      "Leggy vines in low light",
-      "Pale variegation without light"
+      "Brown leaf tips from dry air or inconsistent watering"
     ],
     "tips": [
-      "Pinch tips to branch",
-      "Provide moss pole if climbing",
-      "Wipe leaves monthly"
+      "Provide a moss pole or trellis for climbing — leaves grow larger when vertical",
+      "Prune long vines to encourage fuller growth",
+      "Easy to propagate from stem cuttings in water or soil",
+      "Rotate regularly for even variegation on all sides"
     ]
   }
 }
