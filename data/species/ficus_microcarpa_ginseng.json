@@ -1,32 +1,34 @@
 {
   "id": "ficus_microcarpa_ginseng",
   "common_name": "Ginseng Ficus Bonsai",
-  "scientific_name": "Ficus microcarpa 'Ginseng'",
+  "scientific_name": "Ficus microcarpa",
   "tags": [
     "bonsai",
-    "indoor",
-    "tropical",
-    "ornamental",
-    "beginner-bonsai"
+    "thick roots",
+    "indoor tree",
+    "bright light",
+    "aerial roots",
+    "ornamental"
   ],
   "care": {
-    "summary": "Popular beginner bonsai with thick exposed roots and glossy oval leaves.",
-    "light": "Bright indirect to partial sun",
-    "water": "Keep soil moist; never let dry out completely",
-    "soil": "Bonsai soil mix with good drainage",
-    "humidity": "Medium to high",
-    "temperature_c": "16-30",
-    "fertilizer": "Bonsai feed every 2 weeks during growing season",
-    "toxicity": "Mildly toxic to pets if ingested",
+    "summary": "A sculptural bonsai with thick, exposed roots; keep evenly moist in bright indirect light.",
+    "light": "Bright indirect; tolerates some direct morning sun",
+    "water": "When top 2–3 cm of soil dries; reduce in winter",
+    "soil": "Well-draining bonsai mix or coarse potting soil with perlite",
+    "humidity": "Moderate to high; mist or use humidity tray",
+    "temperature_c": "15-30",
+    "fertilizer": "Dilute liquid bonsai feed every 2 weeks spring–summer",
+    "toxicity": "Sap may irritate skin; toxic if ingested (mild)",
     "common_issues": [
-      "Leaf drop from drafts or sudden changes",
-      "Root rot in waterlogged soil",
-      "Aphids and scale on new growth"
+      "Leaf drop from sudden temperature change or draft",
+      "Yellow leaves from overwatering",
+      "Spider mites and scale in dry air"
     ],
     "tips": [
-      "Mist daily or place on a humidity tray",
-      "Prune new shoots to maintain shape",
-      "One of the hardiest indoor bonsai species"
+      "Prune in spring to maintain bonsai shape",
+      "Rotate weekly for even canopy growth",
+      "Wipe leaves monthly to prevent dust buildup",
+      "Repot every 2–3 years with root pruning"
     ]
   }
 }
