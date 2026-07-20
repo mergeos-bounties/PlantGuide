@@ -21,10 +21,6 @@ Thank you for considering contributing to PlantGuide! We welcome contributions f
    uv run pytest
    ```
 
-## Good First Issues
-
-Looking for a place to start? We have a list of [good first issues](https://github.com/mergeos-bounties/PlantGuide/labels/good%20first%20issue) that are specifically marked for newcomers.
-
 ## Making Changes
 
 1. Create a new branch for your feature or bugfix:
@@ -63,6 +59,20 @@ Looking for a place to start? We have a list of [good first issues](https://gith
 - Update README.md if you change the interface or usage
 - Add docstrings to new functions and classes
 - If adding new features, update relevant documentation in `docs/`
+
+## Good First Issues
+
+Looking for a place to start? We have a list of [good first issues](https://github.com/mergeos-bounties/PlantGuide/labels/good%20first%20issue) that are specifically marked for newcomers. These issues typically:
+- Have clear, well-defined requirements
+- Don't require deep domain knowledge
+- Include helpful context and resources
+- Are great for learning the codebase
+
+When working on a good first issue:
+1. Comment on the issue saying you're working on it
+2. Follow the "Getting Started" and "Making Changes" sections above
+3. Keep your PR focused on the specific issue
+4. Ask questions if you get stuck - we're here to help!
 
 ## Claiming a MergeOS Bounty
 
