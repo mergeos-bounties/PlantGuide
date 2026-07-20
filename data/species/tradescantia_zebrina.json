@@ -1,33 +1,35 @@
 {
   "id": "tradescantia_zebrina",
-  "common_name": "Inch Plant / Wandering Jew",
+  "common_name": "Wandering Jew / Inch Plant",
   "scientific_name": "Tradescantia zebrina",
   "tags": [
     "trailing",
-    "indoor",
+    "purple stripes",
     "fast grower",
-    "foliage",
-    "purple",
-    "easy"
+    "hanging",
+    "houseplant",
+    "easy care"
   ],
   "care": {
-    "summary": "Fast trailing vine with silver-purple striped leaves; excellent hanging basket plant.",
-    "light": "Bright indirect; color fades in deep shade",
-    "water": "Keep lightly moist; dry slightly between waterings",
-    "soil": "Peaty, well-draining mix",
-    "humidity": "Average to high",
-    "temperature_c": "15-27",
-    "fertilizer": "Half-strength monthly in growing season",
-    "toxicity": "Mildly toxic if ingested; sap may irritate skin",
+    "summary": "Vibrant trailing plant with purple-and-green striped leaves that thrives in bright indirect light and rewards neglect with rapid growth.",
+    "light": "Bright indirect to moderate; tolerates low light but loses variegation",
+    "water": "Water when top 2-3 cm of soil dries; avoid sitting water",
+    "soil": "Well-draining potting mix with perlite or sand",
+    "humidity": "Average household humidity is fine; appreciates occasional misting",
+    "temperature_c": "15-24",
+    "fertilizer": "Balanced liquid feed monthly during spring and summer",
+    "toxicity": "Mildly toxic if ingested (pets and humans); may cause skin irritation",
     "common_issues": [
-      "Leggy growth in low light",
-      "Root rot from soggy soil",
-      "Faded stripes without enough light"
+      "Leggy growth from insufficient light",
+      "Brown leaf tips from dry air or fluoride in tap water",
+      "Root rot from overwatering",
+      "Leaf drop from cold drafts or temperature swings"
     ],
     "tips": [
-      "Pinch tips to encourage bushiness",
-      "Propagates easily from stem cuttings in water",
-      "Rotate hanging pot for even growth"
+      "Pinch back stems regularly to encourage bushier growth",
+      "Propagate easily by placing stem cuttings in water or moist soil",
+      "Rotate pot weekly for even growth on all sides",
+      "Use rainwater or distilled water to prevent browning"
     ]
   }
 }
