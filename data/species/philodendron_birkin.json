@@ -1,0 +1,37 @@
+{
+  "id": "philodendron_birkin",
+  "common_name": "Philodendron Birkin",
+  "scientific_name": "Philodendron 'Birkin'",
+  "tags": [
+    "indoor",
+    "variegated",
+    "white stripes",
+    "compact",
+    "aroid",
+    "easy care",
+    "ornamental leaves",
+    "slow growing"
+  ],
+  "care": {
+    "summary": "A stunning philodendron with dark green leaves streaked with creamy white pinstripes.",
+    "light": "Bright indirect light; avoid direct sun which may scorch leaves",
+    "water": "Keep soil lightly moist; water when top inch feels dry. Reduce in winter",
+    "soil": "Well-draining aroid mix with perlite, orchid bark, and peat",
+    "humidity": "Moderate to high; benefits from occasional misting or a humidifier",
+    "temperature_c": "18-28",
+    "fertilizer": "Balanced liquid fertilizer monthly in spring and summer",
+    "toxicity": "Toxic if ingested; keep away from pets and children",
+    "common_issues": [
+      "Reverting to all-green leaves in low light",
+      "Root rot in poorly draining or waterlogged soil",
+      "Brown leaf tips from dry air or fluoride in tap water",
+      "Yellowing leaves from overwatering"
+    ],
+    "tips": [
+      "Wipe leaves gently to keep stripes visible and dust-free",
+      "Use filtered or distilled water to prevent tip burn",
+      "Provide a moss pole for climbing if desired",
+      "Do not expect identical variegation — each leaf is unique"
+    ]
+  }
+}

@@ -4,30 +4,34 @@
   "scientific_name": "Dracaena marginata",
   "tags": [
     "indoor",
-    "tree",
-    "low water",
+    "spiky leaves",
+    "thin trunk",
+    "tropical",
+    "low light",
     "air purifying",
-    "easy",
-    "office"
+    "easy care",
+    "upright"
   ],
   "care": {
-    "summary": "Upright cane plant with narrow red-edged leaves; tolerant of lower light and irregular watering.",
-    "light": "Bright indirect; tolerates medium light",
-    "water": "Allow top third of soil to dry between waterings",
-    "soil": "Well-draining potting mix",
-    "humidity": "Average; higher helps leaf tips",
+    "summary": "A striking, low-maintenance houseplant with slender, arching leaves edged in red.",
+    "light": "Bright indirect to medium light; tolerates lower light but grows slower",
+    "water": "Water when top half of soil is dry; sensitive to overwatering",
+    "soil": "Well-draining potting mix with sand or perlite",
+    "humidity": "Low to average; tolerates dry indoor air well",
     "temperature_c": "18-27",
-    "fertilizer": "Dilute houseplant feed monthly in spring/summer",
-    "toxicity": "Toxic to pets if ingested",
+    "fertilizer": "Dilute balanced fertilizer every 6-8 weeks spring through summer",
+    "toxicity": "Toxic to cats and dogs",
     "common_issues": [
-      "Brown tips from fluoride or dry air",
-      "Yellow leaves from overwatering",
-      "Leggy growth in deep shade"
+      "Brown leaf tips from fluoride or chemicals in tap water",
+      "Root rot in poorly draining or soggy soil",
+      "Yellow lower leaves — natural aging, or a sign of overwatering",
+      "Spider mites in dry, dusty conditions"
     ],
     "tips": [
-      "Rotate pot monthly for even growth",
-      "Wipe dust from leaves",
-      "Avoid cold drafts"
+      "Use distilled or rainwater to prevent leaf tip browning",
+      "Prune canes to control height and encourage branching",
+      "Dust leaves regularly to keep photosynthesis efficient",
+      "Let soil dry more in winter months"
     ]
   }
 }
