@@ -3,31 +3,29 @@
   "common_name": "ZZ Plant",
   "scientific_name": "Zamioculcas zamiifolia",
   "tags": [
-    "indoor",
+    "thick stems",
+    "glossy leaves",
+    "indestructible",
     "low light",
-    "drought tolerant",
-    "glossy",
-    "easy",
-    "office"
+    "indoor",
+    "houseplant"
   ],
   "care": {
-    "summary": "Tough glossy foliage; sparse watering.",
-    "light": "Low to bright indirect",
-    "water": "Every 2–4 weeks; let soil dry fully",
-    "soil": "Well-draining potting mix",
-    "humidity": "Low to average",
-    "temperature_c": "16-30",
-    "fertilizer": "Light feed 2–3× growing season",
-    "toxicity": "Toxic if ingested",
+    "summary": "Often called the 'indestructible' houseplant, the ZZ Plant thrives on neglect and features thick, dark green, glossy leaves.",
+    "light": "Tolerates very low light, but does best in bright, indirect light.",
+    "water": "Water very sparingly. Allow the soil to dry out completely between waterings.",
+    "soil": "Well-draining cactus or succulent mix.",
+    "humidity": "Average household humidity is perfectly fine.",
+    "temperature_c": "15-26",
+    "fertilizer": "Feed every 6 months with a diluted houseplant fertilizer.",
+    "toxicity": "Toxic to cats and dogs if ingested.",
     "common_issues": [
-      "Root rot from overwatering",
-      "Yellow leaflets from soggy soil",
-      "Stretching in very low light"
+      "Yellowing leaves and mushy stems from overwatering (the most common cause of death)",
+      "Wrinkled stems from extreme underwatering"
     ],
     "tips": [
-      "Use terracotta for faster drying",
-      "Wipe leaves monthly",
-      "Divide rhizomes to propagate"
+      "When in doubt, do not water it. The rhizomes store water for months.",
+      "Wipe the leaves to keep them shiny."
     ]
   }
 }
