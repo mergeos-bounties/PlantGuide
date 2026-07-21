@@ -4,30 +4,34 @@
   "scientific_name": "Maranta leuconeura",
   "tags": [
     "indoor",
-    "prayer plant",
-    "humidity",
-    "foliage",
-    "bright indirect",
-    "pet-friendly"
+    "oval leaves",
+    "veined patterns",
+    "tropical",
+    "ornamental leaves",
+    "compact",
+    "trailing",
+    "prayer plant family"
   ],
   "care": {
-    "summary": "Striking patterned leaves that fold at night; enjoys humidity and even moisture.",
-    "light": "Bright indirect; avoid harsh direct sun",
-    "water": "Keep evenly moist; never bone-dry",
-    "soil": "Airy, peat-based, well-draining mix",
-    "humidity": "High preferred",
+    "summary": "A charming low-growing plant with oval leaves featuring distinctive fishbone-pattern veins that fold up at night.",
+    "light": "Bright to medium indirect light; low light reduces pattern intensity",
+    "water": "Keep soil consistently moist; water when top inch feels dry. Use distilled water",
+    "soil": "Well-draining peat or coco-coir based mix with perlite",
+    "humidity": "Moderate to high; appreciates regular misting or a pebble tray",
     "temperature_c": "18-27",
-    "fertilizer": "Half-strength monthly in growing season",
-    "toxicity": "Generally non-toxic to pets",
+    "fertilizer": "Dilute balanced fertilizer monthly in growing season",
+    "toxicity": "Non-toxic to pets and humans",
     "common_issues": [
-      "Crispy edges from low humidity",
-      "Yellow leaves from overwatering",
-      "Faded patterns in low light"
+      "Brown leaf tips from tap water or dry air",
+      "Leaf curl or faded pattern from too much direct sun",
+      "Leggy growth from insufficient light",
+      "Root rot in waterlogged or compacted soil"
     ],
     "tips": [
-      "Use filtered water if tips brown",
-      "Mist or tray for humidity",
-      "Rotate pot weekly for even growth"
+      "Use rainwater or distilled water to avoid chemical burn on leaf tips",
+      "The nightly leaf-folding 'prayer' motion is normal and healthy",
+      "Pinch stem tips to encourage bushier growth",
+      "Great for terrariums, hanging baskets, or as a tabletop plant"
     ]
   }
 }

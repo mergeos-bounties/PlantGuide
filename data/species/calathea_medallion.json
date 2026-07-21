@@ -1,33 +1,38 @@
 {
   "id": "calathea_medallion",
   "common_name": "Calathea Medallion",
-  "scientific_name": "Goeppertia veitchiana",
+  "scientific_name": "Goeppertia veitchiana (syn. Calathea 'Medallion')",
   "tags": [
-    "prayer plant",
-    "striped",
-    "tropical",
-    "humidity",
     "indoor",
-    "patterned leaves"
+    "round leaves",
+    "dark green",
+    "purple underside",
+    "tropical",
+    "ornamental leaves",
+    "high humidity",
+    "shade loving",
+    "prayer plant family"
   ],
   "care": {
-    "summary": "Showy patterned foliage that folds at night; loves humidity and filtered light.",
-    "light": "Medium to bright indirect; no direct sun",
-    "water": "Keep evenly moist with soft water when possible",
-    "soil": "Airy peat-free mix with perlite",
-    "humidity": "High",
+    "summary": "A dramatic calathea with large, round, dark green leaves featuring a feathered silver pattern and deep purple undersides.",
+    "light": "Low to medium indirect light; direct sun will scorch the leaves",
+    "water": "Keep soil evenly moist; use distilled or rainwater. Reduce slightly in winter",
+    "soil": "Well-draining peat-based mix with perlite and orchid bark",
+    "humidity": "High (60%+); essential for preventing crispy leaf edges",
     "temperature_c": "18-26",
-    "fertilizer": "Half-strength monthly in growing season",
-    "toxicity": "Non-toxic to pets (generally)",
+    "fertilizer": "Dilute houseplant fertilizer every 4 weeks spring to early fall",
+    "toxicity": "Non-toxic to pets and humans",
     "common_issues": [
-      "Crispy edges from dry air",
-      "Browning from hard water",
-      "Spider mites"
+      "Brown crispy edges from low humidity or tap water",
+      "Yellow leaves from overwatering or cold drafts",
+      "Faded or washed-out pattern from excessive light",
+      "Leaf curling from underwatering or stress"
     ],
     "tips": [
-      "Group with other plants",
-      "Avoid cold drafts",
-      "Wipe leaves gently"
+      "Never use tap water — mineral buildup causes leaf tip burn",
+      "Group with other humidity-loving plants to create a microclimate",
+      "Leaves fold up at night (prayer plant motion) — this is normal",
+      "Remove yellow leaves at the base to keep the plant tidy"
     ]
   }
 }

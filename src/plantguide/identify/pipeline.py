@@ -4,7 +4,17 @@ from pathlib import Path
 
 from plantguide.care.cards import care_card_for_species
 from plantguide.data.loader import load_sample
+from plantguide.identify.ranking import compute_weighted_scores
 from plantguide.models.toy import ToyPlantIdentifier, tags_from_text
+
+# Global switch: set to "weighted" to use the ranking model from #11
+RANKING_MODE: str | None = "weighted"  # None = use ToyPlantIdentifier
+
+
+def _get_catalog() -> list[dict]:
+    """Load full species catalog for weighted ranking."""
+    from plantguide.data.loader import load_species_catalog
+    return load_species_catalog()
 
 
 def identify_from_tags(tags: str | list[str], top_k: int = 3, with_care: bool = True) -> dict:
@@ -12,11 +22,20 @@ def identify_from_tags(tags: str | list[str], top_k: int = 3, with_care: bool = 
         tag_list = tags_from_text(tags)
     else:
         tag_list = [str(t).strip() for t in tags if str(t).strip()]
-    matches = ToyPlantIdentifier().identify(tag_list, top_k=top_k)
+
+    if RANKING_MODE == "weighted":
+        catalog = _get_catalog()
+        scored = compute_weighted_scores(tag_list, catalog)
+        matches = scored[:top_k]
+        model = "WeightedRankingV1"
+    else:
+        matches = ToyPlantIdentifier().identify(tag_list, top_k=top_k)
+        model = "ToyPlantIdentifier"
+
     result: dict = {
         "query_tags": tag_list,
         "matches": matches,
-        "model": "ToyPlantIdentifier",
+        "model": model,
     }
     if with_care and matches:
         top = matches[0]
