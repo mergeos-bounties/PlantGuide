@@ -3,31 +3,28 @@
   "common_name": "Rubber Plant",
   "scientific_name": "Ficus elastica",
   "tags": [
+    "large glossy leaves",
+    "tree form",
     "indoor",
-    "tree",
-    "foliage",
     "bright light",
-    "statement",
-    "easy"
+    "houseplant"
   ],
   "care": {
-    "summary": "Glossy large-leaf indoor tree.",
-    "light": "Bright indirect; some morning sun ok",
-    "water": "Water when top 2–3 cm dry; avoid soggy soil",
-    "soil": "Well-draining potting mix",
-    "humidity": "Average to moderate",
-    "temperature_c": "16-28",
-    "fertilizer": "Monthly dilute feed in growing season",
-    "toxicity": "Mildly toxic if ingested; sap may irritate skin",
+    "summary": "A bold houseplant featuring thick, glossy, large leaves. It can grow into a large tree indoors if given enough space and light.",
+    "light": "Bright, indirect light is ideal. Can tolerate some direct morning sun.",
+    "water": "Water when the top few inches of soil are dry. It is somewhat drought tolerant.",
+    "soil": "Well-draining potting mix.",
+    "humidity": "Average room humidity is fine, but it appreciates occasional misting or wiping leaves with a damp cloth.",
+    "temperature_c": "15-26",
+    "fertilizer": "Feed every month during the growing season with a balanced liquid fertilizer.",
+    "toxicity": "Toxic to dogs and cats, causing oral irritation and vomiting if ingested.",
     "common_issues": [
-      "Leaf drop from sudden moves",
-      "Brown edges from underwatering",
-      "Root rot from overwatering"
+      "Yellowing leaves from overwatering",
+      "Dust accumulation on the large leaves, which hinders photosynthesis"
     ],
     "tips": [
-      "Wipe leaves monthly",
-      "Rotate for even growth",
-      "Stake tall specimens"
+      "Wipe the large leaves with a damp cloth to keep them glossy and dust-free.",
+      "Prune the top to encourage a bushier shape rather than a single tall stalk."
     ]
   }
 }
