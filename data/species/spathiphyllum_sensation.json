@@ -3,30 +3,52 @@
   "common_name": "Peace Lily Sensation",
   "scientific_name": "Spathiphyllum 'Sensation'",
   "tags": [
-    "flowering",
+    "peace lily",
+    "spathiphyllum",
+    "large leaves",
+    "white blooms",
+    "spathe",
+    "low light",
     "indoor",
-    "low-light",
     "tropical",
-    "air-purifying"
+    "air-purifying",
+    "shade tolerant",
+    "statement plant",
+    "beginner"
   ],
   "care": {
-    "summary": "Giant cultivar of peace lily with oversized glossy leaves and elegant white spathes.",
-    "light": "Low to medium indirect light",
-    "water": "Keep evenly moist; droops when thirsty",
-    "soil": "Peat-based, well-drained potting mix",
-    "humidity": "Medium to high",
-    "temperature_c": "18-27",
-    "fertilizer": "Balanced liquid feed every 6-8 weeks",
-    "toxicity": "Toxic to cats and dogs if ingested",
+    "summary": "Peace Lily Sensation is a large cultivar of Spathiphyllum, growing up to 4-5 feet tall with enormous deep green leaves. Native to tropical Americas, it's prized for its majestic foliage and elegant white spathes. One of the best low-light flowering houseplants — forgiving, dramatic, and air-purifying.",
+    "light": "Low to medium indirect light — one of the few flowering plants that genuinely thrives in low light. Avoid direct sun. North or east-facing windows are ideal. Leaves lean toward light — rotate regularly for even growth. Survives under fluorescent/artificial office lighting.",
+    "water": "Keep soil evenly moist but never soggy. Water when top 1-2 inches of soil feels dry — every 5-7 days in growing season, every 10-14 days in winter. Dramatic drooping when thirsty: stems and leaves collapse but perk back up within hours after watering. Use room-temperature filtered water.",
+    "soil": "Peat-based, well-draining potting mix with good moisture retention. Mix 2 parts peat moss or coco coir + 1 part perlite + 1 part compost or worm castings. Slightly acidic pH (5.8-6.5). Commercial African violet potting mix works well. Must have drainage holes.",
+    "humidity": "Medium to high humidity preferred (50-70%). Appreciates regular misting, pebble tray, or grouping with other plants. Tolerates average household humidity (30-40%) but brown leaf tips signal humidity too low. Bathrooms with windows are ideal.",
+    "temperature_c": {
+      "min": 15,
+      "ideal_min": 18,
+      "ideal_max": 28,
+      "max": 32
+    },
+    "fertilizer": "Light feeder. Apply balanced liquid fertilizer (20-20-20) diluted to half-strength once a month during spring and summer. For more blooms, switch to phosphorus-rich (10-30-10) in early spring. Pause in fall/winter. Flush soil quarterly to prevent salt buildup.",
+    "toxicity": "Toxic to humans and pets (cats/dogs). Contains calcium oxalate crystals causing mouth/throat burning, drooling, difficulty swallowing. Keep out of reach. Not fatal but unpleasant — contact poison control if ingested. Wear gloves when pruning.",
     "common_issues": [
-      "Brown leaf tips from fluoride in water",
-      "Mealybugs and spider mites",
-      "Failure to flower in low light"
+      "Drooping stems/leaves - needs water; recovers within hours but repeated wilting stresses the plant",
+      "Brown leaf tips/edges - low humidity, tap water chemicals (fluoride), or over-fertilizing; use filtered water, increase humidity",
+      "Yellow lower leaves - overwatering or poor drainage; let soil dry more between waterings",
+      "No blooms / green spathes - insufficient light; move to brighter indirect location",
+      "Black/dark leaves - cold draft or direct sun exposure; move away from cold windows/AC vents",
+      "Spider mites (fine webbing) - dry air; increase humidity, treat with insecticidal soap",
+      "Root rot (mushy roots, foul smell) - overwatering; trim rot, repot in fresh soil",
+      "Mealybugs (white fuzzy spots) - dab with rubbing alcohol, isolate, treat with soap"
     ],
     "tips": [
-      "Use distilled or rainwater to prevent brown tips",
-      "Wipe leaves monthly to keep glossy",
-      "One of the best low-light plants"
+      "Use the dramatic droop-recovery cycle as your watering cue — Peace Lily visibly tells you when it needs water",
+      "Wipe large leaves monthly with a damp cloth to maximize photosynthesis and maintain glossy sheen",
+      "Remove spent flower stalks at the base to encourage new blooms and keep the plant tidy",
+      "Use filtered/distilled/rainwater to prevent brown tips — Peace Lily is sensitive to fluoride and chlorine",
+      "Repot in spring when roots circle the pot; go up only 1 pot size to avoid excess moisture",
+      "Propagate by division when repotting — separate root ball into clumps of 3-5 stems",
+      "Mist leaves daily in dry environments, especially winter when indoor heating dries the air",
+      "Sensation grows much larger than standard Peace Lily — plan for a 3-5 ft tall floor plant"
     ]
   }
 }
