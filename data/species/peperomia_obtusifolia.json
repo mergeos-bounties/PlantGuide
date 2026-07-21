@@ -1,0 +1,22 @@
+{
+  "species": "peperomia_obtusifolia",
+  "common_name": "Baby Rubber Plant",
+  "family": "Plantae",
+  "care": {
+    "light": "Bright indirect light",
+    "water": "Water when top 2cm of soil is dry",
+    "humidity": "40-60%",
+    "temperature": "18-26 C",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Monthly during growing season"
+  },
+  "identification": {
+    "leaves": "Oval to round leaves on slender stems",
+    "growth_habit": "Upright, spreading",
+    "max_height_cm": 30
+  },
+  "notes": {
+    "source": "community",
+    "reviewed": false
+  }
+}
