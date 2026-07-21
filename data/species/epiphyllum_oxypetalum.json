@@ -1,0 +1,32 @@
+{
+  "id": "epiphyllum_oxypetalum",
+  "common_name": "Queen of the Night",
+  "scientific_name": "Epiphyllum oxypetalum",
+  "tags": [
+    "orchid cactus",
+    "night bloom",
+    "flat stems",
+    "tropical",
+    "epiphyte"
+  ],
+  "care": {
+    "summary": "An epiphytic cactus famous for its large, fragrant, nocturnal white flowers. Needs bright indirect light and more water than desert cacti.",
+    "light": "Bright, indirect light. Morning sun is okay but avoid harsh afternoon sun.",
+    "water": "Water when the top inch of soil feels dry. Keep slightly moist in spring/summer, reduce watering in winter.",
+    "soil": "Well-draining, airy potting mix. Orchid bark mixed with standard potting soil works well.",
+    "humidity": "Moderate to high humidity (50%+). Can benefit from misting.",
+    "temperature_c": "15-30",
+    "fertilizer": "Balanced liquid fertilizer every 2-4 weeks during the growing season.",
+    "toxicity": "Non-toxic to cats and dogs.",
+    "common_issues": [
+      "Root rot from overwatering",
+      "Sunburn from direct hot sunlight",
+      "Mealybugs"
+    ],
+    "tips": [
+      "Blooms usually occur in late summer or early fall.",
+      "The flower opens at night and typically wilts by morning.",
+      "Needs a cool, dry winter resting period to set flower buds."
+    ]
+  }
+}
