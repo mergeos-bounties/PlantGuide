@@ -1,0 +1,31 @@
+{
+  "id": "epipremnum_aureum",
+  "common_name": "Pothos / Devil's Ivy",
+  "scientific_name": "Epipremnum aureum",
+  "tags": [
+    "heart leaves",
+    "trailing",
+    "variegated",
+    "indoor",
+    "easy",
+    "houseplant"
+  ],
+  "care": {
+    "summary": "One of the easiest houseplants to grow. Features trailing vines with heart-shaped, often variegated leaves.",
+    "light": "Low to bright indirect light. Variegation is more pronounced in brighter light.",
+    "water": "Allow the top inch or two of soil to dry out between waterings. Drought tolerant.",
+    "soil": "Any well-draining potting mix.",
+    "humidity": "Does well in average room humidity but appreciates higher humidity.",
+    "temperature_c": "15-29",
+    "fertilizer": "Feed every 1-2 months with a basic houseplant fertilizer.",
+    "toxicity": "Toxic to dogs and cats; causes oral irritation if chewed.",
+    "common_issues": [
+      "Yellow leaves from overwatering",
+      "Loss of variegation if light is too low"
+    ],
+    "tips": [
+      "Easily propagated by placing stem cuttings in water.",
+      "Can be trained to climb a moss pole or allowed to trail from a hanging basket."
+    ]
+  }
+}
