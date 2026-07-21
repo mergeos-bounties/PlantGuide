@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mergeos-bounties.github.io/PlantGuide/schemas/care_card.schema.json",
+  "title": "PlantGuide Care Card",
+  "description": "Returned by care_card_for_species() / care_for_app(). Always has defaults filled in — never null fields.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "species_id",
+    "common_name",
+    "scientific_name",
+    "summary",
+    "light",
+    "water",
+    "soil",
+    "humidity",
+    "temperature_c",
+    "fertilizer",
+    "toxicity",
+    "common_issues",
+    "tips"
+  ],
+  "properties": {
+    "species_id":       { "type": "string" },
+    "common_name":      { "type": "string" },
+    "scientific_name":  { "type": "string" },
+    "summary":          { "type": "string" },
+    "light":            { "type": "string" },
+    "water":            { "type": "string" },
+    "soil":             { "type": "string" },
+    "humidity":         { "type": "string" },
+    "temperature_c":    { "type": ["string", "number"] },
+    "fertilizer":       { "type": "string" },
+    "toxicity":         { "type": "string" },
+    "common_issues": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "tips": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

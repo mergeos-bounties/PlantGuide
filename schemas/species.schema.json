@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mergeos-bounties.github.io/PlantGuide/schemas/species.schema.json",
+  "title": "PlantGuide Species",
+  "description": "A species record from the PlantGuide catalog (matches data/species/*.json on disk).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "common_name", "scientific_name", "tags", "care"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$",
+      "description": "Stable snake_case identifier for the species (also the on-disk filename without .json)."
+    },
+    "common_name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Human-readable common name."
+    },
+    "scientific_name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Genus + species (binomial) name."
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Free-form tags used by identify_from_tags(). Lowercased, de-duped before matching.",
+      "uniqueItems": true
+    },
+    "care": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["summary", "light", "water", "soil", "humidity", "temperature_c", "fertilizer", "toxicity"],
+      "properties": {
+        "summary":          { "type": "string" },
+        "light":            { "type": "string" },
+        "water":            { "type": "string" },
+        "soil":             { "type": "string" },
+        "humidity":         { "type": "string" },
+        "temperature_c":    { "type": ["string", "number"] },
+        "fertilizer":       { "type": "string" },
+        "toxicity":         { "type": "string" },
+        "common_issues": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "tips": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}
