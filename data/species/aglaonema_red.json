@@ -1,0 +1,37 @@
+{
+  "id": "aglaonema_red",
+  "common_name": "Red Aglaonema",
+  "scientific_name": "Aglaonema commutatum",
+  "tags": [
+    "chinese evergreen",
+    "red variegation",
+    "low light",
+    "indoor",
+    "broad leaves",
+    "easy care",
+    "tropical foliage"
+  ],
+  "care": {
+    "summary": "Popular indoor foliage plant with striking red-pink variegated leaves; excellent for low-light areas.",
+    "light": "Low to bright indirect light",
+    "water": "Keep soil evenly moist; allow top inch to dry between waterings",
+    "well_draining": true,
+    "soil": "Well-draining, peat-based potting mix",
+    "humidity": "Average to high",
+    "temperature_c": "18-29",
+    "fertilizer": "Balanced liquid fertilizer monthly during growing season",
+    "toxicity": "Toxic to pets and humans if ingested due to calcium oxalate crystals",
+    "common_issues": [
+      "Brown leaf tips from dry air or fluoride in water",
+      "Yellowing leaves from overwatering",
+      "Leggy growth in very low light",
+      "Spider mites in dry conditions"
+    ],
+    "tips": [
+      "Wipe leaves with damp cloth to keep them dust-free and shiny",
+      "Use distilled or filtered water to avoid leaf tip burn",
+      "Rotate plant periodically for even growth",
+      "Can tolerate fluorescent office lighting well"
+    ]
+  }
+}
