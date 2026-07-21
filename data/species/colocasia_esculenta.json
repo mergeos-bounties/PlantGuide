@@ -1,32 +1,32 @@
 {
-  "id": "colocasia_esculenta",
-  "common_name": "Taro / Elephant Ear",
-  "scientific_name": "Colocasia esculenta",
-  "tags": [
-    "edible",
-    "tropical",
-    "outdoor",
-    "aquatic",
-    "dramatic"
-  ],
-  "care": {
-    "summary": "Bold tropical with large heart-shaped leaves; edible corms used in many cuisines.",
-    "light": "Partial shade to filtered sun",
-    "water": "High; thrives in boggy or aquatic conditions",
-    "soil": "Rich, moisture-retentive soil; can grow in water",
-    "humidity": "High",
-    "temperature_c": "20-35",
-    "fertilizer": "Balanced fertilizer every 3-4 weeks",
-    "toxicity": "Corms must be cooked before eating (raw is toxic)",
-    "common_issues": [
-      "Aphids on new leaves",
-      "Leaf scorch in direct sun",
-      "Fungal spots in still, humid air"
-    ],
-    "tips": [
-      "Great for pond edges or rain gardens",
-      "Die back in winter; store corms in cool dry place",
-      "Use as a dramatic focal point in shade gardens"
-    ]
-  }
+"id": "colocasia_esculenta",
+"common_name": "Taro / Elephant Ear",
+"scientific_name": "Colocasia esculenta",
+"tags": [
+"large leaves",
+"wetland",
+"edible corm",
+"outdoor tropical",
+"tuber",
+"tropical"
+],
+"care": {
+"summary": "Striking tropical with huge shield-like leaves; thrives in moist soil and warm humid conditions.",
+"light": "Bright indirect to partial shade; tolerates full sun with ample moisture",
+"water": "Keep soil consistently moist; can sit in shallow water like a marginal pond plant",
+"soil": "Rich, moisture-retentive loam or boggy soil; tolerates heavy clay",
+"humidity": "High humidity preferred (60%+)",
+"temperature_c": "20-30",
+"fertilizer": "High-nitrogen liquid fertilizer monthly during growing season",
+"toxicity": "Toxic if eaten raw; corm must be cooked before consumption",
+"common_issues": [
+"Yellowing leaves from underwatering or cold drafts",
+"Leaf burn from direct midday sun without adequate soil moisture"
+],
+"tips": [
+"Grows well as a marginal pond plant or in water-logged containers",
+"Mulch heavily in fall for overwintering in cooler zones",
+"Harvest corms after leaves die back in autumn"
+]
+}
 }
