@@ -1,0 +1,31 @@
+{
+  "id": "ficus_benjamina",
+  "common_name": "Weeping Fig",
+  "scientific_name": "Ficus benjamina",
+  "tags": [
+    "tree",
+    "small leaves",
+    "drooping branches",
+    "indoor",
+    "ficus",
+    "houseplant"
+  ],
+  "care": {
+    "summary": "A popular indoor tree with elegant, drooping branches and small glossy leaves. It is sensitive to changes in its environment.",
+    "light": "Bright, indirect light. Needs plenty of light to maintain its leaves.",
+    "water": "Water when the top 1-2 inches of soil feel dry. Needs consistent watering but do not let it sit in water.",
+    "soil": "Rich, fast-draining potting soil.",
+    "humidity": "Appreciates high humidity. Regular misting can help.",
+    "temperature_c": "18-24",
+    "fertilizer": "Liquid fertilizer every 2-4 weeks during the growing season.",
+    "toxicity": "Toxic to cats and dogs if ingested.",
+    "common_issues": [
+      "Leaf drop, often caused by sudden changes in light, temperature, or watering",
+      "Scale insects or spider mites in dry environments"
+    ],
+    "tips": [
+      "Avoid moving the plant once it is established, as changes often trigger leaf drop.",
+      "Keep away from cold drafts and heating vents."
+    ]
+  }
+}
