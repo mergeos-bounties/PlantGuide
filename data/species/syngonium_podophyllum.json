@@ -3,30 +3,34 @@
   "common_name": "Arrowhead Plant",
   "scientific_name": "Syngonium podophyllum",
   "tags": [
+    "arrow leaves",
     "trailing",
-    "tropical",
-    "indoor",
-    "beginner-friendly",
-    "air-purifying"
+    "variegated",
+    "easy indoor",
+    "houseplant",
+    "climbing"
   ],
   "care": {
-    "summary": "Versatile vining or bushy plant with arrow-shaped leaves in green, pink, or white tones.",
-    "light": "Medium indirect; avoid direct sun",
-    "water": "Keep slightly moist; water when top inch is dry",
-    "soil": "Peat-based mix with perlite for drainage",
-    "humidity": "Medium to high",
-    "temperature_c": "18-27",
-    "fertilizer": "Balanced feed every 4 weeks in spring/summer",
-    "toxicity": "Toxic if ingested (pets and humans)",
+    "summary": "Easy-growing vine with arrow-shaped leaves that trail or climb; adapts to a wide range of indoor conditions.",
+    "light": "Bright indirect light; tolerates low light but loses variegation",
+    "water": "Water when top 2-3 cm of soil feels dry; reduce in winter",
+    "soil": "Well-draining potting mix with peat moss or coco coir",
+    "humidity": "Average to high; appreciates occasional misting",
+    "temperature_c": "18-25",
+    "fertilizer": "Balanced liquid feed monthly during spring and summer",
+    "toxicity": "Toxic if ingested (calcium oxalate crystals); keep away from pets and children",
     "common_issues": [
-      "Brown leaf edges from dry air",
-      "Leggy growth without pruning",
-      "Spider mites in winter"
+      "Leggy growth from insufficient light",
+      "Leaf browning from dry air or low humidity",
+      "Root rot from overwatering or poor drainage",
+      "Pale leaves from nutrient deficiency"
     ],
     "tips": [
-      "Trim regularly to keep bushy",
-      "Can grow in water indefinitely",
-      "Color varieties need more light for vivid tones"
+      "Provide a moss pole or trellis for climbing growth",
+      "Prune trailing stems to maintain bushy shape",
+      "Propagate easily by stem cuttings in water or soil",
+      "Rotate pot regularly for even growth",
+      "Wipe leaves with damp cloth to keep dust-free"
     ]
   }
 }
