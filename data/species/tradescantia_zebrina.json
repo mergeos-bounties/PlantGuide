@@ -1,33 +1,31 @@
 {
   "id": "tradescantia_zebrina",
-  "common_name": "Inch Plant / Wandering Jew",
+  "common_name": "Wandering Jew / Inch Plant",
   "scientific_name": "Tradescantia zebrina",
   "tags": [
+    "purple leaves",
+    "striped",
     "trailing",
     "indoor",
-    "fast grower",
-    "foliage",
-    "purple",
-    "easy"
+    "easy",
+    "houseplant"
   ],
   "care": {
-    "summary": "Fast trailing vine with silver-purple striped leaves; excellent hanging basket plant.",
-    "light": "Bright indirect; color fades in deep shade",
-    "water": "Keep lightly moist; dry slightly between waterings",
-    "soil": "Peaty, well-draining mix",
-    "humidity": "Average to high",
-    "temperature_c": "15-27",
-    "fertilizer": "Half-strength monthly in growing season",
-    "toxicity": "Mildly toxic if ingested; sap may irritate skin",
+    "summary": "A fast-growing, trailing plant known for its striking purple and silver striped leaves.",
+    "light": "Bright, indirect light. Needs good light to maintain its vibrant leaf colors.",
+    "water": "Water when the top inch of soil feels dry. Do not let it dry out completely.",
+    "soil": "Well-draining, all-purpose potting soil.",
+    "humidity": "Average to high humidity. Appreciates regular misting.",
+    "temperature_c": "15-26",
+    "fertilizer": "Feed every 2-4 weeks with a balanced liquid fertilizer during the growing season.",
+    "toxicity": "Mildly toxic to pets; sap can cause skin irritation.",
     "common_issues": [
-      "Leggy growth in low light",
-      "Root rot from soggy soil",
-      "Faded stripes without enough light"
+      "Loss of leaf color due to insufficient light",
+      "Leggy growth if it isn't pruned regularly"
     ],
     "tips": [
-      "Pinch tips to encourage bushiness",
-      "Propagates easily from stem cuttings in water",
-      "Rotate hanging pot for even growth"
+      "Pinch back the stems frequently to encourage bushier growth.",
+      "Very easy to propagate from stem cuttings."
     ]
   }
 }
