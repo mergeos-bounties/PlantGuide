@@ -1,10 +1,9 @@
 {
-  "id": "obs_hoya_carnosa",
   "tags": [
+    "trailing",
     "waxy leaves",
-    "trailing vine",
-    "thick green leaves",
-    "hoya"
+    "fragrant flowers",
+    "climbing"
   ],
   "expected_species": "hoya_carnosa"
 }
