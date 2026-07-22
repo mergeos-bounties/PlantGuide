@@ -1,0 +1,101 @@
+{
+  "issues": [
+    {
+      "id": "scale_insects",
+      "name": "Scale insects",
+      "symptoms": [
+        "yellow spots",
+        "sticky leaves",
+        "brown bumps",
+        "sooty mold"
+      ],
+      "likely_causes": [
+        "Sap-feeding scale insects attached to stems or leaf undersides",
+        "Sticky honeydew left by a scale infestation"
+      ],
+      "remedies": [
+        "Isolate the plant and inspect stems and leaf undersides",
+        "Remove visible scale with a cotton swab dampened with 70% isopropyl alcohol",
+        "Apply insecticidal soap or horticultural oil according to its label and repeat as directed"
+      ],
+      "when_to_escalate": "Seek local horticulture advice if the infestation persists after repeated treatment."
+    },
+    {
+      "id": "aphids",
+      "name": "Aphids",
+      "symptoms": [
+        "sticky leaves",
+        "curled leaves",
+        "distorted growth",
+        "clusters of insects"
+      ],
+      "likely_causes": [
+        "Sap-feeding aphids on tender shoots or leaf undersides",
+        "Honeydew produced by an active aphid colony"
+      ],
+      "remedies": [
+        "Isolate the plant and rinse aphids off with a gentle stream of water",
+        "Prune heavily infested growth",
+        "Use insecticidal soap according to its label if rinsing is not sufficient"
+      ],
+      "when_to_escalate": "Ask a horticulture professional for help if new growth continues to deform."
+    },
+    {
+      "id": "spider_mites",
+      "name": "Spider mites",
+      "symptoms": [
+        "yellow spots",
+        "speckled leaves",
+        "fine webbing",
+        "dry leaves"
+      ],
+      "likely_causes": [
+        "Spider mites feeding on foliage, often in warm and dry conditions"
+      ],
+      "remedies": [
+        "Isolate the plant and rinse both sides of the leaves",
+        "Increase humidity when appropriate for the species",
+        "Apply insecticidal soap or horticultural oil according to its label"
+      ],
+      "when_to_escalate": "Seek expert identification before using a miticide or treating a severe infestation."
+    },
+    {
+      "id": "fungal_leaf_spot",
+      "name": "Fungal leaf spot",
+      "symptoms": [
+        "yellow spots",
+        "brown spots",
+        "leaf spots",
+        "dark lesions"
+      ],
+      "likely_causes": [
+        "Fungal growth encouraged by wet foliage, crowding, or poor air circulation"
+      ],
+      "remedies": [
+        "Remove badly affected leaves with clean tools",
+        "Keep foliage dry and improve air circulation",
+        "Avoid splashing water between plants"
+      ],
+      "when_to_escalate": "Get a local diagnosis if spots spread rapidly or affect valuable plants."
+    },
+    {
+      "id": "root_rot",
+      "name": "Root rot",
+      "symptoms": [
+        "mushy roots",
+        "soft stem",
+        "wilting in wet soil",
+        "yellow leaves"
+      ],
+      "likely_causes": [
+        "Roots remaining waterlogged because of overwatering or poor drainage"
+      ],
+      "remedies": [
+        "Stop watering until the root system can be inspected",
+        "Trim rotten roots with sanitized tools",
+        "Repot into fresh, well-draining mix and correct the watering routine"
+      ],
+      "when_to_escalate": "Ask a horticulture professional for help if most roots or the crown are soft."
+    }
+  ]
+}
