@@ -1,6 +1,6 @@
 # Contributing to PlantGuide
 
-Thank you for your interest in contributing to PlantGuide — a plant identification and care guide application.
+Thank you for your interest in contributing to PlantGuide, a plant identification and care guide application.
 
 ## Getting Started
 
@@ -13,13 +13,29 @@ Thank you for your interest in contributing to PlantGuide — a plant identifica
 3. **Set up a development environment:**
    ```bash
    python -m venv venv
-   source venv/bin/activate
+   source venv/bin/activate  # Windows: venv\Scripts\activate
    pip install -e ".[dev]"
    ```
 
+## Prerequisites
+
+- Python 3.11+
+- No GPU required for development
+
+## Running Tests
+
+```bash
+pytest
+```
+
+Run linting:
+```bash
+ruff check src tests
+```
+
 ## Good First Issues
 
-If you're new to the project, check out issues tagged with `good-first-issue` in the [issue tracker](https://github.com/mergeos-bounties/PlantGuide/issues). These are beginner-friendly tasks that help you learn the codebase.
+If you are new to the project, check out issues tagged with `good-first-issue` in the [issue tracker](https://github.com/mergeos-bounties/PlantGuide/issues). These are beginner-friendly tasks that help you learn the codebase.
 
 Suggested starting points:
 - Adding a new plant species to `data/species/`
@@ -28,10 +44,10 @@ Suggested starting points:
 
 ## How to Contribute
 
-- **Report bugs** by opening a GitHub Issue.
-- **Suggest features** by opening a GitHub Issue with the `enhancement` label.
-- **Add plant species** by contributing a new JSON file to `data/species/`.
-- **Submit code** via a Pull Request.
+- **Report bugs** by opening a GitHub Issue
+- **Suggest features** by opening a GitHub Issue with the `enhancement` label
+- **Add plant species** by contributing a new JSON file to `data/species/`
+- **Submit code** via a Pull Request
 
 ## Development Workflow
 
@@ -39,7 +55,7 @@ Suggested starting points:
    ```bash
    git checkout -b feat/my-feature
    ```
-2. Make your changes.
+2. Make your changes
 3. Run linting and tests:
    ```bash
    ruff check src tests
@@ -49,22 +65,34 @@ Suggested starting points:
    ```
    feat: add Monstera Adansonii species data
    ```
-5. Push to your fork and open a Pull Request against `master`.
-6. Link any related issues in the PR description using `Closes #N`.
+5. Push to your fork and open a Pull Request against `master`
+6. Link any related issues in the PR description using `Fixes #N`
 
 ## Code Style
 
-- Follow PEP 8 conventions.
-- Run `ruff check` before committing.
-- Write tests for new functionality.
+- Follow PEP 8 conventions
+- Run `ruff check` before committing
+- Write tests for new functionality
 
 ## Pull Request Checklist
 
 - [ ] Code follows project style (ruff passes)
-- [ ] Tests added / updated for new functionality
+- [ ] Tests added or updated for new functionality
 - [ ] All existing tests pass
 - [ ] Documentation updated if needed
 - [ ] PR description references related issues
+
+## MergeOS Bounty Claim Flow
+
+This repository participates in the MergeOS bounty program.
+
+1. Star the [PlantGuide repo](https://github.com/mergeos-bounties/PlantGuide) and the [MergeOS repo](https://github.com/mergeos-bounties/mergeos)
+2. Comment `I claim this bounty` on the target issue
+3. Comment on [MergeOS Claim Token #1](https://github.com/mergeos-bounties/mergeos/issues/1) with a link to the issue
+4. Open a PR with `Fixes #<issue-number>` in the description
+5. After review and merge, the maintainer will release the bounty
+
+See [docs/BOUNTY.md](docs/BOUNTY.md) for full policy details.
 
 ## Need Help?
 
