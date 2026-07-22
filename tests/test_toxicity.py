@@ -18,6 +18,7 @@ from plantguide.data.toxicity import VALID_TOXICITY_TAGS, normalize_toxicity
             ["toxic_to_pets"],
         ),
         (None, "Non-toxic to cats and dogs", ["pet_safe"]),
+        (None, "Non-toxic cactus with sharp spines", ["unknown"]),
         (None, "Mildly toxic to pets if ingested", ["toxic_to_pets"]),
         (None, "Non-toxic to humans; mildly toxic to pets", ["toxic_to_pets"]),
         ("Non-toxic", None, ["unknown"]),

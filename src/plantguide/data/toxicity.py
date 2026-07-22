@@ -64,7 +64,7 @@ def normalize_toxicity(value: object, *, care_note: object = None) -> list[str]:
     else:
         note = " ".join(notes).casefold()
         without_non_toxic = re.sub(r"\bnon[- ]toxic\b", "", note)
-        mentions_pet = any(term in note for term in ("pet", "cat", "dog"))
+        mentions_pet = bool(re.search(r"\b(pets?|cats?|dogs?)\b", note))
         claims_toxicity = "toxic" in without_non_toxic
         claims_pet_safety = mentions_pet and (
             bool(re.search(r"\bnon[- ]toxic\b", note))
