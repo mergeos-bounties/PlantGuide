@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Powdery Mildew",
+        "symptoms": ["white powdery spots", "yellowing leaves", "sticky leaves"],
+        "description": "A fungal disease that affects many plants, causing white powdery spots on leaves.",
+        "remedies": [
+            "Remove affected leaves",
+            "Improve air circulation",
+            "Apply fungicide if necessary"
+        ],
+        "disclaimer": "For severe cases, consult a plant pathologist."
+    },
+    {
+        "name": "Spider Mites",
+        "symptoms": ["tiny yellow spots", "webbing", "sticky leaves"],
+        "description": "Tiny pests that damage plant leaves by feeding on sap.",
+        "remedies": [
+            "Wipe leaves with a damp cloth",
+            "Spray with water to dislodge mites",
+            "Use insecticidal soap"
+        ],
+        "disclaimer": "For infestations, consider professional pest control."
+    }
+]
