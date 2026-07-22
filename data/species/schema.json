@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Plant Species",
+  "description": "Schema for plant species data",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the species"
+    },
+    "common_name": {
+      "type": "string",
+      "description": "Common name of the plant"
+    },
+    "scientific_name": {
+      "type": "string",
+      "description": "Scientific name of the plant"
+    },
+    "family": {
+      "type": "string",
+      "description": "Family to which the plant belongs"
+    },
+    "toxicity": {
+      "type": "string",
+      "description": "Toxicity level of the plant to pets (none, low, medium, high)",
+      "enum": ["none", "low", "medium", "high"]
+    },
+    "care": {
+      "type": "object",
+      "description": "Care instructions for the plant",
+      "properties": {
+        "light": {
+          "type": "string",
+          "description": "Light requirements for the plant"
+        },
+        "water": {
+          "type": "string",
+          "description": "Watering requirements for the plant"
+        },
+        "soil": {
+          "type": "string",
+          "description": "Soil requirements for the plant"
+        },
+        "humidity": {
+          "type": "string",
+          "description": "Humidity requirements for the plant"
+        },
+        "tips": {
+          "type": "string",
+          "description": "Additional care tips for the plant"
+        }
+      },
+      "required": ["light", "water", "soil", "humidity", "tips"]
+    }
+  },
+  "required": ["id", "common_name", "scientific_name", "family", "care"]
+}
