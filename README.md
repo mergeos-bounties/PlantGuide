@@ -259,3 +259,8 @@ See [mergeos](https://github.com/mergeos-bounties/mergeos), [docs/BOUNTY.md](doc
 ## License
 
 [MIT](LICENSE)
+
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, tests, and bounty claim instructions.
