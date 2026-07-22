@@ -14,6 +14,7 @@ from plantguide.care.cards import care_card_for_species, watering_hint, watering
 from plantguide.care.filtering import filter_species_by_care
 from plantguide.collection import add_plant, due_soon, list_plants
 from plantguide.data.loader import list_species_files, load_species
+from plantguide.data.toxicity import PET_SAFETY_DISCLAIMER
 from plantguide.identify.pipeline import (
     identify_from_image,
     identify_from_sample,
@@ -74,20 +75,32 @@ def stats_cmd() -> None:
 
 
 @species_app.command("list")
-def species_list() -> None:
+def species_list(
+    pet_safe: bool = typer.Option(
+        False,
+        "--pet-safe",
+        help="Show only species explicitly flagged as pet-safe",
+    ),
+) -> None:
     files = list_species_files()
     if not files:
         console.print("[yellow]No species in data/species[/yellow]")
         raise typer.Exit()
-    table = Table(title=f"Species ({len(files)})")
+    species = [load_species(path) for path in files]
+    if pet_safe:
+        species = [item for item in species if "pet_safe" in item["toxicity"]]
+
+    title = "Pet-safe species" if pet_safe else "Species"
+    table = Table(title=f"{title} ({len(species)})")
     table.add_column("ID")
     table.add_column("Common name")
     table.add_column("Tags")
-    for path in files:
-        sp = load_species(path)
+    for sp in species:
         tags = ", ".join((sp.get("tags") or [])[:5])
         table.add_row(str(sp.get("id")), str(sp.get("common_name")), tags)
     console.print(table)
+    if pet_safe:
+        console.print(f"[yellow]{PET_SAFETY_DISCLAIMER}[/yellow]")
 
 
 @species_app.command("search")
@@ -546,6 +559,7 @@ def species_toxicity(
 ) -> None:
     """Filter species catalog by toxicity (pet-safe / toxic)."""
     from plantguide.data.loader import load_species_catalog
+
     catalog = load_species_catalog()
     if safe:
         catalog = [s for s in catalog if "pet_safe" in (s.get("toxicity") or [])]
@@ -568,6 +582,7 @@ def collection_watering_ics(
     """Export watering schedule as ICS calendar file (offline demo)."""
     from datetime import datetime, timedelta
     from plantguide.config import OUT_DIR
+
     out_path = out or (OUT_DIR / "watering.ics")
     out_path.parent.mkdir(parents=True, exist_ok=True)
     now = datetime.now()
@@ -576,7 +591,12 @@ def collection_watering_ics(
         "VERSION:2.0",
         "PRODID:-//PlantGuide//Watering Calendar//EN",
     ]
-    species_list = [{"id": s, "days": (i % 7) + 3} for i, s in enumerate(["basil_sweet", "aloe_vera", "spider_plant", "boston_fern", "snake_plant"])]
+    species_list = [
+        {"id": s, "days": (i % 7) + 3}
+        for i, s in enumerate(
+            ["basil_sweet", "aloe_vera", "spider_plant", "boston_fern", "snake_plant"]
+        )
+    ]
     for entry in species_list:
         due_date = now + timedelta(days=entry["days"])
         lines.append("BEGIN:VEVENT")

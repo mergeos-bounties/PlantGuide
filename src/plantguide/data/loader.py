@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 
 from plantguide.config import SAMPLES_DIR, SPECIES_DIR
+from plantguide.data.toxicity import normalize_toxicity
 
 
 def list_species_files(directory: Path | None = None) -> list[Path]:
@@ -30,7 +31,9 @@ def load_species(path: Path) -> dict:
     payload.setdefault("common_name", path.stem.replace("_", " ").title())
     payload.setdefault("scientific_name", payload.get("id", "").replace("_", " ").title())
     payload.setdefault("tags", [])
-    payload.setdefault("care", {})
+    care = payload.setdefault("care", {})
+    care_toxicity = care.get("toxicity") if isinstance(care, dict) else None
+    payload["toxicity"] = normalize_toxicity(payload.get("toxicity"), care_note=care_toxicity)
     return payload
 
 
