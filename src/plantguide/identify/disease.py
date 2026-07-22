@@ -1,71 +1,69 @@
-"""Simple disease / symptom tag matcher against species common issues."""
+"""Offline symptom matcher for common plant health issues."""
 
 from __future__ import annotations
 
-from plantguide.data.loader import list_species_files, load_species
+import json
+from pathlib import Path
+
+from plantguide.config import data_dir
 
 
-# symptom keyword → normalized issue labels
-SYMPTOM_MAP: dict[str, list[str]] = {
-    "yellow": ["yellow leaves", "chlorosis", "yellowing"],
-    "yellowing": ["yellow leaves", "chlorosis"],
-    "brown": ["brown tips", "leaf scorch", "browning"],
-    "spots": ["leaf spots", "fungal spots"],
-    "soft": ["root rot", "soft leaves", "mushy"],
-    "rot": ["root rot", "stem rot"],
-    "droop": ["wilting", "drooping"],
-    "wilt": ["wilting", "underwatering"],
-    "crispy": ["underwatering", "low humidity", "brown tips"],
-    "mold": ["powdery mildew", "fungal"],
-    "mildew": ["powdery mildew"],
-    "bugs": ["pests", "spider mites", "mealybugs"],
-    "mites": ["spider mites", "pests"],
-    "leggy": ["leggy growth", "insufficient light"],
-}
+DEFAULT_RULES_PATH = data_dir() / "disease" / "symptom_rules.json"
+DISCLAIMER = (
+    "Educational guidance only; symptoms can have multiple causes. Isolate affected plants, "
+    "follow product labels, and ask a qualified horticulture professional when damage is severe "
+    "or the cause is uncertain."
+)
+
+
+def _normalize_symptoms(symptoms: str | list[str]) -> list[str]:
+    values = symptoms.replace(";", ",").split(",") if isinstance(symptoms, str) else symptoms
+    return [" ".join(str(value).strip().lower().split()) for value in values if str(value).strip()]
+
+
+def _load_rules(path: Path = DEFAULT_RULES_PATH) -> list[dict]:
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    return list(payload.get("issues") or [])
+
+
+def _matches(query: str, symptom: str) -> bool:
+    if query in symptom or symptom in query:
+        return True
+    query_words = set(query.split())
+    symptom_words = set(symptom.split())
+    return len(query_words & symptom_words) >= 2
 
 
 def match_diseases(symptoms: str | list[str], top_k: int = 5) -> dict:
-    """Rank species by overlap of symptoms with care.common_issues + tags."""
-    if isinstance(symptoms, str):
-        raw = [s.strip().lower() for s in symptoms.replace(";", ",").split(",") if s.strip()]
-        # also split spaces for free text
-        if len(raw) == 1 and " " in raw[0]:
-            raw = raw[0].split()
-    else:
-        raw = [str(s).strip().lower() for s in symptoms if str(s).strip()]
-
-    expanded: set[str] = set()
-    for s in raw:
-        expanded.add(s)
-        for key, vals in SYMPTOM_MAP.items():
-            if key in s or s in key:
-                expanded.update(vals)
-
+    """Suggest likely issues and remedies for comma-separated symptom tags."""
+    query = _normalize_symptoms(symptoms)
     ranked: list[dict] = []
-    for path in list_species_files():
-        sp = load_species(path)
-        issues = [str(x).lower() for x in (sp.get("care") or {}).get("common_issues") or []]
-        tags = [str(t).lower() for t in (sp.get("tags") or [])]
-        hay = " ".join(issues + tags)
-        hits = sorted({e for e in expanded if e in hay or any(e in i for i in issues)})
-        if not hits and not issues:
-            continue
-        score = len(hits) / max(1, len(expanded))
-        if score <= 0 and not hits:
+
+    for rule in _load_rules():
+        known_symptoms = _normalize_symptoms(rule.get("symptoms") or [])
+        matched = [
+            observed
+            for observed in query
+            if any(_matches(observed, known) for known in known_symptoms)
+        ]
+        if not matched:
             continue
         ranked.append(
             {
-                "species_id": sp.get("id"),
-                "common_name": sp.get("common_name"),
-                "score": round(score, 3),
-                "matched": hits,
-                "common_issues": (sp.get("care") or {}).get("common_issues") or [],
+                "issue_id": rule["id"],
+                "name": rule["name"],
+                "score": round(len(matched) / max(1, len(query)), 3),
+                "matched_symptoms": matched,
+                "likely_causes": rule["likely_causes"],
+                "remedies": rule["remedies"],
+                "when_to_escalate": rule["when_to_escalate"],
             }
         )
-    ranked.sort(key=lambda r: r["score"], reverse=True)
+
+    ranked.sort(key=lambda item: (-item["score"], item["name"]))
     return {
-        "query": raw,
-        "expanded": sorted(expanded),
+        "query": query,
         "matches": ranked[: max(1, top_k)],
+        "disclaimer": DISCLAIMER,
         "model": "DiseaseTagMatcher",
     }

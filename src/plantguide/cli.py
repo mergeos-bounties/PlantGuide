@@ -420,10 +420,10 @@ def app_demo(
 
 @identify_app.command("disease")
 def identify_disease(
-    symptoms: str = typer.Option(..., "--symptoms", "-s", help="e.g. yellow,rot,droop"),
+    symptoms: str = typer.Option(..., "--symptoms", "-s", help="e.g. yellow spots,sticky leaves"),
     top: int = typer.Option(5, "--top", "-k", min=1, max=20),
 ) -> None:
-    """Match symptom tags against species common issues."""
+    """Suggest likely plant issues and remedies from symptom tags."""
     from plantguide.identify.disease import match_diseases
 
     console.print_json(data=match_diseases(symptoms, top_k=top))
