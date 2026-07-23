@@ -13,21 +13,24 @@
 ---
 
 ## Table of contents
-||
-|- [Photo demo (identify + care)](#photo-demo-identify--care)
-|- [Highlights](#highlights)
-|- [Screenshots](#screenshots)
-|- [Quick start](#quick-start)
-|- [CLI reference](#cli-reference)
-|- [How photo ID works](#how-photo-id-works)
-|- [App care report](#app-care-report)
-|- [Species catalog](#species-catalog)
-|- [Diagrams](#diagrams)
-|- [Repository layout](#repository-layout)
-|- [Development](#development)
-|- [Contributing](./CONTRIBUTING.md)
-|- [MergeOS bounties](#mergeos-bounties)
-|- [License](#license)
+
+|||
+|---|-|
+| [Photo demo (identify + care)](#photo-demo-identify--care) |
+| [Highlights](#highlights) |
+| [Screenshots](#screenshots) |
+| [Quick start](#quick-start) |
+| [CLI reference](#cli-reference) |
+| [How photo ID works](#how-photo-id-works) |
+| [App care report](#app-care-report) |
+| [Species catalog](#species-catalog) |
+| [Diagrams](#diagrams) |
+| [Repository layout](#repository-layout) |
+| [Development](#development) |
+| [Contributing](./CONTRIBUTING.md) |
+| [MergeOS bounties](#mergeos-bounties) |
+| [License](#license) |
+| [App SDK](#app-sdk) |
 
 ---
 
@@ -71,7 +74,7 @@ SVG care card  data/out/monstera_deliciosa-care.svg
 Bundled demo photos (license-safe synthetic leaves):
 
 | File | Expected species |
-| --- | --- |
+|---|---|
 | `data/samples/photos/monstera_demo.jpg` | `monstera_deliciosa` |
 | `data/samples/photos/snake_demo.jpg` | `snake_plant` |
 | `data/samples/photos/pothos_demo.jpg` | `pothos_golden` |
@@ -96,7 +99,7 @@ plantguide care show -s <species_id_from_match>
 ## Highlights
 
 | Mode | Description |
-| --- | --- |
+|---|---|
 | **Photo identify** | `identify image` — photo → tags → ranked species + care |
 | **Photo + care demo** | `demo photo` — full pipeline + watering note + SVG |
 | **Identify by tags** | Comma-separated traits → ranked species |
@@ -111,7 +114,7 @@ plantguide care show -s <species_id_from_match>
 ## Screenshots
 
 | Species | Identify | Care |
-| :---: | :---: | :---: |
+|:---:|:---:|:---:|
 | ![Species](docs/screenshots/demo-species.png) | ![Identify](docs/screenshots/demo-identify.png) | ![Care](docs/screenshots/demo-care.png) |
 | *Catalog list* | *Tag / sample match* | *Monstera care card* |
 
@@ -143,7 +146,7 @@ plantguide app demo --sample data/samples/obs_monstera.json --out data/out/e2e-m
 ## CLI reference
 
 | Command | Purpose |
-| --- | --- |
+|---|---|
 | `plantguide version` | Version + species count + demo photo count |
 | `plantguide demo photo [-i photo]` | **Photo → ID → care** end-to-end |
 | `plantguide demo photos` | List bundled demo plant images |
@@ -195,8 +198,7 @@ Reports include `query_tags` / image path, ranked `matches`, `care` card, and (f
 
 ## Species catalog
 
-JSON packs under `data/species/` (Monstera, snake plant, pothos, aloe, peace lily, ferns, herbs, …).  
-Each has `tags` + structured `care` fields used by identify + care commands.
+JSON packs under `data/species/` (Monstera, snake plant, pothos, aloe, peace lily, ferns, herbs, …). Each has `tags` + structured `care` fields used by identify + care commands.
 
 ```powershell
 plantguide species list
@@ -252,6 +254,53 @@ plantguide demo photo
 Star → claim issue → PR to **master** → MRG **25–200**.  
 Photo/vision upgrades, more species packs, and real image models welcome.  
 See [mergeos](https://github.com/mergeos-bounties/mergeos) and [docs/BOUNTY.md](docs/BOUNTY.md).
+
+---
+
+## App SDK
+
+This repository provides a stable **App SDK** for plant identification and care integration. The SDK includes:
+
+### JSON Schema
+- **Assess for App Result**: `schemas/assess-for-app.schema.json` - validates the output of `assess_for_app()` function
+- Contains type definitions for plant identification results including matches, scores, and care cards
+
+### TypeScript Types
+- **Location**: `sdk/typescript/types.ts`
+- Provides TypeScript interfaces for:
+  - `AssessForAppResult` - result from plant identification
+  - `PlantMatch` - individual plant match with scoring
+  - `PlantCareCard` - structured care information
+  - `CareForAppResult` - care card with SDK version
+
+### Python SDK Functions
+Located in `src/plantguide/integrations/sdk.py`:
+- `assess_for_app(tags: str \| list[str], *, top_k: int = 3) -> dict` - identify plants from tags and return app-ready JSON
+- `care_for_app(species_id: str) -> dict` - get care card for a specific species
+- Both functions return stable JSON contracts suitable for frontend consumption
+
+### Usage Example
+```python
+from plantguide.integrations.sdk import assess_for_app, care_for_app
+
+# Identify plant from tags
+result = assess_for_app("succulent, thick leaves, drought")
+# Returns: {
+#   "query_tags": ["succulent", "thick leaves", "drought"],
+#   "matches": [...],
+#   "model": "plantguide.sdk.v1",
+#   "ready_for_ui": true,
+#   "integration_version": "plantguide.sdk.v1",
+#   "top_care": {...},
+#   "top_species_id": "jade_plant"
+# }
+
+# Get care card for specific species
+care = care_for_app("pothos_golden")
+# Returns structured care card with integration_version
+```
+
+The SDK provides stable, versioned interfaces for plant identification and care data that frontend applications can depend on.
 
 ---
 

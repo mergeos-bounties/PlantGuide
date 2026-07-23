@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://plantguide.mergeos.shop/schemas/assess-for-app.v1.json",
+  "title": "PlantGuide Assess for App Result",
+  "type": "object",
+  "required": ["query_tags", "matches", "model", "ready_for_ui", "integration_version"],
+  "properties": {
+    "query_tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "The tags used for plant identification"
+    },
+    "matches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["species_id", "common_name", "scientific_name", "score", "confidence", "tag_overlap"],
+        "properties": {
+          "species_id": { "type": "string" },
+          "common_name": { "type": "string" },
+          "scientific_name": { "type": "string" },
+          "score": { "type": "number", "minimum": 0, "maximum": 1 },
+          "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+          "tag_overlap": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      },
+      "description": "Array of matched plant species with scores"
+    },
+    "model": {
+      "type": "string",
+      "description": "Identifier of the identification model used"
+    },
+    "ready_for_ui": {
+      "type": "boolean",
+      "description": "Whether the result is ready for UI display"
+    },
+    "integration_version": {
+      "type": "string",
+      "description": "Version of the PlantGuide SDK integration contract"
+    },
+    "top_care": {
+      "type": ["object", "null"],
+      "description": "Care card for the top-matched species",
+      "properties": {
+        "species_id": { "type": "string" },
+        "common_name": { "type": "string" },
+        "scientific_name": { "type": "string" },
+        "summary": { "type": "string" },
+        "light": { "type": "string" },
+        "water": { "type": "string" },
+        "soil": { "type": "string" },
+        "humidity": { "type": "string" },
+        "temperature_c": { "type": "string", "pattern": "^-?\\d+(?:-\\d+)?$" },
+        "fertilizer": { "type": "string" },
+        "toxicity": { "type": "string" },
+        "common_issues": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "tips": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "top_species_id": {
+      "type": ["string", "null"],
+      "description": "Species ID of the top match"
+    }
+  },
+  "additionalProperties": false
+}
