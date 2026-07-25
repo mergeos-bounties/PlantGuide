@@ -8,26 +8,30 @@
     "low water",
     "air purifying",
     "easy",
-    "office"
+    "office",
+    "spiky leaves",
+    "tropical"
   ],
   "care": {
-    "summary": "Upright cane plant with narrow red-edged leaves; tolerant of lower light and irregular watering.",
-    "light": "Bright indirect; tolerates medium light",
-    "water": "Allow top third of soil to dry between waterings",
-    "soil": "Well-draining potting mix",
-    "humidity": "Average; higher helps leaf tips",
+    "summary": "Elegant indoor tree with slender, arching leaves edged in red; one of the easiest houseplants.",
+    "light": "Bright indirect light; tolerates low light but growth slows",
+    "water": "Allow top 50% of soil to dry between waterings; reduce in winter",
+    "well_draining": true,
+    "soil": "Well-draining potting mix with perlite or sand",
+    "humidity": "Moderate; appreciates occasional misting",
     "temperature_c": "18-27",
-    "fertilizer": "Dilute houseplant feed monthly in spring/summer",
+    "fertilizer": "Balanced liquid fertilizer monthly in spring and summer",
     "toxicity": "Toxic to pets if ingested",
     "common_issues": [
-      "Brown tips from fluoride or dry air",
-      "Yellow leaves from overwatering",
-      "Leggy growth in deep shade"
+      "Brown leaf tips from fluoride in tap water or low humidity",
+      "Root rot from overwatering",
+      "Spider mites in dry conditions"
     ],
     "tips": [
-      "Rotate pot monthly for even growth",
-      "Wipe dust from leaves",
-      "Avoid cold drafts"
+      "Use distilled or filtered water to prevent brown tips",
+      "Prune leggy stems to encourage branching",
+      "Keep away from drafts and heating vents",
+      "Repot every 2-3 years"
     ]
   }
 }
