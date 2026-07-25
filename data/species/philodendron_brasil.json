@@ -8,26 +8,29 @@
     "variegated",
     "indoor",
     "heart leaf",
-    "climbing"
+    "climbing",
+    "easy care"
   ],
   "care": {
-    "summary": "Easy trailing philodendron with lime-and-green heart leaves.",
-    "light": "Medium to bright indirect",
-    "water": "Water when top 2 cm soil is dry",
-    "soil": "Airy potting mix with perlite",
-    "humidity": "Average to medium",
-    "temperature_c": "18-27",
-    "fertilizer": "Monthly in growing season",
-    "toxicity": "Toxic if ingested",
+    "summary": "Vibrant variegated heart-leaf philodendron with lime-green and dark-green striped leaves; fast-growing and forgiving.",
+    "light": "Bright indirect light for best variegation; tolerates low light",
+    "water": "Keep soil lightly moist; water when top inch is dry",
+    "well_draining": true,
+    "soil": "Well-draining, peat-based potting mix",
+    "humidity": "Moderate to high; benefits from occasional misting",
+    "temperature_c": "18-29",
+    "fertilizer": "Balanced liquid fertilizer monthly in growing season",
+    "toxicity": "Toxic to pets if ingested",
     "common_issues": [
+      "Reverting to all-green in low light",
       "Yellow leaves from overwatering",
-      "Leggy vines in low light",
-      "Pale variegation without light"
+      "Leggy growth from insufficient light"
     ],
     "tips": [
-      "Pinch tips to branch",
-      "Provide moss pole if climbing",
-      "Wipe leaves monthly"
+      "Provide a moss pole for climbing",
+      "Prune regularly to encourage bushiness",
+      "Rotate for even growth and variegation",
+      "Easy to propagate from stem cuttings in water"
     ]
   }
 }
