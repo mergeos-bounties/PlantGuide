@@ -9,25 +9,31 @@
     "humidity",
     "indoor",
     "prayer plant",
-    "indirect light"
+    "indirect light",
+    "silver stripes"
   ],
   "care": {
-    "summary": "Statement foliage plant that loves humidity and consistent moisture; sensitive to dry air.",
-    "light": "Bright indirect; no direct sun",
-    "water": "Keep evenly moist; use filtered water",
-    "soil": "Airy potting mix with peat and perlite",
-    "humidity": "High (50%+)",
+    "summary": "Magnificent calathea with enormous, round, silvery-green leaves with subtle dark green stripes; a showstopping tropical plant.",
+    "light": "Bright indirect light; leaves scorch in direct sun",
+    "water": "Keep soil evenly moist; use distilled or rainwater",
+    "well_draining": true,
+    "soil": "Well-draining, peat-based potting mix with perlite and orchid bark",
+    "humidity": "High (60-80%); essential for preventing leaf damage",
     "temperature_c": "18-27",
-    "fertilizer": "Half-strength monthly in growing season",
-    "toxicity": "Non-toxic to pets",
+    "fertilizer": "Balanced fertilizer monthly in spring and summer; reduce in winter",
+    "toxicity": "Non-toxic to pets and humans",
     "common_issues": [
-      "Crispy edges from low humidity",
-      "Leaf curl from underwatering"
+      "Brown leaf edges from low humidity or tap water chemicals",
+      "Leaf drooping from underwatering",
+      "Yellow leaves from overwatering",
+      "Pest issues (spider mites, scale) in dry conditions"
     ],
     "tips": [
-      "Group with other plants",
-      "Avoid cold drafts",
-      "Wipe leaves gently"
+      "Use only distilled, filtered, or rainwater",
+      "Maintain high humidity with humidifier or pebble tray",
+      "Rotate plant weekly for even growth",
+      "Repot every 1-2 years in fresh soil",
+      "Remove older outer leaves to encourage new growth"
     ]
   }
 }
