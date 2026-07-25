@@ -8,26 +8,29 @@
     "humidity",
     "foliage",
     "bright indirect",
-    "pet-friendly"
+    "pet-friendly",
+    "patterned leaves"
   ],
   "care": {
-    "summary": "Striking patterned leaves that fold at night; enjoys humidity and even moisture.",
-    "light": "Bright indirect; avoid harsh direct sun",
-    "water": "Keep evenly moist; never bone-dry",
-    "soil": "Airy, peat-based, well-draining mix",
-    "humidity": "High preferred",
+    "summary": "Fascinating plant with oval leaves that fold up at night like praying hands; known for striking vein patterns.",
+    "light": "Bright indirect light; leaves fade in direct sun",
+    "water": "Keep soil consistently moist but not soggy; use room-temperature water",
+    "well_draining": true,
+    "soil": "Well-draining, peat-based potting mix with perlite",
+    "humidity": "High (60-80%); thrives with humidifier or pebble tray",
     "temperature_c": "18-27",
-    "fertilizer": "Half-strength monthly in growing season",
-    "toxicity": "Generally non-toxic to pets",
+    "fertilizer": "Balanced liquid fertilizer every 2 weeks in growing season",
+    "toxicity": "Non-toxic to pets and humans",
     "common_issues": [
-      "Crispy edges from low humidity",
+      "Brown leaf edges from low humidity or fluoride in tap water",
       "Yellow leaves from overwatering",
-      "Faded patterns in low light"
+      "Leaf curl from underwatering or cold drafts"
     ],
     "tips": [
-      "Use filtered water if tips brown",
-      "Mist or tray for humidity",
-      "Rotate pot weekly for even growth"
+      "Use distilled or rainwater to prevent brown tips",
+      "Group with other humidity-loving plants",
+      "Mist daily in dry conditions",
+      "Prune leggy stems to encourage fullness"
     ]
   }
 }
