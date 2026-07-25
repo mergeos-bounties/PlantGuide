@@ -8,26 +8,30 @@
     "tropical",
     "humidity",
     "indoor",
-    "patterned leaves"
+    "patterned leaves",
+    "medallion pattern"
   ],
   "care": {
-    "summary": "Showy patterned foliage that folds at night; loves humidity and filtered light.",
-    "light": "Medium to bright indirect; no direct sun",
-    "water": "Keep evenly moist with soft water when possible",
-    "soil": "Airy peat-free mix with perlite",
-    "humidity": "High",
-    "temperature_c": "18-26",
-    "fertilizer": "Half-strength monthly in growing season",
-    "toxicity": "Non-toxic to pets (generally)",
+    "summary": "Stunning calathea with large, round, dark green leaves featuring a distinctive medallion-like pattern in silver and cream.",
+    "light": "Bright indirect light; leaves burn in direct sun",
+    "water": "Keep consistently moist; use distilled or rainwater",
+    "well_draining": true,
+    "soil": "Well-draining, peat-based potting mix rich in organic matter",
+    "humidity": "High (60-80%); essential for healthy leaves",
+    "temperature_c": "18-27",
+    "fertilizer": "Balanced houseplant fertilizer monthly in growing season",
+    "toxicity": "Non-toxic to pets and humans",
     "common_issues": [
-      "Crispy edges from dry air",
-      "Browning from hard water",
-      "Spider mites"
+      "Brown crispy leaf edges from low humidity or tap water",
+      "Leaf curling from underwatering",
+      "Pale leaves from too much light",
+      "Spider mites in dry conditions"
     ],
     "tips": [
-      "Group with other plants",
-      "Avoid cold drafts",
-      "Wipe leaves gently"
+      "Must use distilled, filtered, or rainwater - tap water causes brown tips",
+      "Keep away from drafts and heating/cooling vents",
+      "Mist daily or use a humidifier",
+      "Wipe leaves gently with damp cloth monthly"
     ]
   }
 }
