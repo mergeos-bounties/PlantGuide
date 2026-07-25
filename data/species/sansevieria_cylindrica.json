@@ -1,33 +1,36 @@
 {
   "id": "sansevieria_cylindrica",
   "common_name": "Cylindrical Snake Plant",
-  "scientific_name": "Dracaena angolensis (Sansevieria cylindrica)",
+  "scientific_name": "Dracaena angolensis",
   "tags": [
     "houseplant",
     "succulent-like",
     "low light tolerant",
     "drought",
     "architectural",
-    "beginner"
+    "beginner",
+    "cylindrical leaves"
   ],
   "care": {
-    "summary": "Upright round leaves; thrives on neglect and bright indirect light.",
-    "light": "Bright indirect to partial sun; tolerates low light",
-    "water": "Sparingly; fully dry between waterings",
-    "soil": "Very free-draining cactus/succulent mix",
-    "humidity": "Low to average",
-    "temperature_c": "15-30",
-    "fertilizer": "Dilute feed 2–3× per year in warm months",
-    "toxicity": "Mildly toxic if ingested (pets/children)",
+    "summary": "Unique snake plant with round, spear-like leaves that grow upright; extremely drought-tolerant and low-maintenance.",
+    "light": "Low to bright indirect light; tolerates low light well",
+    "water": "Water sparingly; allow soil to dry completely between waterings",
+    "well_draining": true,
+    "soil": "Well-draining cactus or succulent mix",
+    "humidity": "Low to average; tolerates dry air",
+    "temperature_c": "15-29",
+    "fertilizer": "Light feeding with cactus fertilizer in spring and summer",
+    "toxicity": "Mildly toxic to pets and humans if ingested",
     "common_issues": [
-      "Root rot from wet soil",
-      "Soft leaves from cold + water",
-      "Pale growth in deep shade"
+      "Overwatering causes root rot",
+      "Mealybugs on indoor plants",
+      "Leaf splitting from physical damage"
     ],
     "tips": [
-      "Excellent for dry apartments",
-      "Do not bury leaves deeper than crown",
-      "Wipe dust so leaves can photosynthesize"
+      "Water only when soil is bone dry",
+      "Use terra cotta pots for better drainage",
+      "Wipe dust off leaves with damp cloth",
+      "Propagate by leaf cuttings in water or soil"
     ]
   }
 }
