@@ -1,1 +1,1 @@
-"""Optional FastAPI surface (bounty)."""
+﻿"""PlantGuide FastAPI - endpoints for plant identification and care."""
