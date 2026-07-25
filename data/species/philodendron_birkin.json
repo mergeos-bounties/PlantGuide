@@ -1,0 +1,36 @@
+{
+  "id": "philodendron_birkin",
+  "common_name": "Philodendron Birkin",
+  "scientific_name": "Philodendron 'Birkin'",
+  "tags": [
+    "philodendron",
+    "variegated",
+    "indoor",
+    "foliage",
+    "rare",
+    "white stripes",
+    "compact"
+  ],
+  "care": {
+    "summary": "Stunning philodendron with dark green leaves boldly striped in creamy white; a compact grower with unique variegation.",
+    "light": "Bright indirect light; avoid direct sun which burns leaves",
+    "water": "Water when top 2-3 cm of soil is dry; reduce in winter",
+    "well_draining": true,
+    "soil": "Well-draining, airy potting mix with orchid bark and perlite",
+    "humidity": "Moderate to high (50-70%); benefits from humidifier or pebble tray",
+    "temperature_c": "18-28",
+    "fertilizer": "Balanced fertilizer diluted to half strength monthly in spring and summer",
+    "toxicity": "Toxic to pets if ingested",
+    "common_issues": [
+      "Reverting to all-green if light is too low",
+      "Brown leaf edges from low humidity",
+      "Yellow leaves from overwatering"
+    ],
+    "tips": [
+      "Keep in consistent humidity to prevent leaf browning",
+      "Does not need a moss pole as it stays compact",
+      "Clean leaves gently with damp cloth",
+      "Propagate by stem cuttings in water or sphagnum moss"
+    ]
+  }
+}
