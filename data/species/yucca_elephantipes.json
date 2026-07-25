@@ -9,26 +9,29 @@
     "tree-like",
     "sword-shaped leaves",
     "full sun",
-    "xeric"
+    "xeric",
+    "indoor tree"
   ],
   "care": {
-    "summary": "Tree-like succulent with sword-shaped leaves; very low maintenance.",
-    "light": "Full sun to partial shade",
+    "summary": "Tree-like succulent with sword-shaped leaves; very low maintenance and excellent air purifier.",
+    "light": "Full sun to partial shade; bright indirect light indoors",
     "water": "Infrequent; drought tolerant once established",
     "well_draining": true,
-    "soil": "Well-draining, sandy soil",
+    "soil": "Well-draining, sandy soil or cactus mix",
     "humidity": "Low to average",
     "temperature_c": "10-30",
-    "fertilizer": "Light; balanced fertilizer in spring",
+    "fertilizer": "Light; balanced fertilizer in spring and summer, monthly",
     "toxicity": "Mildly toxic to pets if ingested",
     "common_issues": [
-      "Brown leaf tips from low humidity",
-      "Pest issues indoors (spider mites)"
+      "Brown leaf tips from low humidity or overwatering",
+      "Spider mites indoors",
+      "Yellow leaves from overwatering"
     ],
     "tips": [
       "Can tolerate some shade outdoors",
       "Wipe leaves to prevent dust buildup",
-      "Prune dead leaves at base"
+      "Prune dead leaves at base",
+      "Rotate plant periodically for even growth"
     ]
   }
 }
