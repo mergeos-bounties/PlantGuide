@@ -1,0 +1,35 @@
+{
+  "id": "philodendron_birkin",
+  "common_name": "Philodendron Birkin",
+  "scientific_name": "Philodendron 'Birkin'",
+  "tags": [
+    "variegated",
+    "white stripes",
+    "compact",
+    "rare",
+    "indoor",
+    "medium light",
+    "slow growing"
+  ],
+  "care": {
+    "summary": "Stunning hybrid philodendron with unique white pinstripe variegation on dark green leaves; a compact showstopper.",
+    "light": "Bright indirect light; avoid direct sun to prevent leaf burn",
+    "water": "Water when top 1-2 inches of soil feel dry",
+    "well_draining": true,
+    "soil": "Well-draining, chunky aroid mix with orchid bark and perlite",
+    "humidity": "Moderate to high (50%+); appreciates misting",
+    "temperature_c": "18-28",
+    "fertilizer": "Dilute balanced fertilizer every 2-3 weeks during growing season",
+    "toxicity": "Toxic to pets if ingested",
+    "common_issues": [
+      "Reverting to all-green leaves in low light",
+      "Yellow leaves from overwatering",
+      "Brown leaf edges from low humidity"
+    ],
+    "tips": [
+      "Remove all-green leaves to maintain variegation",
+      "Keep warm and away from drafts",
+      "Use aroid potting mix for best root health"
+    ]
+  }
+}

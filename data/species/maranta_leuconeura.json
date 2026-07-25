@@ -3,31 +3,33 @@
   "common_name": "Prayer Plant",
   "scientific_name": "Maranta leuconeura",
   "tags": [
-    "indoor",
     "prayer plant",
-    "humidity",
-    "foliage",
-    "bright indirect",
-    "pet-friendly"
+    "patterned leaves",
+    "low light",
+    "trailing",
+    "indoor",
+    "humidity loving",
+    "dramatic"
   ],
   "care": {
-    "summary": "Striking patterned leaves that fold at night; enjoys humidity and even moisture.",
-    "light": "Bright indirect; avoid harsh direct sun",
-    "water": "Keep evenly moist; never bone-dry",
-    "soil": "Airy, peat-based, well-draining mix",
-    "humidity": "High preferred",
+    "summary": "Famous for its leaves that fold up at night like praying hands; beautiful patterned foliage with striking veins.",
+    "light": "Bright indirect to medium light; no direct sun",
+    "water": "Keep soil consistently moist; use distilled water to avoid leaf tip burn",
+    "well_draining": true,
+    "soil": "Well-draining, moisture-retentive potting mix with peat moss",
+    "humidity": "High (60%+); thrives with regular misting or a pebble tray",
     "temperature_c": "18-27",
-    "fertilizer": "Half-strength monthly in growing season",
-    "toxicity": "Generally non-toxic to pets",
+    "fertilizer": "Dilute balanced fertilizer monthly spring through fall",
+    "toxicity": "Non-toxic to pets",
     "common_issues": [
-      "Crispy edges from low humidity",
+      "Brown crispy leaf edges from low humidity or tap water",
       "Yellow leaves from overwatering",
-      "Faded patterns in low light"
+      "Leaf curl from underwatering"
     ],
     "tips": [
-      "Use filtered water if tips brown",
-      "Mist or tray for humidity",
-      "Rotate pot weekly for even growth"
+      "Use distilled or rainwater to prevent fluoride damage",
+      "Mist daily for best humidity",
+      "Observe the nightly prayer movement as a health indicator"
     ]
   }
 }

@@ -3,31 +3,33 @@
   "common_name": "Dragon Tree",
   "scientific_name": "Dracaena marginata",
   "tags": [
-    "indoor",
-    "tree",
-    "low water",
+    "tree-like",
+    "thin leaves",
+    "red edges",
+    "upright",
+    "low light",
     "air purifying",
-    "easy",
-    "office"
+    "drought tolerant"
   ],
   "care": {
-    "summary": "Upright cane plant with narrow red-edged leaves; tolerant of lower light and irregular watering.",
-    "light": "Bright indirect; tolerates medium light",
-    "water": "Allow top third of soil to dry between waterings",
-    "soil": "Well-draining potting mix",
-    "humidity": "Average; higher helps leaf tips",
+    "summary": "Elegant, slow-growing tree with thin arching leaves edged in red; one of the easiest indoor trees.",
+    "light": "Bright indirect light; tolerates low light",
+    "water": "Allow top 50% of soil to dry between waterings",
+    "well_draining": true,
+    "soil": "Well-draining potting mix with perlite",
+    "humidity": "Moderate; mist occasionally in dry air",
     "temperature_c": "18-27",
-    "fertilizer": "Dilute houseplant feed monthly in spring/summer",
+    "fertilizer": "Balanced liquid fertilizer monthly spring through fall",
     "toxicity": "Toxic to pets if ingested",
     "common_issues": [
-      "Brown tips from fluoride or dry air",
+      "Brown leaf tips from fluoride or low humidity",
       "Yellow leaves from overwatering",
-      "Leggy growth in deep shade"
+      "Spider mites"
     ],
     "tips": [
-      "Rotate pot monthly for even growth",
-      "Wipe dust from leaves",
-      "Avoid cold drafts"
+      "Remove lower leaves as trunk grows for a tree-like appearance",
+      "Sensitive to fluoride - use distilled water",
+      "Prune top to encourage branching"
     ]
   }
 }

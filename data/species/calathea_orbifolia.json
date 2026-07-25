@@ -1,33 +1,35 @@
 {
   "id": "calathea_orbifolia",
   "common_name": "Calathea Orbifolia",
-  "scientific_name": "Goeppertia orbifolia",
+  "scientific_name": "Goeppertia orbifolia (syn. Calathea orbifolia)",
   "tags": [
-    "calathea",
-    "large leaves",
-    "striped",
-    "humidity",
-    "indoor",
+    "large round leaves",
+    "silver stripes",
     "prayer plant",
-    "indirect light"
+    "high humidity",
+    "dramatic foliage",
+    "indoor",
+    "low light"
   ],
   "care": {
-    "summary": "Statement foliage plant that loves humidity and consistent moisture; sensitive to dry air.",
-    "light": "Bright indirect; no direct sun",
-    "water": "Keep evenly moist; use filtered water",
-    "soil": "Airy potting mix with peat and perlite",
-    "humidity": "High (50%+)",
+    "summary": "Magnificent calathea with enormous round silvery-green leaves striped in dark green; a statement plant for any collection.",
+    "light": "Medium to low indirect light; direct sun causes leaf scorch",
+    "water": "Keep soil evenly moist; never let it dry out completely",
+    "well_draining": true,
+    "soil": "Well-draining, moisture-retentive potting mix with perlite and orchid bark",
+    "humidity": "High (60%+); essential for healthy growth",
     "temperature_c": "18-27",
-    "fertilizer": "Half-strength monthly in growing season",
+    "fertilizer": "Dilute balanced fertilizer every 2-4 weeks during growing season",
     "toxicity": "Non-toxic to pets",
     "common_issues": [
-      "Crispy edges from low humidity",
-      "Leaf curl from underwatering"
+      "Leaf edges browning from low humidity or tap water",
+      "Drooping leaves from underwatering",
+      "Pest issues from stress due to improper care"
     ],
     "tips": [
-      "Group with other plants",
-      "Avoid cold drafts",
-      "Wipe leaves gently"
+      "Use only distilled or rainwater",
+      "Wipe the large leaves gently to remove dust",
+      "Rotate plant regularly to maintain symmetrical growth"
     ]
   }
 }

@@ -1,33 +1,35 @@
 {
   "id": "sansevieria_cylindrica",
   "common_name": "Cylindrical Snake Plant",
-  "scientific_name": "Dracaena angolensis (Sansevieria cylindrica)",
+  "scientific_name": "Dracaena angolensis (syn. Sansevieria cylindrica)",
   "tags": [
-    "houseplant",
-    "succulent-like",
-    "low light tolerant",
-    "drought",
-    "architectural",
-    "beginner"
+    "succulent",
+    "snake plant",
+    "upright",
+    "cylindrical leaves",
+    "drought tolerant",
+    "low light",
+    "air purifying"
   ],
   "care": {
-    "summary": "Upright round leaves; thrives on neglect and bright indirect light.",
-    "light": "Bright indirect to partial sun; tolerates low light",
-    "water": "Sparingly; fully dry between waterings",
-    "soil": "Very free-draining cactus/succulent mix",
-    "humidity": "Low to average",
-    "temperature_c": "15-30",
-    "fertilizer": "Dilute feed 2–3× per year in warm months",
-    "toxicity": "Mildly toxic if ingested (pets/children)",
+    "summary": "Striking succulent with upright cylindrical leaves; extremely drought-tolerant and virtually indestructible.",
+    "light": "Bright indirect to low light; tolerates shade",
+    "water": "Water sparingly; allow soil to dry completely between waterings",
+    "well_draining": true,
+    "soil": "Very well-draining cactus or succulent mix",
+    "humidity": "Low to average; tolerates dry air",
+    "temperature_c": "15-29",
+    "fertilizer": "Dilute balanced fertilizer once in spring and summer",
+    "toxicity": "Mildly toxic to pets if ingested",
     "common_issues": [
-      "Root rot from wet soil",
-      "Soft leaves from cold + water",
-      "Pale growth in deep shade"
+      "Root rot from overwatering",
+      "Brown leaf tips from fluoride in tap water",
+      "Mealybugs"
     ],
     "tips": [
-      "Excellent for dry apartments",
-      "Do not bury leaves deeper than crown",
-      "Wipe dust so leaves can photosynthesize"
+      "Use unglazed clay pots to prevent overwatering",
+      "Can go months without water",
+      "Propagate by leaf cuttings or division"
     ]
   }
 }
