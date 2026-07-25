@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PlantGuide — Identify</title>
+<style>
+  :root {
+    --green: #22c55e;
+    --green-dark: #16a34a;
+    --bg: #f0fdf4;
+    --card: #ffffff;
+    --border: #e2e8f0;
+    --text: #1e293b;
+    --muted: #64748b;
+    --tag-bg: #dcfce7;
+    --tag-border: #bbf7d0;
+    --tag-selected: var(--green);
+    --tag-text: #166534;
+    --radius: 10px;
+    --shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.5;
+    max-width: 960px; margin: 0 auto; padding: 20px;
+  }
+  header {
+    display: flex; align-items: center; gap: 12px; padding: 16px 0;
+    border-bottom: 2px solid var(--green);
+    margin-bottom: 24px;
+  }
+  header h1 {
+    font-size: 24px; color: var(--green-dark);
+    display: flex; align-items: center; gap: 8px;
+  }
+  header h1 span { background: var(--green); color: #fff; font-size: 12px;
+    padding: 2px 8px; border-radius: 12px; margin-left: 8px; }
+  .subtitle { color: var(--muted); font-size: 14px; margin-top: 2px; }
+
+  .layout { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  @media (max-width: 720px) { .layout { grid-template-columns: 1fr; } }
+
+  .panel { background: var(--card); border-radius: var(--radius);
+    box-shadow: var(--shadow); padding: 20px; }
+  .panel h2 { font-size: 16px; margin-bottom: 12px; color: var(--text); }
+  .panel h2 small { font-weight: normal; color: var(--muted); font-size: 12px; }
+
+  /* Tag picker */
+  .tag-grid { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+  .tag-btn {
+    display: inline-flex; align-items: center; gap: 4px;
+    padding: 6px 14px; border-radius: 20px; border: 1.5px solid var(--tag-border);
+    background: var(--tag-bg); color: var(--tag-text); font-size: 13px;
+    cursor: pointer; transition: all 0.15s; user-select: none;
+  }
+  .tag-btn:hover { background: #bbf7d0; }
+  .tag-btn.selected { background: var(--green); color: #fff; border-color: var(--green); }
+  .tag-btn .count { font-size: 11px; opacity: 0.6; }
+
+  .actions { display: flex; gap: 10px; align-items: center; }
+  .btn-primary {
+    padding: 10px 24px; border: none; border-radius: var(--radius);
+    background: var(--green); color: #fff; font-size: 14px; font-weight: 600;
+    cursor: pointer; transition: background 0.15s;
+  }
+  .btn-primary:hover { background: var(--green-dark); }
+  .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+
+  .btn-clear {
+    padding: 8px 16px; border: 1px solid var(--border); border-radius: var(--radius);
+    background: var(--card); color: var(--muted); font-size: 13px; cursor: pointer;
+  }
+  .btn-clear:hover { background: #f1f5f9; }
+
+  .tag-count { font-size: 13px; color: var(--muted); margin-left: auto; }
+
+  /* Results */
+  .species-list { list-style: none; }
+  .species-card {
+    border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 14px; margin-bottom: 10px; transition: box-shadow 0.15s;
+  }
+  .species-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .species-card .header {
+    display: flex; justify-content: space-between; align-items: start;
+    margin-bottom: 6px;
+  }
+  .species-card .name { font-size: 15px; font-weight: 600; }
+  .species-card .scientific { font-size: 12px; color: var(--muted); font-style: italic; }
+  .species-card .score {
+    background: var(--green); color: #fff; font-size: 11px; font-weight: 600;
+    padding: 2px 8px; border-radius: 12px; white-space: nowrap;
+  }
+  .species-card .tags { display: flex; flex-wrap: wrap; gap: 4px; margin: 6px 0; }
+  .species-card .tags .match-tag {
+    background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 12px;
+    padding: 2px 8px; font-size: 11px; color: var(--tag-text);
+  }
+  .species-card .tags .other-tag {
+    background: #f8fafc; border: 1px solid var(--border); border-radius: 12px;
+    padding: 2px 8px; font-size: 11px; color: var(--muted);
+  }
+  .species-card .care-summary {
+    margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border);
+  }
+  .care-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 4px 12px;
+    font-size: 12px; margin-top: 6px;
+  }
+  .care-grid .label { color: var(--muted); }
+  .care-grid .value { color: var(--text); }
+
+  /* Care card detail */
+  .care-detail {
+    margin-top: 12px; padding: 12px; background: #f8fafc;
+    border-radius: 8px; border: 1px solid var(--border);
+  }
+  .care-detail h3 { font-size: 14px; margin-bottom: 8px; }
+  .care-detail .field { margin-bottom: 6px; }
+  .care-detail .field .label { font-size: 11px; color: var(--muted); }
+  .care-detail .field .value { font-size: 13px; }
+  .care-detail .issues, .care-detail .tips {
+    margin-top: 8px; padding-left: 16px; font-size: 12px; color: var(--muted);
+  }
+
+  .loading { text-align: center; padding: 40px; color: var(--muted); }
+  .loading::after { content: '...'; animation: dots 1.5s steps(3) infinite; }
+  @keyframes dots { 33% { content: '.'; } 66% { content: '..'; } }
+
+  .empty-state { text-align: center; padding: 40px; color: var(--muted); }
+  .empty-state .icon { font-size: 48px; margin-bottom: 8px; }
+  .empty-state p { font-size: 14px; }
+
+  .error-state { text-align: center; padding: 20px; color: #dc2626;
+    background: #fef2f2; border-radius: var(--radius); }
+</style>
+</head>
+<body>
+<header>
+  <h1>🌿 PlantGuide <span>Web Demo</span></h1>
+  <div class="subtitle">Tag picker + care card UI</div>
+</header>
+
+<div class="layout">
+  <!-- Left panel: Tag picker -->
+  <div class="panel">
+    <h2>🏷️ Select plant traits</h2>
+    <p style="font-size:13px;color:var(--muted);margin-bottom:12px">
+      Pick one or more traits to identify the plant
+    </p>
+    <div id="tag-grid" class="tag-grid">
+      <div class="loading">Loading tags</div>
+    </div>
+    <div class="actions">
+      <button class="btn-primary" id="btn-identify" disabled>🔍 Identify</button>
+      <button class="btn-clear" id="btn-clear">Clear</button>
+      <span class="tag-count" id="tag-count">0 selected</span>
+    </div>
+  </div>
+
+  <!-- Right panel: Results -->
+  <div class="panel">
+    <h2>📋 Results</h2>
+    <div id="results">
+      <div class="empty-state">
+        <div class="icon">🌱</div>
+        <p>Select traits and click <strong>Identify</strong> to find matching plants</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  let allTags = [];
+  let selectedTags = new Set();
+
+  async function loadTags() {
+    try {
+      const res = await fetch('/api/tags');
+      const data = await res.json();
+      allTags = data.tags;
+      renderTagGrid();
+    } catch (e) {
+      document.getElementById('tag-grid').innerHTML =
+        `<div class="error-state">Failed to load tags: ${e.message}</div>`;
+    }
+  }
+
+  function renderTagGrid() {
+    const grid = document.getElementById('tag-grid');
+    grid.innerHTML = allTags.map(tag =>
+      `<button class="tag-btn${selectedTags.has(tag) ? ' selected' : ''}"
+               onclick="toggleTag('${tag.replace(/'/g, "\\'")}')">
+        ${tag}
+      </button>`
+    ).join('');
+    updateCount();
+  }
+
+  function toggleTag(tag) {
+    if (selectedTags.has(tag)) selectedTags.delete(tag);
+    else selectedTags.add(tag);
+    renderTagGrid();
+    document.getElementById('btn-identify').disabled = selectedTags.size === 0;
+  }
+
+  function clearAll() {
+    selectedTags.clear();
+    renderTagGrid();
+    document.getElementById('btn-identify').disabled = true;
+  }
+
+  function updateCount() {
+    document.getElementById('tag-count').textContent = `${selectedTags.size} selected`;
+  }
+
+  document.getElementById('btn-clear').addEventListener('click', clearAll);
+
+  document.getElementById('btn-identify').addEventListener('click', async () => {
+    if (selectedTags.size === 0) return;
+    const resultsDiv = document.getElementById('results');
+    resultsDiv.innerHTML = '<div class="loading">Identifying</div>';
+
+    try {
+      const res = await fetch('/api/identify', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ tags: Array.from(selectedTags), top_k: 5 })
+      });
+      const data = await res.json();
+      renderResults(data);
+    } catch (e) {
+      resultsDiv.innerHTML = `<div class="error-state">Error: ${e.message}</div>`;
+    }
+  });
+
+  function renderResults(data) {
+    const div = document.getElementById('results');
+    const matches = data.matches || [];
+    if (matches.length === 0) {
+      div.innerHTML = `<div class="empty-state">
+        <div class="icon">🔍</div>
+        <p>No matching plants found. Try different traits.</p>
+      </div>`;
+      return;
+    }
+
+    const topCare = data.top_care;
+    let html = `<ul class="species-list">`;
+
+    matches.forEach((m, i) => {
+      const matched = m.matched_tags || [];
+      const speciesOnly = m.species_only_tags || [];
+      html += `
+        <li class="species-card">
+          <div class="header">
+            <div>
+              <div class="name">${m.common_name || m.species_id}</div>
+              <div class="scientific">${m.scientific_name || ''}</div>
+            </div>
+            <span class="score">${(m.score * 100).toFixed(0)}%</span>
+          </div>
+          <div class="tags">
+            ${matched.map(t => `<span class="match-tag">✓ ${t}</span>`).join('')}
+            ${speciesOnly.slice(0, 3).map(t => `<span class="other-tag">${t}</span>`).join('')}
+            ${speciesOnly.length > 3 ? `<span class="other-tag">+${speciesOnly.length - 3}</span>` : ''}
+          </div>
+          ${i === 0 && topCare ? renderCareCard(topCare) : ''}
+        </li>`;
+    });
+    html += `</ul>`;
+    div.innerHTML = html;
+  }
+
+  function renderCareCard(care) {
+    if (!care) return '';
+    return `<div class="care-detail">
+      <h3>🌿 Care Guide</h3>
+      ${care.summary ? `<p style="font-size:13px;margin-bottom:8px;color:var(--muted)">${care.summary}</p>` : ''}
+      <div class="care-grid">
+        <div><span class="label">☀️ Light</span><br><span class="value">${care.light || '—'}</span></div>
+        <div><span class="label">💧 Water</span><br><span class="value">${care.water || '—'}</span></div>
+        <div><span class="label">🌱 Soil</span><br><span class="value">${care.soil || '—'}</span></div>
+        <div><span class="label">💨 Humidity</span><br><span class="value">${care.humidity || '—'}</span></div>
+        <div><span class="label">🌡️ Temp</span><br><span class="value">${care.temperature_c || '—'}°C</span></div>
+        <div><span class="label">🧪 Fertilizer</span><br><span class="value">${care.fertilizer || '—'}</span></div>
+        <div><span class="label">⚠️ Toxicity</span><br><span class="value">${care.toxicity || '—'}</span></div>
+      </div>
+      ${care.common_issues && care.common_issues.length ? `
+        <div class="issues"><strong>Common issues:</strong>
+        <ul>${care.common_issues.map(i => `<li>${i}</li>`).join('')}</ul></div>` : ''}
+      ${care.tips && care.tips.length ? `
+        <div class="tips"><strong>Tips:</strong>
+        <ul>${care.tips.map(t => `<li>${t}</li>`).join('')}</ul></div>` : ''}
+    </div>`;
+  }
+
+  // Load tags on page load
+  loadTags();
+</script>
+</body>
+</html>
