@@ -21,6 +21,7 @@ from plantguide.identify.pipeline import (
 )
 from plantguide.integrations.sdk import care_report_from_sample, care_report_from_tags
 from plantguide.train.toy_train import train_toy
+from plantguide.train.weighted_train import train_weighted
 
 app = typer.Typer(
     help="PlantGuide — photo/tag plant ID + species care guidance.",
@@ -436,6 +437,21 @@ def train_toy_cmd(epochs: int = typer.Option(3, "--epochs", "-e", min=1, max=50)
     console.print(f"[green]Calibration complete[/green] top1_hit_rate={last}")
     console.print(f"Report: {report['report_path']}")
 
+@train_app.command("weighted")
+def train_weighted_cmd() -> None:
+    """Train TF-IDF tag weights from labeled samples and save to data/weights/."""
+    try:
+        report = train_weighted()
+    except (FileNotFoundError, ValueError) as exc:
+        console.print(f"[red]{exc}[/red]")
+        raise typer.Exit(code=1) from exc
+    console.print(f"[green]Training complete[/green]")
+    console.print(f"  Weights: {report['weights_path']}")
+    console.print(f"  Labeled samples: {report['n_labeled_samples']}")
+    console.print(f"  Species with weights: {report['n_species_with_weights']}")
+    console.print(f"  Top-1 hit rate (weighted): {report['top1_hit_rate_weighted']}")
+    console.print(f"  Top-1 hit rate (Jaccard):  {report['top1_hit_rate_jaccard']}")
+    console.print(f"  Improvement: {report['improvement']:+.4f}")
 
 @train_app.command("report")
 def train_report() -> None:
