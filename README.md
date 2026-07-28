@@ -238,6 +238,8 @@ scripts/generate_demo_photos.py
 
 ## Development
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, testing, code style, and the MergeOS bounty claim flow.
+
 ```powershell
 pip install -e ".[dev]"
 python scripts/generate_demo_photos.py
@@ -252,7 +254,7 @@ plantguide demo photo
 
 Star → claim issue → PR to **master** → MRG **25–200**.  
 Photo/vision upgrades, more species packs, and real image models welcome.  
-See [mergeos](https://github.com/mergeos-bounties/mergeos), [docs/BOUNTY.md](docs/BOUNTY.md), and [Species Photo Evidence Requirements](docs/species-photo-evidence.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full claim flow, [mergeos](https://github.com/mergeos-bounties/mergeos), [docs/BOUNTY.md](docs/BOUNTY.md), and [Species Photo Evidence Requirements](docs/species-photo-evidence.md).
 
 ---
 
