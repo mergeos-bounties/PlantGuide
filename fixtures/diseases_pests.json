@@ -1,0 +1,67 @@
+[
+  {
+    "id": "spider_mites",
+    "name": "Spider Mites",
+    "category": "pest",
+    "tags": ["webbing", "yellow spots", "speckled leaves", "stunted growth", "sticky leaves"],
+    "remedies": [
+      "Isolate the affected plant immediately.",
+      "Wipe down leaves with dilute insecticidal soap or neem oil spray.",
+      "Increase surrounding humidity with a misting schedule or humidifier."
+    ]
+  },
+  {
+    "id": "aphids",
+    "name": "Aphids",
+    "category": "pest",
+    "tags": ["sticky leaves", "honeydew", "curled leaves", "yellow leaves", "distorted shoots"],
+    "remedies": [
+      "Rinse leaves thoroughly with a strong blast of water.",
+      "Apply neem oil or insecticidal soap every 5-7 days.",
+      "Introduce beneficial predatory insects like ladybugs if outdoors."
+    ]
+  },
+  {
+    "id": "powdery_mildew",
+    "name": "Powdery Mildew",
+    "category": "disease",
+    "tags": ["white powder", "white spots", "curled leaves", "yellowing", "leaf drop"],
+    "remedies": [
+      "Prune and dispose of severely infected foliage.",
+      "Spray with a solution of potassium bicarbonate or copper fungicide.",
+      "Improve air circulation and avoid overhead watering."
+    ]
+  },
+  {
+    "id": "root_rot",
+    "name": "Root Rot",
+    "category": "disease",
+    "tags": ["yellow leaves", "wilting", "squishy stems", "foul odor", "brown roots", "mushy roots"],
+    "remedies": [
+      "Unpot plant and trim away soft, black, or decayed roots with sterile tools.",
+      "Repot in fresh, well-draining soil mix using a container with drainage holes.",
+      "Allow soil to dry out moderately between waterings."
+    ]
+  },
+  {
+    "id": "mealybugs",
+    "name": "Mealybugs",
+    "category": "pest",
+    "tags": ["white cottony spots", "sticky leaves", "stunted growth", "leaf yellowing"],
+    "remedies": [
+      "Dab individual insects with a cotton swab dipped in 70% isopropyl alcohol.",
+      "Apply systemic insecticide or spray neem oil solution weekly.",
+      "Inspect leaf axils and undersides regularly."
+    ]
+  },
+  {
+    "id": "nitrogen_deficiency",
+    "name": "Nitrogen Deficiency",
+    "category": "nutritional",
+    "tags": ["yellow lower leaves", "pale green foliage", "stunted growth", "slow growth"],
+    "remedies": [
+      "Apply a balanced, water-soluble N-P-K fertilizer at half strength.",
+      "Top-dress soil with organic compost or worm castings."
+    ]
+  }
+]

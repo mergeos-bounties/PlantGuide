@@ -1,0 +1,288 @@
+Below is the implementation for the **Disease/Pest Symptom Matcher** module, fixtures, unit tests, and optional integration into the care show workflow.
+
+---
+
+### Key Technical Decisions & Boundary Handlings
+1. **Root-Cause & Matching Algorithm**:
+   - Calculates relevance score based on set intersection between normalized (lowercase, stripped) input symptom tags and issue tags, weighted by match percentage ($\text{Jaccard index} + \text{matched ratio}$) to prevent biased scoring towards issues with overly broad symptom lists.
+   - Case-insensitive tag normalization and whitespace trimming.
+
+2. **Boundary Conditions**:
+   - Handles empty tag lists, `None` inputs, invalid data types, non-existent tags, and zero matching issues cleanly without throwing exceptions.
+   - Normalizes duplicates in input tags.
+
+3. **Zero Side-Effects & Backward Compatibility**:
+   - Fixture loading does not mutate global state.
+   - Optional parameter (`symptom_tags=None`) added to `show_care_details()` ensures existing callers are unaffected.
+
+4. **Disclaimer Integration**:
+   - Every result includes standard legal/botanical diagnostic disclaimers regarding environmental control and pesticide safety.
+
+---
+
+### File Modifications
+
+```python filepath: fixtures/diseases_pests.json
+[
+  {
+    "id": "spider_mites",
+    "name": "Spider Mites",
+    "category": "pest",
+    "tags": ["webbing", "yellow spots", "speckled leaves", "stunted growth", "sticky leaves"],
+    "remedies": [
+      "Isolate the affected plant immediately.",
+      "Wipe down leaves with dilute insecticidal soap or neem oil spray.",
+      "Increase surrounding humidity with a misting schedule or humidifier."
+    ]
+  },
+  {
+    "id": "aphids",
+    "name": "Aphids",
+    "category": "pest",
+    "tags": ["sticky leaves", "honeydew", "curled leaves", "yellow leaves", "distorted shoots"],
+    "remedies": [
+      "Rinse leaves thoroughly with a strong blast of water.",
+      "Apply neem oil or insecticidal soap every 5-7 days.",
+      "Introduce beneficial predatory insects like ladybugs if outdoors."
+    ]
+  },
+  {
+    "id": "powdery_mildew",
+    "name": "Powdery Mildew",
+    "category": "disease",
+    "tags": ["white powder", "white spots", "curled leaves", "yellowing", "leaf drop"],
+    "remedies": [
+      "Prune and dispose of severely infected foliage.",
+      "Spray with a solution of potassium bicarbonate or copper fungicide.",
+      "Improve air circulation and avoid overhead watering."
+    ]
+  },
+  {
+    "id": "root_rot",
+    "name": "Root Rot",
+    "category": "disease",
+    "tags": ["yellow leaves", "wilting", "squishy stems", "foul odor", "brown roots", "mushy roots"],
+    "remedies": [
+      "Unpot plant and trim away soft, black, or decayed roots with sterile tools.",
+      "Repot in fresh, well-draining soil mix using a container with drainage holes.",
+      "Allow soil to dry out moderately between waterings."
+    ]
+  },
+  {
+    "id": "mealybugs",
+    "name": "Mealybugs",
+    "category": "pest",
+    "tags": ["white cottony spots", "sticky leaves", "stunted growth", "leaf yellowing"],
+    "remedies": [
+      "Dab individual insects with a cotton swab dipped in 70% isopropyl alcohol.",
+      "Apply systemic insecticide or spray neem oil solution weekly.",
+      "Inspect leaf axils and undersides regularly."
+    ]
+  },
+  {
+    "id": "nitrogen_deficiency",
+    "name": "Nitrogen Deficiency",
+    "category": "nutritional",
+    "tags": ["yellow lower leaves", "pale green foliage", "stunted growth", "slow growth"],
+    "remedies": [
+      "Apply a balanced, water-soluble N-P-K fertilizer at half strength.",
+      "Top-dress soil with organic compost or worm castings."
+    ]
+  }
+]
+```
+
+```python filepath: symptom_matcher.py
+import json
+import os
+from typing import Dict, List, Optional, Any
+
+DISCLAIMER_TEXT = (
+    "DISCLAIMER: Symptom matching recommendations are for informational purposes only. "
+    "Always confirm diagnosis before applying chemical treatments, and consult a local "
+    "botanist or agricultural extension office for severe infestations."
+)
+
+class SymptomMatcher:
+    def __init__(self, fixtures_path: Optional[str] = None):
+        """
+        Initialize the symptom matcher with database fixtures.
+        """
+        if fixtures_path is None:
+            base_dir = os.path.dirname(os.path.abspath(__file__))
+            fixtures_path = os.path.join(base_dir, "fixtures", "diseases_pests.json")
+
+        self.issues = self._load_fixtures(fixtures_path)
+
+    def _load_fixtures(self, path: str) -> List[Dict[str, Any]]:
+        if not os.path.exists(path):
+            raise FileNotFoundError(f"Fixture file not found at: {path}")
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    def normalize_tag(self, tag: str) -> str:
+        return tag.strip().lower() if tag else ""
+
+    def match_symptoms(
+        self,
+        symptom_tags: Optional[List[str]],
+        min_score: float = 0.1,
+        limit: int = 5
+    ) -> Dict[str, Any]:
+        """
+        Matches user input symptom tags against issue database.
+
+        Returns matching issues ordered by confidence along with remedies & disclaimers.
+        """
+        if not symptom_tags:
+            return {
+                "matched_issues": [],
+                "disclaimer": DISCLAIMER_TEXT,
+                "input_tags": []
+            }
+
+        cleaned_input_tags = list({
+            self.normalize_tag(t) for t in symptom_tags if t and isinstance(t, str) and self.normalize_tag(t)
+        })
+
+        if not cleaned_input_tags:
+            return {
+                "matched_issues": [],
+                "disclaimer": DISCLAIMER_TEXT,
+                "input_tags": []
+            }
+
+        input_set = set(cleaned_input_tags)
+        results = []
+
+        for issue in self.issues:
+            issue_tags = [self.normalize_tag(t) for t in issue.get("tags", [])]
+            issue_set = set(issue_tags)
+
+            intersection = input_set.intersection(issue_set)
+            if not intersection:
+                continue
+
+            # Jaccard index + recall score calculation
+            jaccard = len(intersection) / len(input_set.union(issue_set))
+            recall = len(intersection) / len(input_set)
+            score = round((0.6 * recall) + (0.4 * jaccard), 2)
+
+            if score >= min_score:
+                results.append({
+                    "id": issue["id"],
+                    "name": issue["name"],
+                    "category": issue["category"],
+                    "confidence_score": score,
+                    "matched_symptoms": list(intersection),
+                    "remedies": issue.get("remedies", [])
+                })
+
+        # Sort by confidence score descending
+        results.sort(key=lambda x: x["confidence_score"], reverse=True)
+
+        return {
+            "matched_issues": results[:limit],
+            "disclaimer": DISCLAIMER_TEXT,
+            "input_tags": cleaned_input_tags
+        }
+```
+
+```python filepath: care.py
+from typing import Dict, Any, Optional, List
+from symptom_matcher import SymptomMatcher
+
+def show_care_details(
+    plant_id: str,
+    care_schedule: Dict[str, Any],
+    symptom_tags: Optional[List[str]] = None
+) -> Dict[str, Any]:
+    """
+    Renders plant care show details with optional symptom diagnosis matching.
+
+    Backward-compatible entry point for displaying plant care instructions.
+    """
+    care_details = {
+        "plant_id": plant_id,
+        "care_schedule": care_schedule,
+        "diagnosis": None
+    }
+
+    if symptom_tags:
+        matcher = SymptomMatcher()
+        care_details["diagnosis"] = matcher.match_symptoms(symptom_tags)
+
+    return care_details
+```
+
+```python filepath: tests/test_symptom_matcher.py
+import pytest
+import os
+import tempfile
+import json
+from symptom_matcher import SymptomMatcher, DISCLAIMER_TEXT
+from care import show_care_details
+
+@pytest.fixture
+def sample_fixtures_file():
+    data = [
+        {
+            "id": "test_pest",
+            "name": "Test Pest",
+            "category": "pest",
+            "tags": ["yellow spots", "sticky leaves"],
+            "remedies": ["Clean leaves", "Apply soap"]
+        },
+        {
+            "id": "test_rot",
+            "name": "Root Rot",
+            "category": "disease",
+            "tags": ["wilting", "squishy stems"],
+            "remedies": ["Repot plant"]
+        }
+    ]
+    with tempfile.NamedTemporaryFile("w", delete=False, suffix=".json") as f:
+        json.dump(data, f)
+        path = f.name
+    yield path
+    if os.path.exists(path):
+        os.remove(path)
+
+def test_exact_match(sample_fixtures_file):
+    matcher = SymptomMatcher(fixtures_path=sample_fixtures_file)
+    res = matcher.match_symptoms(["yellow spots", "sticky leaves"])
+
+    assert len(res["matched_issues"]) == 1
+    top_match = res["matched_issues"][0]
+    assert top_match["id"] == "test_pest"
+    assert "Clean leaves" in top_match["remedies"]
+    assert res["disclaimer"] == DISCLAIMER_TEXT
+
+def test_case_insensitive_and_whitespace(sample_fixtures_file):
+    matcher = SymptomMatcher(fixtures_path=sample_fixtures_file)
+    res = matcher.match_symptoms(["  YELLOW SPOTS  ", "Sticky Leaves "])
+
+    assert len(res["matched_issues"]) == 1
+    assert res["matched_issues"][0]["id"] == "test_pest"
+
+def test_empty_or_none_input(sample_fixtures_file):
+    matcher = SymptomMatcher(fixtures_path=sample_fixtures_file)
+    assert matcher.match_symptoms([])["matched_issues"] == []
+    assert matcher.match_symptoms(None)["matched_issues"] == []
+
+def test_no_matching_tags(sample_fixtures_file):
+    matcher = SymptomMatcher(fixtures_path=sample_fixtures_file)
+    res = matcher.match_symptoms(["purple flowers", "blue roots"])
+    assert res["matched_issues"] == []
+
+def test_care_show_integration_optional():
+    # Backward compatibility test without symptom tags
+    base_res = show_care_details("plant123", {"water": "weekly"})
+    assert base_res["plant_id"] == "plant123"
+    assert base_res["diagnosis"] is None
+
+    # Test with optional symptom tags passed
+    with_diag = show_care_details("plant123", {"water": "weekly"}, symptom_tags=["sticky leaves"])
+    assert with_diag["diagnosis"] is not None
+    assert "matched_issues" in with_diag["diagnosis"]
+```
