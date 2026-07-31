@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlantGuide — Symptom Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌿 PlantGuide</h1>
+      <p class="subtitle">Select symptoms to identify plant issues and get care advice</p>
+    </header>
+
+    <section class="tag-picker">
+      <h2>Select Symptoms</h2>
+      <div class="tags" id="tag-container">
+        <!-- Tags injected by JS -->
+      </div>
+      <div class="picker-actions">
+        <button id="clear-btn" class="btn btn-outline">Clear All</button>
+        <button id="diagnose-btn" class="btn btn-primary">Diagnose</button>
+      </div>
+    </section>
+
+    <section class="results" id="results-section" style="display:none;">
+      <h2>Care Cards</h2>
+      <div class="care-cards" id="care-cards-container">
+        <!-- Care cards injected by JS -->
+      </div>
+      <div class="no-results" id="no-results" style="display:none;">
+        <p>No matching conditions found for the selected symptoms.</p>
+        <p>Try selecting different symptoms or fewer tags.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>PlantGuide — Open-source plant care assistant</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
