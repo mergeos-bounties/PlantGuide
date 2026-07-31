@@ -11,4 +11,5 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-      - run: python -m pytest tests/test_symptom_matcher.py -v --tb=short
+      - run: pip install -e ".[dev]"
+      - run: python -m pytest tests/ -v --tb=short
