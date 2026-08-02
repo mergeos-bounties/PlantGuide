@@ -236,6 +236,12 @@ scripts/generate_demo_photos.py
 
 ---
 
+## Contributing
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for development setup, running tests, and the MergeOS bounty claim process.
+
+---
+
 ## Development
 
 ```powershell

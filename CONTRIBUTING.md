@@ -1,71 +1,51 @@
 # Contributing to PlantGuide
 
-Thank you for your interest in contributing to PlantGuide — a plant identification and care guide application.
+Thank you for your interest in contributing to **PlantGuide**!
 
-## Getting Started
+## Development Setup
 
-1. **Fork** the repository on GitHub.
-2. **Clone** your fork:
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/PlantGuide.git
+   git clone https://github.com/mergeos-bounties/PlantGuide.git
    cd PlantGuide
    ```
-3. **Set up a development environment:**
+
+2. **Set up a virtual environment:**
    ```bash
-   python -m venv venv
-   source venv/bin/activate
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   ```
+
+3. **Install dependencies in editable mode with development tools:**
+   ```bash
    pip install -e ".[dev]"
    ```
 
-## Good First Issues
+## Running Tests & Linter
 
-If you're new to the project, check out issues tagged with `good-first-issue` in the [issue tracker](https://github.com/mergeos-bounties/PlantGuide/issues). These are beginner-friendly tasks that help you learn the codebase.
+Before submitting code, make sure all tests pass and your code adheres to linting standards:
 
-Suggested starting points:
-- Adding a new plant species to `data/species/`
-- Improving the CLI user experience
-- Writing additional tests
+```bash
+# Run linting check
+ruff check src tests
 
-## How to Contribute
+# Run unit tests
+pytest -q
 
-- **Report bugs** by opening a GitHub Issue.
-- **Suggest features** by opening a GitHub Issue with the `enhancement` label.
-- **Add plant species** by contributing a new JSON file to `data/species/`.
-- **Submit code** via a Pull Request.
+# Run end-to-end demo check
+plantguide demo photo
+```
 
-## Development Workflow
+## MergeOS Bounty Claim Flow
 
-1. Create a feature branch from `master`:
-   ```bash
-   git checkout -b feat/my-feature
-   ```
-2. Make your changes.
-3. Run linting and tests:
-   ```bash
-   ruff check src tests
-   pytest
-   ```
-4. Commit with a clear message:
-   ```
-   feat: add Monstera Adansonii species data
-   ```
-5. Push to your fork and open a Pull Request against `master`.
-6. Link any related issues in the PR description using `Closes #N`.
+If you are working on a MergeOS bounty for PlantGuide, follow these steps to claim and receive your payout:
 
-## Code Style
+1. **Star** the relevant repositories:
+   - [mergeos-bounties/PlantGuide](https://github.com/mergeos-bounties/PlantGuide)
+   - [mergeos-bounties/mergeos](https://github.com/mergeos-bounties/mergeos)
+2. **Comment** on the issue you wish to work on: `I claim this bounty`
+3. **Comment** on [MergeOS Claim Token #1](https://github.com/mergeos-bounties/mergeos/issues/1) with a link to the issue you are claiming.
+4. **Create a Pull Request** to `mergeos-bounties/PlantGuide` (target `master` branch) with `Fixes #<issue-number>` in the description.
+5. Once your PR is reviewed and merged by a maintainer, **MRG credit** will be issued to your GitHub account based on the bounty scale (25/50/100/200 MRG).
 
-- Follow PEP 8 conventions.
-- Run `ruff check` before committing.
-- Write tests for new functionality.
-
-## Pull Request Checklist
-
-- [ ] Code follows project style (ruff passes)
-- [ ] Tests added / updated for new functionality
-- [ ] All existing tests pass
-- [ ] Documentation updated if needed
-- [ ] PR description references related issues
-
-## Need Help?
-
-Open a [Discussion](https://github.com/mergeos-bounties/PlantGuide/discussions) or ask in the relevant issue.
+For further details on bounty rules, consult [docs/BOUNTY.md](docs/BOUNTY.md).
