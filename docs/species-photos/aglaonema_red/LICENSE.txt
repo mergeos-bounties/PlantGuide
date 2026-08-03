@@ -1,0 +1,2 @@
+Synthetic PlantGuide evidence images generated offline with Pillow.
+License: MIT (same as repository). Not photographs of people or private property.
