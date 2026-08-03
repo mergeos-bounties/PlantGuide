@@ -1,0 +1,35 @@
+{
+  "id": "okra_abelmoschus",
+  "common_name": "Okra",
+  "scientific_name": "Abelmoschus esculentus",
+  "tags": [
+    "edible",
+    "fruiting",
+    "outdoor",
+    "vegetable",
+    "tropical",
+    "annual",
+    "subtropical"
+  ],
+  "care": {
+    "summary": "Heat-loving pod vegetable for tropical and subtropical summers; needs sun and warm nights.",
+    "light": "Full sun 6–8 hours",
+    "water": "Deep watering 1–2× weekly; more in extreme heat",
+    "soil": "Well-drained fertile soil; tolerates light sand with compost",
+    "humidity": "Average",
+    "temperature_c": "24-35",
+    "fertilizer": "Balanced feed at flowering; avoid excess nitrogen",
+    "toxicity": "Pods edible when young; fibers toughen quickly",
+    "common_issues": [
+      "Slow germination in cool soil",
+      "Aphids on tips",
+      "Woody pods if harvested late"
+    ],
+    "tips": [
+      "Sow only after soil is warm",
+      "Harvest pods every 1–2 days",
+      "Companion well with peppers"
+    ],
+    "climate_notes": "Classic subtropical outdoor vegetable; struggles in cool maritime summers."
+  }
+}

@@ -1,12 +1,35 @@
 {
   "id": "ginger_culinary",
-  "common_name": "Culinary Ginger / G\u1eebng",
-  "scientific_name": "",
-  "family": "",
-  "genus": "",
-  "water_needs": "moderate",
-  "light_needs": "bright_indirect",
-  "difficulty": "easy",
-  "origin": "Cultivated",
-  "toxicity": "Non-toxic"
+  "common_name": "Culinary Ginger",
+  "scientific_name": "Zingiber officinale",
+  "tags": [
+    "edible",
+    "rhizome",
+    "outdoor",
+    "tropical",
+    "herb",
+    "spice",
+    "subtropical"
+  ],
+  "care": {
+    "summary": "Tropical rhizome spice grown for fresh ginger; prefers filtered sun, warmth, and rich moist soil.",
+    "light": "Bright filtered sun / morning sun + afternoon shade in tropics",
+    "water": "Keep moist in growth; reduce when foliage yellows toward harvest",
+    "soil": "Loose, rich, well-draining mix high in organic matter",
+    "humidity": "Medium–high",
+    "temperature_c": "20-32",
+    "fertilizer": "Monthly balanced liquid feed during active growth",
+    "toxicity": "Rhizome edible; generally pet-safe in food amounts",
+    "common_issues": [
+      "Rhizome rot in cold wet soil",
+      "Leaf yellowing from chill",
+      "Spider mites indoors"
+    ],
+    "tips": [
+      "Plant plump buds facing up",
+      "Mulch heavily in subtropical gardens",
+      "Harvest after 8–10 months"
+    ],
+    "climate_notes": "Excellent tropical/subtropical outdoor crop; lift or mulch heavily if frost risk exists."
+  }
 }

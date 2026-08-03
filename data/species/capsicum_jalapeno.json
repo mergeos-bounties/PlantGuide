@@ -1,0 +1,35 @@
+{
+  "id": "capsicum_jalapeno",
+  "common_name": "Jalapeño Chili",
+  "scientific_name": "Capsicum annuum 'Jalapeño'",
+  "tags": [
+    "edible",
+    "fruiting",
+    "outdoor",
+    "vegetable",
+    "spicy",
+    "subtropical",
+    "annual"
+  ],
+  "care": {
+    "summary": "Medium-heat chili pepper for warm outdoor beds and large pots; wants sun and steady moisture.",
+    "light": "Full sun",
+    "water": "Even moisture; avoid drought at flowering",
+    "soil": "Rich, well-draining vegetable mix",
+    "humidity": "Average with airflow",
+    "temperature_c": "20-32",
+    "fertilizer": "Low-nitrogen bloom feed after first flowers",
+    "toxicity": "Fruit edible (spicy); keep away from eyes",
+    "common_issues": [
+      "Blossom end rot",
+      "Aphids",
+      "Sunscald on exposed fruit"
+    ],
+    "tips": [
+      "Harvest green for classic heat or red for sweeter spice",
+      "Mulch in subtropical dry seasons",
+      "Stake if loaded with fruit"
+    ],
+    "climate_notes": "Outdoor summer crop in subtropical climates; overwinter indoors in mild frost zones."
+  }
+}

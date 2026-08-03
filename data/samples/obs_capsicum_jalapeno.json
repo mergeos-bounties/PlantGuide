@@ -1,0 +1,9 @@
+{
+  "tags": [
+    "edible",
+    "fruiting",
+    "outdoor",
+    "vegetable"
+  ],
+  "expected_species": "capsicum_jalapeno"
+}

@@ -1,12 +1,35 @@
 {
   "id": "malabar_spinach",
-  "common_name": "Malabar Spinach / M\u1ed3ng T\u01a1i",
-  "scientific_name": "",
-  "family": "",
-  "genus": "",
-  "water_needs": "moderate",
-  "light_needs": "bright_indirect",
-  "difficulty": "easy",
-  "origin": "Cultivated",
-  "toxicity": "Non-toxic"
+  "common_name": "Malabar Spinach",
+  "scientific_name": "Basella alba",
+  "tags": [
+    "edible",
+    "leafy",
+    "outdoor",
+    "vegetable",
+    "tropical",
+    "climbing",
+    "subtropical"
+  ],
+  "care": {
+    "summary": "Heat-loving climbing leafy green that thrives when true spinach bolts; excellent tropical summer green.",
+    "light": "Full sun to light shade",
+    "water": "Keep moist for tender leaves; drought makes leaves tough",
+    "soil": "Fertile, moisture-retentive but draining soil",
+    "humidity": "Medium–high",
+    "temperature_c": "20-35",
+    "fertilizer": "Light nitrogen feed every 2–3 weeks",
+    "toxicity": "Edible leaves and young stems",
+    "common_issues": [
+      "Leaf toughness if under-watered",
+      "Aphids on soft tips",
+      "Slow growth below 18°C"
+    ],
+    "tips": [
+      "Provide a trellis or fence",
+      "Harvest tips often to bush out",
+      "Great monsoon/subtropical summer crop"
+    ],
+    "climate_notes": "Outdoor star in tropical/subtropical heat; not a cool-season spinach replacement."
+  }
 }

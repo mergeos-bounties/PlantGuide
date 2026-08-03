@@ -1,0 +1,35 @@
+{
+  "id": "ipomoea_aquatica",
+  "common_name": "Water Spinach (Kangkong)",
+  "scientific_name": "Ipomoea aquatica",
+  "tags": [
+    "edible",
+    "leafy",
+    "outdoor",
+    "vegetable",
+    "tropical",
+    "aquatic",
+    "subtropical"
+  ],
+  "care": {
+    "summary": "Fast tropical leafy green for wet beds, ponds, or large trays; loves heat and constant moisture.",
+    "light": "Full sun to bright light",
+    "water": "Keep roots wet/moist at all times; thrives in shallow water culture",
+    "soil": "Rich mud, wet loam, or hydroponic rafts",
+    "humidity": "High",
+    "temperature_c": "22-35",
+    "fertilizer": "Light nitrogen feed weekly in active cutting beds",
+    "toxicity": "Edible shoots and leaves when cooked; wash thoroughly",
+    "common_issues": [
+      "Invasive spread in warm waterways",
+      "Snails on soft tips",
+      "Yellowing if starved of nitrogen"
+    ],
+    "tips": [
+      "Harvest tips repeatedly",
+      "Contain in troughs outside native ranges",
+      "Ideal monsoon backyard green"
+    ],
+    "climate_notes": "Outdoor tropical/subtropical wet-season crop; may be regulated where invasive."
+  }
+}

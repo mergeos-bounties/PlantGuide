@@ -1,12 +1,35 @@
 {
   "id": "lemongrass_citronella",
-  "common_name": "Citronella Grass",
-  "scientific_name": "",
-  "family": "",
-  "genus": "",
-  "water_needs": "moderate",
-  "light_needs": "bright_indirect",
-  "difficulty": "easy",
-  "origin": "Cultivated",
-  "toxicity": "Non-toxic"
+  "common_name": "Citronella Lemongrass",
+  "scientific_name": "Cymbopogon nardus",
+  "tags": [
+    "aromatic",
+    "outdoor",
+    "tropical",
+    "ornamental",
+    "herb",
+    "subtropical",
+    "clumping"
+  ],
+  "care": {
+    "summary": "Clumping tropical grass grown for citronella aroma and landscape use; wants sun, heat, and drainage.",
+    "light": "Full sun",
+    "water": "Moderate; drought-tolerant once established, water in dry spells",
+    "soil": "Well-draining sandy loam; avoid soggy clay",
+    "humidity": "Average to high",
+    "temperature_c": "18-35",
+    "fertilizer": "Light feed in rainy/growing season",
+    "toxicity": "Not for culinary lemongrass recipes (use C. citratus); aromatic oils can irritate skin",
+    "common_issues": [
+      "Crown rot in winter wet",
+      "Leaf tip burn in extreme drought",
+      "Cold damage below ~10°C"
+    ],
+    "tips": [
+      "Divide clumps every 2–3 years",
+      "Cut back tired foliage before flush growth",
+      "Plant in open subtropical beds"
+    ],
+    "climate_notes": "Outdoor perennial in frost-free tropical/subtropical climates; pot and shelter elsewhere."
+  }
 }

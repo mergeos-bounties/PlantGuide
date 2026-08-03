@@ -1,0 +1,9 @@
+{
+  "tags": [
+    "edible",
+    "herb",
+    "outdoor",
+    "vegetable"
+  ],
+  "expected_species": "allium_fistulosum"
+}

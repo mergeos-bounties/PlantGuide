@@ -1,12 +1,34 @@
 {
   "id": "turmeric",
-  "common_name": "Turmeric / Ngh\u1ec7",
-  "scientific_name": "",
-  "family": "",
-  "genus": "",
-  "water_needs": "moderate",
-  "light_needs": "bright_indirect",
-  "difficulty": "easy",
-  "origin": "Cultivated",
-  "toxicity": "Non-toxic"
+  "common_name": "Turmeric",
+  "scientific_name": "Curcuma longa",
+  "tags": [
+    "edible",
+    "rhizome",
+    "outdoor",
+    "tropical",
+    "spice",
+    "subtropical"
+  ],
+  "care": {
+    "summary": "Tropical spice rhizome with broad leaves; needs heat, moisture, and a long frost-free season.",
+    "light": "Partial sun to bright filtered light in hot climates",
+    "water": "Keep consistently moist in growth; never waterlog pots without drainage",
+    "soil": "Rich, loose, compost-amended soil",
+    "humidity": "Medium–high",
+    "temperature_c": "21-35",
+    "fertilizer": "Monthly organic feed while leaves are lush",
+    "toxicity": "Rhizome edible as spice; stain-prone when cut",
+    "common_issues": [
+      "Rhizome rot in cool wet winters",
+      "Leaf scorch in harsh midday sun",
+      "Slow start if soil is cold"
+    ],
+    "tips": [
+      "Start rhizomes in warm soil",
+      "Cut back after foliage dies down",
+      "Cure rhizomes briefly before storage"
+    ],
+    "climate_notes": "Ideal outdoor plant for tropical/subtropical wet seasons; container culture elsewhere."
+  }
 }
