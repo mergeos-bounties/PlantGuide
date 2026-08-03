@@ -1,12 +1,35 @@
 {
   "id": "eggplant_purple",
-  "common_name": "Eggplant / C\u00e0 T\u00edm",
-  "scientific_name": "",
-  "family": "",
-  "genus": "",
-  "water_needs": "moderate",
-  "light_needs": "bright_indirect",
-  "difficulty": "easy",
-  "origin": "Cultivated",
-  "toxicity": "Non-toxic"
+  "common_name": "Purple Eggplant",
+  "scientific_name": "Solanum melongena",
+  "tags": [
+    "edible",
+    "fruiting",
+    "outdoor",
+    "vegetable",
+    "annual",
+    "tropical",
+    "subtropical"
+  ],
+  "care": {
+    "summary": "Heat-loving nightshade vegetable producing glossy purple fruit; needs long warm seasons.",
+    "light": "Full sun 6–8 hours",
+    "water": "Deep, consistent watering; avoid wild wet–dry swings",
+    "soil": "Fertile, well-drained soil amended with compost",
+    "humidity": "Average with good airflow",
+    "temperature_c": "21-32",
+    "fertilizer": "Tomato-style feed once flowering starts",
+    "toxicity": "Leaves toxic if chewed; fruit edible when cooked",
+    "common_issues": [
+      "Flea beetles on young leaves",
+      "Blossom drop in cool nights",
+      "Verticillium wilt in wet soil"
+    ],
+    "tips": [
+      "Stake tall cultivars",
+      "Harvest when skin is glossy",
+      "Use black mulch to warm soil"
+    ],
+    "climate_notes": "Outdoor summer crop in subtropical climates; greenhouse help in cooler temperate zones."
+  }
 }

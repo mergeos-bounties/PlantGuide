@@ -1,0 +1,9 @@
+{
+  "tags": [
+    "edible",
+    "fruiting",
+    "outdoor",
+    "vegetable"
+  ],
+  "expected_species": "okra_abelmoschus"
+}

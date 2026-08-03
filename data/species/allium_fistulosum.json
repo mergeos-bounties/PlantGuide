@@ -1,0 +1,35 @@
+{
+  "id": "allium_fistulosum",
+  "common_name": "Bunching Onion (Scallion)",
+  "scientific_name": "Allium fistulosum",
+  "tags": [
+    "edible",
+    "herb",
+    "outdoor",
+    "vegetable",
+    "perennial",
+    "kitchen",
+    "subtropical"
+  ],
+  "care": {
+    "summary": "Evergreen kitchen allium for tropical and subtropical gardens; cut-and-come-again scallions.",
+    "light": "Full sun to light shade",
+    "water": "Keep evenly moist; do not let pots bone-dry",
+    "soil": "Fertile, well-draining bed or container mix",
+    "humidity": "Average",
+    "temperature_c": "15-32",
+    "fertilizer": "Light nitrogen feed after each heavy harvest",
+    "toxicity": "Edible; generally safe in culinary amounts",
+    "common_issues": [
+      "Thrips on leaves",
+      "Bulb rot in soggy soil",
+      "Bolting in extreme heat stress"
+    ],
+    "tips": [
+      "Divide clumps yearly",
+      "Cut above white base to regrow",
+      "Great edge plant in subtropical kitchen gardens"
+    ],
+    "climate_notes": "Reliable outdoor perennial in mild subtropical winters; mulch in cooler snaps."
+  }
+}

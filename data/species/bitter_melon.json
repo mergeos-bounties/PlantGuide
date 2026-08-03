@@ -1,12 +1,35 @@
 {
   "id": "bitter_melon",
-  "common_name": "Bitter Melon / Kh\u1ed5 Qua",
-  "scientific_name": "",
-  "family": "",
-  "genus": "",
-  "water_needs": "moderate",
-  "light_needs": "bright_indirect",
-  "difficulty": "easy",
-  "origin": "Cultivated",
-  "toxicity": "Non-toxic"
+  "common_name": "Bitter Melon",
+  "scientific_name": "Momordica charantia",
+  "tags": [
+    "edible",
+    "fruiting",
+    "outdoor",
+    "vegetable",
+    "tropical",
+    "climbing",
+    "subtropical"
+  ],
+  "care": {
+    "summary": "Tropical climbing vegetable with bitter fruit; thrives in hot, humid subtropical gardens with a trellis.",
+    "light": "Full sun 6+ hours (tropical/subtropical)",
+    "water": "Keep evenly moist in heat; mulch to reduce stress",
+    "soil": "Rich, well-draining loam with compost",
+    "humidity": "Medium–high; likes warm humid air",
+    "temperature_c": "22-35",
+    "fertilizer": "Balanced NPK every 2 weeks while vines run",
+    "toxicity": "Fruit edible when cooked; raw fruit is intensely bitter",
+    "common_issues": [
+      "Fruit fly damage",
+      "Powdery mildew in stagnant humidity",
+      "Poor fruit set if nights are cool"
+    ],
+    "tips": [
+      "Train on a sturdy trellis",
+      "Harvest young fruit for milder bitterness",
+      "Start after soils stay above ~20°C"
+    ],
+    "climate_notes": "Best in USDA-like tropical/subtropical zones; protect from cold snaps below 15°C."
+  }
 }
