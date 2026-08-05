@@ -1,71 +1,84 @@
 # Contributing to PlantGuide
 
-Thank you for your interest in contributing to PlantGuide — a plant identification and care guide application.
+Welcome! PlantGuide identifies plants from photos (or trait tags) and returns care cards. Contributions are rewarded through [MergeOS bounties](https://github.com/mergeos-bounties/mergeos).
 
-## Getting Started
+## Getting started
 
-1. **Fork** the repository on GitHub.
-2. **Clone** your fork:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/PlantGuide.git
-   cd PlantGuide
-   ```
-3. **Set up a development environment:**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate
-   pip install -e ".[dev]"
-   ```
+```bash
+git clone https://github.com/mergeos-bounties/PlantGuide.git
+cd PlantGuide
+python -m venv .venv
+source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+pip install -e ".[dev]"
+```
 
-## Good First Issues
+Verify everything works:
 
-If you're new to the project, check out issues tagged with `good-first-issue` in the [issue tracker](https://github.com/mergeos-bounties/PlantGuide/issues). These are beginner-friendly tasks that help you learn the codebase.
+```bash
+pytest -q
+plantguide version
+plantguide demo photo
+```
 
-Suggested starting points:
-- Adding a new plant species to `data/species/`
-- Improving the CLI user experience
-- Writing additional tests
+## Project layout
 
-## How to Contribute
+```
+src/plantguide/
+  identify/   # photo/tags/sample identification
+  care/       # care cards, watering, SVG export
+  data/       # species catalog loader
+  collection/ # user plant collection tracker
+  integrations/ # SDK, app reports
+  train/      # toy calibration
+  api/        # FastAPI (optional extra)
+data/
+  species/    # catalog JSON packs
+  samples/    # observation fixtures
+  samples/photos/  # demo plant JPGs
+tests/        # pytest suite
+```
 
-- **Report bugs** by opening a GitHub Issue.
-- **Suggest features** by opening a GitHub Issue with the `enhancement` label.
-- **Add plant species** by contributing a new JSON file to `data/species/`.
-- **Submit code** via a Pull Request.
+## Finding something to work on
 
-## Development Workflow
+Browse [open bounties](https://github.com/mergeos-bounties/PlantGuide/issues?q=is%3Aissue+is%3Aopen+label%3Abounty). Look for `good first issue` labels — those are quick wins (25–50 MRG) and great for first-time contributors.
 
-1. Create a feature branch from `master`:
-   ```bash
-   git checkout -b feat/my-feature
-   ```
-2. Make your changes.
-3. Run linting and tests:
-   ```bash
-   ruff check src tests
-   pytest
-   ```
-4. Commit with a clear message:
-   ```
-   feat: add Monstera Adansonii species data
-   ```
-5. Push to your fork and open a Pull Request against `master`.
-6. Link any related issues in the PR description using `Closes #N`.
+## Bounty workflow
 
-## Code Style
+1. **Star** the [PlantGuide repo](https://github.com/mergeos-bounties/PlantGuide) and [MergeOS](https://github.com/mergeos-bounties/mergeos)
+2. **Claim** by commenting `I claim this bounty` on the issue
+3. **Also claim** on [MergeOS Claim Token #1](https://github.com/mergeos-bounties/mergeos/issues/1) with a link to your issue
+4. **Fork** the repo and create a branch
+5. **Implement** the feature or fix
+6. **Test** with `pytest -q`
+7. **Open a PR** to `master` with `Fixes #<issue-number>` in the description
+8. Maintainer reviews → merge → MRG credit on the MergeOS ledger
 
-- Follow PEP 8 conventions.
-- Run `ruff check` before committing.
-- Write tests for new functionality.
+## Code style
 
-## Pull Request Checklist
+- Python 3.11+, `ruff` formatted (line length 100)
+- Type hints encouraged
+- `typer` for CLI, `rich` for output tables, `pydantic` for data models
+- Keep features optional with extras (`torch`, `vision`, `api`); see `pyproject.toml`
 
-- [ ] Code follows project style (ruff passes)
-- [ ] Tests added / updated for new functionality
-- [ ] All existing tests pass
-- [ ] Documentation updated if needed
-- [ ] PR description references related issues
+Run linting:
 
-## Need Help?
+```bash
+ruff check src tests
+ruff format src tests
+```
 
-Open a [Discussion](https://github.com/mergeos-bounties/PlantGuide/discussions) or ask in the relevant issue.
+## Testing
+
+Tests use `pytest` and live under `tests/`. Run:
+
+```bash
+pytest -q
+pytest --cov=src
+```
+
+## MergeOS bounties
+
+- Reward scale: **25 / 50 / 100 / 200 MRG** — check issue label
+- All work lands on `mergeos-bounties/PlantGuide`
+- See [docs/BOUNTY.md](docs/BOUNTY.md) for policy details
+- Questions? Comment on your issue or the MergeOS discussion board

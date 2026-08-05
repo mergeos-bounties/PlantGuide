@@ -236,6 +236,10 @@ scripts/generate_demo_photos.py
 
 ---
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, testing, bounty workflow, and finding issues to work on.
+
 ## Development
 
 ```powershell
