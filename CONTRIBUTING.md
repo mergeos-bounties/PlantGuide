@@ -69,3 +69,10 @@ Suggested starting points:
 ## Need Help?
 
 Open a [Discussion](https://github.com/mergeos-bounties/PlantGuide/discussions) or ask in the relevant issue.
+
+
+---
+
+## Auto-generated section
+
+This project participates in MergeOS bounties.
