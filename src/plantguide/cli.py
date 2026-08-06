@@ -590,3 +590,91 @@ def collection_watering_ics(
 
 if __name__ == "__main__":
     app()
+
+
+# ============================================================================
+# Issue #3 — batch identify command
+# ============================================================================
+
+@identify_app.command("batch")
+def identify_batch(
+    out: Path | None = typer.Option(
+        None, "--out", "-o", help="Write batch report JSON (default: data/out/batch.json)"
+    ),
+    top: int = typer.Option(3, "--top", "-k", min=1, max=20),
+) -> None:
+    """Score every observation sample in data/samples/ and write a batch report."""
+    import json
+    from collections import Counter
+
+    from plantguide.config import OUT_DIR, SAMPLES_DIR
+    from plantguide.data.loader import list_sample_files, load_sample
+    from plantguide.identify.pipeline import identify_from_tags
+
+    sample_files = list_sample_files()
+    if not sample_files:
+        console.print("[yellow]No sample files in data/samples/[/yellow]")
+        raise typer.Exit(code=1)
+
+    results: list[dict] = []
+    hits = 0
+    species_counter: Counter[str] = Counter()
+
+    for path in sorted(sample_files):
+        sample = load_sample(path)
+        tags = sample.get("tags") or []
+        result = identify_from_tags(tags, top_k=top)
+        expected = sample.get("expected_species")
+        hit = False
+        if expected and result.get("matches"):
+            top_id = str(result["matches"][0].get("species_id") or "").lower()
+            hit = top_id == str(expected).lower()
+            if hit:
+                hits += 1
+        top_species = result["matches"][0].get("species_id") if result.get("matches") else None
+        if top_species:
+            species_counter[str(top_species)] += 1
+
+        results.append({
+            "sample_id": sample.get("id"),
+            "expected_species": expected,
+            "top_match": top_species,
+            "hit": hit,
+            "top_score": result["matches"][0].get("score") if result.get("matches") else None,
+        })
+
+    total = len(results)
+    accuracy = hits / total if total > 0 else 0.0
+
+    report: dict = {
+        "model": "ToyPlantIdentifier",
+        "total_samples": total,
+        "hits": hits,
+        "accuracy": round(accuracy, 4),
+        "top_species_distribution": dict(species_counter.most_common()),
+        "results": results,
+    }
+
+    out_path = out or (OUT_DIR / "batch.json")
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+
+    console.print(f"[bold]Batch identify complete[/bold]  hits={hits}/{total}  accuracy={accuracy:.1%}")
+    console.print(f"[green]Report[/green] {out_path}")
+
+    # Quick summary
+    table = Table(title="Top identified species")
+    table.add_column("Species")
+    table.add_column("Count")
+    for sp, cnt in species_counter.most_common(10):
+        table.add_row(sp, str(cnt))
+    console.print(table)
+
+
+# ============================================================================
+# Register validate sub-commands (Issue #4)
+# ============================================================================
+
+from plantguide.cli_validate import validate_app as _validate_app  # noqa: E402
+
+app.add_typer(_validate_app, name="validate")
