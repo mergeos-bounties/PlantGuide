@@ -25,6 +25,7 @@
 - [Diagrams](#diagrams)
 - [Repository layout](#repository-layout)
 - [Development](#development)
+- [Contributing](#contributing)
 - [MergeOS bounties](#mergeos-bounties)
 - [License](#license)
 
@@ -248,11 +249,17 @@ plantguide demo photo
 
 ---
 
+## Contributing
+
+New contributors should start with [CONTRIBUTING.md](CONTRIBUTING.md) for setup, test commands, PR checklist, and the MergeOS bounty claim flow.
+
+---
+
 ## MergeOS bounties
 
 Star → claim issue → PR to **master** → MRG **25–200**.  
 Photo/vision upgrades, more species packs, and real image models welcome.  
-See [mergeos](https://github.com/mergeos-bounties/mergeos), [docs/BOUNTY.md](docs/BOUNTY.md), and [Species Photo Evidence Requirements](docs/species-photo-evidence.md).
+See [mergeos](https://github.com/mergeos-bounties/mergeos), [CONTRIBUTING.md](CONTRIBUTING.md), [docs/BOUNTY.md](docs/BOUNTY.md), and [Species Photo Evidence Requirements](docs/species-photo-evidence.md).
 
 ---
 
