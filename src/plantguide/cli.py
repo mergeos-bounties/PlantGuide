@@ -194,7 +194,7 @@ def identify_sample(
 def identify_image_cmd(
     image: Path = typer.Option(
         ...,
-        "--image",
+        "--file",
         "-i",
         exists=True,
         dir_okay=False,
@@ -229,7 +229,7 @@ def identify_image_cmd(
 def demo_photo_cmd(
     image: Path | None = typer.Option(
         None,
-        "--image",
+        "--image", "--file",
         "-i",
         exists=True,
         dir_okay=False,
