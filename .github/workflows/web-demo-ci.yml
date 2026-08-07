@@ -1,0 +1,35 @@
+name: web-demo-ci
+
+on:
+  push:
+    branches: [master, main]
+    paths: [web/**]
+  pull_request:
+    paths: [web/**]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate web files
+        run: |
+          set -e
+          echo "Checking web/ structure..."
+          test -f web/index.html || { echo "MISSING index.html"; exit 1; }
+          test -f web/app.js || { echo "MISSING app.js"; exit 1; }
+          test -f web/style.css || { echo "MISSING style.css"; exit 1; }
+          test -f web/data/species.min.json || { echo "MISSING species.min.json"; exit 1; }
+          echo "All required files present."
+      - name: HTML validation
+        run: |
+          python3 -c "
+          with open('web/index.html') as f:
+              html = f.read()
+          assert '<!DOCTYPE html>' in html, 'Missing DOCTYPE'
+          assert '<title>' in html, 'Missing title'
+          assert '</html>' in html, 'Missing closing html'
+          print('HTML structure OK')
+          "
+      - name: JS syntax check
+        run: node -c web/app.js && echo "JS syntax OK"

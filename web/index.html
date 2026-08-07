@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PlantGuide — Tag Picker + Care Card</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>🌿 PlantGuide</h1>
+  <p class="subtitle">Identify plants by tags &amp; view care cards</p>
+</header>
+
+<main>
+  <!-- Tag Picker -->
+  <section id="tag-picker-section">
+    <div class="section-header">
+      <h2>🏷️ Tag Picker</h2>
+      <span id="tag-count" class="badge">0 selected</span>
+    </div>
+    <div class="search-box">
+      <input type="text" id="tag-search" placeholder="Search tags…" autocomplete="off">
+      <button id="clear-tags" title="Clear all tags">✕</button>
+    </div>
+    <div id="tag-cloud" class="tag-cloud"></div>
+    <div class="match-bar">
+      <span id="match-info"></span>
+      <button id="show-all-btn" class="btn-secondary">Show all species</button>
+    </div>
+  </section>
+
+  <!-- Results -->
+  <section id="results-section">
+    <h2>🔍 Matching Species <span id="result-count" class="badge"></span></h2>
+    <div id="species-list" class="species-grid"></div>
+  </section>
+
+  <!-- Care Card Modal -->
+  <div id="care-modal" class="modal hidden">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <button id="close-modal" class="btn-close">✕</button>
+      <div id="care-card-content"></div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>PlantGuide Demo · <span id="species-total"></span> species · mergeos-bounties/PlantGuide</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
