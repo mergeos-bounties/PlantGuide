@@ -125,6 +125,92 @@ def extract_visual_tags(path: Path) -> dict[str, Any]:
         "source": "visual_heuristics",
     }
 
+def extract_edge_tags(path: Path) -> dict[str, Any]:
+    """Extract edge/shape-based tags from a leaf photo using Sobel-like gradients.
+
+    Returns tags like 'serrated', 'smooth', 'lobed', 'compound', 'elongated'.
+    """
+    arr = _load_rgb_array(path)
+    gray = arr.mean(axis=2)
+    h, w = gray.shape
+
+    # Simple gradient magnitude (Sobel-like)
+    gy = np.abs(np.diff(gray, axis=0))
+    gx = np.abs(np.diff(gray[:, :-1], axis=1))
+    # Pad to match dimensions
+    gy_pad = np.zeros_like(gray)
+    gx_pad = np.zeros_like(gray)
+    gy_pad[:-1, :] = gy
+    gx_pad[:, :-1] = gx
+    grad_mag = np.sqrt(gy_pad ** 2 + gx_pad ** 2)
+
+    edge_score = float(grad_mag.mean())
+    edge_var = float(grad_mag.var())
+
+    # Aspect ratio of green region (simplified shape proxy)
+    r, g, b = arr[:, :, 0], arr[:, :, 1], arr[:, :, 2]
+    green_mask = (g > r + 0.04) & (g > b + 0.02) & (g > 0.18)
+    green_rows = np.any(green_mask, axis=1)
+    green_cols = np.any(green_mask, axis=0)
+    green_h = int(green_rows.sum())
+    green_w = int(green_cols.sum())
+    aspect = green_h / max(green_w, 1) if green_w > 0 else 1.0
+
+    # Edge uniformity (low variance = smooth, high = serrated/compound)
+    edge_uniformity = 1.0 / (1.0 + edge_var * 50.0)
+
+    tags: list[str] = []
+    if edge_score < 0.04:
+        tags.append("smooth edges")
+    elif edge_score < 0.08:
+        tags.append("soft margins")
+    else:
+        tags.append("defined edges")
+    if edge_var > 0.003:
+        tags.append("serrated")
+        tags.append("textured")
+    if edge_uniformity < 0.3:
+        tags.append("compound leaves")
+    if aspect > 1.5:
+        tags.append("elongated")
+    elif aspect < 0.7:
+        tags.append("wide leaves")
+    if edge_score > 0.06 and aspect > 1.2:
+        tags.append("lanceolate")
+
+    seen: set[str] = set()
+    unique = []
+    for t in tags:
+        k = t.lower()
+        if k not in seen:
+            seen.add(k)
+            unique.append(t)
+
+    return {
+        "tags": unique,
+        "features": {
+            "edge_score": round(edge_score, 5),
+            "edge_variance": round(edge_var, 6),
+            "edge_uniformity": round(edge_uniformity, 4),
+            "green_aspect_ratio": round(aspect, 3),
+        },
+        "source": "edge_heuristics",
+    }
+
+
+def extract_all_visual_tags(path: Path) -> dict[str, Any]:
+    """Combine color + edge heuristics into a single tag set."""
+    color = extract_visual_tags(path)
+    edge = extract_edge_tags(path)
+    all_tags = list(dict.fromkeys(color.get("tags", []) + edge.get("tags", [])))
+    return {
+        "tags": all_tags,
+        "color_features": color.get("features", {}),
+        "edge_features": edge.get("features", {}),
+        "source": "color_and_edge_heuristics",
+    }
+
+
 
 def resolve_demo_labels(path: Path) -> dict[str, Any] | None:
     """If path is a bundled demo photo, return tags + expected_species."""
