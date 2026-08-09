@@ -1,0 +1,34 @@
+{
+  "id": "aglaonema_red",
+  "common_name": "Red Aglaonema",
+  "scientific_name": "Aglaonema commutatum 'Red'",
+  "tags": [
+    "aglaonema",
+    "red",
+    "colorful",
+    "indoor",
+    "low-light",
+    "air-purifying"
+  ],
+  "care": {
+    "summary": "Stunning red-tinted aglaonema with vibrant pink and green variegated foliage.",
+    "light": "Low to medium indirect light",
+    "water": "Water when top 2-3 cm soil is dry",
+    "soil": "Well-draining potting mix with perlite",
+    "humidity": "Average to medium",
+    "temperature_c": "18-30",
+    "fertilizer": "Monthly in growing season, dilute",
+    "toxicity": "Toxic if ingested",
+    "common_issues": [
+      "Brown leaf tips from low humidity or fluoride",
+      "Yellow leaves from overwatering",
+      "Leggy growth in very low light",
+      "Faded color without sufficient indirect light"
+    ],
+    "tips": [
+      "Tolerates low light better than most colorful plants",
+      "Rotate pot monthly for even growth",
+      "Wipe leaves with damp cloth to maintain vibrant color"
+    ]
+  }
+}
