@@ -28,6 +28,10 @@
       "Wipe dusty leaves",
       "Rotate for even growth",
       "Repot when root-bound"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

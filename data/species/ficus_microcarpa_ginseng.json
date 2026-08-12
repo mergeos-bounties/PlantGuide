@@ -27,6 +27,10 @@
       "Mist daily or place on a humidity tray",
       "Prune new shoots to maintain shape",
       "One of the hardiest indoor bonsai species"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

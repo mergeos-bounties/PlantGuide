@@ -27,6 +27,11 @@
       "Leaves release aroma when crushed or knotted",
       "Use in rice, desserts, and drinks",
       "Propagate by suckers or aerial roots"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe",
+    "edible"
+  ]
 }

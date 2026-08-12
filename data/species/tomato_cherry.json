@@ -27,6 +27,10 @@
       "Use a cage or stake for support",
       "Pinch suckers for larger fruit",
       "Harvest when fully red and slightly soft"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

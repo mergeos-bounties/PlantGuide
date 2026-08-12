@@ -28,6 +28,10 @@
       "Use a heavy pot — tall leaves tip easily",
       "Wipe leaves monthly",
       "Propagate by leaf cuttings"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

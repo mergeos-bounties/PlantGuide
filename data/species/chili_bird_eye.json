@@ -27,6 +27,11 @@
       "Harvest when fruits turn red for maximum heat",
       "Can be grown in containers",
       "Drought-tolerant once established"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe",
+    "edible"
+  ]
 }

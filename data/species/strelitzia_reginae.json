@@ -6,5 +6,12 @@
   "genus": "",
   "water_needs": "moderate",
   "light_needs": "bright_indirect",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "toxicity": [
+    "toxic_to_pets"
+  ],
+  "care": {
+    "toxicity": "Mildly toxic if ingested — seeds and foliage can cause mouth irritation, drooling, and nausea in pets and humans.",
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  }
 }

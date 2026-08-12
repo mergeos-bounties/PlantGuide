@@ -27,6 +27,10 @@
       "Great for pond edges or rain gardens",
       "Die back in winter; store corms in cool dry place",
       "Use as a dramatic focal point in shade gardens"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

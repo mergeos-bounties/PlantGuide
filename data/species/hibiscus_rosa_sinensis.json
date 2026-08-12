@@ -1,6 +1,6 @@
 {
   "id": "hibiscus_rosa_sinensis",
-  "common_name": "Chinese Hibiscus / D\u00e2m B\u1ee5t",
+  "common_name": "Chinese Hibiscus / Dâm Bụt",
   "scientific_name": "",
   "family": "",
   "genus": "",
@@ -8,5 +8,10 @@
   "light_needs": "bright_indirect",
   "difficulty": "easy",
   "origin": "Cultivated",
-  "toxicity": "Non-toxic"
+  "toxicity": [
+    "pet_safe"
+  ],
+  "care": {
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  }
 }

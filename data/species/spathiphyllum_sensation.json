@@ -27,6 +27,10 @@
       "Use distilled or rainwater to prevent brown tips",
       "Wipe leaves monthly to keep glossy",
       "One of the best low-light plants"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

@@ -32,6 +32,10 @@
       "Prune the cane at desired height — new growth will emerge below cut",
       "Remove lower yellow leaves to keep stem clean and tidy",
       "Rotate monthly to maintain even upright growth"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

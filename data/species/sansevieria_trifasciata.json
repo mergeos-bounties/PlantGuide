@@ -28,6 +28,10 @@
       "Use a terracotta pot for faster drying",
       "Wipe dust off leaves monthly",
       "Propagate from leaf cuttings"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

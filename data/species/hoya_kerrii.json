@@ -28,6 +28,10 @@
       "Single-leaf cuttings sold around Valentine's Day often lack a stem node and may never grow into a vine.",
       "If it does vine, provide a trellis for support.",
       "Requires patience, as it is a slow grower."
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
 }

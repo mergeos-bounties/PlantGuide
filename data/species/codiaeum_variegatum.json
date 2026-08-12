@@ -27,6 +27,10 @@
       "Wipe leaves to maintain glossy appearance",
       "Not a fan of being moved; pick a spot and keep it",
       "Great statement plant for bright rooms"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

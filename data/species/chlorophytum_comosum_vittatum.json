@@ -28,6 +28,10 @@
       "Use rainwater or filtered water to prevent leaf-tip browning",
       "Propagate plantlets by rooting in water then potting",
       "Pot-bound plants produce more plantlets"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
 }

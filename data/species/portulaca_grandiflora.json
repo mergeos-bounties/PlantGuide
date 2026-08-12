@@ -1,6 +1,6 @@
 {
   "id": "portulaca_grandiflora",
-  "common_name": "Moss Rose / Hoa M\u01b0\u1eddi Gi\u1edd",
+  "common_name": "Moss Rose / Hoa Mười Giờ",
   "scientific_name": "",
   "family": "",
   "genus": "",
@@ -8,5 +8,10 @@
   "light_needs": "bright_indirect",
   "difficulty": "easy",
   "origin": "Cultivated",
-  "toxicity": "Non-toxic"
+  "toxicity": [
+    "pet_safe"
+  ],
+  "care": {
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  }
 }

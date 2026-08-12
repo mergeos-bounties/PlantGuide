@@ -45,6 +45,11 @@
       "Repot every 1-2 years in spring, going up 1 pot size — roots circling the pot signal it's time",
       "Cuttings root in water in 2-3 weeks; transfer to soil when roots are 2-3 inches long",
       "Companion plant with other aroids (Philodendron, Pothos) — they share similar light, water, humidity needs"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets",
+    "toxic_to_humans"
+  ]
 }

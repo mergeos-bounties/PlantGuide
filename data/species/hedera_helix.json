@@ -8,5 +8,10 @@
   "light_needs": "bright_indirect",
   "difficulty": "easy",
   "origin": "Cultivated worldwide",
-  "toxicity": "Non-toxic to pets"
+  "toxicity": [
+    "pet_safe"
+  ],
+  "care": {
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  }
 }

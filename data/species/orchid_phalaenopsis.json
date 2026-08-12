@@ -1,6 +1,6 @@
 {
   "id": "orchid_phalaenopsis",
-  "common_name": "Moth Orchid / Lan H\u1ed3 \u0110i\u1ec7p",
+  "common_name": "Moth Orchid / Lan Hồ Điệp",
   "scientific_name": "",
   "family": "",
   "genus": "",
@@ -8,5 +8,10 @@
   "light_needs": "bright_indirect",
   "difficulty": "easy",
   "origin": "Cultivated",
-  "toxicity": "Non-toxic"
+  "toxicity": [
+    "pet_safe"
+  ],
+  "care": {
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  }
 }

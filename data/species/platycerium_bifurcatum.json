@@ -28,6 +28,10 @@
       "Mount on wood or cork bark for natural growth habit",
       "Soak the entire mount in water weekly rather than top watering",
       "New fronds emerge from the center and emerge fuzzy white"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
 }

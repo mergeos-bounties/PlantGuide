@@ -32,6 +32,10 @@
       "Water only when the soil has been bone-dry for several days",
       "Place in the sunniest window available (south or west facing)",
       "Handle with thick gloves — spines are sharp and hard to see"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
 }

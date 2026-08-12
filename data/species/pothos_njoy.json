@@ -30,6 +30,10 @@
       "Trim to encourage bushier growth",
       "Propagate easily in water",
       "Wipe leaves to remove dust"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

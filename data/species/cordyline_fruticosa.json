@@ -27,6 +27,10 @@
       "Mist leaves regularly for humidity",
       "Prune leggy stems to encourage bushiness",
       "Popular in Hawaiian and Polynesian culture"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

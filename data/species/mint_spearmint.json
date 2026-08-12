@@ -45,6 +45,11 @@
       "Dry leaves by hanging stems upside down in a dark, well-ventilated area; freeze fresh leaves in ice cubes for drinks",
       "Companion plant with tomatoes and cabbage (deters pests) but keep away from other herbs to prevent cross-pollination",
       "Bring container plants indoors before first frost; spearmint is hardy but indoor plants provide year-round harvest"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe",
+    "edible"
+  ]
 }

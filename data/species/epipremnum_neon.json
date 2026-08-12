@@ -28,6 +28,10 @@
       "Propagates easily in water",
       "Pinch tips for fuller growth",
       "Great on shelves or hanging pots"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

@@ -28,6 +28,10 @@
       "Moss pole or hang for longer vines",
       "Mist or pebble tray for humidity",
       "Propagate node cuttings in water"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

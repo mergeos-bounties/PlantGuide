@@ -32,6 +32,10 @@
       "Use distilled or rainwater — anthuriums are sensitive to chemicals",
       "Remove spent flowers at the base to encourage new blooms",
       "Repot every 2 years with fresh aroid mix"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

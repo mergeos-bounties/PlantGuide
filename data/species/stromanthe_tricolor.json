@@ -27,6 +27,10 @@
       "Group with other plants or use a tray of pebbles",
       "Wipe leaves for best color display",
       "Rotate pot weekly for even growth"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
 }

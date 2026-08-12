@@ -26,6 +26,10 @@
     "tips": [
       "Avoid moving the plant once it is established, as changes often trigger leaf drop.",
       "Keep away from cold drafts and heating vents."
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

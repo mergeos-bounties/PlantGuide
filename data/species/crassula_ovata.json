@@ -28,6 +28,10 @@
       "Use a heavy pot for top-heavy plants",
       "Propagates from leaves or stem cuttings",
       "Reduce water in winter"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

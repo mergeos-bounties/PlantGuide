@@ -27,6 +27,10 @@
       "Often grafted onto hylocereus rootstock",
       "Needs cool winter rest to flower",
       "Great windowsill plant"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
 }

@@ -24,6 +24,10 @@
     ],
     "tips": [
       "Strong light keeps compact growth"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

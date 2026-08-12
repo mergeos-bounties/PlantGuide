@@ -1,6 +1,6 @@
 {
   "id": "jasmine_sambac",
-  "common_name": "Arabian Jasmine / Hoa L\u00e0i",
+  "common_name": "Arabian Jasmine / Hoa Lài",
   "scientific_name": "",
   "family": "",
   "genus": "",
@@ -8,5 +8,10 @@
   "light_needs": "bright_indirect",
   "difficulty": "easy",
   "origin": "Cultivated",
-  "toxicity": "Non-toxic"
+  "toxicity": [
+    "pet_safe"
+  ],
+  "care": {
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  }
 }

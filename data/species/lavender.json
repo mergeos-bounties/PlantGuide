@@ -29,6 +29,10 @@
       "Prune after flowering to keep compact",
       "Avoid rich compost that holds water",
       "Great for pots with drainage holes"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
 }

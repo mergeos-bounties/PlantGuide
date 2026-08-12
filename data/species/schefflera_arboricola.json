@@ -26,6 +26,10 @@
     "tips": [
       "Prune regularly to keep it bushy and prevent legginess.",
       "Rotate the pot frequently for even growth."
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

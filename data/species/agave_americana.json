@@ -29,7 +29,8 @@
       "Plant in ground in warm climates",
       "Wear gloves when handling",
       "Pups can be separated"
-    ]
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
   },
   "toxicity": [
     "toxic_to_pets"

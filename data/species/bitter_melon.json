@@ -1,6 +1,6 @@
 {
   "id": "bitter_melon",
-  "common_name": "Bitter Melon / Kh\u1ed5 Qua",
+  "common_name": "Bitter Melon / Khổ Qua",
   "scientific_name": "",
   "family": "",
   "genus": "",
@@ -8,5 +8,10 @@
   "light_needs": "bright_indirect",
   "difficulty": "easy",
   "origin": "Cultivated",
-  "toxicity": "Non-toxic"
+  "toxicity": [
+    "pet_safe"
+  ],
+  "care": {
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  }
 }

@@ -45,6 +45,11 @@
       "Indoor caladiums benefit from a humidity tray with pebbles and water kept below the pot's drainage holes",
       "Choose sun-tolerant cultivars (e.g., 'Florida Sunrise', 'Red Flash') for partially sunny locations",
       "Companion plant with ferns, hostas, and impatiens in shaded garden beds for layered tropical effect"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets",
+    "toxic_to_humans"
+  ]
 }

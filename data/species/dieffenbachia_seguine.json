@@ -32,6 +32,10 @@
       "Rotate the plant weekly for even growth",
       "Remove yellow lower leaves to encourage new top growth",
       "Keep away from drafts and air conditioning vents"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

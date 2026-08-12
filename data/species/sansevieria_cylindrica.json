@@ -28,6 +28,10 @@
       "Excellent for dry apartments",
       "Do not bury leaves deeper than crown",
       "Wipe dust so leaves can photosynthesize"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

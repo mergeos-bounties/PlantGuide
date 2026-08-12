@@ -28,6 +28,10 @@
       "Pinch tips to branch",
       "Provide moss pole if climbing",
       "Wipe leaves monthly"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

@@ -27,6 +27,10 @@
       "Never get water on the leaves",
       "Rotate pot weekly for even growth",
       "12-14 hours of light promotes blooming"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
 }

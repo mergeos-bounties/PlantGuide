@@ -45,6 +45,11 @@
       "Rotate plant quarterly for even growth — Raven ZZ tends to lean toward light sources.",
       "New leaves emerge bright lime-green and gradually darken to purple-black over 2-3 months. This is normal, not a sign of stress.",
       "Ideal for offices, low-light apartments, and frequent travelers — can survive 4+ weeks without water with no damage."
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets",
+    "toxic_to_humans"
+  ]
 }

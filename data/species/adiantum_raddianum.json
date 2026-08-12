@@ -26,6 +26,10 @@
     "tips": [
       "Keep away from heating vents and drafts.",
       "If the plant dries out and dies back, cut it to the soil line and keep moist; it may regrow."
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
 }

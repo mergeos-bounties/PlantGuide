@@ -1,6 +1,6 @@
 {
   "id": "marigold_tagetes",
-  "common_name": "Marigold / C\u00fac V\u1ea1n Th\u1ecd",
+  "common_name": "Marigold / Cúc Vạn Thọ",
   "scientific_name": "",
   "family": "",
   "genus": "",
@@ -8,5 +8,10 @@
   "light_needs": "bright_indirect",
   "difficulty": "easy",
   "origin": "Cultivated",
-  "toxicity": "Non-toxic"
+  "toxicity": [
+    "pet_safe"
+  ],
+  "care": {
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  }
 }

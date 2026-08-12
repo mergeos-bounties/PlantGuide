@@ -27,6 +27,11 @@
       "Pinch flowers to encourage leaf growth",
       "Harvest regularly to promote bushiness",
       "Can be dried for tea storage"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe",
+    "edible"
+  ]
 }

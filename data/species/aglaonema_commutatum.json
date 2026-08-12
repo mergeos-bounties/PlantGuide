@@ -28,6 +28,10 @@
       "Wipe leaves monthly",
       "Rotate for even growth",
       "Keep above 15°C"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

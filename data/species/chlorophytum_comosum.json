@@ -28,6 +28,10 @@
       "Plantlets root easily in water or soil",
       "Repot every 1–2 years",
       "Great in hanging baskets"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
 }

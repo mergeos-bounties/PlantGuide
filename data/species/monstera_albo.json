@@ -29,6 +29,10 @@
       "Provide moss pole for climbing",
       "Wipe leaves regularly",
       "Propagation via stem cuttings"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

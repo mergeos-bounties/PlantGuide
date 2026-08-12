@@ -1,6 +1,6 @@
 {
   "id": "turmeric",
-  "common_name": "Turmeric / Ngh\u1ec7",
+  "common_name": "Turmeric / Nghệ",
   "scientific_name": "",
   "family": "",
   "genus": "",
@@ -8,5 +8,10 @@
   "light_needs": "bright_indirect",
   "difficulty": "easy",
   "origin": "Cultivated",
-  "toxicity": "Non-toxic"
+  "toxicity": [
+    "pet_safe"
+  ],
+  "care": {
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  }
 }

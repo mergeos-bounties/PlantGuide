@@ -28,6 +28,10 @@
       "One of the best plants for very low light corners",
       "Use filtered or aged water to prevent leaf-tip burn",
       "Wipe leaves occasionally to remove dust and keep them glossy"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
 }

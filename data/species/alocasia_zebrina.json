@@ -27,6 +27,11 @@
       "Provide excellent humidity via humidifier or pebble tray",
       "Yellowing lower leaves are normal in dormancy",
       "Wipe stems to keep zebra pattern visible"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets",
+    "toxic_to_humans"
+  ]
 }

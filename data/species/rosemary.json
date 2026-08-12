@@ -45,6 +45,11 @@
       "Grow in terracotta pots for optimal root aeration and moisture evaporation",
       "Bring container plants indoors before first frost; rosemary is hardy to zone 8 outdoors",
       "Dry harvested stems by hanging upside down in a dark, well-ventilated area for 1-2 weeks"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe",
+    "edible"
+  ]
 }

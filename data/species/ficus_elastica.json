@@ -25,6 +25,10 @@
     "tips": [
       "Wipe the large leaves with a damp cloth to keep them glossy and dust-free.",
       "Prune the top to encourage a bushier shape rather than a single tall stalk."
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

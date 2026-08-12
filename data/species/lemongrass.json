@@ -25,6 +25,10 @@
     "tips": [
       "Divide clumps annually",
       "Harvest outer stalks first"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
 }

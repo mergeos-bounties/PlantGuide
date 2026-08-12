@@ -32,6 +32,10 @@
       "Prune green-only stems to encourage pink growth",
       "High humidity is key for pink variegation emergence",
       "Propagate from stem cuttings with at least one node"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

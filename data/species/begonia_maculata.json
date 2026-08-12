@@ -45,6 +45,11 @@
       "Clean glossy leaves monthly with damp cloth to keep polka dots visible and dust-free",
       "Rotate plant weekly to prevent asymmetric leaning toward light source",
       "Flowers appear in cascading white-pink clusters on mature plants — stake tall canes for support"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets",
+    "toxic_to_humans"
+  ]
 }

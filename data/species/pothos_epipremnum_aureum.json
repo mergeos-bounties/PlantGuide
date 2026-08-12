@@ -28,6 +28,10 @@
       "Pinch tips for bushier growth",
       "Propagate cuttings in water easily",
       "Wipe leaves monthly"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

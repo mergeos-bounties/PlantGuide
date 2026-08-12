@@ -27,6 +27,10 @@
       "Flowers bloom at night for one day",
       "Repot every 2-3 years",
       "Handle with thick gloves or folded newspaper"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
 }

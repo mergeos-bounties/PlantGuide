@@ -13,7 +13,7 @@
   "care": {
     "summary": "Upright glossy-leaf tree that tolerates average indoor light when not overwatered.",
     "light": "Bright indirect; tolerates medium light",
-    "water": "Water when top 2\u20133 cm soil is dry",
+    "water": "Water when top 2–3 cm soil is dry",
     "soil": "Well-draining potting mix",
     "humidity": "Average to medium",
     "temperature_c": "16-27",
@@ -28,6 +28,10 @@
       "Wipe leaves monthly",
       "Rotate pot for even growth",
       "Use a sturdy pot for height"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

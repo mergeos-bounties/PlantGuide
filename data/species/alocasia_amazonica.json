@@ -28,6 +28,10 @@
       "Use a pebble tray or humidifier",
       "Wipe leaves to show venation",
       "Do not bury the corm too deep"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

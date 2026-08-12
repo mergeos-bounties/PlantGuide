@@ -27,6 +27,11 @@
       "Harvest before flowering for strongest flavor",
       "Dries well for long-term storage",
       "Companion plant for tomatoes and peppers"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe",
+    "edible"
+  ]
 }

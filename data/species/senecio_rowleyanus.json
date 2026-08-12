@@ -28,6 +28,10 @@
       "Hang near a bright window",
       "Propagate stem sections on soil",
       "Use shallow pots with drainage"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

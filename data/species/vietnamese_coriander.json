@@ -44,6 +44,11 @@
       "Protect from frost - bring indoors or treat as annual in cold climates",
       "Companion plant with other moisture-loving herbs like mint or watercress",
       "Regular harvesting prevents flowering and maintains tender leaf production"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe",
+    "edible"
+  ]
 }

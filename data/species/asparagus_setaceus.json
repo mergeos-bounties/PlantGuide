@@ -28,6 +28,10 @@
       "Provide a small trellis for climbing habit",
       "Mist fronds frequently to deter spider mites",
       "Avoid placing near heating vents"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

@@ -29,6 +29,10 @@
       "Good airflow is essential",
       "Mist between soaks in dry climates",
       "Bloom once then pup"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
 }

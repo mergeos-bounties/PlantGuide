@@ -1,6 +1,6 @@
 {
   "id": "areca_palm",
-  "common_name": "Areca Palm / Cau V\u00e0ng",
+  "common_name": "Areca Palm / Cau Vàng",
   "scientific_name": "",
   "family": "",
   "genus": "",
@@ -8,5 +8,10 @@
   "light_needs": "bright_indirect",
   "difficulty": "easy",
   "origin": "Cultivated",
-  "toxicity": "Non-toxic"
+  "toxicity": [
+    "pet_safe"
+  ],
+  "care": {
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  }
 }

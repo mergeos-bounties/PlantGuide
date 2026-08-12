@@ -1,6 +1,6 @@
 {
   "id": "avocado_seedling",
-  "common_name": "Avocado Seedling / B\u01a1",
+  "common_name": "Avocado Seedling / Bơ",
   "scientific_name": "",
   "family": "",
   "genus": "",
@@ -8,5 +8,10 @@
   "light_needs": "bright_indirect",
   "difficulty": "easy",
   "origin": "Cultivated",
-  "toxicity": "Non-toxic"
+  "toxicity": [
+    "pet_safe"
+  ],
+  "care": {
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  }
 }

@@ -33,6 +33,10 @@
       "Water at the soil level, not on leaves, to prevent rot",
       "Remove dead lower leaves to prevent pests",
       "Propagate easily from leaf cuttings placed on dry soil"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
 }

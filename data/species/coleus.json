@@ -1,6 +1,6 @@
 {
   "id": "coleus",
-  "common_name": "Coleus / L\u00e1 G\u1ea5m",
+  "common_name": "Coleus / Lá Gấm",
   "scientific_name": "",
   "family": "",
   "genus": "",
@@ -8,5 +8,10 @@
   "light_needs": "bright_indirect",
   "difficulty": "easy",
   "origin": "Cultivated",
-  "toxicity": "Non-toxic"
+  "toxicity": [
+    "pet_safe"
+  ],
+  "care": {
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  }
 }

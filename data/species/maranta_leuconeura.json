@@ -28,6 +28,10 @@
       "Use filtered water if tips brown",
       "Mist or tray for humidity",
       "Rotate pot weekly for even growth"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
 }

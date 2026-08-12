@@ -35,7 +35,11 @@
       "Great for container growing on sunny patios or indoors",
       "Hand-pollinate indoors with a small brush for fruit set",
       "Thin excess fruit to encourage larger kumquats"
-    ]
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
   },
-  "toxicity": []
+  "toxicity": [
+    "pet_safe",
+    "edible"
+  ]
 }

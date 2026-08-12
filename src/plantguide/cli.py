@@ -74,19 +74,34 @@ def stats_cmd() -> None:
 
 
 @species_app.command("list")
-def species_list() -> None:
+def species_list(
+    pet_safe: bool = typer.Option(False, "--pet-safe", help="Only show pet-safe species (bounty #20)"),
+    toxic: bool = typer.Option(False, "--toxic", help="Only show toxic species"),
+) -> None:
     files = list_species_files()
     if not files:
         console.print("[yellow]No species in data/species[/yellow]")
         raise typer.Exit()
-    table = Table(title=f"Species ({len(files)})")
+    rows = []
+    for path in files:
+        sp = load_species(path)
+        tox = sp.get("toxicity") or []
+        if pet_safe and "pet_safe" not in tox:
+            continue
+        if toxic and "toxic_to_pets" not in tox:
+            continue
+        rows.append(sp)
+    title = f"Species ({len(rows)})" + (" [pet-safe]" if pet_safe else "" ) + (" [toxic]" if toxic else "")
+    table = Table(title=title)
     table.add_column("ID")
     table.add_column("Common name")
     table.add_column("Tags")
-    for path in files:
-        sp = load_species(path)
+    table.add_column("Toxicity")
+    for sp in rows[:60]:
+        tox = sp.get("toxicity") or []
+        label = "TOXIC" if "toxic_to_pets" in tox else ("SAFE" if "pet_safe" in tox else "-")
         tags = ", ".join((sp.get("tags") or [])[:5])
-        table.add_row(str(sp.get("id")), str(sp.get("common_name")), tags)
+        table.add_row(str(sp.get("id")), str(sp.get("common_name")), tags, label)
     console.print(table)
 
 
@@ -542,12 +557,13 @@ def _due_str(plant: dict[str, Any]) -> str:
 @species_app.command("toxicity")
 def species_toxicity(
     safe: bool = typer.Option(False, "--safe", help="Show only pet-safe species"),
+    pet_safe: bool = typer.Option(False, "--pet-safe", help="Alias for --safe (bounty #20)"),
     toxic: bool = typer.Option(False, "--toxic", help="Show only toxic species"),
 ) -> None:
     """Filter species catalog by toxicity (pet-safe / toxic)."""
     from plantguide.data.loader import load_species_catalog
     catalog = load_species_catalog()
-    if safe:
+    if safe or pet_safe:
         catalog = [s for s in catalog if "pet_safe" in (s.get("toxicity") or [])]
         console.print(f"[green]Pet-safe species ({len(catalog)}):[/green]")
     elif toxic:

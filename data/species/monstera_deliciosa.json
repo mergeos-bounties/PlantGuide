@@ -26,6 +26,10 @@
     "tips": [
       "Provide a moss pole for climbing",
       "Wipe dust off leaves"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

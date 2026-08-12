@@ -27,6 +27,11 @@
       "Prune after flowering to maintain shape",
       "Excellent companion for roses",
       "Propagate from stem cuttings"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe",
+    "edible"
+  ]
 }

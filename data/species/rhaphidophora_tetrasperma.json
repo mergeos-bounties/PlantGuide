@@ -27,6 +27,10 @@
       "Provide a moss pole or trellis for larger leaves",
       "Mist occasionally for humidity",
       "Propagate easily from stem cuttings"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }

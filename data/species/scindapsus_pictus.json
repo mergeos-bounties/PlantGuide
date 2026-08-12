@@ -27,6 +27,11 @@
       "More light = more silver splashing",
       "Train on a wall or trellis for display",
       "Propagate in water from node cuttings"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets",
+    "toxic_to_humans"
+  ]
 }

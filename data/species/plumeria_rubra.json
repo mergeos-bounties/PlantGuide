@@ -1,6 +1,6 @@
 {
   "id": "plumeria_rubra",
-  "common_name": "Frangipani / Hoa S\u1ee9",
+  "common_name": "Frangipani / Hoa Sứ",
   "scientific_name": "",
   "family": "",
   "genus": "",
@@ -8,5 +8,10 @@
   "light_needs": "bright_indirect",
   "difficulty": "easy",
   "origin": "Cultivated",
-  "toxicity": "Non-toxic"
+  "toxicity": [
+    "pet_safe"
+  ],
+  "care": {
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  }
 }

@@ -27,6 +27,11 @@
       "Trim regularly to keep bushy",
       "Can grow in water indefinitely",
       "Color varieties need more light for vivid tones"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets",
+    "toxic_to_humans"
+  ]
 }

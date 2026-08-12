@@ -32,6 +32,10 @@
       "Repot only when absolutely necessary — leaves fall easily",
       "Propagate by placing fallen leaves on dry succulent mix",
       "Hang in a bright window for the most beautiful cascading effect"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "pet_safe"
+  ]
 }

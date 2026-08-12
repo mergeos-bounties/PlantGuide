@@ -1,6 +1,6 @@
 {
   "id": "kangkong",
-  "common_name": "Water Spinach / Rau Mu\u1ed1ng",
+  "common_name": "Water Spinach / Rau Muống",
   "scientific_name": "",
   "family": "",
   "genus": "",
@@ -8,5 +8,10 @@
   "light_needs": "bright_indirect",
   "difficulty": "easy",
   "origin": "Cultivated",
-  "toxicity": "Non-toxic"
+  "toxicity": [
+    "pet_safe"
+  ],
+  "care": {
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  }
 }

@@ -1,6 +1,6 @@
 {
   "id": "sunflower",
-  "common_name": "Sunflower / H\u01b0\u1edbng D\u01b0\u01a1ng",
+  "common_name": "Sunflower / Hướng Dương",
   "scientific_name": "",
   "family": "",
   "genus": "",
@@ -8,5 +8,10 @@
   "light_needs": "bright_indirect",
   "difficulty": "easy",
   "origin": "Cultivated",
-  "toxicity": "Non-toxic"
+  "toxicity": [
+    "pet_safe"
+  ],
+  "care": {
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  }
 }

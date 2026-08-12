@@ -32,6 +32,10 @@
       "Bright light brings out the red tips; move slowly to avoid leaf sunburn",
       "Prune to shape in spring; use cuttings to propagate easily",
       "Use a heavy pot to prevent tipping — mature plants can become top-heavy"
-    ]
-  }
+    ],
+    "disclaimer": "Educational only — not veterinary/medical advice. Verify with a vet."
+  },
+  "toxicity": [
+    "toxic_to_pets"
+  ]
 }
