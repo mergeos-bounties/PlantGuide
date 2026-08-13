@@ -21,6 +21,7 @@
 - [CLI reference](#cli-reference)
 - [How photo ID works](#how-photo-id-works)
 - [App care report](#app-care-report)
+- [App SDK contracts](#app-sdk-contracts)
 - [Species catalog](#species-catalog)
 - [Diagrams](#diagrams)
 - [Repository layout](#repository-layout)
@@ -191,6 +192,32 @@ plantguide demo photo -i data/samples/photos/monstera_demo.jpg --out data/out/ph
 ```
 
 Reports include `query_tags` / image path, ranked `matches`, `care` card, and (for photo demo) `watering` + optional `care_svg`.
+
+## App SDK contracts
+
+PlantGuide publishes stable app-integration contracts under `schemas/`:
+
+| File | Purpose |
+| --- | --- |
+| `schemas/plantguide-care-report.schema.json` | JSON Schema for `plantguide.app.care_report.v1` payloads emitted by `plantguide.integrations.sdk` |
+| `schemas/plantguide-sdk.d.ts` | TypeScript interfaces for app clients consuming care reports and care cards |
+
+The schema is checked against real Python SDK payloads in CI.
+
+```powershell
+plantguide app demo --sample data/samples/obs_monstera.json --out data/out/e2e-monstera-care-report.json
+```
+
+TypeScript clients can vendor or import the declarations:
+
+```ts
+import type { PlantGuideCareReport } from "./schemas/plantguide-sdk";
+
+function renderCare(report: PlantGuideCareReport) {
+  if (!report.ready_for_ui || !report.care_card) return;
+  console.log(report.care_card.common_name, report.care_card.water);
+}
+```
 
 ---
 

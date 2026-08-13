@@ -1,0 +1,179 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mergeos-bounties.github.io/PlantGuide/schemas/plantguide-care-report.schema.json",
+  "title": "PlantGuide app care report",
+  "description": "Stable JSON contract emitted by plantguide.integrations.sdk care report helpers.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "report_type",
+    "integration_version",
+    "ready_for_ui",
+    "sample_id",
+    "source",
+    "query_tags",
+    "expected_species",
+    "hit_top1",
+    "top_species_id",
+    "top_match",
+    "matches",
+    "care_card",
+    "license_safe_evidence"
+  ],
+  "properties": {
+    "report_type": {
+      "const": "plantguide.app.care_report.v1"
+    },
+    "integration_version": {
+      "const": "plantguide.sdk.v1"
+    },
+    "ready_for_ui": {
+      "type": "boolean"
+    },
+    "sample_id": {
+      "type": ["string", "null"]
+    },
+    "source": {
+      "type": ["string", "null"]
+    },
+    "query_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "expected_species": {
+      "type": ["string", "null"]
+    },
+    "hit_top1": {
+      "type": ["boolean", "null"]
+    },
+    "top_species_id": {
+      "type": ["string", "null"]
+    },
+    "top_match": {
+      "$ref": "#/$defs/match"
+    },
+    "matches": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/match"
+      }
+    },
+    "care_card": {
+      "$ref": "#/$defs/care_card"
+    },
+    "license_safe_evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source", "source_type", "external_assets"],
+      "properties": {
+        "source": {
+          "type": "string"
+        },
+        "source_type": {
+          "enum": ["sample_fixture", "inline_tags"]
+        },
+        "external_assets": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "match": {
+      "type": ["object", "null"],
+      "required": ["species_id", "common_name", "scientific_name", "score", "matched_tags"],
+      "properties": {
+        "species_id": {
+          "type": "string"
+        },
+        "common_name": {
+          "type": "string"
+        },
+        "scientific_name": {
+          "type": "string"
+        },
+        "score": {
+          "type": "number"
+        },
+        "matched_tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "care_card": {
+      "type": ["object", "null"],
+      "required": [
+        "species_id",
+        "common_name",
+        "scientific_name",
+        "summary",
+        "light",
+        "water",
+        "soil",
+        "humidity",
+        "temperature_c",
+        "fertilizer",
+        "toxicity",
+        "common_issues",
+        "tips"
+      ],
+      "properties": {
+        "species_id": {
+          "type": "string"
+        },
+        "common_name": {
+          "type": "string"
+        },
+        "scientific_name": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "light": {
+          "type": "string"
+        },
+        "water": {
+          "type": "string"
+        },
+        "soil": {
+          "type": "string"
+        },
+        "humidity": {
+          "type": "string"
+        },
+        "temperature_c": {
+          "type": "string"
+        },
+        "fertilizer": {
+          "type": "string"
+        },
+        "toxicity": {
+          "type": "string"
+        },
+        "common_issues": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "tips": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}
