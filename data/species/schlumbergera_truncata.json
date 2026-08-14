@@ -1,0 +1,36 @@
+{
+  "id": "schlumbergera_truncata",
+  "common_name": "Christmas Cactus",
+  "scientific_name": "Schlumbergera truncata",
+  "tags": [
+    "epiphyte",
+    "succulent",
+    "segmented leaves",
+    "winter bloomer",
+    "tropical",
+    "indoor",
+    "pendulous"
+  ],
+  "care": {
+    "summary": "Brazilian epiphytic cactus with segmented flat stems and vibrant winter blooms in pink, red, white, or purple. Easy-care holiday plant that can live decades with proper conditions.",
+    "light": "Bright, indirect light. An east-facing window is ideal. Avoid harsh midday sun, which can bleach or redden the segments.",
+    "water": "Water thoroughly when the top 1-2 cm of soil is dry. Reduce watering after flowering and during summer dormancy; resume regular watering when buds form in autumn.",
+    "soil": "Well-draining mix; cactus soil amended with perlite or orchid bark for aeration. Container must drain freely to prevent root rot.",
+    "humidity": "Moderate (40-60%). Benefits from occasional misting in dry indoor air, especially when buds are setting.",
+    "temperature_c": "15-24",
+    "fertilizer": "Diluted balanced liquid feed every 2-4 weeks during active growth (spring/summer). Stop feeding 4 weeks before expected bloom.",
+    "toxicity": "Non-toxic to cats, dogs, and humans. Safe around pets and children.",
+    "common_issues": [
+      "Bud drop from sudden temperature change, drafts, or overwatering",
+      "Root rot in heavy or waterlogged soil",
+      "Reddened segments from too much direct sun",
+      "Failure to bloom if daylight/night cycle is interrupted by artificial light"
+    ],
+    "tips": [
+      "To trigger blooming, provide 12-14 hours of uninterrupted darkness and cooler temperatures (12-15 C) for 6 weeks in autumn",
+      "Once buds form, do not rotate the pot or move the plant; buds drop if conditions change",
+      "After flowering, prune by removing a few segments at the joints to encourage branching",
+      "Prefers being slightly pot-bound; repot only every 2-3 years in spring after bloom"
+    ]
+  }
+}
