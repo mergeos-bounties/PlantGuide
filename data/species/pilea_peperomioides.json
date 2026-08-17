@@ -3,33 +3,26 @@
   "common_name": "Chinese Money Plant",
   "scientific_name": "Pilea peperomioides",
   "tags": [
-    "pilea",
     "round leaves",
-    "coin leaves",
+    "coin shaped",
+    "upright",
     "indoor",
-    "bright indirect",
-    "pet-safe",
-    "beginner",
-    "houseplant"
+    "indoor"
   ],
   "care": {
-    "summary": "Cheerful round-leaf houseplant that likes bright indirect light and even moisture; easy to share via pups.",
-    "light": "Bright indirect; avoid harsh midday sun that scorches leaves",
-    "water": "When top 2–3 cm of soil dries; keep evenly moist, not soggy",
-    "soil": "Well-draining potting mix with perlite",
-    "humidity": "Medium; likes occasional misting in dry rooms",
-    "temperature_c": "15-26",
-    "fertilizer": "Balanced liquid feed monthly in spring/summer",
-    "toxicity": "Generally considered non-toxic to pets",
+    "summary": "Beautiful Chinese Money Plant (Pilea peperomioides).",
+    "light": "Bright indirect",
+    "water": "Water when top 2-3 cm dry",
+    "soil": "Well-draining potting mix",
+    "humidity": "Average",
+    "temperature_c": "18-24",
+    "fertilizer": "Balanced liquid monthly in spring/summer",
+    "toxicity": "Non-toxic",
     "common_issues": [
-      "Drooping from underwatering",
-      "Yellow leaves from overwatering",
-      "Leggy growth in low light"
+      "Root rot if overwatered"
     ],
     "tips": [
-      "Rotate pot weekly for even growth",
-      "Separate pups when they have roots",
-      "Use a pot with drainage holes"
+      "Rotate for even growth"
     ]
   }
 }
