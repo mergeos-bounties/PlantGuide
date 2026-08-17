@@ -3,31 +3,26 @@
   "common_name": "Prayer Plant",
   "scientific_name": "Maranta leuconeura",
   "tags": [
-    "indoor",
     "prayer plant",
-    "humidity",
-    "foliage",
-    "bright indirect",
-    "pet-friendly"
+    "red veins",
+    "folds at night",
+    "indoor",
+    "indoor"
   ],
   "care": {
-    "summary": "Striking patterned leaves that fold at night; enjoys humidity and even moisture.",
-    "light": "Bright indirect; avoid harsh direct sun",
-    "water": "Keep evenly moist; never bone-dry",
-    "soil": "Airy, peat-based, well-draining mix",
-    "humidity": "High preferred",
-    "temperature_c": "18-27",
-    "fertilizer": "Half-strength monthly in growing season",
-    "toxicity": "Generally non-toxic to pets",
+    "summary": "Beautiful Prayer Plant (Maranta leuconeura).",
+    "light": "Bright indirect",
+    "water": "Water when top 2-3 cm dry",
+    "soil": "Well-draining potting mix",
+    "humidity": "Average",
+    "temperature_c": "18-24",
+    "fertilizer": "Balanced liquid monthly in spring/summer",
+    "toxicity": "Non-toxic",
     "common_issues": [
-      "Crispy edges from low humidity",
-      "Yellow leaves from overwatering",
-      "Faded patterns in low light"
+      "Root rot if overwatered"
     ],
     "tips": [
-      "Use filtered water if tips brown",
-      "Mist or tray for humidity",
-      "Rotate pot weekly for even growth"
+      "Rotate for even growth"
     ]
   }
 }
