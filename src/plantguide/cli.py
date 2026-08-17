@@ -190,6 +190,45 @@ def identify_sample(
     console.print_json(data=identify_from_sample(file, top_k=top))
 
 
+@identify_app.command("batch")
+def identify_batch(
+    top: int = typer.Option(3, "--top", "-k", min=1, max=20),
+    out: Path | None = typer.Option(None, "--out", "-o", help="Write report JSON here."),
+) -> None:
+    """Score all sample JSON files and report the top-1 hit rate."""
+    from plantguide.data.loader import list_sample_files
+    samples = list_sample_files()
+    if not samples:
+        console.print("[yellow]No samples found.[/yellow]")
+        raise typer.Exit(code=1)
+
+    results = []
+    hits = 0
+    total = 0
+    for path in samples:
+        res = identify_from_sample(path, top_k=top)
+        results.append(res)
+        if res.get("expected_species"):
+            total += 1
+            if res.get("hit_top1"):
+                hits += 1
+
+    report = {
+        "samples_evaluated": len(samples),
+        "samples_with_expected": total,
+        "hit_top1": hits,
+        "hit_rate": hits / total if total > 0 else 0.0,
+        "results": results
+    }
+
+    if out:
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+        console.print(f"[green]Batch report[/green] {out}")
+    else:
+        console.print_json(data=report)
+
+
 @identify_app.command("image")
 def identify_image_cmd(
     image: Path = typer.Option(
