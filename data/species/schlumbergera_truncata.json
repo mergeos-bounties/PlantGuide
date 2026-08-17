@@ -1,0 +1,28 @@
+{
+  "id": "schlumbergera_truncata",
+  "common_name": "Christmas Cactus",
+  "scientific_name": "Schlumbergera truncata",
+  "tags": [
+    "cactus",
+    "segmented stems",
+    "hanging",
+    "blooms winter",
+    "indoor"
+  ],
+  "care": {
+    "summary": "Beautiful Christmas Cactus (Schlumbergera truncata).",
+    "light": "Bright indirect",
+    "water": "Water when top 2-3 cm dry",
+    "soil": "Well-draining potting mix",
+    "humidity": "Average",
+    "temperature_c": "18-24",
+    "fertilizer": "Balanced liquid monthly in spring/summer",
+    "toxicity": "Non-toxic",
+    "common_issues": [
+      "Root rot if overwatered"
+    ],
+    "tips": [
+      "Rotate for even growth"
+    ]
+  }
+}
