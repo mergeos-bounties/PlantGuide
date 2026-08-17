@@ -3,32 +3,26 @@
   "common_name": "Spineless Yucca",
   "scientific_name": "Yucca elephantipes",
   "tags": [
-    "succulent",
-    "arid",
-    "drought tolerant",
-    "tree-like",
-    "sword-shaped leaves",
-    "full sun",
-    "xeric"
+    "sword leaves",
+    "woody trunk",
+    "bright light",
+    "indoor outdoor",
+    "indoor"
   ],
   "care": {
-    "summary": "Tree-like succulent with sword-shaped leaves; very low maintenance.",
-    "light": "Full sun to partial shade",
-    "water": "Infrequent; drought tolerant once established",
-    "well_draining": true,
-    "soil": "Well-draining, sandy soil",
-    "humidity": "Low to average",
-    "temperature_c": "10-30",
-    "fertilizer": "Light; balanced fertilizer in spring",
-    "toxicity": "Mildly toxic to pets if ingested",
+    "summary": "Beautiful Spineless Yucca (Yucca elephantipes).",
+    "light": "Bright indirect",
+    "water": "Water when top 2-3 cm dry",
+    "soil": "Well-draining potting mix",
+    "humidity": "Average",
+    "temperature_c": "18-24",
+    "fertilizer": "Balanced liquid monthly in spring/summer",
+    "toxicity": "Non-toxic",
     "common_issues": [
-      "Brown leaf tips from low humidity",
-      "Pest issues indoors (spider mites)"
+      "Root rot if overwatered"
     ],
     "tips": [
-      "Can tolerate some shade outdoors",
-      "Wipe leaves to prevent dust buildup",
-      "Prune dead leaves at base"
+      "Rotate for even growth"
     ]
   }
 }
