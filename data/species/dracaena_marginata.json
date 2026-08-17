@@ -3,31 +3,26 @@
   "common_name": "Dragon Tree",
   "scientific_name": "Dracaena marginata",
   "tags": [
+    "spiky leaves",
+    "cane stem",
     "indoor",
-    "tree",
-    "low water",
-    "air purifying",
-    "easy",
-    "office"
+    "drought tolerant",
+    "indoor"
   ],
   "care": {
-    "summary": "Upright cane plant with narrow red-edged leaves; tolerant of lower light and irregular watering.",
-    "light": "Bright indirect; tolerates medium light",
-    "water": "Allow top third of soil to dry between waterings",
+    "summary": "Beautiful Dragon Tree (Dracaena marginata).",
+    "light": "Bright indirect",
+    "water": "Water when top 2-3 cm dry",
     "soil": "Well-draining potting mix",
-    "humidity": "Average; higher helps leaf tips",
-    "temperature_c": "18-27",
-    "fertilizer": "Dilute houseplant feed monthly in spring/summer",
-    "toxicity": "Toxic to pets if ingested",
+    "humidity": "Average",
+    "temperature_c": "18-24",
+    "fertilizer": "Balanced liquid monthly in spring/summer",
+    "toxicity": "Non-toxic",
     "common_issues": [
-      "Brown tips from fluoride or dry air",
-      "Yellow leaves from overwatering",
-      "Leggy growth in deep shade"
+      "Root rot if overwatered"
     ],
     "tips": [
-      "Rotate pot monthly for even growth",
-      "Wipe dust from leaves",
-      "Avoid cold drafts"
+      "Rotate for even growth"
     ]
   }
 }
