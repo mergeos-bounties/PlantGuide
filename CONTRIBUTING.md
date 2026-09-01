@@ -66,6 +66,18 @@ Suggested starting points:
 - [ ] Documentation updated if needed
 - [ ] PR description references related issues
 
+## MergeOS Bounty Claim Flow
+
+Some issues are rewarded in **MRG** credits by MergeOS:
+
+1. Star [mergeos-bounties/PlantGuide](https://github.com/mergeos-bounties/PlantGuide) and [mergeos-bounties/mergeos](https://github.com/mergeos-bounties/mergeos).
+2. Comment `I claim this bounty` on the issue you want to work on.
+3. Comment on MergeOS [Claim Token #1](https://github.com/mergeos-bounties/mergeos/issues/1) with a link to the issue.
+4. Open a PR to **mergeos-bounties/PlantGuide** with `Fixes #<issue-number>`.
+5. After the maintainer merges the PR, MRG credit is recorded on the MergeOS ledger for `github:<your-username>`.
+
+See [docs/BOUNTY.md](docs/BOUNTY.md) for the full policy.
+
 ## Need Help?
 
 Open a [Discussion](https://github.com/mergeos-bounties/PlantGuide/discussions) or ask in the relevant issue.
