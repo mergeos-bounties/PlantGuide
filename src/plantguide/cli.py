@@ -190,6 +190,72 @@ def identify_sample(
     console.print_json(data=identify_from_sample(file, top_k=top))
 
 
+@identify_app.command("batch")
+def identify_batch(
+    photos: Path = typer.Option(
+        ...,
+        "--photos",
+        "-p",
+        exists=True,
+        file_okay=False,
+        dir_okay=True,
+        help="Directory of plant photos (JPG/PNG) to identify.",
+    ),
+    out: Path = typer.Option(
+        Path("data/out/batch.json"),
+        "--out",
+        "-o",
+        help="Output JSON file path.",
+    ),
+    top: int = typer.Option(1, "--top", "-k", min=1, max=20, help="Top-k results per photo."),
+    no_care: bool = typer.Option(False, "--no-care", help="Skip care card in results"),
+) -> None:
+    """Identify all plant photos in a directory and write a batch summary JSON.
+
+    Scans the --photos directory for JPG/PNG files, runs identify on each,
+    collects the top-1 hit per photo, and writes a summary to --out.
+    """
+    from plantguide.identify.pipeline import identify_from_image
+
+    photo_files = sorted(
+        p for p in photos.iterdir() if p.suffix.lower() in {".jpg", ".jpeg", ".png"}
+    )
+    if not photo_files:
+        console.print(f"[yellow]No JPG/PNG photos found in {photos}[/yellow]")
+        raise typer.Exit(code=1)
+
+    results: list[dict] = []
+    hits = 0
+    for photo in photo_files:
+        try:
+            data = identify_from_image(photo, top_k=top, with_care=not no_care)
+            matches = data.get("matches") or []
+            top_match = matches[0] if matches else {}
+            entry: dict = {
+                "file": str(photo),
+                "top1_species_id": top_match.get("species_id"),
+                "top1_score": top_match.get("score"),
+                "top1_name": top_match.get("name"),
+                "matches": matches,
+            }
+            if not no_care and "top_care" in data:
+                entry["care"] = data["top_care"]
+            hits += 1
+        except Exception as exc:  # noqa: BLE001
+            entry = {"file": str(photo), "error": str(exc)}
+        results.append(entry)
+
+    summary = {
+        "total": len(photo_files),
+        "identified": hits,
+        "results": results,
+    }
+
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(summary, indent=2))
+    console.print(f"[green]Batch done:[/green] {hits}/{len(photo_files)} identified → {out}")
+
+
 @identify_app.command("image")
 def identify_image_cmd(
     image: Path = typer.Option(
