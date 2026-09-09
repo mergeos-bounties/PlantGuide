@@ -80,4 +80,3 @@ PlantGuide participates in the [MergeOS bounty program](https://github.com/merge
 5. Work on a branch in your fork and open a pull request against `master`. Include `Fixes #<issue-number>` in the pull request description.
 
 Keep the issue link, pull request, test output, and any dataset or media license notes together so the maintainer can verify the contribution. Payment is credited to the GitHub identity of the contributor after the pull request is merged, according to the project's [payout scale](docs/BOUNTY.md).
-
