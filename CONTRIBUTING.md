@@ -69,3 +69,15 @@ Suggested starting points:
 ## Need Help?
 
 Open a [Discussion](https://github.com/mergeos-bounties/PlantGuide/discussions) or ask in the relevant issue.
+## Claiming a MergeOS bounty
+
+PlantGuide participates in the [MergeOS bounty program](https://github.com/mergeos-bounties/mergeos). Before starting a bounty issue:
+
+1. Follow the [mergeos-bounties organization](https://github.com/mergeos-bounties).
+2. Star [MergeOS](https://github.com/mergeos-bounties/mergeos) and [mergeos-contracts](https://github.com/mergeos-bounties/mergeos-contracts).
+3. Comment `I claim this bounty` on the PlantGuide bounty issue.
+4. Comment on [MergeOS Claim Token #1](https://github.com/mergeos-bounties/mergeos/issues/1) with a link to the bounty issue.
+5. Work on a branch in your fork and open a pull request against `master`. Include `Fixes #<issue-number>` in the pull request description.
+
+Keep the issue link, pull request, test output, and any dataset or media license notes together so the maintainer can verify the contribution. Payment is credited to the GitHub identity of the contributor after the pull request is merged, according to the project's [payout scale](docs/BOUNTY.md).
+
