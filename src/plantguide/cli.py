@@ -418,6 +418,71 @@ def app_demo(
     console.print(f"[green]Care report[/green] {out}")
 
 
+@identify_app.command("batch")
+def identify_batch(
+    samples_dir: Path | None = typer.Option(
+        None,
+        "--dir",
+        "-d",
+        help="Directory containing sample JSON files (default: data/samples/).",
+    ),
+    top: int = typer.Option(1, "--top", "-k", min=1, max=20),
+    out: Path | None = typer.Option(
+        None, "--out", "-o", help="Write JSON report here (default: data/out/batch.json)."
+    ),
+) -> None:
+    """Score all sample files and summarise top-1 hit rates.
+
+    Runs identify_from_sample() on every *.json file in the samples directory,
+    collects results, and writes a summary report as JSON.
+
+    Example::
+
+        plantguide identify batch
+        plantguide identify batch --dir data/samples --out data/out/batch.json
+    """
+    from plantguide.config import OUT_DIR, SAMPLES_DIR
+    from plantguide.data.loader import list_sample_files
+    from plantguide.identify.pipeline import identify_from_sample
+
+    root = samples_dir or SAMPLES_DIR
+    files = list_sample_files(root)
+    if not files:
+        console.print(f"[yellow]No sample files found in {root}[/yellow]")
+        raise typer.Exit(code=1)
+
+    results: list[dict] = []
+    hits = 0
+    for path in files:
+        try:
+            r = identify_from_sample(path, top_k=top)
+        except Exception as exc:  # noqa: BLE001
+            r = {"sample_id": path.stem, "source": str(path), "error": str(exc)}
+        results.append(r)
+        if r.get("hit_top1") is True:
+            hits += 1
+
+    with_expected = [r for r in results if r.get("expected_species")]
+    hit_rate = hits / len(with_expected) if with_expected else None
+    report: dict = {
+        "total_samples": len(results),
+        "samples_with_expected_species": len(with_expected),
+        "top1_hits": hits,
+        "top1_hit_rate": round(hit_rate, 4) if hit_rate is not None else None,
+        "results": results,
+    }
+
+    out_path = out or (OUT_DIR / "batch.json")
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+    console.print(
+        f"[green]Batch report[/green] → {out_path}  "
+        f"(top1_hit_rate={hit_rate:.0%} over {len(with_expected)} labelled samples)"
+        if hit_rate is not None
+        else f"[green]Batch report[/green] → {out_path}  ({len(results)} samples, no labels)"
+    )
+
+
 @identify_app.command("disease")
 def identify_disease(
     symptoms: str = typer.Option(..., "--symptoms", "-s", help="e.g. yellow,rot,droop"),
