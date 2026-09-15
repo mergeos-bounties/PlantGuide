@@ -259,3 +259,8 @@ See [mergeos](https://github.com/mergeos-bounties/mergeos), [docs/BOUNTY.md](doc
 ## License
 
 [MIT](LICENSE)
+
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
