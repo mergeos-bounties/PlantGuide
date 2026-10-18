@@ -238,6 +238,8 @@ scripts/generate_demo_photos.py
 
 ## Development
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, testing, and the PR checklist.
+
 ```powershell
 pip install -e ".[dev]"
 python scripts/generate_demo_photos.py
